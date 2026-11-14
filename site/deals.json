@@ -1,4 +1,22 @@
 {
-  "generated_at": "2026-11-14T02:43:40+00:00",
-  "deals": []
+  "generated_at": "2026-11-14T02:47:55+00:00",
+  "deals": [
+    {
+      "id": "rakuten-food-coupon-202611",
+      "deal_type": "优惠券与积分",
+      "title": "楽天冬季美食优惠券｜最高减400日元",
+      "description": "指定店铺满6000日元减100日元、满12000日元减250日元、满18000日元减400日元。需提前领取优惠券，数量有限，每人每种优惠券限用一次。",
+      "merchant": "楽天市场",
+      "category": "食品饮料",
+      "location": "线上",
+      "offer_text": "最高减400日元",
+      "price_jpy": null,
+      "url": "https://event.rakuten.co.jp/food/season/winter/coupon/20261111/",
+      "affiliate_url": "",
+      "source_type": "official_event_page",
+      "verified_at": "2026-11-14T11:42:00+09:00",
+      "expires_at": "2026-11-19T09:59:00+09:00",
+      "verified": true
+    }
+  ]
 }
