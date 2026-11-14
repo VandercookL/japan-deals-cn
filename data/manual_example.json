@@ -1,0 +1,16 @@
+[
+  {
+    "id":"merchant-sku-001",
+    "title":"填写已核验的商品名称",
+    "description":"说明优惠券、积分和购买条件",
+    "merchant":"填写商家名称",
+    "category":"数码家电",
+    "price_jpy":1000,
+    "url":"https://example.com/product",
+    "affiliate_url":"",
+    "source_type":"official_product_page",
+    "verified_at":"2026-11-14T09:00:00+09:00",
+    "expires_at":"2026-11-30T23:59:00+09:00",
+    "verified":false
+  }
+]
