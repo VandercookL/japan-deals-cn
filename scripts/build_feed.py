@@ -5,12 +5,29 @@ now=datetime.datetime.now(datetime.timezone.utc)
 manual=json.loads((ROOT/'data/manual_deals.json').read_text(encoding='utf-8'))
 items=[]
 def valid(x):
-    if not x.get('verified') or not x.get('url','').startswith('https://') or not isinstance(x.get('price_jpy'),(int,float)) or x['price_jpy']<=0:return False
-    if not x.get('verified_at') or not x.get('source_type'):return False
-    if x.get('expires_at'):
-        try:
-            if datetime.datetime.fromisoformat(x['expires_at'].replace('Z','+00:00'))<=now:return False
-        except ValueError:return False
+    if not isinstance(x, dict) or x.get('verified') is not True:
+        return False
+    if not all(isinstance(x.get(k), str) and x[k].strip() for k in ('id','title','merchant','category','url','verified_at','source_type','deal_type')):
+        return False
+    if not x['url'].startswith('https://'):
+        return False
+    if x['deal_type'] not in ('商品降价','优惠券与积分','线下促销'):
+        return False
+    price=x.get('price_jpy')
+    if price is not None and (isinstance(price,bool) or not isinstance(price,(int,float)) or price<=0):
+        return False
+    if x['deal_type']=='商品降价' and price is None:
+        return False
+    try:
+        verified_at=datetime.datetime.fromisoformat(x['verified_at'].replace('Z','+00:00'))
+        if verified_at.tzinfo is None or verified_at>now:
+            return False
+        if x.get('expires_at'):
+            expires=datetime.datetime.fromisoformat(x['expires_at'].replace('Z','+00:00'))
+            if expires.tzinfo is None or expires<=now:
+                return False
+    except (ValueError,TypeError):
+        return False
     return True
 for x in manual:
     if valid(x):items.append(x)

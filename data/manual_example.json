@@ -1,16 +1,35 @@
 [
   {
-    "id":"merchant-sku-001",
-    "title":"填写已核验的商品名称",
-    "description":"说明优惠券、积分和购买条件",
-    "merchant":"填写商家名称",
-    "category":"数码家电",
-    "price_jpy":1000,
-    "url":"https://example.com/product",
-    "affiliate_url":"",
-    "source_type":"official_product_page",
-    "verified_at":"2026-11-14T09:00:00+09:00",
-    "expires_at":"2026-11-30T23:59:00+09:00",
-    "verified":false
+    "id": "example-offline-001",
+    "deal_type": "线下促销",
+    "title": "填写活动标题（示例，未发布）",
+    "description": "例如：活动内容、会员条件、适用商品",
+    "merchant": "填写商家",
+    "category": "超市日用",
+    "location": "东京都内指定门店",
+    "offer_text": "指定商品满额优惠",
+    "price_jpy": null,
+    "url": "https://example.com/official-event",
+    "affiliate_url": "",
+    "source_type": "official_event_page",
+    "verified_at": "2026-11-14T09:00:00+09:00",
+    "expires_at": "2026-11-30T23:59:00+09:00",
+    "verified": false
+  },
+  {
+    "id": "example-online-001",
+    "deal_type": "商品降价",
+    "title": "填写商品名称（示例，未发布）",
+    "description": "写明优惠条件和是否需要领取优惠券",
+    "merchant": "填写商家",
+    "category": "数码家电",
+    "location": "线上",
+    "price_jpy": 1980,
+    "url": "https://example.com/official-product",
+    "affiliate_url": "",
+    "source_type": "official_product_page",
+    "verified_at": "2026-11-14T09:00:00+09:00",
+    "expires_at": "2026-11-30T23:59:00+09:00",
+    "verified": false
   }
 ]
