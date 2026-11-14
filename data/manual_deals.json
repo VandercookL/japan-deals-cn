@@ -13,7 +13,7 @@
     "url": "https://shopping.yahoo.co.jp/promotion/campaign/bsplus/",
     "affiliate_url": "",
     "source_type": "official_event_page",
-    "verified_at": true,
+    "verified_at": null,
     "expires_at": "2026-11-14T23:59:00+09:00",
     "verified": false
   },
@@ -30,7 +30,7 @@
     "url": "https://calendar.rakuten.co.jp/cal/8616",
     "affiliate_url": "",
     "source_type": "official_event_page",
-    "verified_at": true,
+    "verified_at": null,
     "expires_at": "2026-11-17T09:59:00+09:00",
     "verified": false
   },
