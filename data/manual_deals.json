@@ -1,1 +1,71 @@
-[]
+
+[
+  {
+    "id": "yahoo-bsplus-20261114",
+    "deal_type": "优惠券和积分活动",
+    "title": "Yahoo! Shopping 指定店铺积分活动",
+    "description": "指定店铺购物可获得额外积分。需确认活动报名要求、适用商品及实际返还比例。",
+    "merchant": "Yahoo! Shopping",
+    "category": "综合购物",
+    "location": "线上",
+    "offer_text": "指定店铺额外积分，最高比例待核验",
+    "price_jpy": null,
+    "url": "https://shopping.yahoo.co.jp/promotion/campaign/bsplus/",
+    "affiliate_url": "",
+    "source_type": "official_event_page",
+    "verified_at": null,
+    "expires_at": "2026-11-14T23:59:00+09:00",
+    "verified": false
+  },
+  {
+    "id": "rakuten-autumn-coupon-202611",
+    "deal_type": "优惠券和积分活动",
+    "title": "楽天市场 秋冬生活优惠券",
+    "description": "候选活动：指定店铺满8000日元减200日元、满10000日元减500日元。需核实领取入口、使用条件及剩余名额。",
+    "merchant": "楽天市场",
+    "category": "家居生活",
+    "location": "线上",
+    "offer_text": "最高减500日元，待核验",
+    "price_jpy": null,
+    "url": "https://calendar.rakuten.co.jp/cal/8616",
+    "affiliate_url": "",
+    "source_type": "official_event_page",
+    "verified_at": null,
+    "expires_at": "2026-11-17T09:59:00+09:00",
+    "verified": false
+  },
+  {
+    "id": "rakuten-food-coupon-202611",
+    "deal_type": "优惠券和积分活动",
+    "title": "楽天市场 冬季美食优惠券",
+    "description": "候选活动：指定店铺按消费金额提供100至400日元优惠券。需核实活动规则、适用商品及剩余名额。",
+    "merchant": "楽天市场",
+    "category": "食品饮料",
+    "location": "线上",
+    "offer_text": "最高减400日元，待核验",
+    "price_jpy": null,
+    "url": "https://calendar.rakuten.co.jp/cal/8616",
+    "affiliate_url": "",
+    "source_type": "official_event_page",
+    "verified_at": null,
+    "expires_at": "2026-11-19T09:59:00+09:00",
+    "verified": false
+  },
+  {
+    "id": "yahoo-bonusselection-202611",
+    "deal_type": "优惠券和积分活动",
+    "title": "Yahoo! Shopping Bonus Selection",
+    "description": "指定商品提供额外PayPay积分。实际返还比例、积分期限和适用商品需在活动页面确认。",
+    "merchant": "Yahoo! Shopping",
+    "category": "综合购物",
+    "location": "线上",
+    "offer_text": "指定商品额外积分，比例待核验",
+    "price_jpy": null,
+    "url": "https://shopping.yahoo.co.jp/promotion/campaign/bonusselection/",
+    "affiliate_url": "",
+    "source_type": "official_event_page",
+    "verified_at": null,
+    "expires_at": "2026-11-18T23:59:00+09:00",
+    "verified": false
+  }
+]
