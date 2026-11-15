@@ -1,4 +1,3 @@
-
 name: Update deals data
 
 on:
@@ -37,6 +36,7 @@ jobs:
           RAKUTEN_APP_ID: ${{ secrets.RAKUTEN_APP_ID }}
           RAKUTEN_ACCESS_KEY: ${{ secrets.RAKUTEN_ACCESS_KEY }}
           RAKUTEN_AFFILIATE_ID: ${{ secrets.RAKUTEN_AFFILIATE_ID }}
+          YAHOO_CLIENT_ID: ${{ secrets.YAHOO_CLIENT_ID }}
         run: python scripts/build_feed.py
 
       - name: Commit updated data
@@ -48,6 +48,10 @@ jobs:
 
           if [ -f data/rakuten_candidates.json ]; then
             git add data/rakuten_candidates.json
+          fi
+
+          if [ -f data/yahoo_candidates.json ]; then
+            git add data/yahoo_candidates.json
           fi
 
           if ! git diff --cached --quiet; then
