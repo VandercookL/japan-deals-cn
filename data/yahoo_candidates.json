@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T20:59:09+00:00",
+  "generated_at": "2026-11-18T07:34:54+00:00",
   "keyword": "ワイヤレスイヤホン",
   "count": 20,
   "items": [
@@ -13,7 +13,7 @@
       "image_url": "https://item-shopping.c.yimg.jp/i/g/pai-kea_zy100",
       "url": "https://store.shopping.yahoo.co.jp/pai-kea/zy100.html",
       "review_rate": 4.84,
-      "review_count": 312,
+      "review_count": 308,
       "verified": false,
       "source_type": "yahoo_shopping_api",
       "note": "候选商品，不代表真实折扣"
@@ -43,7 +43,7 @@
       "image_url": "https://item-shopping.c.yimg.jp/i/g/pai-kea_zy102",
       "url": "https://store.shopping.yahoo.co.jp/pai-kea/zy102.html",
       "review_rate": 4.85,
-      "review_count": 144,
+      "review_count": 137,
       "verified": false,
       "source_type": "yahoo_shopping_api",
       "note": "候选商品，不代表真实折扣"
@@ -58,7 +58,7 @@
       "image_url": "https://item-shopping.c.yimg.jp/i/g/smahoservic_i302075",
       "url": "https://store.shopping.yahoo.co.jp/smahoservic/i302075.html",
       "review_rate": 4.35,
-      "review_count": 10488,
+      "review_count": 10489,
       "verified": false,
       "source_type": "yahoo_shopping_api",
       "note": "候选商品，不代表真实折扣"
@@ -73,7 +73,7 @@
       "image_url": "https://item-shopping.c.yimg.jp/i/g/onetoothshop_btshs206",
       "url": "https://store.shopping.yahoo.co.jp/onetoothshop/btshs206.html",
       "review_rate": 4.1,
-      "review_count": 53808,
+      "review_count": 53810,
       "verified": false,
       "source_type": "yahoo_shopping_api",
       "note": "候选商品，不代表真实折扣"
@@ -88,7 +88,7 @@
       "image_url": "https://item-shopping.c.yimg.jp/i/g/case-by-case1_6000",
       "url": "https://store.shopping.yahoo.co.jp/case-by-case1/6000.html",
       "review_rate": 4.4,
-      "review_count": 955,
+      "review_count": 960,
       "verified": false,
       "source_type": "yahoo_shopping_api",
       "note": "候选商品，不代表真实折扣"
@@ -103,7 +103,7 @@
       "image_url": "https://item-shopping.c.yimg.jp/i/g/extendstore_t8",
       "url": "https://store.shopping.yahoo.co.jp/extendstore/t8.html",
       "review_rate": 4.81,
-      "review_count": 1344,
+      "review_count": 1353,
       "verified": false,
       "source_type": "yahoo_shopping_api",
       "note": "候选商品，不代表真实折扣"
@@ -118,7 +118,7 @@
       "image_url": "https://item-shopping.c.yimg.jp/i/g/meiseishop_1118a1",
       "url": "https://store.shopping.yahoo.co.jp/meiseishop/1118a1.html",
       "review_rate": 4.31,
-      "review_count": 6272,
+      "review_count": 6273,
       "verified": false,
       "source_type": "yahoo_shopping_api",
       "note": "候选商品，不代表真实折扣"
@@ -133,22 +133,7 @@
       "image_url": "https://item-shopping.c.yimg.jp/i/g/seinan_r5",
       "url": "https://store.shopping.yahoo.co.jp/seinan/r5.html",
       "review_rate": 4.58,
-      "review_count": 2806,
-      "verified": false,
-      "source_type": "yahoo_shopping_api",
-      "note": "候选商品，不代表真实折扣"
-    },
-    {
-      "id": "yahoo:ankerdirect_a3959",
-      "title": "Anker Soundcore P30i (Bluetooth 5.4)【完全ワイヤレスイヤホン / アクティブノイズキャンセリング /マルチポイント接続 / 最大45時間再生 / 小型軽量】",
-      "merchant": "Yahoo!ショッピング",
-      "shop_name": "Anker 公式ストア ヤフー店",
-      "price_jpy": 5990,
-      "jan_code": "4571411218361",
-      "image_url": "https://item-shopping.c.yimg.jp/i/g/ankerdirect_a3959",
-      "url": "https://store.shopping.yahoo.co.jp/ankerdirect/a3959.html",
-      "review_rate": 4.63,
-      "review_count": 205,
+      "review_count": 2826,
       "verified": false,
       "source_type": "yahoo_shopping_api",
       "note": "候选商品，不代表真实折扣"
@@ -164,6 +149,21 @@
       "url": "https://store.shopping.yahoo.co.jp/ankerdirect/d1205.html",
       "review_rate": 4.79,
       "review_count": 81,
+      "verified": false,
+      "source_type": "yahoo_shopping_api",
+      "note": "候选商品，不代表真实折扣"
+    },
+    {
+      "id": "yahoo:ankerdirect_a3959",
+      "title": "Anker Soundcore P30i (Bluetooth 5.4)【完全ワイヤレスイヤホン / アクティブノイズキャンセリング /マルチポイント接続 / 最大45時間再生 / 小型軽量】",
+      "merchant": "Yahoo!ショッピング",
+      "shop_name": "Anker 公式ストア ヤフー店",
+      "price_jpy": 5990,
+      "jan_code": "4571411218361",
+      "image_url": "https://item-shopping.c.yimg.jp/i/g/ankerdirect_a3959",
+      "url": "https://store.shopping.yahoo.co.jp/ankerdirect/a3959.html",
+      "review_rate": 4.63,
+      "review_count": 205,
       "verified": false,
       "source_type": "yahoo_shopping_api",
       "note": "候选商品，不代表真实折扣"
@@ -259,21 +259,6 @@
       "note": "候选商品，不代表真实折扣"
     },
     {
-      "id": "yahoo:smahoservic_i302075-2",
-      "title": "【2,780円→1,990円4時間特売】骨伝導イヤホン ワイヤレスイヤホン イヤーカフ イヤホン コスパ 最強 bluetooth ブルートゥース 無線 AAC 業界TOP HiFi 耳挟み式",
-      "merchant": "Yahoo!ショッピング",
-      "shop_name": "L&Lスマホサービス",
-      "price_jpy": 1990,
-      "jan_code": "",
-      "image_url": "https://item-shopping.c.yimg.jp/i/g/smahoservic_i302075-2",
-      "url": "https://store.shopping.yahoo.co.jp/smahoservic/i302075-2.html",
-      "review_rate": 4.39,
-      "review_count": 163,
-      "verified": false,
-      "source_type": "yahoo_shopping_api",
-      "note": "候选商品，不代表真实折扣"
-    },
-    {
       "id": "yahoo:denkichiweb_4549980975312",
       "title": "テクニクス Technics  完全ワイヤレスイヤホン シャンパンゴールド EAH-AZ100-N〈EAHAZ100-N〉",
       "merchant": "Yahoo!ショッピング",
@@ -299,6 +284,21 @@
       "url": "https://store.shopping.yahoo.co.jp/rouse/i.html",
       "review_rate": 3.5,
       "review_count": 137,
+      "verified": false,
+      "source_type": "yahoo_shopping_api",
+      "note": "候选商品，不代表真实折扣"
+    },
+    {
+      "id": "yahoo:smahoservic_i302075-2",
+      "title": "【2,780円→1,990円4時間特売】骨伝導イヤホン ワイヤレスイヤホン イヤーカフ イヤホン コスパ 最強 bluetooth ブルートゥース 無線 AAC 業界TOP HiFi 耳挟み式",
+      "merchant": "Yahoo!ショッピング",
+      "shop_name": "L&Lスマホサービス",
+      "price_jpy": 1990,
+      "jan_code": "",
+      "image_url": "https://item-shopping.c.yimg.jp/i/g/smahoservic_i302075-2",
+      "url": "https://store.shopping.yahoo.co.jp/smahoservic/i302075-2.html",
+      "review_rate": 4.38,
+      "review_count": 165,
       "verified": false,
       "source_type": "yahoo_shopping_api",
       "note": "候选商品，不代表真实折扣"
