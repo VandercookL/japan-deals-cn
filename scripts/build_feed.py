@@ -577,9 +577,216 @@ else:
         "YAHOO_CLIENT_ID is not configured"
     )
 
+# =========================================================
+# 4. Yahoo price history
+# Save monthly history.
+# Only append when the observed price changes.
+# =========================================================
+
+price_history_dir = DATA_DIR / "price_history"
+price_history_dir.mkdir(exist_ok=True)
+
+month_key = now.strftime("%Y-%m")
+
+price_history_file = (
+    price_history_dir
+    / f"yahoo_{month_key}.json"
+)
+
+
+# Load this month's existing history
+if price_history_file.exists():
+
+    try:
+        price_history = json.loads(
+            price_history_file.read_text(
+                encoding="utf-8"
+            )
+        )
+
+    except Exception as e:
+
+        print(
+            "Failed to read price history:",
+            type(e).__name__,
+            str(e)[:200]
+        )
+
+        price_history = {
+            "month": month_key,
+            "products": {}
+        }
+
+else:
+
+    price_history = {
+        "month": month_key,
+        "products": {}
+    }
+
+
+products = price_history.setdefault(
+    "products",
+    {}
+)
+
+history_updates = 0
+
+
+# yahoo_candidates exists when Yahoo API
+# was successfully configured and processed.
+if yahoo_client_id:
+
+    for item in yahoo_candidates:
+
+        product_id = item.get("id")
+
+        price = item.get("price_jpy")
+
+        if not product_id:
+            continue
+
+        if (
+            isinstance(price, bool)
+            or not isinstance(price, (int, float))
+            or price <= 0
+        ):
+            continue
+
+
+        # Create product record when first seen
+        if product_id not in products:
+
+            products[product_id] = {
+
+                "title":
+                    item.get(
+                        "title",
+                        ""
+                    ),
+
+                "jan_code":
+                    item.get(
+                        "jan_code",
+                        ""
+                    ),
+
+                "shop_name":
+                    item.get(
+                        "shop_name",
+                        ""
+                    ),
+
+                "url":
+                    item.get(
+                        "url",
+                        ""
+                    ),
+
+                "history": []
+            }
+
+
+        product = products[product_id]
+
+        history = product.setdefault(
+            "history",
+            []
+        )
+
+
+        # Keep basic product metadata updated
+        product["title"] = item.get(
+            "title",
+            product.get("title", "")
+        )
+
+        product["jan_code"] = item.get(
+            "jan_code",
+            product.get("jan_code", "")
+        )
+
+        product["shop_name"] = item.get(
+            "shop_name",
+            product.get("shop_name", "")
+        )
+
+        product["url"] = item.get(
+            "url",
+            product.get("url", "")
+        )
+
+
+        # First observation
+        if not history:
+
+            history.append({
+                "time":
+                    now.isoformat(
+                        timespec="seconds"
+                    ),
+
+                "price":
+                    price
+            })
+
+            history_updates += 1
+
+            continue
+
+
+        last_price = history[-1].get(
+            "price"
+        )
+
+
+        # Only record when price changes.
+        if last_price != price:
+
+            history.append({
+                "time":
+                    now.isoformat(
+                        timespec="seconds"
+                    ),
+
+                "price":
+                    price
+            })
+
+            history_updates += 1
+
+
+price_history["updated_at"] = (
+    now.isoformat(
+        timespec="seconds"
+    )
+)
+
+
+price_history_file.write_text(
+
+    json.dumps(
+        price_history,
+        ensure_ascii=False,
+        indent=2
+    ),
+
+    encoding="utf-8"
+)
+
+
+print(
+    "Yahoo price history file:",
+    price_history_file.name
+)
+
+print(
+    "Yahoo price history updates:",
+    history_updates
+)
 
 # =========================================================
-# 4. Publish verified deals
+# 5. Publish verified deals
 # =========================================================
 
 published = []
