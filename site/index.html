@@ -10,8 +10,9 @@
   >
 
   <meta
+    id="metaDescription"
     name="description"
-    content="在日好价，整理日本线上线下折扣、优惠券及促销活动，方便在日华人查看。"
+    content="在日好价，整理日本线上线下折扣、优惠券及促销活动。"
   >
 
   <title>在日好价｜日本线上线下优惠信息</title>
@@ -66,6 +67,17 @@
       padding: 27px 18px 25px;
     }
 
+    .header-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 24px;
+    }
+
+    .brand-area {
+      min-width: 0;
+    }
+
     .brand-row {
       display: flex;
       align-items: center;
@@ -83,6 +95,8 @@
       align-items: center;
       justify-content: center;
 
+      flex-shrink: 0;
+
       font-size: 18px;
       font-weight: 800;
     }
@@ -95,10 +109,63 @@
       font-weight: 800;
     }
 
-    header p {
+    .header-subtitle {
       margin: 8px 0 0;
       color: #68756d;
       font-size: 14px;
+    }
+
+
+    /* =====================================================
+       Language switcher
+       ===================================================== */
+
+    .language-switcher {
+      display: flex;
+      align-items: center;
+      gap: 3px;
+
+      flex-shrink: 0;
+
+      background: #f6f8f6;
+      border: 1px solid #e2e7e2;
+      border-radius: 8px;
+
+      padding: 3px;
+    }
+
+    .language-button {
+      appearance: none;
+      border: 0;
+      background: transparent;
+
+      color: #6a756d;
+
+      border-radius: 6px;
+
+      padding: 7px 9px;
+
+      font-size: 12px;
+      font-family: inherit;
+
+      cursor: pointer;
+
+      transition:
+        background .15s,
+        color .15s;
+    }
+
+    .language-button:hover {
+      color: #285d43;
+    }
+
+    .language-button.active {
+      background: #ffffff;
+      color: #1d6241;
+      font-weight: 650;
+
+      box-shadow:
+        0 1px 3px rgba(30, 50, 37, .08);
     }
 
 
@@ -141,7 +208,7 @@
       color: #657168;
       font-size: 14px;
       line-height: 1.7;
-      max-width: 720px;
+      max-width: 760px;
     }
 
     .update-info {
@@ -171,6 +238,7 @@
       padding: 8px 13px;
       border-radius: 7px;
 
+      font-family: inherit;
       font-size: 13px;
       cursor: pointer;
 
@@ -206,20 +274,26 @@
     .filters input,
     .filters select {
       width: 100%;
+
       background: #ffffff;
       border: 1px solid #dce2dc;
       border-radius: 8px;
+
       padding: 12px 13px;
 
       color: #28312b;
+
+      font-family: inherit;
       font-size: 14px;
+
       outline: none;
     }
 
     .filters input:focus,
     .filters select:focus {
       border-color: #609278;
-      box-shadow: 0 0 0 3px rgba(33, 109, 76, .08);
+      box-shadow:
+        0 0 0 3px rgba(33, 109, 76, .08);
     }
 
 
@@ -229,8 +303,13 @@
 
     .grid {
       display: grid;
+
       grid-template-columns:
-        repeat(auto-fill, minmax(280px, 1fr));
+        repeat(
+          auto-fill,
+          minmax(280px, 1fr)
+        );
+
       gap: 16px;
     }
 
@@ -243,6 +322,7 @@
       background: #ffffff;
       border: 1px solid #e2e7e2;
       border-radius: 11px;
+
       padding: 18px;
 
       display: flex;
@@ -260,7 +340,10 @@
     .deal:hover {
       transform: translateY(-2px);
       border-color: #d4ddd5;
-      box-shadow: 0 7px 20px rgba(31, 49, 37, .07);
+
+      box-shadow:
+        0 7px 20px
+        rgba(31, 49, 37, .07);
     }
 
     .deal-tags {
@@ -277,6 +360,7 @@
       color: #286444;
 
       border-radius: 5px;
+
       padding: 5px 8px;
 
       font-size: 12px;
@@ -299,8 +383,10 @@
 
     .description {
       color: #66736a;
+
       font-size: 13px;
       line-height: 1.65;
+
       margin: 0;
     }
 
@@ -315,22 +401,28 @@
 
     .price {
       color: #1b5d3b;
+
       font-size: 26px;
       line-height: 1.2;
+
       font-weight: 760;
       letter-spacing: -.5px;
     }
 
     .offer-text {
       color: #1b5d3b;
+
       font-size: 19px;
       line-height: 1.4;
+
       font-weight: 700;
     }
 
     .old {
       margin-top: 5px;
+
       color: #8b958e;
+
       font-size: 12px;
     }
 
@@ -345,6 +437,7 @@
 
     .note {
       color: #78847b;
+
       font-size: 12px;
       line-height: 1.6;
     }
@@ -391,19 +484,24 @@
       border-radius: 11px;
 
       padding: 65px 20px;
+
       text-align: center;
     }
 
     .empty-title {
       margin: 0 0 7px;
+
       font-size: 16px;
       font-weight: 650;
+
       color: #526057;
     }
 
     .empty-description {
       margin: 0;
+
       color: #89938c;
+
       font-size: 13px;
       line-height: 1.6;
     }
@@ -422,6 +520,7 @@
       border-top: 1px solid #e2e7e2;
 
       color: #737e76;
+
       font-size: 12px;
       line-height: 1.8;
     }
@@ -434,6 +533,7 @@
       display: flex;
       gap: 16px;
       flex-wrap: wrap;
+
       margin-top: 12px;
     }
 
@@ -454,17 +554,26 @@
     @media (max-width: 720px) {
 
       .header-inner {
-        padding-top: 22px;
-        padding-bottom: 21px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+      }
+
+      .header-top {
+        gap: 12px;
       }
 
       header h1 {
-        font-size: 26px;
+        font-size: 25px;
       }
 
       .brand-mark {
         width: 33px;
         height: 33px;
+      }
+
+      .language-button {
+        padding: 6px 7px;
+        font-size: 11px;
       }
 
       main {
@@ -498,6 +607,20 @@
 
     }
 
+
+    @media (max-width: 430px) {
+
+      .header-top {
+        display: block;
+      }
+
+      .language-switcher {
+        width: max-content;
+        margin-top: 16px;
+      }
+
+    }
+
   </style>
 </head>
 
@@ -512,22 +635,63 @@
 
     <div class="header-inner">
 
-      <div class="brand-row">
+      <div class="header-top">
 
-        <div
-          class="brand-mark"
-          aria-hidden="true"
-        >
-          ¥
+        <div class="brand-area">
+
+          <div class="brand-row">
+
+            <div
+              class="brand-mark"
+              aria-hidden="true"
+            >
+              ¥
+            </div>
+
+            <h1>在日好价</h1>
+
+          </div>
+
+          <p
+            id="headerSubtitle"
+            class="header-subtitle"
+          ></p>
+
         </div>
 
-        <h1>在日好价</h1>
+
+        <nav
+          class="language-switcher"
+          aria-label="Language"
+        >
+
+          <button
+            class="language-button"
+            data-lang="zh"
+            type="button"
+          >
+            中文
+          </button>
+
+          <button
+            class="language-button"
+            data-lang="ja"
+            type="button"
+          >
+            日本語
+          </button>
+
+          <button
+            class="language-button"
+            data-lang="en"
+            type="button"
+          >
+            EN
+          </button>
+
+        </nav>
 
       </div>
-
-      <p>
-        日本线上线下优惠、折扣和促销活动
-      </p>
 
     </div>
 
@@ -546,22 +710,20 @@
 
         <div>
 
-          <h2>最新优惠</h2>
+          <h2 id="heroTitle"></h2>
 
-          <p class="hero-description">
-            整理日本电商及实体店近期值得关注的优惠信息。
-            所有公开展示的优惠均经过人工确认，
-            实际价格、库存及活动条件请以商家页面为准。
-          </p>
+          <p
+            id="heroDescription"
+            class="hero-description"
+          ></p>
 
         </div>
+
 
         <div
           id="updated"
           class="update-info"
-        >
-          正在读取数据…
-        </div>
+        ></div>
 
       </div>
 
@@ -569,7 +731,6 @@
       <div
         class="type-tabs"
         id="typeTabs"
-        aria-label="优惠类型"
       >
 
         <button
@@ -577,7 +738,6 @@
           data-type=""
           type="button"
         >
-          全部
         </button>
 
         <button
@@ -585,7 +745,6 @@
           data-type="商品降价"
           type="button"
         >
-          商品降价
         </button>
 
         <button
@@ -593,7 +752,6 @@
           data-type="优惠券与积分"
           type="button"
         >
-          优惠券与积分
         </button>
 
         <button
@@ -601,7 +759,6 @@
           data-type="线下促销"
           type="button"
         >
-          线下促销
         </button>
 
       </div>
@@ -616,41 +773,28 @@
       <input
         id="q"
         type="search"
-        placeholder="搜索商品、商家或活动"
-        aria-label="搜索"
       >
 
-      <select
-        id="category"
-        aria-label="商品分类"
-      >
 
-        <option value="">
-          全部分类
-        </option>
+      <select id="category">
+
+        <option value=""></option>
 
       </select>
 
 
-      <select
-        id="sort"
-        aria-label="排序"
-      >
+      <select id="sort">
 
-        <option value="new">
-          最近更新
-        </option>
+        <option value="new"></option>
 
-        <option value="price">
-          价格从低到高
-        </option>
+        <option value="price"></option>
 
       </select>
 
     </div>
 
 
-    <!-- Deal cards -->
+    <!-- Deals -->
 
     <section
       id="deals"
@@ -667,20 +811,12 @@
 
   <footer>
 
-    <p>
-      在日好价仅整理和展示公开优惠信息，不参与商品销售。
-    </p>
+    <p id="footer1"></p>
 
-    <p>
-      价格、库存、积分倍率及活动规则可能随时变化，
-      请以商家最终页面为准。
-    </p>
+    <p id="footer2"></p>
 
-    <p>
-      部分链接可能为推广链接，
-      通过相关链接购买后本站可能获得佣金，
-      不影响用户实际购买价格。
-    </p>
+    <p id="footer3"></p>
+
 
     <div class="footer-links">
 
@@ -719,27 +855,653 @@
 
   <script>
 
+    /* =====================================================
+       Translation dictionary
+       ===================================================== */
+
+    const translations = {
+
+      zh: {
+
+        htmlLang: "zh-CN",
+
+        locale: "zh-CN",
+
+        pageTitle:
+          "在日好价｜日本线上线下优惠信息",
+
+        metaDescription:
+          "在日好价，整理日本线上线下折扣、优惠券及促销活动。",
+
+        headerSubtitle:
+          "日本线上线下优惠、折扣和促销活动",
+
+        heroTitle:
+          "最新优惠",
+
+        heroDescription:
+          "整理日本电商及实体店近期值得关注的优惠信息。所有公开展示的优惠均经过人工确认，实际价格、库存及活动条件请以商家页面为准。",
+
+        loading:
+          "正在读取数据…",
+
+        updated:
+          "更新于",
+
+        itemUnit:
+          "条",
+
+        all:
+          "全部",
+
+        priceDrop:
+          "商品降价",
+
+        coupon:
+          "优惠券与积分",
+
+        offline:
+          "线下促销",
+
+        searchPlaceholder:
+          "搜索商品、商家或活动",
+
+        searchLabel:
+          "搜索",
+
+        allCategories:
+          "全部分类",
+
+        categoryLabel:
+          "商品分类",
+
+        sortLabel:
+          "排序",
+
+        newest:
+          "最近更新",
+
+        priceLow:
+          "价格从低到高",
+
+        noVerified:
+          "暂无已验证优惠",
+
+        monitoring:
+          "后台正在持续监测价格和促销信息，确认后会在这里发布。",
+
+        noResults:
+          "没有找到符合条件的优惠",
+
+        changeSearch:
+          "可以尝试更换分类或搜索关键词。",
+
+        genericDeal:
+          "优惠信息",
+
+        viewDetails:
+          "查看活动详情",
+
+        referencePrice:
+          "参考价",
+
+        online:
+          "线上",
+
+        expires:
+          "截止",
+
+        verified:
+          "确认",
+
+        viewDeal:
+          "查看优惠",
+
+        unavailable:
+          "数据暂不可用",
+
+        loadFailed:
+          "优惠数据读取失败",
+
+        retry:
+          "请稍后刷新页面重试。",
+
+        noDate:
+          "暂无",
+
+        footer1:
+          "在日好价仅整理和展示公开优惠信息，不参与商品销售。",
+
+        footer2:
+          "价格、库存、积分倍率及活动规则可能随时变化，请以商家最终页面为准。",
+
+        footer3:
+          "部分链接可能为推广链接，通过相关链接购买后本站可能获得佣金，不影响用户实际购买价格。"
+
+      },
+
+
+      ja: {
+
+        htmlLang: "ja",
+
+        locale: "ja-JP",
+
+        pageTitle:
+          "在日好价｜日本のお得・セール情報",
+
+        metaDescription:
+          "日本のオンラインショップや実店舗のセール、クーポン、キャンペーン情報をまとめて紹介します。",
+
+        headerSubtitle:
+          "日本のオンライン・店頭セール、割引、キャンペーン情報",
+
+        heroTitle:
+          "最新のお得情報",
+
+        heroDescription:
+          "日本のECサイトや実店舗で実施されている、注目のお得情報をまとめています。掲載情報は確認のうえ公開していますが、最新の価格、在庫、キャンペーン条件は各ショップのページをご確認ください。",
+
+        loading:
+          "データを読み込んでいます…",
+
+        updated:
+          "更新",
+
+        itemUnit:
+          "件",
+
+        all:
+          "すべて",
+
+        priceDrop:
+          "値下げ",
+
+        coupon:
+          "クーポン・ポイント",
+
+        offline:
+          "店頭キャンペーン",
+
+        searchPlaceholder:
+          "商品・ショップ・キャンペーンを検索",
+
+        searchLabel:
+          "検索",
+
+        allCategories:
+          "すべてのカテゴリー",
+
+        categoryLabel:
+          "カテゴリー",
+
+        sortLabel:
+          "並び順",
+
+        newest:
+          "更新が新しい順",
+
+        priceLow:
+          "価格が安い順",
+
+        noVerified:
+          "現在、掲載中のお得情報はありません",
+
+        monitoring:
+          "価格やキャンペーン情報を継続的に確認しています。確認が完了した情報はこちらに掲載します。",
+
+        noResults:
+          "条件に一致する情報がありません",
+
+        changeSearch:
+          "カテゴリーまたは検索キーワードを変更してお試しください。",
+
+        genericDeal:
+          "お得情報",
+
+        viewDetails:
+          "キャンペーン詳細を見る",
+
+        referencePrice:
+          "参考価格",
+
+        online:
+          "オンライン",
+
+        expires:
+          "終了",
+
+        verified:
+          "確認",
+
+        viewDeal:
+          "詳細を見る",
+
+        unavailable:
+          "データを取得できません",
+
+        loadFailed:
+          "お得情報を読み込めませんでした",
+
+        retry:
+          "しばらくしてからページを再読み込みしてください。",
+
+        noDate:
+          "未定",
+
+        footer1:
+          "在日好价は公開されているお得情報を整理・紹介するサイトであり、商品の販売は行っていません。",
+
+        footer2:
+          "価格、在庫、ポイント倍率、キャンペーン条件は変更される場合があります。最新情報は各ショップのページをご確認ください。",
+
+        footer3:
+          "一部のリンクにはアフィリエイトリンクが含まれる場合があります。リンク経由で購入された場合、当サイトが報酬を受け取ることがありますが、購入価格には影響しません。"
+
+      },
+
+
+      en: {
+
+        htmlLang: "en",
+
+        locale: "en-US",
+
+        pageTitle:
+          "在日好价 | Deals and Promotions in Japan",
+
+        metaDescription:
+          "Deals, discounts, coupons and promotions from online and physical stores across Japan.",
+
+        headerSubtitle:
+          "Online and in-store deals, discounts and promotions in Japan",
+
+        heroTitle:
+          "Latest Deals",
+
+        heroDescription:
+          "We collect noteworthy deals from online and physical stores in Japan. Published deals are manually reviewed, but final prices, availability and promotion terms should always be confirmed on the merchant's website.",
+
+        loading:
+          "Loading deals…",
+
+        updated:
+          "Updated",
+
+        itemUnit:
+          "deals",
+
+        all:
+          "All",
+
+        priceDrop:
+          "Price Drops",
+
+        coupon:
+          "Coupons & Points",
+
+        offline:
+          "In-store Deals",
+
+        searchPlaceholder:
+          "Search products, stores or promotions",
+
+        searchLabel:
+          "Search",
+
+        allCategories:
+          "All Categories",
+
+        categoryLabel:
+          "Category",
+
+        sortLabel:
+          "Sort",
+
+        newest:
+          "Recently Updated",
+
+        priceLow:
+          "Price: Low to High",
+
+        noVerified:
+          "No verified deals available",
+
+        monitoring:
+          "We are continuously monitoring prices and promotions. Verified deals will appear here.",
+
+        noResults:
+          "No matching deals found",
+
+        changeSearch:
+          "Try another category or search term.",
+
+        genericDeal:
+          "Deal",
+
+        viewDetails:
+          "View promotion details",
+
+        referencePrice:
+          "Reference price",
+
+        online:
+          "Online",
+
+        expires:
+          "Ends",
+
+        verified:
+          "Verified",
+
+        viewDeal:
+          "View Deal",
+
+        unavailable:
+          "Data currently unavailable",
+
+        loadFailed:
+          "Unable to load deal data",
+
+        retry:
+          "Please refresh the page and try again later.",
+
+        noDate:
+          "N/A",
+
+        footer1:
+          "在日好价 collects and displays publicly available deal information and does not sell products directly.",
+
+        footer2:
+          "Prices, availability, reward rates and promotion terms may change. Please confirm the latest information on the merchant's website.",
+
+        footer3:
+          "Some links may be affiliate links. We may receive a commission when purchases are made through these links, at no additional cost to you."
+
+      }
+
+    };
+
+
+    /* =====================================================
+       State
+       ===================================================== */
+
     let all = [];
 
     let selectedType = "";
+
+    let generatedAt = null;
 
 
     const $ = id =>
       document.getElementById(id);
 
 
-    const yen = number =>
-      "¥" +
-      Number(number).toLocaleString(
-        "ja-JP"
+    /* =====================================================
+       Language
+       ===================================================== */
+
+    function detectInitialLanguage() {
+
+      const saved =
+        localStorage.getItem(
+          "siteLanguage"
+        );
+
+
+      if (
+        saved &&
+        translations[saved]
+      ) {
+        return saved;
+      }
+
+
+      const browserLanguage =
+        (
+          navigator.language
+          || ""
+        ).toLowerCase();
+
+
+      if (
+        browserLanguage.startsWith(
+          "zh"
+        )
+      ) {
+        return "zh";
+      }
+
+
+      if (
+        browserLanguage.startsWith(
+          "ja"
+        )
+      ) {
+        return "ja";
+      }
+
+
+      return "en";
+
+    }
+
+
+    let currentLanguage =
+      detectInitialLanguage();
+
+
+    function t(key) {
+
+      return (
+        translations[
+          currentLanguage
+        ][key]
+        ?? key
       );
+
+    }
+
+
+    function translateDealType(
+      type
+    ) {
+
+      const map = {
+
+        "商品降价":
+          t("priceDrop"),
+
+        "优惠券与积分":
+          t("coupon"),
+
+        "线下促销":
+          t("offline")
+
+      };
+
+
+      return map[type] || type;
+
+    }
+
+
+    function setLanguage(
+      language
+    ) {
+
+      if (
+        !translations[language]
+      ) {
+        return;
+      }
+
+
+      currentLanguage =
+        language;
+
+
+      localStorage.setItem(
+        "siteLanguage",
+        language
+      );
+
+
+      document.documentElement.lang =
+        t("htmlLang");
+
+
+      document.title =
+        t("pageTitle");
+
+
+      $("metaDescription").content =
+        t("metaDescription");
+
+
+      $("headerSubtitle").textContent =
+        t("headerSubtitle");
+
+
+      $("heroTitle").textContent =
+        t("heroTitle");
+
+
+      $("heroDescription").textContent =
+        t("heroDescription");
+
+
+      /* Deal type buttons */
+
+      const typeButtons =
+        document.querySelectorAll(
+          ".type-tab"
+        );
+
+
+      typeButtons[0].textContent =
+        t("all");
+
+      typeButtons[1].textContent =
+        t("priceDrop");
+
+      typeButtons[2].textContent =
+        t("coupon");
+
+      typeButtons[3].textContent =
+        t("offline");
+
+
+      /* Search */
+
+      $("q").placeholder =
+        t("searchPlaceholder");
+
+      $("q").setAttribute(
+        "aria-label",
+        t("searchLabel")
+      );
+
+
+      /* Category */
+
+      $("category")
+        .setAttribute(
+          "aria-label",
+          t("categoryLabel")
+        );
+
+
+      $("category")
+        .options[0]
+        .textContent =
+          t("allCategories");
+
+
+      /* Sort */
+
+      $("sort").setAttribute(
+        "aria-label",
+        t("sortLabel")
+      );
+
+
+      $("sort")
+        .querySelector(
+          'option[value="new"]'
+        )
+        .textContent =
+          t("newest");
+
+
+      $("sort")
+        .querySelector(
+          'option[value="price"]'
+        )
+        .textContent =
+          t("priceLow");
+
+
+      /* Footer */
+
+      $("footer1").textContent =
+        t("footer1");
+
+      $("footer2").textContent =
+        t("footer2");
+
+      $("footer3").textContent =
+        t("footer3");
+
+
+      /* Language buttons */
+
+      document
+        .querySelectorAll(
+          ".language-button"
+        )
+        .forEach(
+          button => {
+
+            button.classList.toggle(
+              "active",
+              button.dataset.lang
+              === currentLanguage
+            );
+
+          }
+        );
+
+
+      updateStatus();
+
+
+      render();
+
+    }
+
+
+    /* =====================================================
+       Formatting
+       ===================================================== */
+
+    const yen = number =>
+      "¥"
+      +
+      Number(number)
+        .toLocaleString(
+          "ja-JP"
+        );
 
 
     function safeUrl(url) {
 
       try {
 
-        const parsed = new URL(url);
+        const parsed =
+          new URL(url);
+
 
         return (
           parsed.protocol === "https:"
@@ -762,7 +1524,10 @@
         return "";
       }
 
-      const date = new Date(value);
+
+      const date =
+        new Date(value);
+
 
       if (
         Number.isNaN(
@@ -772,12 +1537,18 @@
         return "";
       }
 
+
       return new Intl.DateTimeFormat(
-        "zh-CN",
+        t("locale"),
         {
-          timeZone: "Asia/Tokyo",
-          month: "numeric",
-          day: "numeric"
+          timeZone:
+            "Asia/Tokyo",
+
+          month:
+            "numeric",
+
+          day:
+            "numeric"
         }
       ).format(date);
 
@@ -787,36 +1558,75 @@
     function formatDateTime(value) {
 
       if (!value) {
-        return "暂无";
+        return t("noDate");
       }
 
-      const date = new Date(value);
+
+      const date =
+        new Date(value);
+
 
       if (
         Number.isNaN(
           date.getTime()
         )
       ) {
-        return "暂无";
+        return t("noDate");
       }
 
+
       return new Intl.DateTimeFormat(
-        "zh-CN",
+        t("locale"),
         {
-          timeZone: "Asia/Tokyo",
-          month: "numeric",
-          day: "numeric",
-          hour: "2-digit",
-          minute: "2-digit"
+          timeZone:
+            "Asia/Tokyo",
+
+          month:
+            "numeric",
+
+          day:
+            "numeric",
+
+          hour:
+            "2-digit",
+
+          minute:
+            "2-digit"
         }
       ).format(date);
 
     }
 
 
-    /* ===================================================
+    function updateStatus() {
+
+      if (!generatedAt) {
+
+        $("updated").textContent =
+          t("loading");
+
+        return;
+
+      }
+
+
+      $("updated").textContent =
+        t("updated")
+        + " "
+        + formatDateTime(
+            generatedAt
+          )
+        + " · "
+        + all.length
+        + " "
+        + t("itemUnit");
+
+    }
+
+
+    /* =====================================================
        Render
-       =================================================== */
+       ===================================================== */
 
     function render() {
 
@@ -826,54 +1636,66 @@
           .toLowerCase()
           .trim();
 
+
       const category =
         $("category").value;
 
 
-      let items = all.filter(
-        item => {
+      let items =
+        all.filter(
+          item => {
 
-          if (
-            selectedType &&
-            item.deal_type !== selectedType
-          ) {
-            return false;
+
+            if (
+              selectedType &&
+              item.deal_type
+              !== selectedType
+            ) {
+              return false;
+            }
+
+
+            if (
+              category &&
+              item.category
+              !== category
+            ) {
+              return false;
+            }
+
+
+            const searchText = [
+
+              item.title,
+              item.merchant,
+              item.description,
+              item.location,
+              item.deal_type,
+              item.offer_text,
+              item.category,
+              translateDealType(
+                item.deal_type
+              )
+
+            ]
+              .filter(Boolean)
+              .join(" ")
+              .toLowerCase();
+
+
+            return searchText.includes(
+              query
+            );
+
           }
-
-          if (
-            category &&
-            item.category !== category
-          ) {
-            return false;
-          }
+        );
 
 
-          const searchText = [
-
-            item.title,
-            item.merchant,
-            item.description,
-            item.location,
-            item.deal_type,
-            item.offer_text,
-            item.category
-
-          ]
-            .filter(Boolean)
-            .join(" ")
-            .toLowerCase();
-
-
-          return searchText.includes(
-            query
-          );
-
-        }
-      );
-
+      /* Sorting */
 
       if (
-        $("sort").value === "price"
+        $("sort").value
+        === "price"
       ) {
 
         items.sort(
@@ -894,12 +1716,15 @@
         items.sort(
           (a, b) =>
             String(
-              b.verified_at || ""
-            ).localeCompare(
-              String(
-                a.verified_at || ""
-              )
+              b.verified_at
+              || ""
             )
+              .localeCompare(
+                String(
+                  a.verified_at
+                  || ""
+                )
+              )
         );
 
       }
@@ -908,10 +1733,13 @@
       const container =
         $("deals");
 
+
       container.replaceChildren();
 
 
-      /* Empty state */
+      /* =================================================
+         Empty state
+         ================================================= */
 
       if (!items.length) {
 
@@ -919,6 +1747,7 @@
           document.createElement(
             "div"
           );
+
 
         empty.className =
           "empty";
@@ -929,6 +1758,7 @@
             "p"
           );
 
+
         title.className =
           "empty-title";
 
@@ -938,25 +1768,28 @@
             "p"
           );
 
+
         description.className =
           "empty-description";
 
 
-        if (all.length === 0) {
+        if (
+          all.length === 0
+        ) {
 
           title.textContent =
-            "暂无已验证优惠";
+            t("noVerified");
 
           description.textContent =
-            "后台正在持续监测价格和促销信息，确认后会在这里发布。";
+            t("monitoring");
 
         } else {
 
           title.textContent =
-            "没有找到符合条件的优惠";
+            t("noResults");
 
           description.textContent =
-            "可以尝试更换分类或搜索关键词。";
+            t("changeSearch");
 
         }
 
@@ -966,23 +1799,31 @@
           description
         );
 
+
         container.append(
           empty
         );
+
 
         return;
 
       }
 
 
-      /* Deal cards */
+      /* =================================================
+         Deal cards
+         ================================================= */
 
-      for (const item of items) {
+      for (
+        const item
+        of items
+      ) {
 
         const card =
           document.createElement(
             "article"
           );
+
 
         card.className =
           "deal";
@@ -995,22 +1836,30 @@
             "div"
           );
 
+
         tags.className =
           "deal-tags";
 
 
-        if (item.deal_type) {
+        if (
+          item.deal_type
+        ) {
 
           const dealTag =
             document.createElement(
               "span"
             );
 
+
           dealTag.className =
             "tag";
 
+
           dealTag.textContent =
-            item.deal_type;
+            translateDealType(
+              item.deal_type
+            );
+
 
           tags.append(
             dealTag
@@ -1019,18 +1868,23 @@
         }
 
 
-        if (item.merchant) {
+        if (
+          item.merchant
+        ) {
 
           const merchantTag =
             document.createElement(
               "span"
             );
 
+
           merchantTag.className =
             "tag merchant-tag";
 
+
           merchantTag.textContent =
             item.merchant;
+
 
           tags.append(
             merchantTag
@@ -1051,8 +1905,11 @@
             "h3"
           );
 
+
         title.textContent =
-          item.title || "优惠信息";
+          item.title
+          || t("genericDeal");
+
 
         card.append(
           title
@@ -1061,18 +1918,23 @@
 
         /* Description */
 
-        if (item.description) {
+        if (
+          item.description
+        ) {
 
           const description =
             document.createElement(
               "p"
             );
 
+
           description.className =
             "description";
 
+
           description.textContent =
             item.description;
+
 
           card.append(
             description
@@ -1088,6 +1950,7 @@
             "div"
           );
 
+
         priceArea.className =
           "price-area";
 
@@ -1098,10 +1961,13 @@
           );
 
 
-        if (item.price_jpy) {
+        if (
+          item.price_jpy
+        ) {
 
           price.className =
             "price";
+
 
           price.textContent =
             yen(
@@ -1113,9 +1979,10 @@
           price.className =
             "offer-text";
 
+
           price.textContent =
             item.offer_text
-            || "查看活动详情";
+            || t("viewDetails");
 
         }
 
@@ -1128,7 +1995,8 @@
         /* Reference price */
 
         if (
-          item.reference_price_jpy &&
+          item.reference_price_jpy
+          &&
           item.reference_price_evidence_url
         ) {
 
@@ -1137,13 +2005,15 @@
               "div"
             );
 
+
           old.className =
             "old";
 
 
           const oldLabel =
             document.createTextNode(
-              "参考价 "
+              t("referencePrice")
+              + " "
             );
 
 
@@ -1152,8 +2022,10 @@
               "span"
             );
 
+
           oldPrice.className =
             "old-price";
+
 
           oldPrice.textContent =
             yen(
@@ -1165,6 +2037,7 @@
             oldLabel,
             oldPrice
           );
+
 
           priceArea.append(
             old
@@ -1185,29 +2058,35 @@
 
         metadata.push(
           item.location
-          || "线上"
+          || t("online")
         );
 
 
-        if (item.expires_at) {
+        if (
+          item.expires_at
+        ) {
 
           metadata.push(
-            "截止 "
+            t("expires")
+            + " "
             + formatDate(
-              item.expires_at
-            )
+                item.expires_at
+              )
           );
 
         }
 
 
-        if (item.verified_at) {
+        if (
+          item.verified_at
+        ) {
 
           metadata.push(
-            "确认 "
+            t("verified")
+            + " "
             + formatDate(
-              item.verified_at
-            )
+                item.verified_at
+              )
           );
 
         }
@@ -1218,13 +2097,16 @@
             "div"
           );
 
+
         note.className =
           "note";
+
 
         note.textContent =
           metadata.join(
             " · "
           );
+
 
         card.append(
           note
@@ -1238,8 +2120,10 @@
             "a"
           );
 
+
         link.className =
           "btn";
+
 
         link.href =
           safeUrl(
@@ -1247,11 +2131,14 @@
             || item.url
           );
 
+
         link.target =
           "_blank";
 
 
-        if (item.affiliate_url) {
+        if (
+          item.affiliate_url
+        ) {
 
           link.rel =
             "sponsored nofollow noopener noreferrer";
@@ -1265,7 +2152,7 @@
 
 
         link.textContent =
-          "查看优惠";
+          t("viewDeal");
 
 
         card.append(
@@ -1282,11 +2169,15 @@
     }
 
 
-    /* ===================================================
+    /* =====================================================
        Load deals.json
-       =================================================== */
+       ===================================================== */
 
     async function load() {
+
+      $("updated").textContent =
+        t("loading");
+
 
       try {
 
@@ -1294,12 +2185,15 @@
           await fetch(
             "./deals.json",
             {
-              cache: "no-store"
+              cache:
+                "no-store"
             }
           );
 
 
-        if (!response.ok) {
+        if (
+          !response.ok
+        ) {
 
           throw new Error(
             "HTTP "
@@ -1313,41 +2207,69 @@
           await response.json();
 
 
-        all = (
-          data.deals || []
-        ).filter(
-          item =>
-            item.verified === true
-            &&
-            (
-              item.price_jpy == null
-              ||
-              item.price_jpy > 0
-            )
-            &&
-            item.url
-            &&
-            (
-              !item.expires_at
-              ||
-              Date.parse(
-                item.expires_at
-              ) > Date.now()
-            )
-        );
+        generatedAt =
+          data.generated_at
+          || null;
 
 
-        $("updated").textContent =
-          "更新于 "
-          + formatDateTime(
-              data.generated_at
-            )
-          + " · "
-          + all.length
-          + " 条";
+        all =
+          (
+            data.deals
+            || []
+          ).filter(
+            item =>
+              item.verified
+              === true
+
+              &&
+
+              (
+                item.price_jpy
+                == null
+
+                ||
+
+                item.price_jpy
+                > 0
+              )
+
+              &&
+
+              item.url
+
+              &&
+
+              (
+                !item.expires_at
+
+                ||
+
+                Date.parse(
+                  item.expires_at
+                )
+                >
+                Date.now()
+              )
+          );
 
 
         /* Categories */
+
+        const categorySelect =
+          $("category");
+
+
+        while (
+          categorySelect.options.length
+          > 1
+        ) {
+
+          categorySelect.remove(
+            1
+          );
+
+        }
+
 
         const categories = [
           ...new Set(
@@ -1371,22 +2293,29 @@
               "option"
             );
 
+
           option.value =
             category;
+
 
           option.textContent =
             category;
 
-          $("category").append(
+
+          categorySelect.append(
             option
           );
 
         }
 
 
+        updateStatus();
+
         render();
 
-      } catch (error) {
+      } catch (
+        error
+      ) {
 
         console.error(
           error
@@ -1394,7 +2323,7 @@
 
 
         $("updated").textContent =
-          "数据暂不可用";
+          t("unavailable");
 
 
         $("deals")
@@ -1406,6 +2335,7 @@
             "div"
           );
 
+
         empty.className =
           "empty";
 
@@ -1415,11 +2345,13 @@
             "p"
           );
 
+
         title.className =
           "empty-title";
 
+
         title.textContent =
-          "优惠数据读取失败";
+          t("loadFailed");
 
 
         const description =
@@ -1427,11 +2359,13 @@
             "p"
           );
 
+
         description.className =
           "empty-description";
 
+
         description.textContent =
-          "请稍后刷新页面重试。";
+          t("retry");
 
 
         empty.append(
@@ -1449,9 +2383,9 @@
     }
 
 
-    /* ===================================================
+    /* =====================================================
        Events
-       =================================================== */
+       ===================================================== */
 
     $("q").addEventListener(
       "input",
@@ -1459,16 +2393,18 @@
     );
 
 
-    $("category").addEventListener(
-      "change",
-      render
-    );
+    $("category")
+      .addEventListener(
+        "change",
+        render
+      );
 
 
-    $("sort").addEventListener(
-      "change",
-      render
-    );
+    $("sort")
+      .addEventListener(
+        "change",
+        render
+      );
 
 
     document
@@ -1511,6 +2447,37 @@
 
         }
       );
+
+
+    document
+      .querySelectorAll(
+        ".language-button"
+      )
+      .forEach(
+        button => {
+
+          button.addEventListener(
+            "click",
+            () => {
+
+              setLanguage(
+                button.dataset.lang
+              );
+
+            }
+          );
+
+        }
+      );
+
+
+    /* =====================================================
+       Start
+       ===================================================== */
+
+    setLanguage(
+      currentLanguage
+    );
 
 
     load();
