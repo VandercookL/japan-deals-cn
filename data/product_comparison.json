@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-22T12:06:24+00:00",
+  "generated_at": "2026-11-22T19:44:24+00:00",
   "matching_method": "JAN exact match",
-  "product_count": 139,
-  "multi_listing_product_count": 18,
+  "product_count": 137,
+  "multi_listing_product_count": 19,
   "products": [
     {
       "jan_code": "4571411228452",
@@ -42,20 +42,29 @@
     },
     {
       "jan_code": "4549995725025",
-      "title": "★国内正規品 新品未開封・保証開始 Apple AirPods 5 ワイヤレス充電ケース付き アクティブノイズキャンセリング MKFT4J/A ワイヤレスイヤホン 第5世代",
-      "listing_count": 3,
-      "lowest_price_jpy": 24278,
+      "title": "【新品未開封・保証開始】Apple AirPods 5 ワイヤレス充電ケース付き MKFT4J/A 【日曜日以外即日発送】【送料無料】",
+      "listing_count": 4,
+      "lowest_price_jpy": 24270,
       "highest_price_jpy": 28980,
-      "price_spread_jpy": 4702,
+      "price_spread_jpy": 4710,
       "price_spread_percent": 19.4,
       "best_offer": {
-        "id": "yahoo:jcka-mobile2_4549995725026",
+        "id": "yahoo:kaikyou_o549995725025",
         "merchant": "Yahoo!ショッピング",
-        "shop_name": "ジェーシカモバイル2号店",
-        "price_jpy": 24278,
-        "url": "https://store.shopping.yahoo.co.jp/jcka-mobile2/4549995725026.html"
+        "shop_name": "モバイル販売",
+        "price_jpy": 24270,
+        "url": "https://store.shopping.yahoo.co.jp/kaikyou/o549995725025.html"
       },
       "listings": [
+        {
+          "id": "yahoo:kaikyou_o549995725025",
+          "merchant": "Yahoo!ショッピング",
+          "shop_name": "モバイル販売",
+          "price_jpy": 24270,
+          "url": "https://store.shopping.yahoo.co.jp/kaikyou/o549995725025.html",
+          "review_rate": 0,
+          "review_count": 1
+        },
         {
           "id": "yahoo:jcka-mobile2_4549995725026",
           "merchant": "Yahoo!ショッピング",
@@ -86,90 +95,18 @@
       ]
     },
     {
-      "jan_code": "4549995635232",
-      "title": "【ラッピング可】【即日発送】【新品 保証開始済み品】Apple アップル ワイヤレスイヤホン AirPods Pro 3 MFHP4J/A",
-      "listing_count": 6,
-      "lowest_price_jpy": 36560,
-      "highest_price_jpy": 42880,
-      "price_spread_jpy": 6320,
-      "price_spread_percent": 17.3,
-      "best_offer": {
-        "id": "yahoo:densidonya_4549995635232-b",
-        "merchant": "Yahoo!ショッピング",
-        "shop_name": "電子問屋",
-        "price_jpy": 36560,
-        "url": "https://store.shopping.yahoo.co.jp/densidonya/4549995635232-b.html"
-      },
-      "listings": [
-        {
-          "id": "yahoo:densidonya_4549995635232-b",
-          "merchant": "Yahoo!ショッピング",
-          "shop_name": "電子問屋",
-          "price_jpy": 36560,
-          "url": "https://store.shopping.yahoo.co.jp/densidonya/4549995635232-b.html",
-          "review_rate": 4.84,
-          "review_count": 45
-        },
-        {
-          "id": "yahoo:d-rise2_p000000921698",
-          "merchant": "Yahoo!ショッピング",
-          "shop_name": "ディーライズ2号",
-          "price_jpy": 37530,
-          "url": "https://store.shopping.yahoo.co.jp/d-rise2/p000000921698.html",
-          "review_rate": 4.82,
-          "review_count": 11
-        },
-        {
-          "id": "yahoo:alljapan-online-shop_4549995635232",
-          "merchant": "Yahoo!ショッピング",
-          "shop_name": "販売一丁目",
-          "price_jpy": 37620,
-          "url": "https://store.shopping.yahoo.co.jp/alljapan-online-shop/4549995635232.html",
-          "review_rate": 4.67,
-          "review_count": 6
-        },
-        {
-          "id": "yahoo:mobax_apple-airpods-pro3-s",
-          "merchant": "Yahoo!ショッピング",
-          "shop_name": "モバックス",
-          "price_jpy": 37700,
-          "url": "https://store.shopping.yahoo.co.jp/mobax/apple-airpods-pro3-s.html",
-          "review_rate": 4.67,
-          "review_count": 3
-        },
-        {
-          "id": "yahoo:densidonya_4549995635232",
-          "merchant": "Yahoo!ショッピング",
-          "shop_name": "電子問屋",
-          "price_jpy": 38560,
-          "url": "https://store.shopping.yahoo.co.jp/densidonya/4549995635232.html",
-          "review_rate": 4.71,
-          "review_count": 93
-        },
-        {
-          "id": "yahoo:onemorething_4549995635232",
-          "merchant": "Yahoo!ショッピング",
-          "shop_name": "AirPodsのワンモアシング",
-          "price_jpy": 42880,
-          "url": "https://store.shopping.yahoo.co.jp/onemorething/4549995635232.html",
-          "review_rate": 4.87,
-          "review_count": 52
-        }
-      ]
-    },
-    {
       "jan_code": "4549995725049",
       "title": "Apple AirPods 5 ノイズキャンセリング ワイヤレス イヤホン MKFW4J/A[ラッピング可]",
       "listing_count": 4,
-      "lowest_price_jpy": 21689,
+      "lowest_price_jpy": 21683,
       "highest_price_jpy": 24980,
-      "price_spread_jpy": 3291,
+      "price_spread_jpy": 3297,
       "price_spread_percent": 15.2,
       "best_offer": {
         "id": "yahoo:sokuteikiya_4549995725049",
         "merchant": "Yahoo!ショッピング",
         "shop_name": "測定の森Yahoo!ショッピング店",
-        "price_jpy": 21689,
+        "price_jpy": 21683,
         "url": "https://store.shopping.yahoo.co.jp/sokuteikiya/4549995725049.html"
       },
       "listings": [
@@ -177,7 +114,7 @@
           "id": "yahoo:sokuteikiya_4549995725049",
           "merchant": "Yahoo!ショッピング",
           "shop_name": "測定の森Yahoo!ショッピング店",
-          "price_jpy": 21689,
+          "price_jpy": 21683,
           "url": "https://store.shopping.yahoo.co.jp/sokuteikiya/4549995725049.html",
           "review_rate": 0,
           "review_count": 1
@@ -214,7 +151,7 @@
     {
       "jan_code": "4549995519860",
       "title": "★アップル / APPLE AirPods 4 MXP63J/A【イヤホン・ヘッドホン】【送料無料】",
-      "listing_count": 4,
+      "listing_count": 5,
       "lowest_price_jpy": 19220,
       "highest_price_jpy": 21980,
       "price_spread_jpy": 2760,
@@ -235,6 +172,15 @@
           "url": "https://store.shopping.yahoo.co.jp/d-rise2/p000000887018.html",
           "review_rate": 5,
           "review_count": 7
+        },
+        {
+          "id": "yahoo:d-rise_p000000887018",
+          "merchant": "Yahoo!ショッピング",
+          "shop_name": "ディーライズ",
+          "price_jpy": 19690,
+          "url": "https://store.shopping.yahoo.co.jp/d-rise/p000000887018.html",
+          "review_rate": 4.78,
+          "review_count": 9
         },
         {
           "id": "yahoo:densidonya_4549995519860",
@@ -262,6 +208,60 @@
           "url": "https://store.shopping.yahoo.co.jp/onemorething/4549995519860.html",
           "review_rate": 4.76,
           "review_count": 41
+        }
+      ]
+    },
+    {
+      "jan_code": "4549995635232",
+      "title": "★アップル / APPLE AirPods Pro 3 MFHP4J/A【イヤホン・ヘッドホン】【送料無料】",
+      "listing_count": 4,
+      "lowest_price_jpy": 37530,
+      "highest_price_jpy": 42880,
+      "price_spread_jpy": 5350,
+      "price_spread_percent": 14.3,
+      "best_offer": {
+        "id": "yahoo:d-rise2_p000000921698",
+        "merchant": "Yahoo!ショッピング",
+        "shop_name": "ディーライズ2号",
+        "price_jpy": 37530,
+        "url": "https://store.shopping.yahoo.co.jp/d-rise2/p000000921698.html"
+      },
+      "listings": [
+        {
+          "id": "yahoo:d-rise2_p000000921698",
+          "merchant": "Yahoo!ショッピング",
+          "shop_name": "ディーライズ2号",
+          "price_jpy": 37530,
+          "url": "https://store.shopping.yahoo.co.jp/d-rise2/p000000921698.html",
+          "review_rate": 4.82,
+          "review_count": 11
+        },
+        {
+          "id": "yahoo:alljapan-online-shop_4549995635232",
+          "merchant": "Yahoo!ショッピング",
+          "shop_name": "販売一丁目",
+          "price_jpy": 37620,
+          "url": "https://store.shopping.yahoo.co.jp/alljapan-online-shop/4549995635232.html",
+          "review_rate": 4.67,
+          "review_count": 6
+        },
+        {
+          "id": "yahoo:panda-mobile_4549995635232-n",
+          "merchant": "Yahoo!ショッピング",
+          "shop_name": "panda mobile",
+          "price_jpy": 39268,
+          "url": "https://store.shopping.yahoo.co.jp/panda-mobile/4549995635232-n.html",
+          "review_rate": 4.78,
+          "review_count": 40
+        },
+        {
+          "id": "yahoo:onemorething_4549995635232",
+          "merchant": "Yahoo!ショッピング",
+          "shop_name": "AirPodsのワンモアシング",
+          "price_jpy": 42880,
+          "url": "https://store.shopping.yahoo.co.jp/onemorething/4549995635232.html",
+          "review_rate": 4.87,
+          "review_count": 52
         }
       ]
     },
@@ -495,7 +495,7 @@
           "price_jpy": 61000,
           "url": "https://store.shopping.yahoo.co.jp/densidonya/4902370553024.html",
           "review_rate": 4.59,
-          "review_count": 164
+          "review_count": 165
         }
       ]
     },
@@ -532,6 +532,42 @@
           "url": "https://store.shopping.yahoo.co.jp/updra/8806095700670.html",
           "review_rate": 5,
           "review_count": 6
+        }
+      ]
+    },
+    {
+      "jan_code": "0619659204778",
+      "title": "SanDisk Extreme ポータブルSSD 1TB USB3.2 Gen2 R:1050MB/s W:1000MB/s 外付けSSD SDSSDE61-1T00-G25B【翌日配達】5年保証 並行輸入品",
+      "listing_count": 2,
+      "lowest_price_jpy": 32488,
+      "highest_price_jpy": 32988,
+      "price_spread_jpy": 500,
+      "price_spread_percent": 1.5,
+      "best_offer": {
+        "id": "yahoo:jnh_sa8013ssde61-1t-g25b",
+        "merchant": "Yahoo!ショッピング",
+        "shop_name": "嘉年華",
+        "price_jpy": 32488,
+        "url": "https://store.shopping.yahoo.co.jp/jnh/sa8013ssde61-1t-g25b.html"
+      },
+      "listings": [
+        {
+          "id": "yahoo:jnh_sa8013ssde61-1t-g25b",
+          "merchant": "Yahoo!ショッピング",
+          "shop_name": "嘉年華",
+          "price_jpy": 32488,
+          "url": "https://store.shopping.yahoo.co.jp/jnh/sa8013ssde61-1t-g25b.html",
+          "review_rate": 0,
+          "review_count": 2
+        },
+        {
+          "id": "yahoo:jnh_sa8013ssde61-1t",
+          "merchant": "Yahoo!ショッピング",
+          "shop_name": "嘉年華",
+          "price_jpy": 32988,
+          "url": "https://store.shopping.yahoo.co.jp/jnh/sa8013ssde61-1t.html",
+          "review_rate": 4.8,
+          "review_count": 30
         }
       ]
     },
@@ -801,7 +837,7 @@
           "price_jpy": 5490,
           "url": "https://store.shopping.yahoo.co.jp/ankerdirect/d1202.html",
           "review_rate": 4.7,
-          "review_count": 657
+          "review_count": 658
         }
       ]
     },
@@ -828,7 +864,7 @@
           "price_jpy": 1390,
           "url": "https://store.shopping.yahoo.co.jp/ankerdirect/a855.html",
           "review_rate": 4.78,
-          "review_count": 1311
+          "review_count": 1312
         }
       ]
     },
@@ -855,7 +891,7 @@
           "price_jpy": 1090,
           "url": "https://store.shopping.yahoo.co.jp/ankerdirect/a8060.html",
           "review_rate": 4.75,
-          "review_count": 269
+          "review_count": 270
         }
       ]
     },
@@ -909,7 +945,7 @@
           "price_jpy": 1990,
           "url": "https://store.shopping.yahoo.co.jp/ankerdirect/a121e.html",
           "review_rate": 4.68,
-          "review_count": 164
+          "review_count": 165
         }
       ]
     },
@@ -935,8 +971,8 @@
           "shop_name": "Anker 公式ストア ヤフー店",
           "price_jpy": 7990,
           "url": "https://store.shopping.yahoo.co.jp/ankerdirect/a91c8.html",
-          "review_rate": 4.71,
-          "review_count": 66
+          "review_rate": 4.7,
+          "review_count": 67
         }
       ]
     },
@@ -963,7 +999,34 @@
           "price_jpy": 2990,
           "url": "https://store.shopping.yahoo.co.jp/ankerdirect/a2663.html",
           "review_rate": 4.77,
-          "review_count": 711
+          "review_count": 712
+        }
+      ]
+    },
+    {
+      "jan_code": "4571411223051",
+      "title": "モバイルバッテリー Anker MagGo Power Bank (10000mAh, Slim)10000mAh Qi2認証 ワイヤレス充電 最大出力15W マグセーフ対応 コンパクト 薄型 小型 18 アンカー",
+      "listing_count": 1,
+      "lowest_price_jpy": 9990,
+      "highest_price_jpy": 9990,
+      "price_spread_jpy": 0,
+      "price_spread_percent": 0.0,
+      "best_offer": {
+        "id": "yahoo:ankerdirect_a1664",
+        "merchant": "Yahoo!ショッピング",
+        "shop_name": "Anker 公式ストア ヤフー店",
+        "price_jpy": 9990,
+        "url": "https://store.shopping.yahoo.co.jp/ankerdirect/a1664.html"
+      },
+      "listings": [
+        {
+          "id": "yahoo:ankerdirect_a1664",
+          "merchant": "Yahoo!ショッピング",
+          "shop_name": "Anker 公式ストア ヤフー店",
+          "price_jpy": 9990,
+          "url": "https://store.shopping.yahoo.co.jp/ankerdirect/a1664.html",
+          "review_rate": 4.62,
+          "review_count": 521
         }
       ]
     },
@@ -995,33 +1058,6 @@
       ]
     },
     {
-      "jan_code": "4571411223051",
-      "title": "モバイルバッテリー Anker MagGo Power Bank (10000mAh, Slim)10000mAh Qi2認証 ワイヤレス充電 最大出力15W マグセーフ対応 コンパクト 薄型 小型 18 アンカー",
-      "listing_count": 1,
-      "lowest_price_jpy": 9990,
-      "highest_price_jpy": 9990,
-      "price_spread_jpy": 0,
-      "price_spread_percent": 0.0,
-      "best_offer": {
-        "id": "yahoo:ankerdirect_a1664",
-        "merchant": "Yahoo!ショッピング",
-        "shop_name": "Anker 公式ストア ヤフー店",
-        "price_jpy": 9990,
-        "url": "https://store.shopping.yahoo.co.jp/ankerdirect/a1664.html"
-      },
-      "listings": [
-        {
-          "id": "yahoo:ankerdirect_a1664",
-          "merchant": "Yahoo!ショッピング",
-          "shop_name": "Anker 公式ストア ヤフー店",
-          "price_jpy": 9990,
-          "url": "https://store.shopping.yahoo.co.jp/ankerdirect/a1664.html",
-          "review_rate": 4.62,
-          "review_count": 520
-        }
-      ]
-    },
-    {
       "jan_code": "4571651007817",
       "title": "充電器 Anker Zolo Charger (70W, 4 Ports)70W USB-C急速充電器 Pro MacBook Air iPhone iPad Galaxy対応 PSE技術基準適合 アンカー",
       "listing_count": 1,
@@ -1044,34 +1080,7 @@
           "price_jpy": 4490,
           "url": "https://store.shopping.yahoo.co.jp/ankerdirect/a121c.html",
           "review_rate": 4.89,
-          "review_count": 87
-        }
-      ]
-    },
-    {
-      "jan_code": "4571411227554",
-      "title": "モバイルバッテリー Anker Nano Power Bank (10000mAh, 45W, 巻取り式 USB-Cケーブル)10000mAh 36Wh/10K / 45W出力 / 18 / 17 / 16 / 15シリーズ iPad アンカー",
-      "listing_count": 1,
-      "lowest_price_jpy": 7990,
-      "highest_price_jpy": 7990,
-      "price_spread_jpy": 0,
-      "price_spread_percent": 0.0,
-      "best_offer": {
-        "id": "yahoo:ankerdirect_a1638",
-        "merchant": "Yahoo!ショッピング",
-        "shop_name": "Anker 公式ストア ヤフー店",
-        "price_jpy": 7990,
-        "url": "https://store.shopping.yahoo.co.jp/ankerdirect/a1638.html"
-      },
-      "listings": [
-        {
-          "id": "yahoo:ankerdirect_a1638",
-          "merchant": "Yahoo!ショッピング",
-          "shop_name": "Anker 公式ストア ヤフー店",
-          "price_jpy": 7990,
-          "url": "https://store.shopping.yahoo.co.jp/ankerdirect/a1638.html",
-          "review_rate": 4.71,
-          "review_count": 182
+          "review_count": 89
         }
       ]
     },
@@ -1099,6 +1108,33 @@
           "url": "https://store.shopping.yahoo.co.jp/ankerdirect/a1665.html",
           "review_rate": 4.59,
           "review_count": 257
+        }
+      ]
+    },
+    {
+      "jan_code": "4571411227554",
+      "title": "モバイルバッテリー Anker Nano Power Bank (10000mAh, 45W, 巻取り式 USB-Cケーブル)10000mAh 36Wh/10K / 45W出力 / 18 / 17 / 16 / 15シリーズ iPad アンカー",
+      "listing_count": 1,
+      "lowest_price_jpy": 7990,
+      "highest_price_jpy": 7990,
+      "price_spread_jpy": 0,
+      "price_spread_percent": 0.0,
+      "best_offer": {
+        "id": "yahoo:ankerdirect_a1638",
+        "merchant": "Yahoo!ショッピング",
+        "shop_name": "Anker 公式ストア ヤフー店",
+        "price_jpy": 7990,
+        "url": "https://store.shopping.yahoo.co.jp/ankerdirect/a1638.html"
+      },
+      "listings": [
+        {
+          "id": "yahoo:ankerdirect_a1638",
+          "merchant": "Yahoo!ショッピング",
+          "shop_name": "Anker 公式ストア ヤフー店",
+          "price_jpy": 7990,
+          "url": "https://store.shopping.yahoo.co.jp/ankerdirect/a1638.html",
+          "review_rate": 4.71,
+          "review_count": 182
         }
       ]
     },
@@ -1152,7 +1188,7 @@
           "price_jpy": 17990,
           "url": "https://store.shopping.yahoo.co.jp/ankerdirect/a1695.html",
           "review_rate": 4.77,
-          "review_count": 158
+          "review_count": 159
         }
       ]
     },
@@ -1205,8 +1241,8 @@
           "shop_name": "Anker 公式ストア ヤフー店",
           "price_jpy": 3990,
           "url": "https://store.shopping.yahoo.co.jp/ankerdirect/a121d.html",
-          "review_rate": 4.89,
-          "review_count": 71
+          "review_rate": 4.88,
+          "review_count": 72
         }
       ]
     },
@@ -1313,8 +1349,8 @@
           "shop_name": "inklink Japan",
           "price_jpy": 1760,
           "url": "https://store.shopping.yahoo.co.jp/case-by-case1/3017.html",
-          "review_rate": 4.42,
-          "review_count": 657
+          "review_rate": 4.41,
+          "review_count": 658
         }
       ]
     },
@@ -1341,7 +1377,7 @@
           "price_jpy": 1480,
           "url": "https://store.shopping.yahoo.co.jp/onetoothshop/btshs206.html",
           "review_rate": 4.1,
-          "review_count": 53827
+          "review_count": 53829
         }
       ]
     },
@@ -1400,33 +1436,6 @@
       ]
     },
     {
-      "jan_code": "4571604941496",
-      "title": "Shokz SKZ-EP-000062 OpenFit Pro オープンイヤー型ワイヤレスイヤホン 同期型デュアルダイアフラム構造採用 Bluetooth対応 ブラック",
-      "listing_count": 1,
-      "lowest_price_jpy": 39880,
-      "highest_price_jpy": 39880,
-      "price_spread_jpy": 0,
-      "price_spread_percent": 0.0,
-      "best_offer": {
-        "id": "yahoo:yamada-denki_1595156011",
-        "merchant": "Yahoo!ショッピング",
-        "shop_name": "ヤマダデンキ Yahoo!店",
-        "price_jpy": 39880,
-        "url": "https://store.shopping.yahoo.co.jp/yamada-denki/1595156011.html"
-      },
-      "listings": [
-        {
-          "id": "yahoo:yamada-denki_1595156011",
-          "merchant": "Yahoo!ショッピング",
-          "shop_name": "ヤマダデンキ Yahoo!店",
-          "price_jpy": 39880,
-          "url": "https://store.shopping.yahoo.co.jp/yamada-denki/1595156011.html",
-          "review_rate": 4,
-          "review_count": 6
-        }
-      ]
-    },
-    {
       "jan_code": "4571651019155",
       "title": "ワイヤレスイヤホン Soundcore P42i / ノイズキャンセリング / ノイキャン / コンパクト / 小型 / かわいい / 通学 / 最大40H再生 / IP55 防塵・防水 アンカー",
       "listing_count": 1,
@@ -1477,6 +1486,33 @@
           "url": "https://store.shopping.yahoo.co.jp/yamada-denki/1594419018.html",
           "review_rate": 4.61,
           "review_count": 36
+        }
+      ]
+    },
+    {
+      "jan_code": "4571604941496",
+      "title": "Shokz SKZ-EP-000062 OpenFit Pro オープンイヤー型ワイヤレスイヤホン 同期型デュアルダイアフラム構造採用 Bluetooth対応 ブラック",
+      "listing_count": 1,
+      "lowest_price_jpy": 39880,
+      "highest_price_jpy": 39880,
+      "price_spread_jpy": 0,
+      "price_spread_percent": 0.0,
+      "best_offer": {
+        "id": "yahoo:yamada-denki_1595156011",
+        "merchant": "Yahoo!ショッピング",
+        "shop_name": "ヤマダデンキ Yahoo!店",
+        "price_jpy": 39880,
+        "url": "https://store.shopping.yahoo.co.jp/yamada-denki/1595156011.html"
+      },
+      "listings": [
+        {
+          "id": "yahoo:yamada-denki_1595156011",
+          "merchant": "Yahoo!ショッピング",
+          "shop_name": "ヤマダデンキ Yahoo!店",
+          "price_jpy": 39880,
+          "url": "https://store.shopping.yahoo.co.jp/yamada-denki/1595156011.html",
+          "review_rate": 4,
+          "review_count": 6
         }
       ]
     },
@@ -1535,33 +1571,6 @@
       ]
     },
     {
-      "jan_code": "4571411218361",
-      "title": "Anker Soundcore P30i (Bluetooth 5.4)【完全ワイヤレスイヤホン / アクティブノイズキャンセリング /マルチポイント接続 / 最大45時間再生 / 小型軽量】",
-      "listing_count": 1,
-      "lowest_price_jpy": 5990,
-      "highest_price_jpy": 5990,
-      "price_spread_jpy": 0,
-      "price_spread_percent": 0.0,
-      "best_offer": {
-        "id": "yahoo:ankerdirect_a3959",
-        "merchant": "Yahoo!ショッピング",
-        "shop_name": "Anker 公式ストア ヤフー店",
-        "price_jpy": 5990,
-        "url": "https://store.shopping.yahoo.co.jp/ankerdirect/a3959.html"
-      },
-      "listings": [
-        {
-          "id": "yahoo:ankerdirect_a3959",
-          "merchant": "Yahoo!ショッピング",
-          "shop_name": "Anker 公式ストア ヤフー店",
-          "price_jpy": 5990,
-          "url": "https://store.shopping.yahoo.co.jp/ankerdirect/a3959.html",
-          "review_rate": 4.63,
-          "review_count": 206
-        }
-      ]
-    },
-    {
       "jan_code": "0619659182557",
       "title": "特価セール SanDisk Extreme ポータブルSSD 1TB USB3.2 Gen2 R:1050MB/s W:1000MB/s 外付けSSD SDSSDE61-1T00-G25【翌日配達】5年保証 並行輸入品",
       "listing_count": 1,
@@ -1616,33 +1625,6 @@
       ]
     },
     {
-      "jan_code": "0619659204778",
-      "title": "SanDisk Extreme ポータブルSSD 1TB USB3.2 Gen2 R:1050MB/s W:1000MB/s 外付けSSD SDSSDE61-1T00【翌日配達】5年保証 並行輸入品",
-      "listing_count": 1,
-      "lowest_price_jpy": 32988,
-      "highest_price_jpy": 32988,
-      "price_spread_jpy": 0,
-      "price_spread_percent": 0.0,
-      "best_offer": {
-        "id": "yahoo:jnh_sa8013ssde61-1t",
-        "merchant": "Yahoo!ショッピング",
-        "shop_name": "嘉年華",
-        "price_jpy": 32988,
-        "url": "https://store.shopping.yahoo.co.jp/jnh/sa8013ssde61-1t.html"
-      },
-      "listings": [
-        {
-          "id": "yahoo:jnh_sa8013ssde61-1t",
-          "merchant": "Yahoo!ショッピング",
-          "shop_name": "嘉年華",
-          "price_jpy": 32988,
-          "url": "https://store.shopping.yahoo.co.jp/jnh/sa8013ssde61-1t.html",
-          "review_rate": 4.8,
-          "review_count": 30
-        }
-      ]
-    },
-    {
       "jan_code": "0619659224530",
       "title": "ポイント2倍 ポータブルSSD 1TB 外付けSSD SanDisk USB3.2 Gen2 R:600MB/s USB-CtoCケーブル付き SDSSDE10-1T00-G25 3年保証 翌日配達送料無料",
       "listing_count": 1,
@@ -1666,33 +1648,6 @@
           "url": "https://store.shopping.yahoo.co.jp/spd-shop/sassd1t-e10-g25.html",
           "review_rate": 0,
           "review_count": 0
-        }
-      ]
-    },
-    {
-      "jan_code": "0649528787347",
-      "title": "特価セール Crucial クルーシャル 内蔵型SSD 500GB NVMe PCIe Gen3 x4 M.2 2280 SSD P1シリーズ 3D NAND CT500P1SSD8 5年保証・翌日配達 グローバルパッケージ",
-      "listing_count": 1,
-      "lowest_price_jpy": 15281,
-      "highest_price_jpy": 15281,
-      "price_spread_jpy": 0,
-      "price_spread_percent": 0.0,
-      "best_offer": {
-        "id": "yahoo:jnh_mc8012p1-500g",
-        "merchant": "Yahoo!ショッピング",
-        "shop_name": "嘉年華",
-        "price_jpy": 15281,
-        "url": "https://store.shopping.yahoo.co.jp/jnh/mc8012p1-500g.html"
-      },
-      "listings": [
-        {
-          "id": "yahoo:jnh_mc8012p1-500g",
-          "merchant": "Yahoo!ショッピング",
-          "shop_name": "嘉年華",
-          "price_jpy": 15281,
-          "url": "https://store.shopping.yahoo.co.jp/jnh/mc8012p1-500g.html",
-          "review_rate": 4.7,
-          "review_count": 104
         }
       ]
     },
@@ -1778,29 +1733,29 @@
       ]
     },
     {
-      "jan_code": "4981254057810",
-      "title": "バッファロー SSD-PUT1.0U3-B 外付けSSD 1TB ポータブル USB3.0 耐衝撃 Windows Mac対応 国内正規品 送料無料 暗号化ソフト対応 パスワード保護 バックアップ",
+      "jan_code": "0649528787347",
+      "title": "特価セール Crucial クルーシャル 内蔵型SSD 500GB NVMe PCIe Gen3 x4 M.2 2280 SSD P1シリーズ 3D NAND CT500P1SSD8 5年保証・翌日配達 グローバルパッケージ",
       "listing_count": 1,
-      "lowest_price_jpy": 26820,
-      "highest_price_jpy": 26820,
+      "lowest_price_jpy": 16881,
+      "highest_price_jpy": 16881,
       "price_spread_jpy": 0,
       "price_spread_percent": 0.0,
       "best_offer": {
-        "id": "yahoo:onigirisyouten_yhs-4981254057858-set001",
+        "id": "yahoo:jnh_mc8012p1-500g",
         "merchant": "Yahoo!ショッピング",
-        "shop_name": "Ocean Picks",
-        "price_jpy": 26820,
-        "url": "https://store.shopping.yahoo.co.jp/onigirisyouten/yhs-4981254057858-set001.html"
+        "shop_name": "嘉年華",
+        "price_jpy": 16881,
+        "url": "https://store.shopping.yahoo.co.jp/jnh/mc8012p1-500g.html"
       },
       "listings": [
         {
-          "id": "yahoo:onigirisyouten_yhs-4981254057858-set001",
+          "id": "yahoo:jnh_mc8012p1-500g",
           "merchant": "Yahoo!ショッピング",
-          "shop_name": "Ocean Picks",
-          "price_jpy": 26820,
-          "url": "https://store.shopping.yahoo.co.jp/onigirisyouten/yhs-4981254057858-set001.html",
-          "review_rate": 0,
-          "review_count": 1
+          "shop_name": "嘉年華",
+          "price_jpy": 16881,
+          "url": "https://store.shopping.yahoo.co.jp/jnh/mc8012p1-500g.html",
+          "review_rate": 4.7,
+          "review_count": 104
         }
       ]
     },
@@ -1967,33 +1922,6 @@
       ]
     },
     {
-      "jan_code": "4573574594511",
-      "title": "Nintendo Switch2対応 microSDXC Express カード 512GB microSD Express カード Switch2 SDカード スイッチ2 メーカー5年保証付 海外輸出モデル SE-MSE512G20Z1G",
-      "listing_count": 1,
-      "lowest_price_jpy": 16980,
-      "highest_price_jpy": 16980,
-      "price_spread_jpy": 0,
-      "price_spread_percent": 0.0,
-      "best_offer": {
-        "id": "yahoo:fastonline_se-mse512g20z1g",
-        "merchant": "Yahoo!ショッピング",
-        "shop_name": "SSD ストレージ専門店SUNEASTストア",
-        "price_jpy": 16980,
-        "url": "https://store.shopping.yahoo.co.jp/fastonline/se-mse512g20z1g.html"
-      },
-      "listings": [
-        {
-          "id": "yahoo:fastonline_se-mse512g20z1g",
-          "merchant": "Yahoo!ショッピング",
-          "shop_name": "SSD ストレージ専門店SUNEASTストア",
-          "price_jpy": 16980,
-          "url": "https://store.shopping.yahoo.co.jp/fastonline/se-mse512g20z1g.html",
-          "review_rate": 4.85,
-          "review_count": 13
-        }
-      ]
-    },
-    {
       "jan_code": "4902370545302",
       "title": "Nintendo Switch Lite コーラル 任天堂 Switch本体 ※量販店舗印付の場合があります、商品情報ご覧ください。",
       "listing_count": 1,
@@ -2021,29 +1949,56 @@
       ]
     },
     {
-      "jan_code": "4523052030185",
-      "title": "SanDisk microSD Express Card 256GB for Nintendo Switch 2 BEE-A-SD01A",
+      "jan_code": "4573574594511",
+      "title": "Nintendo Switch2対応 microSDXC Express カード 512GB microSD Express カード Switch2 SDカード スイッチ2 メーカー5年保証付 海外輸出モデル SE-MSE512G20Z1G",
       "listing_count": 1,
-      "lowest_price_jpy": 9869,
-      "highest_price_jpy": 9869,
+      "lowest_price_jpy": 17980,
+      "highest_price_jpy": 17980,
       "price_spread_jpy": 0,
       "price_spread_percent": 0.0,
       "best_offer": {
-        "id": "yahoo:light-hikari_4523052030185",
+        "id": "yahoo:fastonline_se-mse512g20z1g",
         "merchant": "Yahoo!ショッピング",
-        "shop_name": "らいぶshop",
-        "price_jpy": 9869,
-        "url": "https://store.shopping.yahoo.co.jp/light-hikari/4523052030185.html"
+        "shop_name": "SSD ストレージ専門店SUNEASTストア",
+        "price_jpy": 17980,
+        "url": "https://store.shopping.yahoo.co.jp/fastonline/se-mse512g20z1g.html"
       },
       "listings": [
         {
-          "id": "yahoo:light-hikari_4523052030185",
+          "id": "yahoo:fastonline_se-mse512g20z1g",
           "merchant": "Yahoo!ショッピング",
-          "shop_name": "らいぶshop",
-          "price_jpy": 9869,
-          "url": "https://store.shopping.yahoo.co.jp/light-hikari/4523052030185.html",
-          "review_rate": 4.63,
-          "review_count": 8
+          "shop_name": "SSD ストレージ専門店SUNEASTストア",
+          "price_jpy": 17980,
+          "url": "https://store.shopping.yahoo.co.jp/fastonline/se-mse512g20z1g.html",
+          "review_rate": 4.85,
+          "review_count": 13
+        }
+      ]
+    },
+    {
+      "jan_code": "4902370535730",
+      "title": "任天堂 Nintendo Switch Proコントローラー 返品種別B",
+      "listing_count": 1,
+      "lowest_price_jpy": 7670,
+      "highest_price_jpy": 7670,
+      "price_spread_jpy": 0,
+      "price_spread_percent": 0.0,
+      "best_offer": {
+        "id": "yahoo:joshin_4902370535730-54-62428",
+        "merchant": "Yahoo!ショッピング",
+        "shop_name": "Joshin web",
+        "price_jpy": 7670,
+        "url": "https://store.shopping.yahoo.co.jp/joshin/4902370535730-54-62428.html"
+      },
+      "listings": [
+        {
+          "id": "yahoo:joshin_4902370535730-54-62428",
+          "merchant": "Yahoo!ショッピング",
+          "shop_name": "Joshin web",
+          "price_jpy": 7670,
+          "url": "https://store.shopping.yahoo.co.jp/joshin/4902370535730-54-62428.html",
+          "review_rate": 4.79,
+          "review_count": 143
         }
       ]
     },
@@ -2097,7 +2052,7 @@
           "price_jpy": 17600,
           "url": "https://store.shopping.yahoo.co.jp/tiger-online/jpw-h100k.html",
           "review_rate": 4.49,
-          "review_count": 490
+          "review_count": 491
         }
       ]
     },
@@ -2318,33 +2273,6 @@
       ]
     },
     {
-      "jan_code": "4974305227232",
-      "title": "象印 IH炊飯器 極め炊き 黒まる厚釜 NW-VJ10-BA ブラック [5.5合炊き] ZOJIRUSHI 日本製 新生活",
-      "listing_count": 1,
-      "lowest_price_jpy": 17150,
-      "highest_price_jpy": 17150,
-      "price_spread_jpy": 0,
-      "price_spread_percent": 0.0,
-      "best_offer": {
-        "id": "yahoo:emedama_4974305227232",
-        "merchant": "Yahoo!ショッピング",
-        "shop_name": "カメラのキタムラヤフー店",
-        "price_jpy": 17150,
-        "url": "https://store.shopping.yahoo.co.jp/emedama/4974305227232.html"
-      },
-      "listings": [
-        {
-          "id": "yahoo:emedama_4974305227232",
-          "merchant": "Yahoo!ショッピング",
-          "shop_name": "カメラのキタムラヤフー店",
-          "price_jpy": 17150,
-          "url": "https://store.shopping.yahoo.co.jp/emedama/4974305227232.html",
-          "review_rate": 4.75,
-          "review_count": 12
-        }
-      ]
-    },
-    {
       "jan_code": "4967576706933",
       "title": "炊飯器 5.5合 一人暮らし用 5合炊き IH アイリスオーヤマ コンパクト 銘柄炊き パン ケーキ 省エネモード RC-ILA50 炊飯ジャー *",
       "listing_count": 1,
@@ -2372,29 +2300,29 @@
       ]
     },
     {
-      "jan_code": "4550533233537",
-      "title": "炊飯器 5合 5.5合 マイコン式炊飯器 5合炊き 5.5合炊き 一人暮らし 温度調理 省エネ 早炊き 山善 YJT-M10(W)/(B) マイコン炊飯器 マイコン炊飯ジャー 炊飯機",
+      "jan_code": "4974305227232",
+      "title": "象印 IH炊飯器 極め炊き 黒まる厚釜 NW-VJ10-BA ブラック [5.5合炊き] ZOJIRUSHI 日本製 新生活",
       "listing_count": 1,
-      "lowest_price_jpy": 11880,
-      "highest_price_jpy": 11880,
+      "lowest_price_jpy": 17150,
+      "highest_price_jpy": 17150,
       "price_spread_jpy": 0,
       "price_spread_percent": 0.0,
       "best_offer": {
-        "id": "yahoo:e-kurashi_t0f29s",
+        "id": "yahoo:emedama_4974305227232",
         "merchant": "Yahoo!ショッピング",
-        "shop_name": "くらしのeショップ",
-        "price_jpy": 11880,
-        "url": "https://store.shopping.yahoo.co.jp/e-kurashi/t0f29s.html"
+        "shop_name": "カメラのキタムラヤフー店",
+        "price_jpy": 17150,
+        "url": "https://store.shopping.yahoo.co.jp/emedama/4974305227232.html"
       },
       "listings": [
         {
-          "id": "yahoo:e-kurashi_t0f29s",
+          "id": "yahoo:emedama_4974305227232",
           "merchant": "Yahoo!ショッピング",
-          "shop_name": "くらしのeショップ",
-          "price_jpy": 11880,
-          "url": "https://store.shopping.yahoo.co.jp/e-kurashi/t0f29s.html",
-          "review_rate": 4.33,
-          "review_count": 69
+          "shop_name": "カメラのキタムラヤフー店",
+          "price_jpy": 17150,
+          "url": "https://store.shopping.yahoo.co.jp/emedama/4974305227232.html",
+          "review_rate": 4.75,
+          "review_count": 12
         }
       ]
     },
@@ -2426,6 +2354,33 @@
       ]
     },
     {
+      "jan_code": "4550533233537",
+      "title": "炊飯器 5合 5.5合 マイコン式炊飯器 5合炊き 5.5合炊き 一人暮らし 温度調理 省エネ 早炊き 山善 YJT-M10(W)/(B) マイコン炊飯器 マイコン炊飯ジャー 炊飯機",
+      "listing_count": 1,
+      "lowest_price_jpy": 11880,
+      "highest_price_jpy": 11880,
+      "price_spread_jpy": 0,
+      "price_spread_percent": 0.0,
+      "best_offer": {
+        "id": "yahoo:e-kurashi_t0f29s",
+        "merchant": "Yahoo!ショッピング",
+        "shop_name": "くらしのeショップ",
+        "price_jpy": 11880,
+        "url": "https://store.shopping.yahoo.co.jp/e-kurashi/t0f29s.html"
+      },
+      "listings": [
+        {
+          "id": "yahoo:e-kurashi_t0f29s",
+          "merchant": "Yahoo!ショッピング",
+          "shop_name": "くらしのeショップ",
+          "price_jpy": 11880,
+          "url": "https://store.shopping.yahoo.co.jp/e-kurashi/t0f29s.html",
+          "review_rate": 4.33,
+          "review_count": 69
+        }
+      ]
+    },
+    {
       "jan_code": "4967576706964",
       "title": "炊飯器 5.5合 一人暮らし用 5合炊き IH アイリスオーヤマ コンパクト 銘柄炊き パン ケーキ 省エネモード 炊飯ジャー RC-ILA50 安心延長保証対象【JB】",
       "listing_count": 1,
@@ -2453,29 +2408,29 @@
       ]
     },
     {
-      "jan_code": "4589668479381",
-      "title": "simplus マイコン式 4合炊き炊飯器 一人暮らし シンプラス SP-RCMC4 温度センサー 保温機能 レビュー報告でトング【メーカー保証1年】",
+      "jan_code": "4904710441312",
+      "title": "WEB限定 炊飯器 5合炊き タイガー IH 炊飯器 5.5合 炊きたて お手入れ 2点 冷凍ご飯 調理 日本製 JPN-N100 ブラックフライデー",
       "listing_count": 1,
-      "lowest_price_jpy": 4680,
-      "highest_price_jpy": 4680,
+      "lowest_price_jpy": 17800,
+      "highest_price_jpy": 17800,
       "price_spread_jpy": 0,
       "price_spread_percent": 0.0,
       "best_offer": {
-        "id": "yahoo:recommendo_eb-4582226844157",
+        "id": "yahoo:tiger-online_jpn-n100k",
         "merchant": "Yahoo!ショッピング",
-        "shop_name": "リコメン堂",
-        "price_jpy": 4680,
-        "url": "https://store.shopping.yahoo.co.jp/recommendo/eb-4582226844157.html"
+        "shop_name": "タイガー魔法瓶Yahoo!ショッピング店",
+        "price_jpy": 17800,
+        "url": "https://store.shopping.yahoo.co.jp/tiger-online/jpn-n100k.html"
       },
       "listings": [
         {
-          "id": "yahoo:recommendo_eb-4582226844157",
+          "id": "yahoo:tiger-online_jpn-n100k",
           "merchant": "Yahoo!ショッピング",
-          "shop_name": "リコメン堂",
-          "price_jpy": 4680,
-          "url": "https://store.shopping.yahoo.co.jp/recommendo/eb-4582226844157.html",
-          "review_rate": 4.06,
-          "review_count": 732
+          "shop_name": "タイガー魔法瓶Yahoo!ショッピング店",
+          "price_jpy": 17800,
+          "url": "https://store.shopping.yahoo.co.jp/tiger-online/jpn-n100k.html",
+          "review_rate": 4.28,
+          "review_count": 67
         }
       ]
     },
@@ -2588,33 +2543,6 @@
       ]
     },
     {
-      "jan_code": "4549873192468",
-      "title": "ブラックフライデー 日立 掃除機 パワかるサイクロン 日本製 強力パワー＆軽量ボディ CV-SP300M サイクロン式クリーナー 強い吸引力 緑色LE",
-      "listing_count": 1,
-      "lowest_price_jpy": 27700,
-      "highest_price_jpy": 27700,
-      "price_spread_jpy": 0,
-      "price_spread_percent": 0.0,
-      "best_offer": {
-        "id": "yahoo:shopch_4000823236001",
-        "merchant": "Yahoo!ショッピング",
-        "shop_name": "ショップチャンネル Yahoo!店",
-        "price_jpy": 27700,
-        "url": "https://store.shopping.yahoo.co.jp/shopch/4000823236001.html"
-      },
-      "listings": [
-        {
-          "id": "yahoo:shopch_4000823236001",
-          "merchant": "Yahoo!ショッピング",
-          "shop_name": "ショップチャンネル Yahoo!店",
-          "price_jpy": 27700,
-          "url": "https://store.shopping.yahoo.co.jp/shopch/4000823236001.html",
-          "review_rate": 4.56,
-          "review_count": 27
-        }
-      ]
-    },
-    {
       "jan_code": "4902901902918",
       "title": "掃除機 紙パック式 ランキング1位 日本製 コード式 最強クラス 強力吸引 掃除機 軽量 be-k TC-FRX1 三菱電機サイクロン式とコードレス式 掃除機 と 比較",
       "listing_count": 1,
@@ -2696,6 +2624,33 @@
       ]
     },
     {
+      "jan_code": "4549873192468",
+      "title": "ブラックフライデー 日立 掃除機 パワかるサイクロン 日本製 強力パワー＆軽量ボディ CV-SP300M サイクロン式クリーナー 強い吸引力 緑色LE",
+      "listing_count": 1,
+      "lowest_price_jpy": 27700,
+      "highest_price_jpy": 27700,
+      "price_spread_jpy": 0,
+      "price_spread_percent": 0.0,
+      "best_offer": {
+        "id": "yahoo:shopch_4000823236001",
+        "merchant": "Yahoo!ショッピング",
+        "shop_name": "ショップチャンネル Yahoo!店",
+        "price_jpy": 27700,
+        "url": "https://store.shopping.yahoo.co.jp/shopch/4000823236001.html"
+      },
+      "listings": [
+        {
+          "id": "yahoo:shopch_4000823236001",
+          "merchant": "Yahoo!ショッピング",
+          "shop_name": "ショップチャンネル Yahoo!店",
+          "price_jpy": 27700,
+          "url": "https://store.shopping.yahoo.co.jp/shopch/4000823236001.html",
+          "review_rate": 4.56,
+          "review_count": 27
+        }
+      ]
+    },
+    {
       "jan_code": "4967576744386",
       "title": "掃除機 コードレス サイクロン 充電式スティッククリーナー 軽量 コンパクト 自走式 アイリスオーヤマ 新生活 一人暮らし SCD-185PM 安心延長保証対象",
       "listing_count": 1,
@@ -2719,33 +2674,6 @@
           "url": "https://store.shopping.yahoo.co.jp/irisplaza/207162f.html",
           "review_rate": 4.24,
           "review_count": 94
-        }
-      ]
-    },
-    {
-      "jan_code": "4582701005226",
-      "title": "サイクロン コード式 掃除機 軽量 2WAY simplus ハンディー クリーナー ハンディクリーナー サイクロン掃除機 スティック SP-VC01 【メーカー保証1年】",
-      "listing_count": 1,
-      "lowest_price_jpy": 2999,
-      "highest_price_jpy": 2999,
-      "price_spread_jpy": 0,
-      "price_spread_percent": 0.0,
-      "best_offer": {
-        "id": "yahoo:recommendo_r2-sp-rcl2w",
-        "merchant": "Yahoo!ショッピング",
-        "shop_name": "リコメン堂",
-        "price_jpy": 2999,
-        "url": "https://store.shopping.yahoo.co.jp/recommendo/r2-sp-rcl2w.html"
-      },
-      "listings": [
-        {
-          "id": "yahoo:recommendo_r2-sp-rcl2w",
-          "merchant": "Yahoo!ショッピング",
-          "shop_name": "リコメン堂",
-          "price_jpy": 2999,
-          "url": "https://store.shopping.yahoo.co.jp/recommendo/r2-sp-rcl2w.html",
-          "review_rate": 4.25,
-          "review_count": 305
         }
       ]
     },
@@ -2777,6 +2705,33 @@
       ]
     },
     {
+      "jan_code": "4582701005226",
+      "title": "サイクロン コード式 掃除機 軽量 2WAY simplus ハンディー クリーナー ハンディクリーナー サイクロン掃除機 スティック SP-VC01 【メーカー保証1年】",
+      "listing_count": 1,
+      "lowest_price_jpy": 2999,
+      "highest_price_jpy": 2999,
+      "price_spread_jpy": 0,
+      "price_spread_percent": 0.0,
+      "best_offer": {
+        "id": "yahoo:recommendo_r2-sp-rcl2w",
+        "merchant": "Yahoo!ショッピング",
+        "shop_name": "リコメン堂",
+        "price_jpy": 2999,
+        "url": "https://store.shopping.yahoo.co.jp/recommendo/r2-sp-rcl2w.html"
+      },
+      "listings": [
+        {
+          "id": "yahoo:recommendo_r2-sp-rcl2w",
+          "merchant": "Yahoo!ショッピング",
+          "shop_name": "リコメン堂",
+          "price_jpy": 2999,
+          "url": "https://store.shopping.yahoo.co.jp/recommendo/r2-sp-rcl2w.html",
+          "review_rate": 4.25,
+          "review_count": 305
+        }
+      ]
+    },
+    {
       "jan_code": "4904530408069",
       "title": "東芝 サイクロン式 掃除機 トルネオ ミニ VC-C7-R グランレッド TOSHIBA クリーナー 吸引力が強い 新生活家電 《納期約１週間》",
       "listing_count": 1,
@@ -2804,29 +2759,29 @@
       ]
     },
     {
-      "jan_code": "4975302146045",
-      "title": "【処分特価5500円→3380円】 ドライヤー 速乾 大風量 静音 テスコム ヘアドライヤー 1200W 軽量 高速 マイナスイオン 折り畳み TD460B 公式店 日本メーカー",
+      "jan_code": "4990127805526",
+      "title": "【選べる特典付】 掃除機 単品 コード式 100W ナニコレ珍百景 スティック ハンディ サンカ サイクロン スティック型クリーナー スティカル SANKA Stical",
       "listing_count": 1,
-      "lowest_price_jpy": 3380,
-      "highest_price_jpy": 3380,
+      "lowest_price_jpy": 7700,
+      "highest_price_jpy": 7700,
       "price_spread_jpy": 0,
       "price_spread_percent": 0.0,
       "best_offer": {
-        "id": "yahoo:tescom-shop_td460",
+        "id": "yahoo:plywood_46639013",
         "merchant": "Yahoo!ショッピング",
-        "shop_name": "テスコム公式Yahoo!店",
-        "price_jpy": 3380,
-        "url": "https://store.shopping.yahoo.co.jp/tescom-shop/td460.html"
+        "shop_name": "plywood",
+        "price_jpy": 7700,
+        "url": "https://store.shopping.yahoo.co.jp/plywood/46639013.html"
       },
       "listings": [
         {
-          "id": "yahoo:tescom-shop_td460",
+          "id": "yahoo:plywood_46639013",
           "merchant": "Yahoo!ショッピング",
-          "shop_name": "テスコム公式Yahoo!店",
-          "price_jpy": 3380,
-          "url": "https://store.shopping.yahoo.co.jp/tescom-shop/td460.html",
-          "review_rate": 4.56,
-          "review_count": 77
+          "shop_name": "plywood",
+          "price_jpy": 7700,
+          "url": "https://store.shopping.yahoo.co.jp/plywood/46639013.html",
+          "review_rate": 4.61,
+          "review_count": 522
         }
       ]
     },
@@ -2852,8 +2807,8 @@
           "shop_name": "テスコム公式Yahoo!店",
           "price_jpy": 5478,
           "url": "https://store.shopping.yahoo.co.jp/tescom-shop/tdx300a.html",
-          "review_rate": 4.26,
-          "review_count": 27
+          "review_rate": 4.29,
+          "review_count": 28
         }
       ]
     },
@@ -3047,29 +3002,29 @@
       ]
     },
     {
-      "jan_code": "4549980880500",
-      "title": "パナソニック EH-NE4K-H ヘアードライヤー イオニティ 大風量 ダークグレー",
+      "jan_code": "4974011803829",
+      "title": "【正規品取扱店】リファ ビューテック ドライヤー スマート ダブル ホワイト ReFa BEAUTECH DRYER SMART W RE-AX-02A 軽量 折りたたみ 海外対応 ギフト 爆買",
       "listing_count": 1,
-      "lowest_price_jpy": 3850,
-      "highest_price_jpy": 3850,
+      "lowest_price_jpy": 38880,
+      "highest_price_jpy": 38880,
       "price_spread_jpy": 0,
       "price_spread_percent": 0.0,
       "best_offer": {
-        "id": "yahoo:yamada-denki_6791075012",
+        "id": "yahoo:marbleshop_101521-a",
         "merchant": "Yahoo!ショッピング",
-        "shop_name": "ヤマダデンキ Yahoo!店",
-        "price_jpy": 3850,
-        "url": "https://store.shopping.yahoo.co.jp/yamada-denki/6791075012.html"
+        "shop_name": "marble shop",
+        "price_jpy": 38880,
+        "url": "https://store.shopping.yahoo.co.jp/marbleshop/101521-a.html"
       },
       "listings": [
         {
-          "id": "yahoo:yamada-denki_6791075012",
+          "id": "yahoo:marbleshop_101521-a",
           "merchant": "Yahoo!ショッピング",
-          "shop_name": "ヤマダデンキ Yahoo!店",
-          "price_jpy": 3850,
-          "url": "https://store.shopping.yahoo.co.jp/yamada-denki/6791075012.html",
-          "review_rate": 4.49,
-          "review_count": 101
+          "shop_name": "marble shop",
+          "price_jpy": 38880,
+          "url": "https://store.shopping.yahoo.co.jp/marbleshop/101521-a.html",
+          "review_rate": 4.86,
+          "review_count": 7
         }
       ]
     },
@@ -3097,6 +3052,33 @@
           "url": "https://store.shopping.yahoo.co.jp/bestone1/yk1603-a2309.html",
           "review_rate": 4.43,
           "review_count": 581
+        }
+      ]
+    },
+    {
+      "jan_code": "4549980880500",
+      "title": "パナソニック EH-NE4K-H ヘアードライヤー イオニティ 大風量 ダークグレー",
+      "listing_count": 1,
+      "lowest_price_jpy": 3850,
+      "highest_price_jpy": 3850,
+      "price_spread_jpy": 0,
+      "price_spread_percent": 0.0,
+      "best_offer": {
+        "id": "yahoo:yamada-denki_6791075012",
+        "merchant": "Yahoo!ショッピング",
+        "shop_name": "ヤマダデンキ Yahoo!店",
+        "price_jpy": 3850,
+        "url": "https://store.shopping.yahoo.co.jp/yamada-denki/6791075012.html"
+      },
+      "listings": [
+        {
+          "id": "yahoo:yamada-denki_6791075012",
+          "merchant": "Yahoo!ショッピング",
+          "shop_name": "ヤマダデンキ Yahoo!店",
+          "price_jpy": 3850,
+          "url": "https://store.shopping.yahoo.co.jp/yamada-denki/6791075012.html",
+          "review_rate": 4.49,
+          "review_count": 101
         }
       ]
     },
@@ -3209,33 +3191,6 @@
       ]
     },
     {
-      "jan_code": "8720689050920",
-      "title": "ソニッケア　電動歯ブラシ フィリップス ー 2100 ー ［ー / 音波水流式］ マリンブルー　HX4021/04",
-      "listing_count": 1,
-      "lowest_price_jpy": 6444,
-      "highest_price_jpy": 6444,
-      "price_spread_jpy": 0,
-      "price_spread_percent": 0.0,
-      "best_offer": {
-        "id": "yahoo:y-kojima_8720689050920",
-        "merchant": "Yahoo!ショッピング",
-        "shop_name": "コジマYahoo!店",
-        "price_jpy": 6444,
-        "url": "https://store.shopping.yahoo.co.jp/y-kojima/8720689050920.html"
-      },
-      "listings": [
-        {
-          "id": "yahoo:y-kojima_8720689050920",
-          "merchant": "Yahoo!ショッピング",
-          "shop_name": "コジマYahoo!店",
-          "price_jpy": 6444,
-          "url": "https://store.shopping.yahoo.co.jp/y-kojima/8720689050920.html",
-          "review_rate": 4.41,
-          "review_count": 22
-        }
-      ]
-    },
-    {
       "jan_code": "4975479417467",
       "title": "オムロン 電動歯ブラシ HT-B304-W 軽量約46g ブラシ4本付き 充電式 音波式電動歯ブラシ ナビタイマー搭載 25,500回/分の高速音波振動 メディクリーン OMRON",
       "listing_count": 1,
@@ -3259,6 +3214,33 @@
           "url": "https://store.shopping.yahoo.co.jp/townmallneo/y-ht-b304-w.html",
           "review_rate": 4.75,
           "review_count": 16
+        }
+      ]
+    },
+    {
+      "jan_code": "8720689050920",
+      "title": "ソニッケア　電動歯ブラシ フィリップス ー 2100 ー ［ー / 音波水流式］ マリンブルー　HX4021/04",
+      "listing_count": 1,
+      "lowest_price_jpy": 6444,
+      "highest_price_jpy": 6444,
+      "price_spread_jpy": 0,
+      "price_spread_percent": 0.0,
+      "best_offer": {
+        "id": "yahoo:y-kojima_8720689050920",
+        "merchant": "Yahoo!ショッピング",
+        "shop_name": "コジマYahoo!店",
+        "price_jpy": 6444,
+        "url": "https://store.shopping.yahoo.co.jp/y-kojima/8720689050920.html"
+      },
+      "listings": [
+        {
+          "id": "yahoo:y-kojima_8720689050920",
+          "merchant": "Yahoo!ショッピング",
+          "shop_name": "コジマYahoo!店",
+          "price_jpy": 6444,
+          "url": "https://store.shopping.yahoo.co.jp/y-kojima/8720689050920.html",
+          "review_rate": 4.41,
+          "review_count": 22
         }
       ]
     },
@@ -3533,33 +3515,6 @@
       ]
     },
     {
-      "jan_code": "4944370033519",
-      "title": "【60%OFF】加湿器 小型 超音波式 大容量 上から給水 木目調 卓上 スリム 静音 寝室 コンパクト アロマ対応 上部給水 乾燥対策 卓上 抗菌 おしゃれ 北欧 MTL-H001",
-      "listing_count": 1,
-      "lowest_price_jpy": 2668,
-      "highest_price_jpy": 2668,
-      "price_spread_jpy": 0,
-      "price_spread_percent": 0.0,
-      "best_offer": {
-        "id": "yahoo:mottole_mtl-h001",
-        "merchant": "Yahoo!ショッピング",
-        "shop_name": "mottole Yahoo!店",
-        "price_jpy": 2668,
-        "url": "https://store.shopping.yahoo.co.jp/mottole/mtl-h001.html"
-      },
-      "listings": [
-        {
-          "id": "yahoo:mottole_mtl-h001",
-          "merchant": "Yahoo!ショッピング",
-          "shop_name": "mottole Yahoo!店",
-          "price_jpy": 2668,
-          "url": "https://store.shopping.yahoo.co.jp/mottole/mtl-h001.html",
-          "review_rate": 4.34,
-          "review_count": 172
-        }
-      ]
-    },
-    {
       "jan_code": "4543183526739",
       "title": "加湿器 超音波式 しずく型 おしゃれ おすすめ 卓上 アロマ 41時間 大容量 4.0L 4リットル タンク 上から給水 アロマディフューザー HG-ASL008 爆買",
       "listing_count": 1,
@@ -3722,33 +3677,6 @@
       ]
     },
     {
-      "jan_code": "4974305224385",
-      "title": "象印マホービン EC-MA60 コーヒーメーカー ブラック",
-      "listing_count": 1,
-      "lowest_price_jpy": 6294,
-      "highest_price_jpy": 6294,
-      "price_spread_jpy": 0,
-      "price_spread_percent": 0.0,
-      "best_offer": {
-        "id": "yahoo:yamada-denki_6612321014",
-        "merchant": "Yahoo!ショッピング",
-        "shop_name": "ヤマダデンキ Yahoo!店",
-        "price_jpy": 6294,
-        "url": "https://store.shopping.yahoo.co.jp/yamada-denki/6612321014.html"
-      },
-      "listings": [
-        {
-          "id": "yahoo:yamada-denki_6612321014",
-          "merchant": "Yahoo!ショッピング",
-          "shop_name": "ヤマダデンキ Yahoo!店",
-          "price_jpy": 6294,
-          "url": "https://store.shopping.yahoo.co.jp/yamada-denki/6612321014.html",
-          "review_rate": 4.63,
-          "review_count": 8
-        }
-      ]
-    },
-    {
       "jan_code": "4988371023025",
       "title": "コーヒーメーカー デロンギ アクティブ シリーズ ドリップコーヒーメーカー ICM14011J delonghi コーヒー ドリップコーヒー 珈琲",
       "listing_count": 1,
@@ -3772,6 +3700,33 @@
           "url": "https://store.shopping.yahoo.co.jp/delonghi/0132301091.html",
           "review_rate": 4.33,
           "review_count": 72
+        }
+      ]
+    },
+    {
+      "jan_code": "4974305224385",
+      "title": "象印マホービン EC-MA60 コーヒーメーカー ブラック",
+      "listing_count": 1,
+      "lowest_price_jpy": 6294,
+      "highest_price_jpy": 6294,
+      "price_spread_jpy": 0,
+      "price_spread_percent": 0.0,
+      "best_offer": {
+        "id": "yahoo:yamada-denki_6612321014",
+        "merchant": "Yahoo!ショッピング",
+        "shop_name": "ヤマダデンキ Yahoo!店",
+        "price_jpy": 6294,
+        "url": "https://store.shopping.yahoo.co.jp/yamada-denki/6612321014.html"
+      },
+      "listings": [
+        {
+          "id": "yahoo:yamada-denki_6612321014",
+          "merchant": "Yahoo!ショッピング",
+          "shop_name": "ヤマダデンキ Yahoo!店",
+          "price_jpy": 6294,
+          "url": "https://store.shopping.yahoo.co.jp/yamada-denki/6612321014.html",
+          "review_rate": 4.63,
+          "review_count": 8
         }
       ]
     },
@@ -3911,33 +3866,6 @@
       ]
     },
     {
-      "jan_code": "4582180204547",
-      "title": "レコルト コーヒーメーカー おしゃれ 選べる豪華特典 レインドリップ コーヒーメーカー RDC-1 コーヒードリッパー コーヒードリップメーカー ハンドドリップ",
-      "listing_count": 1,
-      "lowest_price_jpy": 4950,
-      "highest_price_jpy": 4950,
-      "price_spread_jpy": 0,
-      "price_spread_percent": 0.0,
-      "best_offer": {
-        "id": "yahoo:aqua-inc_100000201",
-        "merchant": "Yahoo!ショッピング",
-        "shop_name": "セレクトショップAQUA・アクア",
-        "price_jpy": 4950,
-        "url": "https://store.shopping.yahoo.co.jp/aqua-inc/100000201.html"
-      },
-      "listings": [
-        {
-          "id": "yahoo:aqua-inc_100000201",
-          "merchant": "Yahoo!ショッピング",
-          "shop_name": "セレクトショップAQUA・アクア",
-          "price_jpy": 4950,
-          "url": "https://store.shopping.yahoo.co.jp/aqua-inc/100000201.html",
-          "review_rate": 4.49,
-          "review_count": 110
-        }
-      ]
-    },
-    {
       "jan_code": "4904710450161",
       "title": "タイガー　TIGER　コーヒーメーカー アーバンホワイト　ADC-G060WU",
       "listing_count": 1,
@@ -3961,6 +3889,33 @@
           "url": "https://store.shopping.yahoo.co.jp/y-kojima/4904710450161.html",
           "review_rate": 4.48,
           "review_count": 29
+        }
+      ]
+    },
+    {
+      "jan_code": "4582180204547",
+      "title": "レコルト コーヒーメーカー おしゃれ 選べる豪華特典 レインドリップ コーヒーメーカー RDC-1 コーヒードリッパー コーヒードリップメーカー ハンドドリップ",
+      "listing_count": 1,
+      "lowest_price_jpy": 4950,
+      "highest_price_jpy": 4950,
+      "price_spread_jpy": 0,
+      "price_spread_percent": 0.0,
+      "best_offer": {
+        "id": "yahoo:aqua-inc_100000201",
+        "merchant": "Yahoo!ショッピング",
+        "shop_name": "セレクトショップAQUA・アクア",
+        "price_jpy": 4950,
+        "url": "https://store.shopping.yahoo.co.jp/aqua-inc/100000201.html"
+      },
+      "listings": [
+        {
+          "id": "yahoo:aqua-inc_100000201",
+          "merchant": "Yahoo!ショッピング",
+          "shop_name": "セレクトショップAQUA・アクア",
+          "price_jpy": 4950,
+          "url": "https://store.shopping.yahoo.co.jp/aqua-inc/100000201.html",
+          "review_rate": 4.49,
+          "review_count": 110
         }
       ]
     },
