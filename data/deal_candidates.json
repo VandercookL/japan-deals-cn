@@ -1,6 +1,14 @@
 {
-  "generated_at": "2026-11-22T12:00:51+00:00",
-  "rule": "当前价格较上一价格下降至少5%",
+  "generated_at": "2026-11-22T12:06:24+00:00",
+  "version": 2,
+  "rules": {
+    "minimum_drop_percent": 5,
+    "good_deal": "降价>=5%且当前价格为同JAN跨店最低价",
+    "strong_deal": "降价>=10%，且为同JAN跨店最低价，且比第二低价便宜>=5%"
+  },
   "count": 0,
+  "strong_candidate_count": 0,
+  "good_candidate_count": 0,
+  "price_drop_candidate_count": 0,
   "items": []
 }
