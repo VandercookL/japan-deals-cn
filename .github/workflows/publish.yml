@@ -98,6 +98,11 @@ jobs:
             git add data/price_history/
           fi
 
+          # Automatically detected price-drop candidates
+          if [ -f data/deal_candidates.json ]; then
+            git add data/deal_candidates.json
+          fi
+
           # Commit only when something actually changed
           if ! git diff --cached --quiet; then
 
