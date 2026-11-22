@@ -1,24 +1,1521 @@
-<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="在日好价，整理日本线上线下折扣、优惠券及促销活动，方便在日华人查看。"><title>在日好价｜日本线上线下优惠信息</title><style>
-:root{font-family:system-ui,-apple-system,'Noto Sans SC',sans-serif;color:#18212d;background:#f5f7fa}*{box-sizing:border-box}body{margin:0}header{background:#142b48;color:white;padding:22px max(18px,calc((100vw - 1120px)/2))}header h1{margin:0;font-size:25px}header p{margin:7px 0 0;color:#d0dcea}main{max-width:1120px;margin:auto;padding:26px 18px}.hero{background:white;border-radius:16px;padding:24px;box-shadow:0 2px 14px #172b4d0a}.hero h2{margin:0 0 8px}.muted{color:#667488}.filters{display:flex;gap:10px;flex-wrap:wrap;margin:20px 0}.filters input,.filters select{padding:12px;border:1px solid #d5dce4;border-radius:10px;background:white;font-size:15px}.filters input{flex:2;min-width:180px}.filters select{flex:1;min-width:150px}.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:16px}.deal{background:white;border:1px solid #e6ebf0;border-radius:14px;padding:18px;display:flex;flex-direction:column;gap:10px}.deal h3{margin:0;font-size:17px}.tag{display:inline-block;background:#e8f1fc;color:#1e4c87;padding:5px 9px;border-radius:8px;font-size:12px;width:max-content}.price{font-size:25px;font-weight:750}.old{color:#89929e;text-decoration:line-through}.btn{display:inline-block;text-align:center;text-decoration:none;color:white;background:#1264a3;border-radius:9px;padding:11px;font-weight:650;margin-top:auto}.btn:hover{background:#084a80}.note{font-size:12px;color:#677589}.empty{background:white;padding:32px;border-radius:14px;text-align:center}footer{max-width:1120px;margin:30px auto;padding:15px 18px;color:#687482;font-size:13px}a{color:#1264a3}footer a{margin-right:15px}@media(max-width:600px){header h1{font-size:22px}}
+<!doctype html>
+<html lang="zh-CN">
 
-header{background:#fff;color:#172b28;border-bottom:1px solid #e6e9e6;padding-top:26px;padding-bottom:24px}
-header h1{font-size:29px;font-weight:800;letter-spacing:-.8px}
-header p{color:#63716a;font-size:14px}
-body{background:#f7f8f5;color:#202923}
-main{padding-top:28px}
-.hero{box-shadow:none;border:1px solid #e6eae5;border-radius:12px;padding:22px 24px}
-.hero h2{font-size:21px}
-.hero .muted{font-size:14px;line-height:1.65;margin:0 0 14px}
-.filters{margin:16px 0}
-.filters input,.filters select{border:1px solid #dce2dc;border-radius:8px;outline-color:#246b51}
-.deal{border-color:#e3e8e1;border-radius:10px;box-shadow:0 2px 8px #19291b08}
-.tag{background:#e8f2eb;color:#286444;border-radius:5px}
-.price{color:#1b5d3b}
-.btn{background:#216d4c;border-radius:7px}
-.btn:hover{background:#165438}
-.empty{grid-column:1/-1;border:1px dashed #d7dfd7;border-radius:10px;background:#fff;color:#78847b;padding:56px 20px}
-footer{border-top:1px solid #e3e8e2;margin-top:55px;line-height:1.7}
-@media(max-width:600px){header{padding:22px 18px}header h1{font-size:26px}.hero{padding:20px}}
-</style></head><body><header><h1>在日好价</h1><p>日本线上线下优惠、折扣和促销活动</p></header><main><section class="hero"><h2>最新优惠</h2><p class="muted">汇总日本电商和实体店的近期优惠，价格及活动条件以商家公布的信息为准。</p><p id="updated" class="note">正在读取数据…</p></section><div class="filters"><input id="q" placeholder="搜索商品、商家或活动" aria-label="搜索"><select id="category" aria-label="分类"><option value="">全部分类</option></select><select id="sort" aria-label="排序"><option value="new">最近更新</option><option value="price">价格从低到高（无价格的排后）</option></select></div><section id="deals" class="grid" aria-live="polite"></section></main><footer><p>部分链接可能为推广链接，购买后本站可能获得佣金。</p><p>价格、库存及活动规则请以商家页面为准。</p><a href="https://www.rakuten.co.jp/" rel="noopener">楽天</a><a href="https://www.amazon.co.jp/" rel="noopener">Amazon Japan</a><p></p></footer><script>
-let all=[];const $=id=>document.getElementById(id);const yen=n=>'¥'+Number(n).toLocaleString('ja-JP');function safeUrl(u){try{let v=new URL(u);return v.protocol==='https:'?v.href:'#'}catch{return '#'}}function render(){let q=$('q').value.toLowerCase().trim(),cat=$('category').value;let items=all.filter(x=>(!cat||x.category===cat)&&[x.title,x.merchant,x.description,x.location,x.deal_type,x.offer_text].join(' ').toLowerCase().includes(q));if($('sort').value==='price')items.sort((a,b)=>(a.price_jpy??Infinity)-(b.price_jpy??Infinity));else items.sort((a,b)=>String(b.verified_at).localeCompare(String(a.verified_at)));$('deals').replaceChildren();if(!items.length){let e=document.createElement('div');e.className='empty';e.textContent='暂无优惠信息';$('deals').append(e);return}for(let x of items){let c=document.createElement('article');c.className='deal';let tag=document.createElement('span');tag.className='tag';tag.textContent=x.deal_type+' · '+x.merchant;c.append(tag);let h=document.createElement('h3');h.textContent=x.title;c.append(h);let d=document.createElement('p');d.className='muted';d.textContent=x.description||'';c.append(d);let p=document.createElement('div');p.className='price';p.textContent=x.price_jpy?yen(x.price_jpy):(x.offer_text||'查看活动详情');c.append(p);if(x.reference_price_jpy && x.reference_price_evidence_url){let old=document.createElement('div');old.className='old';old.textContent='参考价 '+yen(x.reference_price_jpy);c.append(old)}let note=document.createElement('div');note.className='note';note.textContent=[x.location||'线上',x.expires_at?'截止 '+new Intl.DateTimeFormat('zh-CN',{timeZone:'Asia/Tokyo',month:'numeric',day:'numeric'}).format(new Date(x.expires_at)):'', '更新 '+new Intl.DateTimeFormat('zh-CN',{timeZone:'Asia/Tokyo',month:'numeric',day:'numeric'}).format(new Date(x.verified_at))].filter(Boolean).join(' · ');c.append(note);let a=document.createElement('a');a.className='btn';a.href=safeUrl(x.affiliate_url||x.url);a.target='_blank';a.rel=(x.affiliate_url?'sponsored nofollow ':'')+'noopener noreferrer';a.textContent='查看优惠';c.append(a);$('deals').append(c)}}async function load(){try{let r=await fetch('./deals.json',{cache:'no-store'});if(!r.ok)throw Error('HTTP '+r.status);let d=await r.json();all=(d.deals||[]).filter(x=>x.verified===true&&(x.price_jpy==null||x.price_jpy>0)&&x.url&&(!x.expires_at||Date.parse(x.expires_at)>Date.now()));$('updated').textContent='更新于 '+(d.generated_at?new Intl.DateTimeFormat('zh-CN',{timeZone:'Asia/Tokyo',month:'numeric',day:'numeric',hour:'2-digit',minute:'2-digit'}).format(new Date(d.generated_at)):'暂无')+' · '+all.length+' 条';for(let v of [...new Set(all.map(x=>x.category))].sort()){let o=document.createElement('option');o.value=v;o.textContent=v;$('category').append(o)}render()}catch(e){$('updated').textContent='数据暂不可用';$('deals').textContent='读取失败，请稍后刷新。'}}['q','category','sort'].forEach(x=>$(x).addEventListener(x==='q'?'input':'change',render));load();
-</script></body></html>
+<head>
+  <meta charset="utf-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1"
+  >
+
+  <meta
+    name="description"
+    content="在日好价，整理日本线上线下折扣、优惠券及促销活动，方便在日华人查看。"
+  >
+
+  <title>在日好价｜日本线上线下优惠信息</title>
+
+  <style>
+
+    /* =====================================================
+       Base
+       ===================================================== */
+
+    :root {
+      font-family:
+        system-ui,
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        "Noto Sans SC",
+        "Noto Sans JP",
+        sans-serif;
+
+      color: #202923;
+      background: #f7f8f5;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: #f7f8f5;
+      color: #202923;
+    }
+
+    a {
+      color: inherit;
+    }
+
+
+    /* =====================================================
+       Header
+       ===================================================== */
+
+    header {
+      background: #ffffff;
+      border-bottom: 1px solid #e5e9e5;
+    }
+
+    .header-inner {
+      max-width: 1120px;
+      margin: auto;
+      padding: 27px 18px 25px;
+    }
+
+    .brand-row {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .brand-mark {
+      width: 36px;
+      height: 36px;
+      border-radius: 9px;
+      background: #216d4c;
+      color: #ffffff;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      font-size: 18px;
+      font-weight: 800;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 29px;
+      line-height: 1.2;
+      letter-spacing: -0.8px;
+      font-weight: 800;
+    }
+
+    header p {
+      margin: 8px 0 0;
+      color: #68756d;
+      font-size: 14px;
+    }
+
+
+    /* =====================================================
+       Main
+       ===================================================== */
+
+    main {
+      max-width: 1120px;
+      margin: auto;
+      padding: 30px 18px 10px;
+    }
+
+
+    /* =====================================================
+       Intro
+       ===================================================== */
+
+    .hero {
+      background: #ffffff;
+      border: 1px solid #e4e9e4;
+      border-radius: 12px;
+      padding: 23px 25px;
+    }
+
+    .hero-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 20px;
+    }
+
+    .hero h2 {
+      margin: 0 0 8px;
+      font-size: 21px;
+    }
+
+    .hero-description {
+      margin: 0;
+      color: #657168;
+      font-size: 14px;
+      line-height: 1.7;
+      max-width: 720px;
+    }
+
+    .update-info {
+      white-space: nowrap;
+      font-size: 12px;
+      color: #7a867d;
+      margin-top: 4px;
+    }
+
+
+    /* =====================================================
+       Deal type tabs
+       ===================================================== */
+
+    .type-tabs {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin-top: 20px;
+    }
+
+    .type-tab {
+      border: 1px solid #dce3dd;
+      background: #ffffff;
+      color: #536158;
+
+      padding: 8px 13px;
+      border-radius: 7px;
+
+      font-size: 13px;
+      cursor: pointer;
+
+      transition:
+        background .15s,
+        border-color .15s,
+        color .15s;
+    }
+
+    .type-tab:hover {
+      border-color: #9ab3a2;
+    }
+
+    .type-tab.active {
+      background: #e8f2eb;
+      color: #216343;
+      border-color: #bfd5c6;
+      font-weight: 650;
+    }
+
+
+    /* =====================================================
+       Search / filters
+       ===================================================== */
+
+    .filters {
+      display: grid;
+      grid-template-columns: minmax(220px, 2fr) 1fr 1fr;
+      gap: 10px;
+      margin: 18px 0 22px;
+    }
+
+    .filters input,
+    .filters select {
+      width: 100%;
+      background: #ffffff;
+      border: 1px solid #dce2dc;
+      border-radius: 8px;
+      padding: 12px 13px;
+
+      color: #28312b;
+      font-size: 14px;
+      outline: none;
+    }
+
+    .filters input:focus,
+    .filters select:focus {
+      border-color: #609278;
+      box-shadow: 0 0 0 3px rgba(33, 109, 76, .08);
+    }
+
+
+    /* =====================================================
+       Deal grid
+       ===================================================== */
+
+    .grid {
+      display: grid;
+      grid-template-columns:
+        repeat(auto-fill, minmax(280px, 1fr));
+      gap: 16px;
+    }
+
+
+    /* =====================================================
+       Deal card
+       ===================================================== */
+
+    .deal {
+      background: #ffffff;
+      border: 1px solid #e2e7e2;
+      border-radius: 11px;
+      padding: 18px;
+
+      display: flex;
+      flex-direction: column;
+      gap: 11px;
+
+      min-height: 270px;
+
+      transition:
+        transform .15s ease,
+        box-shadow .15s ease,
+        border-color .15s ease;
+    }
+
+    .deal:hover {
+      transform: translateY(-2px);
+      border-color: #d4ddd5;
+      box-shadow: 0 7px 20px rgba(31, 49, 37, .07);
+    }
+
+    .deal-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+
+    .tag {
+      display: inline-flex;
+      align-items: center;
+
+      background: #e8f2eb;
+      color: #286444;
+
+      border-radius: 5px;
+      padding: 5px 8px;
+
+      font-size: 12px;
+      line-height: 1;
+    }
+
+    .merchant-tag {
+      background: #f1f3f1;
+      color: #667168;
+    }
+
+    .deal h3 {
+      margin: 0;
+
+      font-size: 17px;
+      line-height: 1.5;
+
+      letter-spacing: -.15px;
+    }
+
+    .description {
+      color: #66736a;
+      font-size: 13px;
+      line-height: 1.65;
+      margin: 0;
+    }
+
+
+    /* =====================================================
+       Price
+       ===================================================== */
+
+    .price-area {
+      margin-top: 2px;
+    }
+
+    .price {
+      color: #1b5d3b;
+      font-size: 26px;
+      line-height: 1.2;
+      font-weight: 760;
+      letter-spacing: -.5px;
+    }
+
+    .offer-text {
+      color: #1b5d3b;
+      font-size: 19px;
+      line-height: 1.4;
+      font-weight: 700;
+    }
+
+    .old {
+      margin-top: 5px;
+      color: #8b958e;
+      font-size: 12px;
+    }
+
+    .old-price {
+      text-decoration: line-through;
+    }
+
+
+    /* =====================================================
+       Meta
+       ===================================================== */
+
+    .note {
+      color: #78847b;
+      font-size: 12px;
+      line-height: 1.6;
+    }
+
+
+    /* =====================================================
+       Button
+       ===================================================== */
+
+    .btn {
+      display: block;
+
+      margin-top: auto;
+      padding: 11px 14px;
+
+      background: #216d4c;
+      color: #ffffff;
+
+      border-radius: 7px;
+
+      text-align: center;
+      text-decoration: none;
+
+      font-size: 14px;
+      font-weight: 650;
+
+      transition: background .15s;
+    }
+
+    .btn:hover {
+      background: #165438;
+    }
+
+
+    /* =====================================================
+       Empty state
+       ===================================================== */
+
+    .empty {
+      grid-column: 1 / -1;
+
+      background: #ffffff;
+      border: 1px dashed #d5ded6;
+      border-radius: 11px;
+
+      padding: 65px 20px;
+      text-align: center;
+    }
+
+    .empty-title {
+      margin: 0 0 7px;
+      font-size: 16px;
+      font-weight: 650;
+      color: #526057;
+    }
+
+    .empty-description {
+      margin: 0;
+      color: #89938c;
+      font-size: 13px;
+      line-height: 1.6;
+    }
+
+
+    /* =====================================================
+       Footer
+       ===================================================== */
+
+    footer {
+      max-width: 1120px;
+
+      margin: 55px auto 0;
+      padding: 24px 18px 35px;
+
+      border-top: 1px solid #e2e7e2;
+
+      color: #737e76;
+      font-size: 12px;
+      line-height: 1.8;
+    }
+
+    footer p {
+      margin: 3px 0;
+    }
+
+    .footer-links {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+      margin-top: 12px;
+    }
+
+    .footer-links a {
+      color: #496957;
+      text-decoration: none;
+    }
+
+    .footer-links a:hover {
+      text-decoration: underline;
+    }
+
+
+    /* =====================================================
+       Mobile
+       ===================================================== */
+
+    @media (max-width: 720px) {
+
+      .header-inner {
+        padding-top: 22px;
+        padding-bottom: 21px;
+      }
+
+      header h1 {
+        font-size: 26px;
+      }
+
+      .brand-mark {
+        width: 33px;
+        height: 33px;
+      }
+
+      main {
+        padding-top: 20px;
+      }
+
+      .hero {
+        padding: 20px;
+      }
+
+      .hero-top {
+        display: block;
+      }
+
+      .update-info {
+        margin-top: 13px;
+        white-space: normal;
+      }
+
+      .filters {
+        grid-template-columns: 1fr;
+      }
+
+      .grid {
+        grid-template-columns: 1fr;
+      }
+
+      .deal {
+        min-height: auto;
+      }
+
+    }
+
+  </style>
+</head>
+
+
+<body>
+
+  <!-- ===================================================
+       Header
+       =================================================== -->
+
+  <header>
+
+    <div class="header-inner">
+
+      <div class="brand-row">
+
+        <div
+          class="brand-mark"
+          aria-hidden="true"
+        >
+          ¥
+        </div>
+
+        <h1>在日好价</h1>
+
+      </div>
+
+      <p>
+        日本线上线下优惠、折扣和促销活动
+      </p>
+
+    </div>
+
+  </header>
+
+
+  <!-- ===================================================
+       Main
+       =================================================== -->
+
+  <main>
+
+    <section class="hero">
+
+      <div class="hero-top">
+
+        <div>
+
+          <h2>最新优惠</h2>
+
+          <p class="hero-description">
+            整理日本电商及实体店近期值得关注的优惠信息。
+            所有公开展示的优惠均经过人工确认，
+            实际价格、库存及活动条件请以商家页面为准。
+          </p>
+
+        </div>
+
+        <div
+          id="updated"
+          class="update-info"
+        >
+          正在读取数据…
+        </div>
+
+      </div>
+
+
+      <div
+        class="type-tabs"
+        id="typeTabs"
+        aria-label="优惠类型"
+      >
+
+        <button
+          class="type-tab active"
+          data-type=""
+          type="button"
+        >
+          全部
+        </button>
+
+        <button
+          class="type-tab"
+          data-type="商品降价"
+          type="button"
+        >
+          商品降价
+        </button>
+
+        <button
+          class="type-tab"
+          data-type="优惠券与积分"
+          type="button"
+        >
+          优惠券与积分
+        </button>
+
+        <button
+          class="type-tab"
+          data-type="线下促销"
+          type="button"
+        >
+          线下促销
+        </button>
+
+      </div>
+
+    </section>
+
+
+    <!-- Filters -->
+
+    <div class="filters">
+
+      <input
+        id="q"
+        type="search"
+        placeholder="搜索商品、商家或活动"
+        aria-label="搜索"
+      >
+
+      <select
+        id="category"
+        aria-label="商品分类"
+      >
+
+        <option value="">
+          全部分类
+        </option>
+
+      </select>
+
+
+      <select
+        id="sort"
+        aria-label="排序"
+      >
+
+        <option value="new">
+          最近更新
+        </option>
+
+        <option value="price">
+          价格从低到高
+        </option>
+
+      </select>
+
+    </div>
+
+
+    <!-- Deal cards -->
+
+    <section
+      id="deals"
+      class="grid"
+      aria-live="polite"
+    ></section>
+
+  </main>
+
+
+  <!-- ===================================================
+       Footer
+       =================================================== -->
+
+  <footer>
+
+    <p>
+      在日好价仅整理和展示公开优惠信息，不参与商品销售。
+    </p>
+
+    <p>
+      价格、库存、积分倍率及活动规则可能随时变化，
+      请以商家最终页面为准。
+    </p>
+
+    <p>
+      部分链接可能为推广链接，
+      通过相关链接购买后本站可能获得佣金，
+      不影响用户实际购买价格。
+    </p>
+
+    <div class="footer-links">
+
+      <a
+        href="https://shopping.yahoo.co.jp/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Yahoo!ショッピング
+      </a>
+
+      <a
+        href="https://www.rakuten.co.jp/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        楽天市場
+      </a>
+
+      <a
+        href="https://www.amazon.co.jp/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Amazon Japan
+      </a>
+
+    </div>
+
+  </footer>
+
+
+  <!-- ===================================================
+       JavaScript
+       =================================================== -->
+
+  <script>
+
+    let all = [];
+
+    let selectedType = "";
+
+
+    const $ = id =>
+      document.getElementById(id);
+
+
+    const yen = number =>
+      "¥" +
+      Number(number).toLocaleString(
+        "ja-JP"
+      );
+
+
+    function safeUrl(url) {
+
+      try {
+
+        const parsed = new URL(url);
+
+        return (
+          parsed.protocol === "https:"
+            ? parsed.href
+            : "#"
+        );
+
+      } catch {
+
+        return "#";
+
+      }
+
+    }
+
+
+    function formatDate(value) {
+
+      if (!value) {
+        return "";
+      }
+
+      const date = new Date(value);
+
+      if (
+        Number.isNaN(
+          date.getTime()
+        )
+      ) {
+        return "";
+      }
+
+      return new Intl.DateTimeFormat(
+        "zh-CN",
+        {
+          timeZone: "Asia/Tokyo",
+          month: "numeric",
+          day: "numeric"
+        }
+      ).format(date);
+
+    }
+
+
+    function formatDateTime(value) {
+
+      if (!value) {
+        return "暂无";
+      }
+
+      const date = new Date(value);
+
+      if (
+        Number.isNaN(
+          date.getTime()
+        )
+      ) {
+        return "暂无";
+      }
+
+      return new Intl.DateTimeFormat(
+        "zh-CN",
+        {
+          timeZone: "Asia/Tokyo",
+          month: "numeric",
+          day: "numeric",
+          hour: "2-digit",
+          minute: "2-digit"
+        }
+      ).format(date);
+
+    }
+
+
+    /* ===================================================
+       Render
+       =================================================== */
+
+    function render() {
+
+      const query =
+        $("q")
+          .value
+          .toLowerCase()
+          .trim();
+
+      const category =
+        $("category").value;
+
+
+      let items = all.filter(
+        item => {
+
+          if (
+            selectedType &&
+            item.deal_type !== selectedType
+          ) {
+            return false;
+          }
+
+          if (
+            category &&
+            item.category !== category
+          ) {
+            return false;
+          }
+
+
+          const searchText = [
+
+            item.title,
+            item.merchant,
+            item.description,
+            item.location,
+            item.deal_type,
+            item.offer_text,
+            item.category
+
+          ]
+            .filter(Boolean)
+            .join(" ")
+            .toLowerCase();
+
+
+          return searchText.includes(
+            query
+          );
+
+        }
+      );
+
+
+      if (
+        $("sort").value === "price"
+      ) {
+
+        items.sort(
+          (a, b) =>
+            (
+              a.price_jpy
+              ?? Infinity
+            )
+            -
+            (
+              b.price_jpy
+              ?? Infinity
+            )
+        );
+
+      } else {
+
+        items.sort(
+          (a, b) =>
+            String(
+              b.verified_at || ""
+            ).localeCompare(
+              String(
+                a.verified_at || ""
+              )
+            )
+        );
+
+      }
+
+
+      const container =
+        $("deals");
+
+      container.replaceChildren();
+
+
+      /* Empty state */
+
+      if (!items.length) {
+
+        const empty =
+          document.createElement(
+            "div"
+          );
+
+        empty.className =
+          "empty";
+
+
+        const title =
+          document.createElement(
+            "p"
+          );
+
+        title.className =
+          "empty-title";
+
+
+        const description =
+          document.createElement(
+            "p"
+          );
+
+        description.className =
+          "empty-description";
+
+
+        if (all.length === 0) {
+
+          title.textContent =
+            "暂无已验证优惠";
+
+          description.textContent =
+            "后台正在持续监测价格和促销信息，确认后会在这里发布。";
+
+        } else {
+
+          title.textContent =
+            "没有找到符合条件的优惠";
+
+          description.textContent =
+            "可以尝试更换分类或搜索关键词。";
+
+        }
+
+
+        empty.append(
+          title,
+          description
+        );
+
+        container.append(
+          empty
+        );
+
+        return;
+
+      }
+
+
+      /* Deal cards */
+
+      for (const item of items) {
+
+        const card =
+          document.createElement(
+            "article"
+          );
+
+        card.className =
+          "deal";
+
+
+        /* Tags */
+
+        const tags =
+          document.createElement(
+            "div"
+          );
+
+        tags.className =
+          "deal-tags";
+
+
+        if (item.deal_type) {
+
+          const dealTag =
+            document.createElement(
+              "span"
+            );
+
+          dealTag.className =
+            "tag";
+
+          dealTag.textContent =
+            item.deal_type;
+
+          tags.append(
+            dealTag
+          );
+
+        }
+
+
+        if (item.merchant) {
+
+          const merchantTag =
+            document.createElement(
+              "span"
+            );
+
+          merchantTag.className =
+            "tag merchant-tag";
+
+          merchantTag.textContent =
+            item.merchant;
+
+          tags.append(
+            merchantTag
+          );
+
+        }
+
+
+        card.append(
+          tags
+        );
+
+
+        /* Title */
+
+        const title =
+          document.createElement(
+            "h3"
+          );
+
+        title.textContent =
+          item.title || "优惠信息";
+
+        card.append(
+          title
+        );
+
+
+        /* Description */
+
+        if (item.description) {
+
+          const description =
+            document.createElement(
+              "p"
+            );
+
+          description.className =
+            "description";
+
+          description.textContent =
+            item.description;
+
+          card.append(
+            description
+          );
+
+        }
+
+
+        /* Price */
+
+        const priceArea =
+          document.createElement(
+            "div"
+          );
+
+        priceArea.className =
+          "price-area";
+
+
+        const price =
+          document.createElement(
+            "div"
+          );
+
+
+        if (item.price_jpy) {
+
+          price.className =
+            "price";
+
+          price.textContent =
+            yen(
+              item.price_jpy
+            );
+
+        } else {
+
+          price.className =
+            "offer-text";
+
+          price.textContent =
+            item.offer_text
+            || "查看活动详情";
+
+        }
+
+
+        priceArea.append(
+          price
+        );
+
+
+        /* Reference price */
+
+        if (
+          item.reference_price_jpy &&
+          item.reference_price_evidence_url
+        ) {
+
+          const old =
+            document.createElement(
+              "div"
+            );
+
+          old.className =
+            "old";
+
+
+          const oldLabel =
+            document.createTextNode(
+              "参考价 "
+            );
+
+
+          const oldPrice =
+            document.createElement(
+              "span"
+            );
+
+          oldPrice.className =
+            "old-price";
+
+          oldPrice.textContent =
+            yen(
+              item.reference_price_jpy
+            );
+
+
+          old.append(
+            oldLabel,
+            oldPrice
+          );
+
+          priceArea.append(
+            old
+          );
+
+        }
+
+
+        card.append(
+          priceArea
+        );
+
+
+        /* Metadata */
+
+        const metadata = [];
+
+
+        metadata.push(
+          item.location
+          || "线上"
+        );
+
+
+        if (item.expires_at) {
+
+          metadata.push(
+            "截止 "
+            + formatDate(
+              item.expires_at
+            )
+          );
+
+        }
+
+
+        if (item.verified_at) {
+
+          metadata.push(
+            "确认 "
+            + formatDate(
+              item.verified_at
+            )
+          );
+
+        }
+
+
+        const note =
+          document.createElement(
+            "div"
+          );
+
+        note.className =
+          "note";
+
+        note.textContent =
+          metadata.join(
+            " · "
+          );
+
+        card.append(
+          note
+        );
+
+
+        /* Button */
+
+        const link =
+          document.createElement(
+            "a"
+          );
+
+        link.className =
+          "btn";
+
+        link.href =
+          safeUrl(
+            item.affiliate_url
+            || item.url
+          );
+
+        link.target =
+          "_blank";
+
+
+        if (item.affiliate_url) {
+
+          link.rel =
+            "sponsored nofollow noopener noreferrer";
+
+        } else {
+
+          link.rel =
+            "noopener noreferrer";
+
+        }
+
+
+        link.textContent =
+          "查看优惠";
+
+
+        card.append(
+          link
+        );
+
+
+        container.append(
+          card
+        );
+
+      }
+
+    }
+
+
+    /* ===================================================
+       Load deals.json
+       =================================================== */
+
+    async function load() {
+
+      try {
+
+        const response =
+          await fetch(
+            "./deals.json",
+            {
+              cache: "no-store"
+            }
+          );
+
+
+        if (!response.ok) {
+
+          throw new Error(
+            "HTTP "
+            + response.status
+          );
+
+        }
+
+
+        const data =
+          await response.json();
+
+
+        all = (
+          data.deals || []
+        ).filter(
+          item =>
+            item.verified === true
+            &&
+            (
+              item.price_jpy == null
+              ||
+              item.price_jpy > 0
+            )
+            &&
+            item.url
+            &&
+            (
+              !item.expires_at
+              ||
+              Date.parse(
+                item.expires_at
+              ) > Date.now()
+            )
+        );
+
+
+        $("updated").textContent =
+          "更新于 "
+          + formatDateTime(
+              data.generated_at
+            )
+          + " · "
+          + all.length
+          + " 条";
+
+
+        /* Categories */
+
+        const categories = [
+          ...new Set(
+            all
+              .map(
+                item =>
+                  item.category
+              )
+              .filter(Boolean)
+          )
+        ].sort();
+
+
+        for (
+          const category
+          of categories
+        ) {
+
+          const option =
+            document.createElement(
+              "option"
+            );
+
+          option.value =
+            category;
+
+          option.textContent =
+            category;
+
+          $("category").append(
+            option
+          );
+
+        }
+
+
+        render();
+
+      } catch (error) {
+
+        console.error(
+          error
+        );
+
+
+        $("updated").textContent =
+          "数据暂不可用";
+
+
+        $("deals")
+          .replaceChildren();
+
+
+        const empty =
+          document.createElement(
+            "div"
+          );
+
+        empty.className =
+          "empty";
+
+
+        const title =
+          document.createElement(
+            "p"
+          );
+
+        title.className =
+          "empty-title";
+
+        title.textContent =
+          "优惠数据读取失败";
+
+
+        const description =
+          document.createElement(
+            "p"
+          );
+
+        description.className =
+          "empty-description";
+
+        description.textContent =
+          "请稍后刷新页面重试。";
+
+
+        empty.append(
+          title,
+          description
+        );
+
+
+        $("deals").append(
+          empty
+        );
+
+      }
+
+    }
+
+
+    /* ===================================================
+       Events
+       =================================================== */
+
+    $("q").addEventListener(
+      "input",
+      render
+    );
+
+
+    $("category").addEventListener(
+      "change",
+      render
+    );
+
+
+    $("sort").addEventListener(
+      "change",
+      render
+    );
+
+
+    document
+      .querySelectorAll(
+        ".type-tab"
+      )
+      .forEach(
+        button => {
+
+          button.addEventListener(
+            "click",
+            () => {
+
+              selectedType =
+                button.dataset.type
+                || "";
+
+
+              document
+                .querySelectorAll(
+                  ".type-tab"
+                )
+                .forEach(
+                  item =>
+                    item.classList.remove(
+                      "active"
+                    )
+                );
+
+
+              button.classList.add(
+                "active"
+              );
+
+
+              render();
+
+            }
+          );
+
+        }
+      );
+
+
+    load();
+
+  </script>
+
+</body>
+</html>
