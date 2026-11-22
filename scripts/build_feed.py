@@ -1,3 +1,10 @@
+# =========================================================
+# 3. Yahoo! Shopping API
+# Multi-keyword discovery pool
+# =========================================================
+
+yahoo_client_id = os.getenv('YAHOO_CLIENT_ID')
+
 # Yahoo Shopping discovery keywords
 yahoo_keywords = [
     'Anker',
@@ -13,7 +20,6 @@ yahoo_keywords = [
     '加湿器',
     'コーヒーメーカー'
 ]
-
 if yahoo_client_id:
 
     all_candidates = []
