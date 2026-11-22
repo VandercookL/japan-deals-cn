@@ -571,6 +571,7 @@ else:
         "YAHOO_CLIENT_ID is not configured"
     )
 
+
 # =========================================================
 # 3.5 Yahoo JAN statistics
 # =========================================================
@@ -579,10 +580,14 @@ jan_groups = {}
 
 candidates_with_jan = 0
 
+
 for item in yahoo_candidates:
 
     jan_code = str(
-        item.get("jan_code", "")
+        item.get(
+            "jan_code",
+            ""
+        )
     ).strip()
 
     if not jan_code:
@@ -593,10 +598,14 @@ for item in yahoo_candidates:
     if jan_code not in jan_groups:
         jan_groups[jan_code] = []
 
-    jan_groups[jan_code].append(item)
+    jan_groups[jan_code].append(
+        item
+    )
 
 
-unique_jan_products = len(jan_groups)
+unique_jan_products = len(
+    jan_groups
+)
 
 multi_listing_jan_groups = {
     jan: items
@@ -610,7 +619,8 @@ multi_listing_jan_count = len(
 
 cross_shop_listing_count = sum(
     len(items)
-    for items in multi_listing_jan_groups.values()
+    for items in
+    multi_listing_jan_groups.values()
 )
 
 
@@ -643,11 +653,14 @@ print(
     cross_shop_listing_count
 )
 
+
 # =========================================================
 # 3.6 Build JAN-based product comparison
 # =========================================================
 
 product_comparisons = []
+
+comparison_by_jan = {}
 
 
 for jan_code, items in jan_groups.items():
@@ -656,35 +669,46 @@ for jan_code, items in jan_groups.items():
 
     for item in items:
 
-        price = item.get("price_jpy")
+        price = item.get(
+            "price_jpy"
+        )
 
         if (
             isinstance(price, bool)
-            or not isinstance(price, (int, float))
+            or not isinstance(
+                price,
+                (int, float)
+            )
             or price <= 0
         ):
             continue
 
-        valid_listings.append(item)
+        valid_listings.append(
+            item
+        )
 
 
     if not valid_listings:
         continue
 
 
-    # Sort listings from cheapest to most expensive
     valid_listings.sort(
-        key=lambda x: x["price_jpy"]
+        key=lambda x:
+            x["price_jpy"]
     )
 
 
-    lowest_price = valid_listings[0][
-        "price_jpy"
-    ]
+    lowest_price = (
+        valid_listings[0][
+            "price_jpy"
+        ]
+    )
 
-    highest_price = valid_listings[-1][
-        "price_jpy"
-    ]
+    highest_price = (
+        valid_listings[-1][
+            "price_jpy"
+        ]
+    )
 
     price_spread = (
         highest_price
@@ -705,7 +729,9 @@ for jan_code, items in jan_groups.items():
         price_spread_percent = 0
 
 
-    best_listing = valid_listings[0]
+    best_listing = (
+        valid_listings[0]
+    )
 
 
     comparison = {
@@ -720,7 +746,9 @@ for jan_code, items in jan_groups.items():
             ),
 
         "listing_count":
-            len(valid_listings),
+            len(
+                valid_listings
+            ),
 
         "lowest_price_jpy":
             lowest_price,
@@ -738,6 +766,12 @@ for jan_code, items in jan_groups.items():
             ),
 
         "best_offer": {
+
+            "id":
+                best_listing.get(
+                    "id",
+                    ""
+                ),
 
             "merchant":
                 best_listing.get(
@@ -767,7 +801,9 @@ for jan_code, items in jan_groups.items():
 
     for item in valid_listings:
 
-        comparison["listings"].append(
+        comparison[
+            "listings"
+        ].append(
             {
                 "id":
                     item.get(
@@ -815,8 +851,11 @@ for jan_code, items in jan_groups.items():
         comparison
     )
 
+    comparison_by_jan[
+        jan_code
+    ] = comparison
 
-# Products with the biggest shop-to-shop price difference first.
+
 product_comparisons.sort(
     key=lambda x: (
         x["listing_count"] >= 2,
@@ -852,8 +891,11 @@ comparison_file.write_text(
             "multi_listing_product_count":
                 sum(
                     1
-                    for x in product_comparisons
-                    if x["listing_count"] >= 2
+                    for x
+                    in product_comparisons
+                    if x[
+                        "listing_count"
+                    ] >= 2
                 ),
 
             "products":
@@ -885,6 +927,7 @@ print(
         if x["listing_count"] >= 2
     )
 )
+
 
 # =========================================================
 # 4. Yahoo price history
@@ -928,15 +971,21 @@ if price_history_file.exists():
         )
 
         price_history = {
-            "month": month_key,
-            "products": {}
+            "month":
+                month_key,
+
+            "products":
+                {}
         }
 
 else:
 
     price_history = {
-        "month": month_key,
-        "products": {}
+        "month":
+            month_key,
+
+        "products":
+            {}
     }
 
 
@@ -1000,7 +1049,8 @@ for item in yahoo_candidates:
                     ""
                 ),
 
-            "history": []
+            "history":
+                []
         }
 
 
@@ -1066,8 +1116,10 @@ for item in yahoo_candidates:
         continue
 
 
-    last_price = history[-1].get(
-        "price"
+    last_price = (
+        history[-1].get(
+            "price"
+        )
     )
 
 
@@ -1120,6 +1172,26 @@ print(
 
 # =========================================================
 # 5. Detect price-drop candidates
+#
+# Step 9:
+# Combine historical price drop
+# with JAN-based cross-shop comparison.
+#
+# Rules:
+#
+# < 5% drop
+#     -> not a candidate
+#
+# >= 5% drop
+#     -> 降价候选
+#
+# >= 5% drop + cross-shop lowest
+#     -> 好价候选
+#
+# >= 10% drop
+# + cross-shop lowest
+# + >= 5% cheaper than second-lowest listing
+#     -> 强好价候选
 # =========================================================
 
 deal_candidates = []
@@ -1132,7 +1204,9 @@ for product_id, product in products.items():
         []
     )
 
-    # Need at least two actual price levels.
+
+    # Because history only stores price changes,
+    # two entries mean at least two observed prices.
     if len(history) < 2:
         continue
 
@@ -1164,11 +1238,16 @@ for product_id, product in products.items():
         continue
 
 
-    previous_price = prices[-2]
-    current_price = prices[-1]
+    previous_price = (
+        prices[-2]
+    )
+
+    current_price = (
+        prices[-1]
+    )
 
 
-    # Only interested in a current price drop.
+    # Current observation must be a drop.
     if current_price >= previous_price:
         continue
 
@@ -1183,8 +1262,7 @@ for product_id, product in products.items():
     )
 
 
-    # First-stage threshold:
-    # price must fall at least 5%.
+    # Minimum threshold
     if drop_percent < 5:
         continue
 
@@ -1197,107 +1275,376 @@ for product_id, product in products.items():
         prices
     )
 
-    median_price = statistics.median(
-        prices
+    # NOTE:
+    # This median is only descriptive for now.
+    # History stores change events rather than
+    # regular daily snapshots, so this is NOT
+    # treated as a reliable 30-day median.
+    event_median_price = (
+        statistics.median(
+            prices
+        )
     )
 
 
-    if median_price > 0:
-
-        below_median_percent = (
-            (
-                median_price
-                - current_price
-            )
-            / median_price
-            * 100
+    jan_code = str(
+        product.get(
+            "jan_code",
+            ""
         )
+    ).strip()
+
+
+    # -----------------------------------------------------
+    # Cross-shop comparison defaults
+    # -----------------------------------------------------
+
+    cross_shop_available = False
+
+    comparison_listing_count = 0
+
+    is_cross_shop_lowest = False
+
+    lowest_price_jpy = None
+
+    second_lowest_price_jpy = None
+
+    cheaper_than_second_jpy = None
+
+    cheaper_than_second_percent = None
+
+
+    # -----------------------------------------------------
+    # If JAN exists, look up exact-match comparison
+    # -----------------------------------------------------
+
+    comparison = (
+        comparison_by_jan.get(
+            jan_code
+        )
+        if jan_code
+        else None
+    )
+
+
+    if comparison:
+
+        comparison_listings = (
+            comparison.get(
+                "listings",
+                []
+            )
+        )
+
+        comparison_listing_count = len(
+            comparison_listings
+        )
+
+
+        if comparison_listing_count >= 2:
+
+            cross_shop_available = True
+
+            sorted_listings = sorted(
+                comparison_listings,
+                key=lambda x:
+                    x.get(
+                        "price_jpy",
+                        float("inf")
+                    )
+            )
+
+
+            valid_comparison_prices = [
+                x.get("price_jpy")
+                for x in sorted_listings
+                if isinstance(
+                    x.get("price_jpy"),
+                    (int, float)
+                )
+                and not isinstance(
+                    x.get("price_jpy"),
+                    bool
+                )
+                and x.get(
+                    "price_jpy"
+                ) > 0
+            ]
+
+
+            if len(
+                valid_comparison_prices
+            ) >= 2:
+
+                lowest_price_jpy = (
+                    valid_comparison_prices[0]
+                )
+
+                second_lowest_price_jpy = (
+                    valid_comparison_prices[1]
+                )
+
+
+                # A tie at the lowest price still counts
+                # as being one of the lowest-price listings.
+                is_cross_shop_lowest = (
+                    current_price
+                    == lowest_price_jpy
+                )
+
+
+                if (
+                    is_cross_shop_lowest
+                    and second_lowest_price_jpy
+                    > current_price
+                ):
+
+                    cheaper_than_second_jpy = (
+                        second_lowest_price_jpy
+                        - current_price
+                    )
+
+                    cheaper_than_second_percent = (
+                        cheaper_than_second_jpy
+                        / second_lowest_price_jpy
+                        * 100
+                    )
+
+                elif is_cross_shop_lowest:
+
+                    cheaper_than_second_jpy = 0
+
+                    cheaper_than_second_percent = 0
+
+
+    # -----------------------------------------------------
+    # Classification
+    # -----------------------------------------------------
+
+    status = "降价候选"
+
+
+    if (
+        cross_shop_available
+        and is_cross_shop_lowest
+    ):
+
+        status = "好价候选"
+
+
+    if (
+        drop_percent >= 10
+        and cross_shop_available
+        and is_cross_shop_lowest
+        and cheaper_than_second_percent
+        is not None
+        and cheaper_than_second_percent >= 5
+    ):
+
+        status = "强好价候选"
+
+
+    # -----------------------------------------------------
+    # Human-readable reason
+    # -----------------------------------------------------
+
+    reasons = [
+        (
+            "当前价格较上一记录价格下降"
+            f"{drop_percent:.1f}%"
+        )
+    ]
+
+
+    if not jan_code:
+
+        reasons.append(
+            "暂无JAN，无法进行同款跨店验证"
+        )
+
+    elif not cross_shop_available:
+
+        reasons.append(
+            "当前JAN暂无足够的跨店listing进行比较"
+        )
+
+    elif is_cross_shop_lowest:
+
+        reasons.append(
+            "当前价格为同JAN商品的跨店最低价"
+        )
+
+        if (
+            cheaper_than_second_percent
+            is not None
+            and cheaper_than_second_percent > 0
+        ):
+
+            reasons.append(
+                "比第二低价便宜"
+                f"{cheaper_than_second_percent:.1f}%"
+            )
 
     else:
 
-        below_median_percent = 0
+        reasons.append(
+            "当前价格不是同JAN商品的跨店最低价"
+        )
+
+
+    candidate = {
+
+        "id":
+            product_id,
+
+        "title":
+            product.get(
+                "title",
+                ""
+            ),
+
+        "merchant":
+            "Yahoo!ショッピング",
+
+        "shop_name":
+            product.get(
+                "shop_name",
+                ""
+            ),
+
+        "jan_code":
+            jan_code,
+
+        "url":
+            product.get(
+                "url",
+                ""
+            ),
+
+        "previous_price_jpy":
+            previous_price,
+
+        "current_price_jpy":
+            current_price,
+
+        "drop_percent":
+            round(
+                drop_percent,
+                1
+            ),
+
+        "historical_low_jpy":
+            historical_low,
+
+        "historical_high_jpy":
+            historical_high,
+
+        "event_median_price_jpy":
+            event_median_price,
+
+        "price_change_points":
+            len(prices),
+
+        "cross_shop_available":
+            cross_shop_available,
+
+        "comparison_listing_count":
+            comparison_listing_count,
+
+        "is_cross_shop_lowest":
+            is_cross_shop_lowest,
+
+        "lowest_cross_shop_price_jpy":
+            lowest_price_jpy,
+
+        "second_lowest_price_jpy":
+            second_lowest_price_jpy,
+
+        "cheaper_than_second_jpy":
+            cheaper_than_second_jpy,
+
+        "cheaper_than_second_percent":
+            (
+                round(
+                    cheaper_than_second_percent,
+                    1
+                )
+                if cheaper_than_second_percent
+                is not None
+                else None
+            ),
+
+        "status":
+            status,
+
+        "reasons":
+            reasons,
+
+        "detected_at":
+            now.isoformat(
+                timespec="seconds"
+            ),
+
+        "verified":
+            False,
+
+        "note":
+            "系统自动筛选结果，尚未人工验证"
+    }
 
 
     deal_candidates.append(
-        {
-            "id":
-                product_id,
-
-            "title":
-                product.get(
-                    "title",
-                    ""
-                ),
-
-            "merchant":
-                "Yahoo!ショッピング",
-
-            "shop_name":
-                product.get(
-                    "shop_name",
-                    ""
-                ),
-
-            "jan_code":
-                product.get(
-                    "jan_code",
-                    ""
-                ),
-
-            "url":
-                product.get(
-                    "url",
-                    ""
-                ),
-
-            "previous_price_jpy":
-                previous_price,
-
-            "current_price_jpy":
-                current_price,
-
-            "drop_percent":
-                round(
-                    drop_percent,
-                    1
-                ),
-
-            "historical_low_jpy":
-                historical_low,
-
-            "historical_high_jpy":
-                historical_high,
-
-            "median_price_jpy":
-                median_price,
-
-            "below_median_percent":
-                round(
-                    below_median_percent,
-                    1
-                ),
-
-            "price_points":
-                len(prices),
-
-            "detected_at":
-                now.isoformat(
-                    timespec="seconds"
-                ),
-
-            "verified":
-                False,
-
-            "note":
-                "系统检测到降价，尚未人工验证"
-        }
+        candidate
     )
 
 
+# =========================================================
+# Candidate ranking
+#
+# Strong candidates first,
+# then good candidates,
+# then ordinary price-drop candidates.
+# Within each class, larger drops first.
+# =========================================================
+
+status_rank = {
+    "强好价候选": 3,
+    "好价候选": 2,
+    "降价候选": 1,
+}
+
+
 deal_candidates.sort(
-    key=lambda x:
-        x["drop_percent"],
+    key=lambda x: (
+        status_rank.get(
+            x["status"],
+            0
+        ),
+        x["drop_percent"]
+    ),
     reverse=True
+)
+
+
+strong_candidate_count = sum(
+    1
+    for x in deal_candidates
+    if x["status"]
+    == "强好价候选"
+)
+
+good_candidate_count = sum(
+    1
+    for x in deal_candidates
+    if x["status"]
+    == "好价候选"
+)
+
+price_drop_candidate_count = sum(
+    1
+    for x in deal_candidates
+    if x["status"]
+    == "降价候选"
 )
 
 
@@ -1313,13 +1660,39 @@ deal_candidates.sort(
                     timespec="seconds"
                 ),
 
-            "rule":
-                "当前价格较上一价格下降至少5%",
+            "version":
+                2,
+
+            "rules": {
+                "minimum_drop_percent":
+                    5,
+
+                "good_deal":
+                    (
+                        "降价>=5%且当前价格为"
+                        "同JAN跨店最低价"
+                    ),
+
+                "strong_deal":
+                    (
+                        "降价>=10%，且为同JAN跨店最低价，"
+                        "且比第二低价便宜>=5%"
+                    )
+            },
 
             "count":
                 len(
                     deal_candidates
                 ),
+
+            "strong_candidate_count":
+                strong_candidate_count,
+
+            "good_candidate_count":
+                good_candidate_count,
+
+            "price_drop_candidate_count":
+                price_drop_candidate_count,
 
             "items":
                 deal_candidates
@@ -1334,8 +1707,27 @@ deal_candidates.sort(
 
 
 print(
-    "Detected price-drop candidates:",
+    "Deal candidate analysis:"
+)
+
+print(
+    "  Total:",
     len(deal_candidates)
+)
+
+print(
+    "  Strong:",
+    strong_candidate_count
+)
+
+print(
+    "  Good:",
+    good_candidate_count
+)
+
+print(
+    "  Price-drop only:",
+    price_drop_candidate_count
 )
 
 
@@ -1344,6 +1736,7 @@ print(
 # =========================================================
 
 published = []
+
 seen_deals = set()
 
 
