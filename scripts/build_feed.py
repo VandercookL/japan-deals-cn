@@ -571,6 +571,77 @@ else:
         "YAHOO_CLIENT_ID is not configured"
     )
 
+# =========================================================
+# 3.5 Yahoo JAN statistics
+# =========================================================
+
+jan_groups = {}
+
+candidates_with_jan = 0
+
+for item in yahoo_candidates:
+
+    jan_code = str(
+        item.get("jan_code", "")
+    ).strip()
+
+    if not jan_code:
+        continue
+
+    candidates_with_jan += 1
+
+    if jan_code not in jan_groups:
+        jan_groups[jan_code] = []
+
+    jan_groups[jan_code].append(item)
+
+
+unique_jan_products = len(jan_groups)
+
+multi_listing_jan_groups = {
+    jan: items
+    for jan, items in jan_groups.items()
+    if len(items) >= 2
+}
+
+multi_listing_jan_count = len(
+    multi_listing_jan_groups
+)
+
+cross_shop_listing_count = sum(
+    len(items)
+    for items in multi_listing_jan_groups.values()
+)
+
+
+print(
+    "Yahoo JAN statistics:"
+)
+
+print(
+    "  Total candidates:",
+    len(yahoo_candidates)
+)
+
+print(
+    "  Candidates with JAN:",
+    candidates_with_jan
+)
+
+print(
+    "  Unique JAN products:",
+    unique_jan_products
+)
+
+print(
+    "  JAN products with multiple listings:",
+    multi_listing_jan_count
+)
+
+print(
+    "  Listings in multi-listing JAN groups:",
+    cross_shop_listing_count
+)
 
 # =========================================================
 # 4. Yahoo price history
