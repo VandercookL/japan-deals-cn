@@ -1,6 +1,7 @@
 import json
 import os
 import datetime
+import statistics
 import urllib.request
 import urllib.parse
 from pathlib import Path
@@ -39,7 +40,6 @@ if manual_file.exists():
         )
         manual = []
 else:
-    print("manual_deals.json not found")
     manual = []
 
 
@@ -81,6 +81,7 @@ def valid_deal(x):
     price = x.get("price_jpy")
 
     if price is not None:
+
         if isinstance(price, bool):
             return False
 
@@ -90,10 +91,7 @@ def valid_deal(x):
         if price <= 0:
             return False
 
-    if (
-        x["deal_type"] == "商品降价"
-        and price is None
-    ):
+    if x["deal_type"] == "商品降价" and price is None:
         return False
 
     try:
@@ -134,12 +132,11 @@ def valid_deal(x):
     return True
 
 
-verified_items = []
-
-for deal in manual:
-
-    if valid_deal(deal):
-        verified_items.append(deal)
+verified_items = [
+    deal
+    for deal in manual
+    if valid_deal(deal)
+]
 
 
 print(
@@ -352,9 +349,10 @@ yahoo_keywords = [
 ]
 
 
-if yahoo_client_id:
+yahoo_candidates = []
 
-    yahoo_candidates = []
+
+if yahoo_client_id:
 
     seen_yahoo_ids = set()
 
@@ -422,8 +420,6 @@ if yahoo_client_id:
                     + code
                 )
 
-                # Same Yahoo listing may appear
-                # under several keywords.
                 if yahoo_id in seen_yahoo_ids:
                     continue
 
@@ -524,8 +520,6 @@ if yahoo_client_id:
 
         except Exception as e:
 
-            # One failed keyword should not
-            # stop all other keywords.
             print(
                 "Yahoo discovery failed:",
                 yahoo_keyword,
@@ -577,16 +571,23 @@ else:
         "YAHOO_CLIENT_ID is not configured"
     )
 
+
 # =========================================================
 # 4. Yahoo price history
-# Save monthly history.
-# Only append when the observed price changes.
 # =========================================================
 
-price_history_dir = DATA_DIR / "price_history"
-price_history_dir.mkdir(exist_ok=True)
+price_history_dir = (
+    DATA_DIR
+    / "price_history"
+)
 
-month_key = now.strftime("%Y-%m")
+price_history_dir.mkdir(
+    exist_ok=True
+)
+
+month_key = now.strftime(
+    "%Y-%m"
+)
 
 price_history_file = (
     price_history_dir
@@ -594,10 +595,10 @@ price_history_file = (
 )
 
 
-# Load this month's existing history
 if price_history_file.exists():
 
     try:
+
         price_history = json.loads(
             price_history_file.read_text(
                 encoding="utf-8"
@@ -633,133 +634,150 @@ products = price_history.setdefault(
 history_updates = 0
 
 
-# yahoo_candidates exists when Yahoo API
-# was successfully configured and processed.
-if yahoo_client_id:
+for item in yahoo_candidates:
 
-    for item in yahoo_candidates:
-
-        product_id = item.get("id")
-
-        price = item.get("price_jpy")
-
-        if not product_id:
-            continue
-
-        if (
-            isinstance(price, bool)
-            or not isinstance(price, (int, float))
-            or price <= 0
-        ):
-            continue
-
-
-        # Create product record when first seen
-        if product_id not in products:
-
-            products[product_id] = {
-
-                "title":
-                    item.get(
-                        "title",
-                        ""
-                    ),
-
-                "jan_code":
-                    item.get(
-                        "jan_code",
-                        ""
-                    ),
-
-                "shop_name":
-                    item.get(
-                        "shop_name",
-                        ""
-                    ),
-
-                "url":
-                    item.get(
-                        "url",
-                        ""
-                    ),
-
-                "history": []
-            }
-
-
-        product = products[product_id]
-
-        history = product.setdefault(
-            "history",
-            []
-        )
-
-
-        # Keep basic product metadata updated
-        product["title"] = item.get(
-            "title",
-            product.get("title", "")
-        )
-
-        product["jan_code"] = item.get(
-            "jan_code",
-            product.get("jan_code", "")
-        )
-
-        product["shop_name"] = item.get(
-            "shop_name",
-            product.get("shop_name", "")
-        )
-
-        product["url"] = item.get(
-            "url",
-            product.get("url", "")
-        )
-
-
-        # First observation
-        if not history:
-
-            history.append({
-                "time":
-                    now.isoformat(
-                        timespec="seconds"
-                    ),
-
-                "price":
-                    price
-            })
-
-            history_updates += 1
-
-            continue
-
-
-        last_price = history[-1].get(
-            "price"
-        )
-
-
-        # Only record when price changes.
-        if last_price != price:
-
-            history.append({
-                "time":
-                    now.isoformat(
-                        timespec="seconds"
-                    ),
-
-                "price":
-                    price
-            })
-
-            history_updates += 1
-
-
-price_history["updated_at"] = (
-    now.isoformat(
-        timespec="seconds"
+    product_id = item.get(
+        "id"
     )
+
+    price = item.get(
+        "price_jpy"
+    )
+
+    if not product_id:
+        continue
+
+    if (
+        isinstance(price, bool)
+        or not isinstance(
+            price,
+            (int, float)
+        )
+        or price <= 0
+    ):
+        continue
+
+
+    if product_id not in products:
+
+        products[product_id] = {
+
+            "title":
+                item.get(
+                    "title",
+                    ""
+                ),
+
+            "jan_code":
+                item.get(
+                    "jan_code",
+                    ""
+                ),
+
+            "shop_name":
+                item.get(
+                    "shop_name",
+                    ""
+                ),
+
+            "url":
+                item.get(
+                    "url",
+                    ""
+                ),
+
+            "history": []
+        }
+
+
+    product = products[
+        product_id
+    ]
+
+    history = product.setdefault(
+        "history",
+        []
+    )
+
+
+    product["title"] = item.get(
+        "title",
+        product.get(
+            "title",
+            ""
+        )
+    )
+
+    product["jan_code"] = item.get(
+        "jan_code",
+        product.get(
+            "jan_code",
+            ""
+        )
+    )
+
+    product["shop_name"] = item.get(
+        "shop_name",
+        product.get(
+            "shop_name",
+            ""
+        )
+    )
+
+    product["url"] = item.get(
+        "url",
+        product.get(
+            "url",
+            ""
+        )
+    )
+
+
+    if not history:
+
+        history.append(
+            {
+                "time":
+                    now.isoformat(
+                        timespec="seconds"
+                    ),
+
+                "price":
+                    price
+            }
+        )
+
+        history_updates += 1
+
+        continue
+
+
+    last_price = history[-1].get(
+        "price"
+    )
+
+
+    if last_price != price:
+
+        history.append(
+            {
+                "time":
+                    now.isoformat(
+                        timespec="seconds"
+                    ),
+
+                "price":
+                    price
+            }
+        )
+
+        history_updates += 1
+
+
+price_history[
+    "updated_at"
+] = now.isoformat(
+    timespec="seconds"
 )
 
 
@@ -785,12 +803,233 @@ print(
     history_updates
 )
 
+
 # =========================================================
-# 5. Publish verified deals
+# 5. Detect price-drop candidates
+# =========================================================
+
+deal_candidates = []
+
+
+for product_id, product in products.items():
+
+    history = product.get(
+        "history",
+        []
+    )
+
+    # Need at least two actual price levels.
+    if len(history) < 2:
+        continue
+
+
+    prices = []
+
+    for observation in history:
+
+        price = observation.get(
+            "price"
+        )
+
+        if (
+            isinstance(price, bool)
+            or not isinstance(
+                price,
+                (int, float)
+            )
+            or price <= 0
+        ):
+            continue
+
+        prices.append(
+            price
+        )
+
+
+    if len(prices) < 2:
+        continue
+
+
+    previous_price = prices[-2]
+    current_price = prices[-1]
+
+
+    # Only interested in a current price drop.
+    if current_price >= previous_price:
+        continue
+
+
+    drop_percent = (
+        (
+            previous_price
+            - current_price
+        )
+        / previous_price
+        * 100
+    )
+
+
+    # First-stage threshold:
+    # price must fall at least 5%.
+    if drop_percent < 5:
+        continue
+
+
+    historical_low = min(
+        prices
+    )
+
+    historical_high = max(
+        prices
+    )
+
+    median_price = statistics.median(
+        prices
+    )
+
+
+    if median_price > 0:
+
+        below_median_percent = (
+            (
+                median_price
+                - current_price
+            )
+            / median_price
+            * 100
+        )
+
+    else:
+
+        below_median_percent = 0
+
+
+    deal_candidates.append(
+        {
+            "id":
+                product_id,
+
+            "title":
+                product.get(
+                    "title",
+                    ""
+                ),
+
+            "merchant":
+                "Yahoo!ショッピング",
+
+            "shop_name":
+                product.get(
+                    "shop_name",
+                    ""
+                ),
+
+            "jan_code":
+                product.get(
+                    "jan_code",
+                    ""
+                ),
+
+            "url":
+                product.get(
+                    "url",
+                    ""
+                ),
+
+            "previous_price_jpy":
+                previous_price,
+
+            "current_price_jpy":
+                current_price,
+
+            "drop_percent":
+                round(
+                    drop_percent,
+                    1
+                ),
+
+            "historical_low_jpy":
+                historical_low,
+
+            "historical_high_jpy":
+                historical_high,
+
+            "median_price_jpy":
+                median_price,
+
+            "below_median_percent":
+                round(
+                    below_median_percent,
+                    1
+                ),
+
+            "price_points":
+                len(prices),
+
+            "detected_at":
+                now.isoformat(
+                    timespec="seconds"
+                ),
+
+            "verified":
+                False,
+
+            "note":
+                "系统检测到降价，尚未人工验证"
+        }
+    )
+
+
+deal_candidates.sort(
+    key=lambda x:
+        x["drop_percent"],
+    reverse=True
+)
+
+
+(
+    DATA_DIR
+    / "deal_candidates.json"
+).write_text(
+
+    json.dumps(
+        {
+            "generated_at":
+                now.isoformat(
+                    timespec="seconds"
+                ),
+
+            "rule":
+                "当前价格较上一价格下降至少5%",
+
+            "count":
+                len(
+                    deal_candidates
+                ),
+
+            "items":
+                deal_candidates
+        },
+
+        ensure_ascii=False,
+        indent=2
+    ),
+
+    encoding="utf-8"
+)
+
+
+print(
+    "Detected price-drop candidates:",
+    len(deal_candidates)
+)
+
+
+# =========================================================
+# 6. Publish verified deals
 # =========================================================
 
 published = []
-
 seen_deals = set()
 
 
@@ -819,31 +1058,31 @@ for deal in verified_items:
 published.sort(
     key=lambda x:
         x["verified_at"],
-    reverse=True,
+    reverse=True
 )
-
-
-output = {
-    "generated_at":
-        now.isoformat(
-            timespec="seconds"
-        ),
-
-    "deals":
-        published,
-}
 
 
 (
     SITE_DIR
     / "deals.json"
 ).write_text(
+
     json.dumps(
-        output,
+        {
+            "generated_at":
+                now.isoformat(
+                    timespec="seconds"
+                ),
+
+            "deals":
+                published
+        },
+
         ensure_ascii=False,
-        indent=2,
+        indent=2
     ),
-    encoding="utf-8",
+
+    encoding="utf-8"
 )
 
 
