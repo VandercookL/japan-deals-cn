@@ -1,38 +1,41 @@
-[
-  {
-    "id": "yahoo-anker-p31i-blackfriday-20261122",
-    "title": "Anker Soundcore P31i 无线降噪耳机",
-    "merchant": "Yahoo!ショッピング",
-    "category": "耳机・音频",
-    "description": "Anker 官方店 Black Friday 优惠。支持主动降噪、IP55 防尘防水、Multipoint 连接，最长约 50 小时播放。",
-    "price_jpy": 5490,
-    "reference_price_jpy": 5990,
-    "reference_price_evidence_url": "https://shopping.yahoo.co.jp/promotion/campaign/blackfriday/",
-    "offer_text": "8% OFF",
-    "url": "https://shopping.yahoo.co.jp/promotion/campaign/blackfriday/",
-    "location": "线上",
-    "verified": true,
-    "verified_at": "2026-11-22T20:00:00+09:00",
-    "expires_at": "2026-11-30T23:59:59+09:00",
-    "source_type": "manual_verified",
-    "deal_type": "商品降价"
-  },
-  {
-    "id": "yahoo-anker-powerline-flow-blackfriday-20261122",
-    "title": "Anker PowerLine III Flow USB-C 线",
-    "merchant": "Yahoo!ショッピング",
-    "category": "充电・配件",
-    "description": "Anker 官方店 Black Friday 优惠。USB-C to USB-C，支持 PD 充电，柔软硅胶材质。",
-    "price_jpy": 1390,
-    "reference_price_jpy": 1890,
-    "reference_price_evidence_url": "https://shopping.yahoo.co.jp/promotion/campaign/blackfriday/",
-    "offer_text": "26% OFF",
-    "url": "https://shopping.yahoo.co.jp/promotion/campaign/blackfriday/",
-    "location": "线上",
-    "verified": true,
-    "verified_at": "2026-11-22T20:00:00+09:00",
-    "expires_at": "2026-11-30T23:59:59+09:00",
-    "source_type": "manual_verified",
-    "deal_type": "商品降价"
-  }
-]
+{
+  "generated_at": "2026-11-22T20:00:00+09:00",
+  "deals": [
+    {
+      "id": "yahoo-anker-p31i-blackfriday-20261122",
+      "title": "Anker Soundcore P31i 无线降噪耳机",
+      "merchant": "Yahoo!ショッピング",
+      "category": "耳机・音频",
+      "description": "Anker 官方店 Black Friday 优惠。支持主动降噪、IP55 防尘防水、Multipoint 连接，最长约 50 小时播放。",
+      "price_jpy": 5490,
+      "reference_price_jpy": 5990,
+      "reference_price_evidence_url": "https://shopping.yahoo.co.jp/promotion/campaign/blackfriday/",
+      "offer_text": "8% OFF",
+      "url": "https://shopping.yahoo.co.jp/promotion/campaign/blackfriday/",
+      "location": "线上",
+      "verified": true,
+      "verified_at": "2026-11-22T20:00:00+09:00",
+      "expires_at": "2026-11-30T23:59:59+09:00",
+      "source_type": "manual_verified",
+      "deal_type": "商品降价"
+    },
+    {
+      "id": "yahoo-anker-powerline-flow-blackfriday-20261122",
+      "title": "Anker PowerLine III Flow USB-C 线",
+      "merchant": "Yahoo!ショッピング",
+      "category": "充电・配件",
+      "description": "Anker 官方店 Black Friday 优惠。USB-C to USB-C，支持 PD 充电，柔软硅胶材质。",
+      "price_jpy": 1390,
+      "reference_price_jpy": 1890,
+      "reference_price_evidence_url": "https://shopping.yahoo.co.jp/promotion/campaign/blackfriday/",
+      "offer_text": "26% OFF",
+      "url": "https://shopping.yahoo.co.jp/promotion/campaign/blackfriday/",
+      "location": "线上",
+      "verified": true,
+      "verified_at": "2026-11-22T20:00:00+09:00",
+      "expires_at": "2026-11-30T23:59:59+09:00",
+      "source_type": "manual_verified",
+      "deal_type": "商品降价"
+    }
+  ]
+}
