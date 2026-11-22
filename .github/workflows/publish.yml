@@ -102,7 +102,12 @@ jobs:
           if [ -f data/deal_candidates.json ]; then
             git add data/deal_candidates.json
           fi
-
+          
+          # JAN-based product comparison
+            if [ -f data/product_comparison.json ]; then
+            git add data/product_comparison.json
+             fi
+         
           # Commit only when something actually changed
           if ! git diff --cached --quiet; then
 
