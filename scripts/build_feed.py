@@ -644,6 +644,249 @@ print(
 )
 
 # =========================================================
+# 3.6 Build JAN-based product comparison
+# =========================================================
+
+product_comparisons = []
+
+
+for jan_code, items in jan_groups.items():
+
+    valid_listings = []
+
+    for item in items:
+
+        price = item.get("price_jpy")
+
+        if (
+            isinstance(price, bool)
+            or not isinstance(price, (int, float))
+            or price <= 0
+        ):
+            continue
+
+        valid_listings.append(item)
+
+
+    if not valid_listings:
+        continue
+
+
+    # Sort listings from cheapest to most expensive
+    valid_listings.sort(
+        key=lambda x: x["price_jpy"]
+    )
+
+
+    lowest_price = valid_listings[0][
+        "price_jpy"
+    ]
+
+    highest_price = valid_listings[-1][
+        "price_jpy"
+    ]
+
+    price_spread = (
+        highest_price
+        - lowest_price
+    )
+
+
+    if lowest_price > 0:
+
+        price_spread_percent = (
+            price_spread
+            / lowest_price
+            * 100
+        )
+
+    else:
+
+        price_spread_percent = 0
+
+
+    best_listing = valid_listings[0]
+
+
+    comparison = {
+
+        "jan_code":
+            jan_code,
+
+        "title":
+            best_listing.get(
+                "title",
+                ""
+            ),
+
+        "listing_count":
+            len(valid_listings),
+
+        "lowest_price_jpy":
+            lowest_price,
+
+        "highest_price_jpy":
+            highest_price,
+
+        "price_spread_jpy":
+            price_spread,
+
+        "price_spread_percent":
+            round(
+                price_spread_percent,
+                1
+            ),
+
+        "best_offer": {
+
+            "merchant":
+                best_listing.get(
+                    "merchant",
+                    ""
+                ),
+
+            "shop_name":
+                best_listing.get(
+                    "shop_name",
+                    ""
+                ),
+
+            "price_jpy":
+                lowest_price,
+
+            "url":
+                best_listing.get(
+                    "url",
+                    ""
+                )
+        },
+
+        "listings": []
+    }
+
+
+    for item in valid_listings:
+
+        comparison["listings"].append(
+            {
+                "id":
+                    item.get(
+                        "id",
+                        ""
+                    ),
+
+                "merchant":
+                    item.get(
+                        "merchant",
+                        ""
+                    ),
+
+                "shop_name":
+                    item.get(
+                        "shop_name",
+                        ""
+                    ),
+
+                "price_jpy":
+                    item.get(
+                        "price_jpy"
+                    ),
+
+                "url":
+                    item.get(
+                        "url",
+                        ""
+                    ),
+
+                "review_rate":
+                    item.get(
+                        "review_rate"
+                    ),
+
+                "review_count":
+                    item.get(
+                        "review_count"
+                    )
+            }
+        )
+
+
+    product_comparisons.append(
+        comparison
+    )
+
+
+# Products with the biggest shop-to-shop price difference first.
+product_comparisons.sort(
+    key=lambda x: (
+        x["listing_count"] >= 2,
+        x["price_spread_percent"]
+    ),
+    reverse=True
+)
+
+
+comparison_file = (
+    DATA_DIR
+    / "product_comparison.json"
+)
+
+
+comparison_file.write_text(
+
+    json.dumps(
+        {
+            "generated_at":
+                now.isoformat(
+                    timespec="seconds"
+                ),
+
+            "matching_method":
+                "JAN exact match",
+
+            "product_count":
+                len(
+                    product_comparisons
+                ),
+
+            "multi_listing_product_count":
+                sum(
+                    1
+                    for x in product_comparisons
+                    if x["listing_count"] >= 2
+                ),
+
+            "products":
+                product_comparisons
+        },
+
+        ensure_ascii=False,
+        indent=2
+    ),
+
+    encoding="utf-8"
+)
+
+
+print(
+    "JAN product comparison:"
+)
+
+print(
+    "  Products:",
+    len(product_comparisons)
+)
+
+print(
+    "  Multi-listing products:",
+    sum(
+        1
+        for x in product_comparisons
+        if x["listing_count"] >= 2
+    )
+)
+
+# =========================================================
 # 4. Yahoo price history
 # =========================================================
 
