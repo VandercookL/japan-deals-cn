@@ -262,6 +262,10 @@
         {
           "time": "2026-11-22T11:43:50+00:00",
           "price": 38560
+        },
+        {
+          "time": "2026-11-23T23:56:57+00:00",
+          "price": 38670
         }
       ]
     },
@@ -274,6 +278,10 @@
         {
           "time": "2026-11-22T11:43:50+00:00",
           "price": 19780
+        },
+        {
+          "time": "2026-11-23T23:56:57+00:00",
+          "price": 19670
         }
       ]
     },
@@ -1194,6 +1202,10 @@
         {
           "time": "2026-11-23T07:44:55+00:00",
           "price": 62252
+        },
+        {
+          "time": "2026-11-23T23:56:57+00:00",
+          "price": 62225
         }
       ]
     },
@@ -1286,6 +1298,10 @@
         {
           "time": "2026-11-23T07:44:55+00:00",
           "price": 58999
+        },
+        {
+          "time": "2026-11-23T23:56:57+00:00",
+          "price": 59200
         }
       ]
     },
@@ -1314,6 +1330,10 @@
         {
           "time": "2026-11-23T07:44:55+00:00",
           "price": 60110
+        },
+        {
+          "time": "2026-11-23T23:56:57+00:00",
+          "price": 60109
         }
       ]
     },
@@ -1590,6 +1610,10 @@
         {
           "time": "2026-11-22T11:43:50+00:00",
           "price": 17150
+        },
+        {
+          "time": "2026-11-23T23:56:57+00:00",
+          "price": 17425
         }
       ]
     },
@@ -2062,6 +2086,10 @@
         {
           "time": "2026-11-22T11:43:50+00:00",
           "price": 2978
+        },
+        {
+          "time": "2026-11-23T23:56:57+00:00",
+          "price": 2980
         }
       ]
     },
@@ -2874,6 +2902,10 @@
         {
           "time": "2026-11-22T11:43:50+00:00",
           "price": 7050
+        },
+        {
+          "time": "2026-11-23T23:56:57+00:00",
+          "price": 7330
         }
       ]
     },
@@ -3126,6 +3158,10 @@
         {
           "time": "2026-11-23T07:44:55+00:00",
           "price": 59990
+        },
+        {
+          "time": "2026-11-23T23:56:57+00:00",
+          "price": 60100
         }
       ]
     },
@@ -3188,7 +3224,115 @@
           "price": 2257
         }
       ]
+    },
+    "yahoo:sokuteikiya_4549995635232": {
+      "title": "Apple AirPods Pro 第3世代 MFHP4J/A[ラッピング可] R-LOGI",
+      "jan_code": "4549995635232",
+      "shop_name": "測定の森Yahoo!ショッピング店",
+      "url": "https://store.shopping.yahoo.co.jp/sokuteikiya/4549995635232.html",
+      "history": [
+        {
+          "time": "2026-11-23T23:56:57+00:00",
+          "price": 37529
+        }
+      ]
+    },
+    "yahoo:asubarusyouten_ssd-1": {
+      "title": "【2026新登場】外付けSSD ポータブルSSD 1TB 4TB 外付けハードディス 500GB 超薄型ポータブル ハードディスク 2TB USB3.1 Type-C 対応 スマホ互換可 耐衝撃",
+      "jan_code": "",
+      "shop_name": "あすばる商店",
+      "url": "https://store.shopping.yahoo.co.jp/asubarusyouten/ssd-1.html",
+      "history": [
+        {
+          "time": "2026-11-23T23:56:57+00:00",
+          "price": 2880
+        }
+      ]
+    },
+    "yahoo:kaikyou_w902370553024": {
+      "title": "【新品・箱訳あり】Nintendo Switch 2 国内版 BEE-S-KB6CA【日曜日以外即日発送】【送料無料】",
+      "jan_code": "4902370553024",
+      "shop_name": "モバイル販売",
+      "url": "https://store.shopping.yahoo.co.jp/kaikyou/w902370553024.html",
+      "history": [
+        {
+          "time": "2026-11-23T23:56:57+00:00",
+          "price": 58990
+        }
+      ]
+    },
+    "yahoo:alljapan-online-shop_4902370553024": {
+      "title": "Nintendo Switch 2 (日本語・国内専用) 日本国内版 2025年6月5日発売",
+      "jan_code": "4902370553024",
+      "shop_name": "販売一丁目",
+      "url": "https://store.shopping.yahoo.co.jp/alljapan-online-shop/4902370553024.html",
+      "history": [
+        {
+          "time": "2026-11-23T23:56:57+00:00",
+          "price": 59800
+        }
+      ]
+    },
+    "yahoo:light-hikari_4902370554595st1": {
+      "title": "Nintendo Switch 2ゼルダの伝説 40周年 アニバーサリーエディション＋ゼルダの伝説 時のオカリナ 当店オリジナルセット ヤフー限定 予約販売",
+      "jan_code": "4902370554595",
+      "shop_name": "らいぶshop",
+      "url": "https://store.shopping.yahoo.co.jp/light-hikari/4902370554595st1.html",
+      "history": [
+        {
+          "time": "2026-11-23T23:56:57+00:00",
+          "price": 71770
+        }
+      ]
+    },
+    "yahoo:insair-y_p7356780": {
+      "title": "炊飯器 3合炊き 一人暮らし用 炊飯メニュー6種 低温調理 蒸し料理 3合炊き炊飯器 3合 ホワイト ブラック マイコン炊飯器 KnotiaVita RC-KV05M *",
+      "jan_code": "4573650751265",
+      "shop_name": "照明とエアコン イエプロYahoo!店",
+      "url": "https://store.shopping.yahoo.co.jp/insair-y/p7356780.html",
+      "history": [
+        {
+          "time": "2026-11-23T23:56:57+00:00",
+          "price": 3980
+        }
+      ]
+    },
+    "yahoo:coerlife_cfj-g02": {
+      "title": "ドライヤー 速乾 大風量 高速ドライヤー 高速 ヘアドライヤー サロン級 ドライヤー 冷熱風切替 マイナスイオン 恒温ケア 風量調節 過熱防止 爆買 超PayPay祭",
+      "jan_code": "",
+      "shop_name": "COER LIFE",
+      "url": "https://store.shopping.yahoo.co.jp/coerlife/cfj-g02.html",
+      "history": [
+        {
+          "time": "2026-11-23T23:56:57+00:00",
+          "price": 3599
+        }
+      ]
+    },
+    "yahoo:ryouhinhonpo-y_r-4589946770766": {
+      "title": "絹女 ドライヤー KINUJO voyage キヌージョ きぬじょ ヘアドライヤー KH301 KH302 HW001 速乾 大風量 1200w 軽量 コンパクト 海外対応 折りたたみ 低温 男性",
+      "jan_code": "4589946770322",
+      "shop_name": "良品本舗ヤフー店",
+      "url": "https://store.shopping.yahoo.co.jp/ryouhinhonpo-y/r-4589946770766.html",
+      "history": [
+        {
+          "time": "2026-11-23T23:56:57+00:00",
+          "price": 25980
+        }
+      ]
+    },
+    "yahoo:monoworld-japan_10002584": {
+      "title": "限定特価 ネスカフェドルチェグスト【GENIO S PLUS】ジェニオエスプラス ピアノブラック 黒 ブラック カプセル式 コーヒーメーカー コーヒーマシン",
+      "jan_code": "4902201440301",
+      "shop_name": "株式会社 モノワールド",
+      "url": "https://store.shopping.yahoo.co.jp/monoworld-japan/10002584.html",
+      "history": [
+        {
+          "time": "2026-11-23T23:56:57+00:00",
+          "price": 9850
+        }
+      ]
     }
   },
-  "updated_at": "2026-11-23T07:44:55+00:00"
+  "updated_at": "2026-11-23T23:56:57+00:00"
 }
