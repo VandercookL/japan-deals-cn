@@ -726,7 +726,7 @@
       ]
     },
     "yahoo:smahoservic_i302075": {
-      "title": "【2,680円→1,920円4時間限定】ワイヤレスイヤホン Bluetooth 6.0 ブルートゥース イヤホン iPhone コスパ最強 高音質 人気 HiFi 片耳 両耳ブラックフライデー",
+      "title": "【2,680円→1,890円2時間限定】ワイヤレスイヤホン Bluetooth 6.0 ブルートゥース イヤホン iPhone コスパ最強 高音質 人気 HiFi 片耳 両耳ブラックフライデー",
       "jan_code": "",
       "shop_name": "L&Lスマホサービス",
       "url": "https://store.shopping.yahoo.co.jp/smahoservic/i302075.html",
@@ -734,6 +734,10 @@
         {
           "time": "2026-11-22T11:43:50+00:00",
           "price": 1920
+        },
+        {
+          "time": "2026-11-23T07:44:55+00:00",
+          "price": 1890
         }
       ]
     },
@@ -806,6 +810,10 @@
         {
           "time": "2026-11-22T11:43:50+00:00",
           "price": 11960
+        },
+        {
+          "time": "2026-11-23T07:44:55+00:00",
+          "price": 13980
         }
       ]
     },
@@ -1182,6 +1190,10 @@
         {
           "time": "2026-11-22T11:43:50+00:00",
           "price": 62307
+        },
+        {
+          "time": "2026-11-23T07:44:55+00:00",
+          "price": 62252
         }
       ]
     },
@@ -1242,6 +1254,10 @@
         {
           "time": "2026-11-22T11:43:50+00:00",
           "price": 62340
+        },
+        {
+          "time": "2026-11-23T07:44:55+00:00",
+          "price": 62290
         }
       ]
     },
@@ -1266,6 +1282,10 @@
         {
           "time": "2026-11-22T11:43:50+00:00",
           "price": 58430
+        },
+        {
+          "time": "2026-11-23T07:44:55+00:00",
+          "price": 58999
         }
       ]
     },
@@ -1290,6 +1310,10 @@
         {
           "time": "2026-11-22T11:43:50+00:00",
           "price": 60249
+        },
+        {
+          "time": "2026-11-23T07:44:55+00:00",
+          "price": 60110
         }
       ]
     },
@@ -1302,6 +1326,10 @@
         {
           "time": "2026-11-22T11:43:50+00:00",
           "price": 47890
+        },
+        {
+          "time": "2026-11-23T07:44:55+00:00",
+          "price": 47850
         }
       ]
     },
@@ -1390,6 +1418,10 @@
         {
           "time": "2026-11-22T11:43:50+00:00",
           "price": 32013
+        },
+        {
+          "time": "2026-11-23T07:44:55+00:00",
+          "price": 32034
         }
       ]
     },
@@ -2406,6 +2438,10 @@
         {
           "time": "2026-11-22T19:44:24+00:00",
           "price": 14980
+        },
+        {
+          "time": "2026-11-23T07:44:55+00:00",
+          "price": 12680
         }
       ]
     },
@@ -2422,6 +2458,10 @@
         {
           "time": "2026-11-22T19:44:24+00:00",
           "price": 14980
+        },
+        {
+          "time": "2026-11-23T07:44:55+00:00",
+          "price": 12680
         }
       ]
     },
@@ -2438,6 +2478,10 @@
         {
           "time": "2026-11-22T19:44:24+00:00",
           "price": 14980
+        },
+        {
+          "time": "2026-11-23T07:44:55+00:00",
+          "price": 11980
         }
       ]
     },
@@ -2550,6 +2594,10 @@
         {
           "time": "2026-11-22T19:44:24+00:00",
           "price": 14980
+        },
+        {
+          "time": "2026-11-23T07:44:55+00:00",
+          "price": 11980
         }
       ]
     },
@@ -2996,7 +3044,151 @@
           "price": 4129
         }
       ]
+    },
+    "yahoo:jcka-mobile2_4549995635232": {
+      "title": "★保証未開始 国内正規品 AirPods Pro 3  MFHP4J/A  ワイヤレスイヤホン 新品未開封 本体 2025年発売 第3世代",
+      "jan_code": "4549995635232",
+      "shop_name": "ジェーシカモバイル2号店",
+      "url": "https://store.shopping.yahoo.co.jp/jcka-mobile2/4549995635232.html",
+      "history": [
+        {
+          "time": "2026-11-23T07:44:55+00:00",
+          "price": 37800
+        }
+      ]
+    },
+    "yahoo:jcka-mobile2_4549995635233": {
+      "title": "★国内正規品 新品未開封・保証開始 AirPods Pro 3 MFHP4J/A  ワイヤレスイヤホン 本体 2025年発売 第3世代",
+      "jan_code": "4549995635232",
+      "shop_name": "ジェーシカモバイル2号店",
+      "url": "https://store.shopping.yahoo.co.jp/jcka-mobile2/4549995635233.html",
+      "history": [
+        {
+          "time": "2026-11-23T07:44:55+00:00",
+          "price": 36450
+        }
+      ]
+    },
+    "yahoo:akibasoko_out-4549995635232": {
+      "title": "【訳アリ・apple保証サポート登録済】AirPods Pro (第3世代) USB-C(2025) MFHP4J/A/apple",
+      "jan_code": "4549995635232",
+      "shop_name": "アキバ倉庫",
+      "url": "https://store.shopping.yahoo.co.jp/akibasoko/out-4549995635232.html",
+      "history": [
+        {
+          "time": "2026-11-23T07:44:55+00:00",
+          "price": 36780
+        }
+      ]
+    },
+    "yahoo:flashmemory_4582563859623": {
+      "title": "ポータブルSSD 外付け SSD 1TB KIOXIA キオクシア EXCERIA PLUS G2 Type-C USB3.2 Gen2 R:1050MB/s W:1000MB/s 海外リテール LXD20K001TG8 ◆コ",
+      "jan_code": "4582563859623",
+      "shop_name": "風見鶏",
+      "url": "https://store.shopping.yahoo.co.jp/flashmemory/4582563859623.html",
+      "history": [
+        {
+          "time": "2026-11-23T07:44:55+00:00",
+          "price": 29999
+        }
+      ]
+    },
+    "yahoo:pronet_pnpc-dell5590-261012001": {
+      "title": "ノートパソコン 中古 Windows11 Pro Office2024搭載 Core i5 高速SSD256GB 15.6型 WiFi カメラ HDMI 初期設定済み 中古パソコン DELL Latitude 5590",
+      "jan_code": "",
+      "shop_name": "Pronet pc",
+      "url": "https://store.shopping.yahoo.co.jp/pronet/pnpc-dell5590-261012001.html",
+      "history": [
+        {
+          "time": "2026-11-23T07:44:55+00:00",
+          "price": 28800
+        }
+      ]
+    },
+    "yahoo:joshin_4902370554892-54-73634": {
+      "title": "任天堂 (Switch2)Nintendo Switch Sports Resort 返品種別B",
+      "jan_code": "4902370554892",
+      "shop_name": "Joshin web",
+      "url": "https://store.shopping.yahoo.co.jp/joshin/4902370554892-54-73634.html",
+      "history": [
+        {
+          "time": "2026-11-23T07:44:55+00:00",
+          "price": 6350
+        }
+      ]
+    },
+    "yahoo:kaikyou_4902370554779": {
+      "title": "【新品】Nintendo Switch 2 スプラトゥーン レイダース セット 国内版【日曜日以外即日発送】【送料無料】",
+      "jan_code": "4902370554779",
+      "shop_name": "モバイル販売",
+      "url": "https://store.shopping.yahoo.co.jp/kaikyou/4902370554779.html",
+      "history": [
+        {
+          "time": "2026-11-23T07:44:55+00:00",
+          "price": 59990
+        }
+      ]
+    },
+    "yahoo:amiami_game-0035452": {
+      "title": "Nintendo Switch デュアルオーブ コレクション 限定版[メビウス]【送料無料】《０３月予約》",
+      "jan_code": "4573419410662",
+      "shop_name": "あみあみ Yahoo!店",
+      "url": "https://store.shopping.yahoo.co.jp/amiami/game-0035452.html",
+      "history": [
+        {
+          "time": "2026-11-23T07:44:55+00:00",
+          "price": 7920
+        }
+      ]
+    },
+    "yahoo:discount-spirits2_a000000142178": {
+      "title": "象印 炊飯器 5合炊き 5合 一升 10合 極め炊き 一人暮らし 炊飯機 マイコン 炊飯ジャー マイコン炊飯ジャー NL-DT10-BA NL-DT18-BA",
+      "jan_code": "4974305222640",
+      "shop_name": "Earth Wing",
+      "url": "https://store.shopping.yahoo.co.jp/discount-spirits2/a000000142178.html",
+      "history": [
+        {
+          "time": "2026-11-23T07:44:55+00:00",
+          "price": 13980
+        }
+      ]
+    },
+    "yahoo:aprice_4550719168875": {
+      "title": "ドルツ EW-DA49-K パナソニック 電動歯ブラシ 音波振動ハブラシ Panasonic 携帯ケース 旅行 防水 海外・国内両用 誕生日 父の日 母の日 敬老の日 プレゼント",
+      "jan_code": "4550719168875",
+      "shop_name": "XPRICE Yahoo!店",
+      "url": "https://store.shopping.yahoo.co.jp/aprice/4550719168875.html",
+      "history": [
+        {
+          "time": "2026-11-23T07:44:55+00:00",
+          "price": 15118
+        }
+      ]
+    },
+    "yahoo:senseshopping_sck67": {
+      "title": "【Poco'ce掲載&amp;クーポン配布】加湿器 ハイブリッド加湿器 大容量 5L 超音波式 加熱式 UV除菌 自動恒湿 上部給水 静音 省エネ 空焚き防止 リモコン付",
+      "jan_code": "",
+      "shop_name": "センス",
+      "url": "https://store.shopping.yahoo.co.jp/senseshopping/sck67.html",
+      "history": [
+        {
+          "time": "2026-11-23T07:44:55+00:00",
+          "price": 4980
+        }
+      ]
+    },
+    "yahoo:tantan_3179280": {
+      "title": "ドリップコーヒーメーカー 4杯用 自動保温 ナイロンフィルター付き ブラック",
+      "jan_code": "4538991007808",
+      "shop_name": "タンタンショップ",
+      "url": "https://store.shopping.yahoo.co.jp/tantan/3179280.html",
+      "history": [
+        {
+          "time": "2026-11-23T07:44:55+00:00",
+          "price": 2257
+        }
+      ]
     }
   },
-  "updated_at": "2026-11-22T19:44:24+00:00"
+  "updated_at": "2026-11-23T07:44:55+00:00"
 }
