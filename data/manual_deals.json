@@ -1,4 +1,3 @@
-
 [
   {
     "id": "yahoo-bsplus-20261114",
@@ -50,5 +49,56 @@
     "verified_at": null,
     "expires_at": "2026-11-18T23:59:00+09:00",
     "verified": false
+  },
+  {
+    "id": "yahoo-blackfriday-202611",
+    "deal_type": "优惠券与积分",
+    "title": "Yahoo! Shopping 黑五｜指定商品额外返积分最高7%",
+    "description": "先报名再下单。活动期间购买符合条件的商品，累计满5000日元额外返4%，满20000日元额外返7%，本项活动积分上限为7000日元等值。积分为限期PayPay积分，使用范围有限，不可提现或转让。部分店铺和商品不参加，实际积分以结算页面为准。",
+    "merchant": "Yahoo! Shopping",
+    "category": "综合购物",
+    "location": "线上",
+    "offer_text": "累计满5000日元+4%，满20000日元+7%",
+    "price_jpy": null,
+    "url": "https://shopping.yahoo.co.jp/promotion/campaign/blackfriday/",
+    "affiliate_url": "",
+    "source_type": "official_event_page",
+    "verified_at": "2026-11-25T00:03:30+09:00",
+    "expires_at": "2026-11-30T01:59:00+09:00",
+    "verified": true
+  },
+  {
+    "id": "familymart-blackfried-202611",
+    "deal_type": "线下促销",
+    "title": "全家黑五｜指定炸物买2件送下次96日元优惠券",
+    "description": "同一次购买收银台旁热食柜内的指定炸物或熟食，每买2件获1张小票优惠券，下次购买指定炸物或熟食可减96日元。发券至11月30日，券使用至12月7日，具体以小票为准。不可与其他促销、折扣券、兑换券或回数券叠加，部分地区及门店商品供应不同。",
+    "merchant": "FamilyMart 全家",
+    "category": "食品饮料",
+    "location": "日本参与活动的全家门店",
+    "offer_text": "买2件送下次96日元减免券",
+    "price_jpy": null,
+    "url": "https://www.family.co.jp/campaign/spot/2611_blackfried-d_cp.html",
+    "affiliate_url": "",
+    "source_type": "official_event_page",
+    "verified_at": "2026-11-25T00:03:30+09:00",
+    "expires_at": "2026-11-30T23:59:00+09:00",
+    "verified": true
+  },
+  {
+    "id": "shiseido-blackfriday-202611",
+    "deal_type": "优惠券与积分",
+    "title": "资生堂官网黑五｜购物满额送最高1500日元下次优惠券",
+    "description": "购买前须报名并同意邮件订阅设置。单笔符合条件的含税购物满3300日元送1000日元券，满4400日元送1500日元券；分别用于下次满7700日元、满11000日元的官网订单，并非当次立减。券在商品送达2至3天后可使用，自发券日起30天有效，不能与积分同用。CPB、定期配送、预订及礼品类等不参加，赠品可能提前结束。",
+    "merchant": "资生堂官方网上商城",
+    "category": "美妆个护",
+    "location": "线上",
+    "offer_text": "符合条件送1000或1500日元下次券",
+    "price_jpy": null,
+    "url": "https://www.shiseido.co.jp/sw/onlinestore/campaign/all/blackfriday2026/",
+    "affiliate_url": "",
+    "source_type": "official_event_page",
+    "verified_at": "2026-11-25T00:03:30+09:00",
+    "expires_at": "2026-11-30T23:59:00+09:00",
+    "verified": true
   }
 ]
