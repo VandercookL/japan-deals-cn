@@ -1,8 +1,8 @@
 {
   "version": 1,
   "status": "PARTIAL",
-  "source_generated_at": "2026-11-24T15:09:08+00:00",
-  "generated_at": "2026-11-24T15:09:33.805866+00:00",
+  "source_generated_at": "2026-11-24T22:29:57+00:00",
+  "generated_at": "2026-11-24T22:30:23.378554+00:00",
   "request_budget": 12,
   "requests": 9,
   "planned_queries": 9,
@@ -423,18 +423,6 @@
           "risk_flags": []
         },
         {
-          "id": "yahoo:rcmdse_uw-4549995519921",
-          "title": "AirPods 4 アップル Apple ワイヤレスイヤホン MXP93J/A 第4世代 アクティブノイズキャンセリング H2チップ 国内正規品 新品 ワイヤレス イヤホン",
-          "shop_id": "rcmdse",
-          "shop_name": "リコメン堂生活館",
-          "price_jpy": 30500,
-          "jan_code": "4549995519921",
-          "url": "https://store.shopping.yahoo.co.jp/rcmdse/uw-4549995519921.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
           "id": "yahoo:rcmdhl_uw-4549995519921",
           "title": "AirPods 4 アップル Apple ワイヤレスイヤホン MXP93J/A 第4世代 アクティブノイズキャンセリング H2チップ 国内正規品 新品 ワイヤレス イヤホン",
           "shop_id": "rcmdhl",
@@ -442,6 +430,18 @@
           "price_jpy": 30500,
           "jan_code": "4549995519921",
           "url": "https://store.shopping.yahoo.co.jp/rcmdhl/uw-4549995519921.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:rcmdse_uw-4549995519921",
+          "title": "AirPods 4 アップル Apple ワイヤレスイヤホン MXP93J/A 第4世代 アクティブノイズキャンセリング H2チップ 国内正規品 新品 ワイヤレス イヤホン",
+          "shop_id": "rcmdse",
+          "shop_name": "リコメン堂生活館",
+          "price_jpy": 30500,
+          "jan_code": "4549995519921",
+          "url": "https://store.shopping.yahoo.co.jp/rcmdse/uw-4549995519921.html",
           "in_stock": true,
           "condition": "new",
           "risk_flags": []
@@ -490,7 +490,7 @@
           "title": "『新品』ANKER (アンカー) Soundcore Liberty 5 A3957N11 [ミッドナイトブラック]",
           "shop_id": "noahshoping",
           "shop_name": "ノア商社Yahoo!店",
-          "price_jpy": 13371,
+          "price_jpy": 13370,
           "jan_code": "4571411228452",
           "url": "https://store.shopping.yahoo.co.jp/noahshoping/4571411228452.html",
           "in_stock": true,
@@ -502,7 +502,7 @@
           "title": "アンカー イヤホン ワイヤレス Bluetooth ノイズキャンセリング Soundcore Liberty 5 A3957N11 ミッドナイトブラッ",
           "shop_id": "dshopone",
           "shop_name": "D-SHOP ONE",
-          "price_jpy": 13372,
+          "price_jpy": 13371,
           "jan_code": "4571411228452",
           "url": "https://store.shopping.yahoo.co.jp/dshopone/4571411228452.html",
           "in_stock": true,
@@ -514,7 +514,7 @@
           "title": "アンカー イヤホン ワイヤレス Bluetooth ノイズキャンセリング Soundcore Liberty 5 A3957N11 ミッドナイトブラッ",
           "shop_id": "dshopone-y",
           "shop_name": "ディーショップワン Yahoo!店",
-          "price_jpy": 13372,
+          "price_jpy": 13371,
           "jan_code": "4571411228452",
           "url": "https://store.shopping.yahoo.co.jp/dshopone-y/4571411228452.html",
           "in_stock": true,
@@ -893,18 +893,6 @@
           "risk_flags": []
         },
         {
-          "id": "yahoo:rcmdin_uw-4549995725025",
-          "title": "MKFT4J/A Apple AirPods 5 アップル ワイヤレス充電ケース付き ノイズキャンセリング ワイヤレスイヤホン イヤホン",
-          "shop_id": "rcmdin",
-          "shop_name": "リコメン堂インテリア館",
-          "price_jpy": 27480,
-          "jan_code": "4549995725025",
-          "url": "https://store.shopping.yahoo.co.jp/rcmdin/uw-4549995725025.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
           "id": "yahoo:recommendo_uw-4549995725025",
           "title": "MKFT4J/A Apple AirPods 5 アップル ワイヤレス充電ケース付き ノイズキャンセリング ワイヤレスイヤホン イヤホン",
           "shop_id": "recommendo",
@@ -912,6 +900,18 @@
           "price_jpy": 27480,
           "jan_code": "4549995725025",
           "url": "https://store.shopping.yahoo.co.jp/recommendo/uw-4549995725025.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:rcmdin_uw-4549995725025",
+          "title": "MKFT4J/A Apple AirPods 5 アップル ワイヤレス充電ケース付き ノイズキャンセリング ワイヤレスイヤホン イヤホン",
+          "shop_id": "rcmdin",
+          "shop_name": "リコメン堂インテリア館",
+          "price_jpy": 27480,
+          "jan_code": "4549995725025",
+          "url": "https://store.shopping.yahoo.co.jp/rcmdin/uw-4549995725025.html",
           "in_stock": true,
           "condition": "new",
           "risk_flags": []
@@ -1441,6 +1441,18 @@
           "risk_flags": []
         },
         {
+          "id": "yahoo:jcka-mobile2_4902370554595",
+          "title": "即納★任天堂 Nintendo Switch2 国内版 日本語版 ゼルダの伝説 40周年 アニバーサリーエディション BEE-S-KL6CC 新品 任天堂スイッチ 本体 4902370554595",
+          "shop_id": "jcka-mobile2",
+          "shop_name": "ジェーシカモバイル2号店",
+          "price_jpy": 63700,
+          "jan_code": "4902370554595",
+          "url": "https://store.shopping.yahoo.co.jp/jcka-mobile2/4902370554595.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
           "id": "yahoo:d-rise2_p700000020112",
           "title": "【アウトレット 化粧箱破損品】★Nintendo / 任天堂 Nintendo Switch 2 ゼルダの伝説 40周年 アニバーサリーエディション BEE-S-KL6CC【送料無料】",
           "shop_id": "d-rise2",
@@ -1528,18 +1540,6 @@
           "risk_flags": []
         },
         {
-          "id": "yahoo:ecjoyecj25_22352851",
-          "title": "任天堂 NINTENDO Switch 2 （日本語・国内専用） ゼルダの伝説 40周年 アニバーサリーエディション",
-          "shop_id": "ecjoyecj25",
-          "shop_name": "HJN ヤフー店",
-          "price_jpy": 64720,
-          "jan_code": "4902370554595",
-          "url": "https://store.shopping.yahoo.co.jp/ecjoyecj25/22352851.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
           "id": "yahoo:ecjoyecj30_22352851",
           "title": "任天堂 NINTENDO Switch 2 （日本語・国内専用） ゼルダの伝説 40周年 アニバーサリーエディション",
           "shop_id": "ecjoyecj30",
@@ -1559,6 +1559,18 @@
           "price_jpy": 64720,
           "jan_code": "4902370554595",
           "url": "https://store.shopping.yahoo.co.jp/ecj/22352851.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:ecjoyecj25_22352851",
+          "title": "任天堂 NINTENDO Switch 2 （日本語・国内専用） ゼルダの伝説 40周年 アニバーサリーエディション",
+          "shop_id": "ecjoyecj25",
+          "shop_name": "HJN ヤフー店",
+          "price_jpy": 64720,
+          "jan_code": "4902370554595",
+          "url": "https://store.shopping.yahoo.co.jp/ecjoyecj25/22352851.html",
           "in_stock": true,
           "condition": "new",
           "risk_flags": []
@@ -1639,18 +1651,6 @@
           "risk_flags": [
             "condition"
           ]
-        },
-        {
-          "id": "yahoo:comgstore_1411-4902370554595",
-          "title": "新品 Nintendo Switch 2 （日本語・国内専用） ゼルダの伝説 40周年 アニバーサリーエディション",
-          "shop_id": "comgstore",
-          "shop_name": "COMG通販部",
-          "price_jpy": 65480,
-          "jan_code": "4902370554595",
-          "url": "https://store.shopping.yahoo.co.jp/comgstore/1411-4902370554595.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
         },
         {
           "id": "yahoo:wink-digital_277519",
@@ -1875,18 +1875,6 @@
           "risk_flags": []
         },
         {
-          "id": "yahoo:rcmdhl_uw-4902370554595",
-          "title": "Nintendo Switch 2 ニンテンドー スイッチ 2 (日本語・国内専用) ゼルダの伝説 40周年 アニバーサリーエディション BEE-S-KL6CC",
-          "shop_id": "rcmdhl",
-          "shop_name": "リコメン堂ホームライフ館",
-          "price_jpy": 77000,
-          "jan_code": "4902370554595",
-          "url": "https://store.shopping.yahoo.co.jp/rcmdhl/uw-4902370554595.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
           "id": "yahoo:rcmdse_uw-4902370554595",
           "title": "Nintendo Switch 2 ニンテンドー スイッチ 2 (日本語・国内専用) ゼルダの伝説 40周年 アニバーサリーエディション BEE-S-KL6CC",
           "shop_id": "rcmdse",
@@ -1894,6 +1882,18 @@
           "price_jpy": 77000,
           "jan_code": "4902370554595",
           "url": "https://store.shopping.yahoo.co.jp/rcmdse/uw-4902370554595.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:rcmdhl_uw-4902370554595",
+          "title": "Nintendo Switch 2 ニンテンドー スイッチ 2 (日本語・国内専用) ゼルダの伝説 40周年 アニバーサリーエディション BEE-S-KL6CC",
+          "shop_id": "rcmdhl",
+          "shop_name": "リコメン堂ホームライフ館",
+          "price_jpy": 77000,
+          "jan_code": "4902370554595",
+          "url": "https://store.shopping.yahoo.co.jp/rcmdhl/uw-4902370554595.html",
           "in_stock": true,
           "condition": "new",
           "risk_flags": []
@@ -1979,34 +1979,10 @@
         "jan",
         "4974305224224"
       ],
-      "total_available": 39,
-      "returned": 39,
+      "total_available": 37,
+      "returned": 37,
       "truncated": false,
       "offers": [
-        {
-          "id": "yahoo:gbft-online_3x-9l7z-47jt",
-          "title": "象印 ZOJIRUSHI 豪熱大火力 圧力IH炊飯ジャー ブラック 5.5合炊き NW-YA10-BA",
-          "shop_id": "gbft-online",
-          "shop_name": "GBFT Online",
-          "price_jpy": 26200,
-          "jan_code": "4974305224224",
-          "url": "https://store.shopping.yahoo.co.jp/gbft-online/3x-9l7z-47jt.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:gbft_3x-9l7z-47jt",
-          "title": "象印 ZOJIRUSHI 豪熱大火力 圧力IH炊飯ジャー ブラック 5.5合炊き NW-YA10-BA",
-          "shop_id": "gbft",
-          "shop_name": "GBFT Premium",
-          "price_jpy": 26200,
-          "jan_code": "4974305224224",
-          "url": "https://store.shopping.yahoo.co.jp/gbft/3x-9l7z-47jt.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
         {
           "id": "yahoo:sanrex_nw-ya10-ba",
           "title": "象印圧力IH炊飯器/5.5合炊き/NW-YA10-BA",
@@ -2068,18 +2044,6 @@
           "risk_flags": []
         },
         {
-          "id": "yahoo:murauchi3_4974305224224",
-          "title": "ZOJIRUSHI 象印 NW-YA10-BA ブラック 極め炊き 豪熱大火力 圧力IH炊飯ジャー 5.5合炊き",
-          "shop_id": "murauchi3",
-          "shop_name": "NEXT!",
-          "price_jpy": 28948,
-          "jan_code": "4974305224224",
-          "url": "https://store.shopping.yahoo.co.jp/murauchi3/4974305224224.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
           "id": "yahoo:murauchi_4974305224224",
           "title": "ZOJIRUSHI 象印 NW-YA10-BA ブラック 極め炊き 豪熱大火力 圧力IH炊飯ジャー 5.5合炊き",
           "shop_id": "murauchi",
@@ -2087,6 +2051,18 @@
           "price_jpy": 28948,
           "jan_code": "4974305224224",
           "url": "https://store.shopping.yahoo.co.jp/murauchi/4974305224224.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:murauchi3_4974305224224",
+          "title": "ZOJIRUSHI 象印 NW-YA10-BA ブラック 極め炊き 豪熱大火力 圧力IH炊飯ジャー 5.5合炊き",
+          "shop_id": "murauchi3",
+          "shop_name": "NEXT!",
+          "price_jpy": 28948,
+          "jan_code": "4974305224224",
+          "url": "https://store.shopping.yahoo.co.jp/murauchi3/4974305224224.html",
           "in_stock": true,
           "condition": "new",
           "risk_flags": []
@@ -2116,6 +2092,18 @@
           "risk_flags": []
         },
         {
+          "id": "yahoo:insair-y_7368203",
+          "title": "象印 NWYA10 炊飯器 炊飯ジャー 5合 圧力 黒 象印圧力IH炊飯ジャー ブラック NW-YA10-BA",
+          "shop_id": "insair-y",
+          "shop_name": "照明とエアコン イエプロYahoo!店",
+          "price_jpy": 29800,
+          "jan_code": "4974305224224",
+          "url": "https://store.shopping.yahoo.co.jp/insair-y/7368203.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
           "id": "yahoo:irisplaza_7368203",
           "title": "象印 NWYA10 炊飯器 炊飯ジャー 5合 圧力 黒 象印圧力IH炊飯ジャー ブラック NW-YA10-BA",
           "shop_id": "irisplaza",
@@ -2128,18 +2116,6 @@
           "risk_flags": []
         },
         {
-          "id": "yahoo:inskagu-y_7368203",
-          "title": "象印 NWYA10 炊飯器 炊飯ジャー 5合 圧力 黒 象印圧力IH炊飯ジャー ブラック NW-YA10-BA",
-          "shop_id": "inskagu-y",
-          "shop_name": "快適インテリアYahoo!店",
-          "price_jpy": 29800,
-          "jan_code": "4974305224224",
-          "url": "https://store.shopping.yahoo.co.jp/inskagu-y/7368203.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
           "id": "yahoo:petkan_7368203",
           "title": "象印 NWYA10 炊飯器 炊飯ジャー 5合 圧力 黒 象印圧力IH炊飯ジャー ブラック NW-YA10-BA",
           "shop_id": "petkan",
@@ -2147,42 +2123,6 @@
           "price_jpy": 29800,
           "jan_code": "4974305224224",
           "url": "https://store.shopping.yahoo.co.jp/petkan/7368203.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:kodawari-y_7368203",
-          "title": "象印 NWYA10 炊飯器 炊飯ジャー 5合 圧力 黒 象印圧力IH炊飯ジャー ブラック NW-YA10-BA",
-          "shop_id": "kodawari-y",
-          "shop_name": "暮らし健康ネット館 Yahoo!店",
-          "price_jpy": 29800,
-          "jan_code": "4974305224224",
-          "url": "https://store.shopping.yahoo.co.jp/kodawari-y/7368203.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:bestexcel_7368203",
-          "title": "象印 NWYA10 炊飯器 炊飯ジャー 5合 圧力 黒 象印圧力IH炊飯ジャー ブラック NW-YA10-BA",
-          "shop_id": "bestexcel",
-          "shop_name": "快適ホームライフ Yahoo!店",
-          "price_jpy": 29800,
-          "jan_code": "4974305224224",
-          "url": "https://store.shopping.yahoo.co.jp/bestexcel/7368203.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:insair-y_7368203",
-          "title": "象印 NWYA10 炊飯器 炊飯ジャー 5合 圧力 黒 象印圧力IH炊飯ジャー ブラック NW-YA10-BA",
-          "shop_id": "insair-y",
-          "shop_name": "照明とエアコン イエプロYahoo!店",
-          "price_jpy": 29800,
-          "jan_code": "4974305224224",
-          "url": "https://store.shopping.yahoo.co.jp/insair-y/7368203.html",
           "in_stock": true,
           "condition": "new",
           "risk_flags": []
@@ -2212,6 +2152,18 @@
           "risk_flags": []
         },
         {
+          "id": "yahoo:bestexcel_7368203",
+          "title": "象印 NWYA10 炊飯器 炊飯ジャー 5合 圧力 黒 象印圧力IH炊飯ジャー ブラック NW-YA10-BA",
+          "shop_id": "bestexcel",
+          "shop_name": "快適ホームライフ Yahoo!店",
+          "price_jpy": 29800,
+          "jan_code": "4974305224224",
+          "url": "https://store.shopping.yahoo.co.jp/bestexcel/7368203.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
           "id": "yahoo:joylight_7368203",
           "title": "象印 NWYA10 炊飯器 炊飯ジャー 5合 圧力 黒 象印圧力IH炊飯ジャー ブラック NW-YA10-BA",
           "shop_id": "joylight",
@@ -2219,6 +2171,30 @@
           "price_jpy": 29800,
           "jan_code": "4974305224224",
           "url": "https://store.shopping.yahoo.co.jp/joylight/7368203.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:inskagu-y_7368203",
+          "title": "象印 NWYA10 炊飯器 炊飯ジャー 5合 圧力 黒 象印圧力IH炊飯ジャー ブラック NW-YA10-BA",
+          "shop_id": "inskagu-y",
+          "shop_name": "快適インテリアYahoo!店",
+          "price_jpy": 29800,
+          "jan_code": "4974305224224",
+          "url": "https://store.shopping.yahoo.co.jp/inskagu-y/7368203.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:kodawari-y_7368203",
+          "title": "象印 NWYA10 炊飯器 炊飯ジャー 5合 圧力 黒 象印圧力IH炊飯ジャー ブラック NW-YA10-BA",
+          "shop_id": "kodawari-y",
+          "shop_name": "暮らし健康ネット館 Yahoo!店",
+          "price_jpy": 29800,
+          "jan_code": "4974305224224",
+          "url": "https://store.shopping.yahoo.co.jp/kodawari-y/7368203.html",
           "in_stock": true,
           "condition": "new",
           "risk_flags": []
@@ -2356,18 +2332,6 @@
           "risk_flags": []
         },
         {
-          "id": "yahoo:loloefigo_2720250901225847",
-          "title": "象印マホービン 炊飯器 5.5合 ブラック NW-YA10-BA",
-          "shop_id": "loloefigo",
-          "shop_name": "Loloefigo",
-          "price_jpy": 33521,
-          "jan_code": "4974305224224",
-          "url": "https://store.shopping.yahoo.co.jp/loloefigo/2720250901225847.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
           "id": "yahoo:pc-akindo-y_nw-ya10-ba",
           "title": "象印 5.5合炊き 炊飯器 圧力IH炊飯ジャー 極め炊き NW-YA10-BA ブラック",
           "shop_id": "pc-akindo-y",
@@ -2375,18 +2339,6 @@
           "price_jpy": 33980,
           "jan_code": "4974305224224",
           "url": "https://store.shopping.yahoo.co.jp/pc-akindo-y/nw-ya10-ba.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:pc-akindo_nw-ya10-ba",
-          "title": "象印 5.5合炊き 炊飯器 圧力IH炊飯ジャー 極め炊き NW-YA10-BA ブラック",
-          "shop_id": "pc-akindo",
-          "shop_name": "PCあきんど",
-          "price_jpy": 33980,
-          "jan_code": "4974305224224",
-          "url": "https://store.shopping.yahoo.co.jp/pc-akindo/nw-ya10-ba.html",
           "in_stock": true,
           "condition": "new",
           "risk_flags": []
@@ -2404,6 +2356,18 @@
           "risk_flags": []
         },
         {
+          "id": "yahoo:pc-akindo_nw-ya10-ba",
+          "title": "象印 5.5合炊き 炊飯器 圧力IH炊飯ジャー 極め炊き NW-YA10-BA ブラック",
+          "shop_id": "pc-akindo",
+          "shop_name": "PCあきんど",
+          "price_jpy": 33980,
+          "jan_code": "4974305224224",
+          "url": "https://store.shopping.yahoo.co.jp/pc-akindo/nw-ya10-ba.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
           "id": "yahoo:gioncard_nw-ya10-ba",
           "title": "炊飯器 象印 圧力IH炊飯ジャー 豪熱大火力 極め炊き 5.5合炊き ブラック NW-YA10-BA/srm",
           "shop_id": "gioncard",
@@ -2411,6 +2375,18 @@
           "price_jpy": 35430,
           "jan_code": "4974305224224",
           "url": "https://store.shopping.yahoo.co.jp/gioncard/nw-ya10-ba.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:loloefigo_2720250901225847",
+          "title": "象印マホービン 炊飯器 5.5合 ブラック NW-YA10-BA",
+          "shop_id": "loloefigo",
+          "shop_name": "Loloefigo",
+          "price_jpy": 35491,
+          "jan_code": "4974305224224",
+          "url": "https://store.shopping.yahoo.co.jp/loloefigo/2720250901225847.html",
           "in_stock": true,
           "condition": "new",
           "risk_flags": []
@@ -2463,18 +2439,6 @@
       "truncated": true,
       "offers": [
         {
-          "id": "yahoo:ecjoyecj25_20333998",
-          "title": "ZOJIRUSHI 象印 コーヒーメーカー EC-MA60-BA",
-          "shop_id": "ecjoyecj25",
-          "shop_name": "HJN ヤフー店",
-          "price_jpy": 5570,
-          "jan_code": "4974305224385",
-          "url": "https://store.shopping.yahoo.co.jp/ecjoyecj25/20333998.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
           "id": "yahoo:ecjoyecj26_20333998",
           "title": "ZOJIRUSHI 象印 コーヒーメーカー EC-MA60-BA",
           "shop_id": "ecjoyecj26",
@@ -2482,6 +2446,18 @@
           "price_jpy": 5570,
           "jan_code": "4974305224385",
           "url": "https://store.shopping.yahoo.co.jp/ecjoyecj26/20333998.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:ecjoyecj25_20333998",
+          "title": "ZOJIRUSHI 象印 コーヒーメーカー EC-MA60-BA",
+          "shop_id": "ecjoyecj25",
+          "shop_name": "HJN ヤフー店",
+          "price_jpy": 5570,
+          "jan_code": "4974305224385",
+          "url": "https://store.shopping.yahoo.co.jp/ecjoyecj25/20333998.html",
           "in_stock": true,
           "condition": "new",
           "risk_flags": []
@@ -2499,18 +2475,6 @@
           "risk_flags": []
         },
         {
-          "id": "yahoo:d-price_ec-ma60-ba",
-          "title": "コーヒーメーカー 象印 珈琲通 ブラック EC-MA60-BA ZOJIRUSHI",
-          "shop_id": "d-price",
-          "shop_name": "生活家電ディープライス",
-          "price_jpy": 6010,
-          "jan_code": "4974305224385",
-          "url": "https://store.shopping.yahoo.co.jp/d-price/ec-ma60-ba.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
           "id": "yahoo:d-price-ys_ec-ma60-ba",
           "title": "(11/25限定クーポン有)EC-MA60-BA ZOJIRUSHI 象印 珈琲通 コーヒーメーカー ブラック",
           "shop_id": "d-price-ys",
@@ -2523,6 +2487,18 @@
           "risk_flags": []
         },
         {
+          "id": "yahoo:d-price_ec-ma60-ba",
+          "title": "コーヒーメーカー 象印 珈琲通 ブラック EC-MA60-BA ZOJIRUSHI",
+          "shop_id": "d-price",
+          "shop_name": "生活家電ディープライス",
+          "price_jpy": 6010,
+          "jan_code": "4974305224385",
+          "url": "https://store.shopping.yahoo.co.jp/d-price/ec-ma60-ba.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
           "id": "yahoo:denkichiweb_4974305224385",
           "title": "象印 ZOJIRUSHI コーヒーメーカー 6杯抽出 ブラック EC-MA60-BA〈ECMA60-BA〉",
           "shop_id": "denkichiweb",
@@ -2530,6 +2506,18 @@
           "price_jpy": 6011,
           "jan_code": "4974305224385",
           "url": "https://store.shopping.yahoo.co.jp/denkichiweb/4974305224385.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:e-wellness_6612321014",
+          "title": "象印マホービン EC-MA60 コーヒーメーカー ブラック",
+          "shop_id": "e-wellness",
+          "shop_name": "キムラヤテック ヤフー店",
+          "price_jpy": 6011,
+          "jan_code": "4974305224385",
+          "url": "https://store.shopping.yahoo.co.jp/e-wellness/6612321014.html",
           "in_stock": true,
           "condition": "new",
           "risk_flags": []
@@ -2554,18 +2542,6 @@
           "price_jpy": 6011,
           "jan_code": "4974305224385",
           "url": "https://store.shopping.yahoo.co.jp/yamada-denki-2/6612321014.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:e-wellness_6612321014",
-          "title": "象印マホービン EC-MA60 コーヒーメーカー ブラック",
-          "shop_id": "e-wellness",
-          "shop_name": "キムラヤテック ヤフー店",
-          "price_jpy": 6011,
-          "jan_code": "4974305224385",
-          "url": "https://store.shopping.yahoo.co.jp/e-wellness/6612321014.html",
           "in_stock": true,
           "condition": "new",
           "risk_flags": []
@@ -2631,6 +2607,18 @@
           "risk_flags": []
         },
         {
+          "id": "yahoo:kimuraya-select_6612321014",
+          "title": "象印マホービン EC-MA60 コーヒーメーカー ブラック",
+          "shop_id": "kimuraya-select",
+          "shop_name": "キムラヤYahoo!店",
+          "price_jpy": 6294,
+          "jan_code": "4974305224385",
+          "url": "https://store.shopping.yahoo.co.jp/kimuraya-select/6612321014.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
           "id": "yahoo:best-denki_6612321014",
           "title": "象印マホービン EC-MA60 コーヒーメーカー ブラック",
           "shop_id": "best-denki",
@@ -2650,18 +2638,6 @@
           "price_jpy": 6294,
           "jan_code": "4974305224385",
           "url": "https://store.shopping.yahoo.co.jp/best-tecc/6612321014.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:kimuraya-select_6612321014",
-          "title": "象印マホービン EC-MA60 コーヒーメーカー ブラック",
-          "shop_id": "kimuraya-select",
-          "shop_name": "キムラヤYahoo!店",
-          "price_jpy": 6294,
-          "jan_code": "4974305224385",
-          "url": "https://store.shopping.yahoo.co.jp/kimuraya-select/6612321014.html",
           "in_stock": true,
           "condition": "new",
           "risk_flags": []
@@ -2919,18 +2895,6 @@
           "risk_flags": []
         },
         {
-          "id": "yahoo:tokka_4974305224385",
-          "title": "象印(ZOJIRUSHI) EC-MA60-BA ブラック 珈琲通 コーヒーメーカー",
-          "shop_id": "tokka",
-          "shop_name": "特価COM",
-          "price_jpy": 6948,
-          "jan_code": "4974305224385",
-          "url": "https://store.shopping.yahoo.co.jp/tokka/4974305224385.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
           "id": "yahoo:onesmart_4974305224385",
           "title": "象印(ZOJIRUSHI) EC-MA60-BA ブラック 珈琲通 コーヒーメーカー",
           "shop_id": "onesmart",
@@ -2938,6 +2902,18 @@
           "price_jpy": 6948,
           "jan_code": "4974305224385",
           "url": "https://store.shopping.yahoo.co.jp/onesmart/4974305224385.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:tokka_4974305224385",
+          "title": "象印(ZOJIRUSHI) EC-MA60-BA ブラック 珈琲通 コーヒーメーカー",
+          "shop_id": "tokka",
+          "shop_name": "特価COM",
+          "price_jpy": 6948,
+          "jan_code": "4974305224385",
+          "url": "https://store.shopping.yahoo.co.jp/tokka/4974305224385.html",
           "in_stock": true,
           "condition": "new",
           "risk_flags": []
@@ -3070,8 +3046,8 @@
         "crucial",
         "ct1000p3pssd8"
       ],
-      "total_available": 20,
-      "returned": 20,
+      "total_available": 21,
+      "returned": 21,
       "truncated": false,
       "offers": [
         {
@@ -3251,6 +3227,18 @@
             "packaging_or_import",
             "accessory_or_bundle"
           ]
+        },
+        {
+          "id": "yahoo:techno-launcher_new-b0b25nxwc7",
+          "title": "Crucial P3 Plus 1TB PCIe 4.0 3D NAND NVMe M.2 SSD 最大5000MB/秒 - CT1000P3PSSD8",
+          "shop_id": "techno-launcher",
+          "shop_name": "テクノランチャー",
+          "price_jpy": 54800,
+          "jan_code": "",
+          "url": "https://store.shopping.yahoo.co.jp/techno-launcher/new-b0b25nxwc7.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
         },
         {
           "id": "yahoo:jnh_mc8013p3p-eb-4p",
@@ -3451,15 +3439,15 @@
       "truncated": false,
       "matched_listing_count": 12,
       "comparison_shop_count": 12,
-      "other_shop_lowest_jpy": 13371,
-      "lowest_observed_jpy": 13371,
+      "other_shop_lowest_jpy": 13370,
+      "lowest_observed_jpy": 13370,
       "cross_shop_advantage_percent": 0,
       "cheaper_offers": [
         {
           "id": "yahoo:noahshoping_4571411228452",
           "title": "『新品』ANKER (アンカー) Soundcore Liberty 5 A3957N11 [ミッドナイトブラック]",
           "shop_name": "ノア商社Yahoo!店",
-          "price_jpy": 13371,
+          "price_jpy": 13370,
           "url": "https://store.shopping.yahoo.co.jp/noahshoping/4571411228452.html",
           "jan_code": "4571411228452",
           "risk_flags": []
@@ -3468,7 +3456,7 @@
           "id": "yahoo:dshopone_4571411228452",
           "title": "アンカー イヤホン ワイヤレス Bluetooth ノイズキャンセリング Soundcore Liberty 5 A3957N11 ミッドナイトブラッ",
           "shop_name": "D-SHOP ONE",
-          "price_jpy": 13372,
+          "price_jpy": 13371,
           "url": "https://store.shopping.yahoo.co.jp/dshopone/4571411228452.html",
           "jan_code": "4571411228452",
           "risk_flags": []
@@ -3477,7 +3465,7 @@
           "id": "yahoo:dshopone-y_4571411228452",
           "title": "アンカー イヤホン ワイヤレス Bluetooth ノイズキャンセリング Soundcore Liberty 5 A3957N11 ミッドナイトブラッ",
           "shop_name": "ディーショップワン Yahoo!店",
-          "price_jpy": 13372,
+          "price_jpy": 13371,
           "url": "https://store.shopping.yahoo.co.jp/dshopone-y/4571411228452.html",
           "jan_code": "4571411228452",
           "risk_flags": []
@@ -3685,33 +3673,15 @@
         "4974305224224"
       ],
       "candidate_price_jpy": 26900,
-      "total_available": 39,
-      "returned": 39,
+      "total_available": 37,
+      "returned": 37,
       "truncated": false,
-      "matched_listing_count": 39,
-      "comparison_shop_count": 39,
+      "matched_listing_count": 37,
+      "comparison_shop_count": 37,
       "other_shop_lowest_jpy": 26200,
       "lowest_observed_jpy": 26200,
       "cross_shop_advantage_percent": 0,
       "cheaper_offers": [
-        {
-          "id": "yahoo:gbft-online_3x-9l7z-47jt",
-          "title": "象印 ZOJIRUSHI 豪熱大火力 圧力IH炊飯ジャー ブラック 5.5合炊き NW-YA10-BA",
-          "shop_name": "GBFT Online",
-          "price_jpy": 26200,
-          "url": "https://store.shopping.yahoo.co.jp/gbft-online/3x-9l7z-47jt.html",
-          "jan_code": "4974305224224",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:gbft_3x-9l7z-47jt",
-          "title": "象印 ZOJIRUSHI 豪熱大火力 圧力IH炊飯ジャー ブラック 5.5合炊き NW-YA10-BA",
-          "shop_name": "GBFT Premium",
-          "price_jpy": 26200,
-          "url": "https://store.shopping.yahoo.co.jp/gbft/3x-9l7z-47jt.html",
-          "jan_code": "4974305224224",
-          "risk_flags": []
-        },
         {
           "id": "yahoo:sanrex_nw-ya10-ba",
           "title": "象印圧力IH炊飯器/5.5合炊き/NW-YA10-BA",
@@ -3744,20 +3714,20 @@
       "cross_shop_advantage_percent": 0,
       "cheaper_offers": [
         {
-          "id": "yahoo:ecjoyecj25_20333998",
-          "title": "ZOJIRUSHI 象印 コーヒーメーカー EC-MA60-BA",
-          "shop_name": "HJN ヤフー店",
-          "price_jpy": 5570,
-          "url": "https://store.shopping.yahoo.co.jp/ecjoyecj25/20333998.html",
-          "jan_code": "4974305224385",
-          "risk_flags": []
-        },
-        {
           "id": "yahoo:ecjoyecj26_20333998",
           "title": "ZOJIRUSHI 象印 コーヒーメーカー EC-MA60-BA",
           "shop_name": "ライフアンドグッツ",
           "price_jpy": 5570,
           "url": "https://store.shopping.yahoo.co.jp/ecjoyecj26/20333998.html",
+          "jan_code": "4974305224385",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:ecjoyecj25_20333998",
+          "title": "ZOJIRUSHI 象印 コーヒーメーカー EC-MA60-BA",
+          "shop_name": "HJN ヤフー店",
+          "price_jpy": 5570,
+          "url": "https://store.shopping.yahoo.co.jp/ecjoyecj25/20333998.html",
           "jan_code": "4974305224385",
           "risk_flags": []
         },
@@ -3771,20 +3741,20 @@
           "risk_flags": []
         },
         {
-          "id": "yahoo:d-price_ec-ma60-ba",
-          "title": "コーヒーメーカー 象印 珈琲通 ブラック EC-MA60-BA ZOJIRUSHI",
-          "shop_name": "生活家電ディープライス",
-          "price_jpy": 6010,
-          "url": "https://store.shopping.yahoo.co.jp/d-price/ec-ma60-ba.html",
-          "jan_code": "4974305224385",
-          "risk_flags": []
-        },
-        {
           "id": "yahoo:d-price-ys_ec-ma60-ba",
           "title": "(11/25限定クーポン有)EC-MA60-BA ZOJIRUSHI 象印 珈琲通 コーヒーメーカー ブラック",
           "shop_name": "生活家電ディープライス ヤフーショッピング店",
           "price_jpy": 6010,
           "url": "https://store.shopping.yahoo.co.jp/d-price-ys/ec-ma60-ba.html",
+          "jan_code": "4974305224385",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:d-price_ec-ma60-ba",
+          "title": "コーヒーメーカー 象印 珈琲通 ブラック EC-MA60-BA ZOJIRUSHI",
+          "shop_name": "生活家電ディープライス",
+          "price_jpy": 6010,
+          "url": "https://store.shopping.yahoo.co.jp/d-price/ec-ma60-ba.html",
           "jan_code": "4974305224385",
           "risk_flags": []
         }
@@ -3802,8 +3772,8 @@
         "ct1000p3pssd8"
       ],
       "candidate_price_jpy": 23988,
-      "total_available": 20,
-      "returned": 20,
+      "total_available": 21,
+      "returned": 21,
       "truncated": false,
       "matched_listing_count": 7,
       "comparison_shop_count": 0,
@@ -3848,7 +3818,7 @@
       "own_confirmed": false,
       "status": "model_review_only",
       "excluded": {
-        "model_or_spec_mismatch": 13
+        "model_or_spec_mismatch": 14
       }
     },
     "yahoo:spd-shop_mcssd1t-p3p": {
@@ -3860,8 +3830,8 @@
         "ct1000p3pssd8"
       ],
       "candidate_price_jpy": 23580,
-      "total_available": 20,
-      "returned": 20,
+      "total_available": 21,
+      "returned": 21,
       "truncated": false,
       "matched_listing_count": 7,
       "comparison_shop_count": 0,
@@ -3872,7 +3842,7 @@
       "own_confirmed": false,
       "status": "model_review_only",
       "excluded": {
-        "model_or_spec_mismatch": 13
+        "model_or_spec_mismatch": 14
       }
     }
   },
