@@ -65,12 +65,15 @@ jobs:
           REVIEW_HOURS: ${{ inputs.hours }}
           REVIEW_CONFIRMED: ${{ inputs.confirmed }}
         run: python scripts/deal_review.py
+      - name: Refresh public discovery catalogue
+        if: inputs.action != 'review'
+        run: python scripts/build_catalog.py
       - name: Commit review changes
         if: inputs.action != 'review'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/manual_deals.json site/deals.json data/review_decisions.json
+          git add data/manual_deals.json site/deals.json data/review_decisions.json site/catalog.json
           git diff --cached --check
           if ! git diff --cached --quiet; then
             git commit -m "Apply human deal review"
