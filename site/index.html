@@ -761,6 +761,8 @@
         >
         </button>
 
+        <button class="type-tab" data-type="自动发现" type="button"></button>
+
       </div>
 
     </section>
@@ -846,6 +848,10 @@
 
     </div>
 
+    <!-- Begin Yahoo! JAPAN Web Services Attribution Snippet -->
+    <span style="margin:15px 15px 15px 15px"><a href="https://developer.yahoo.co.jp/sitemap/">Webサービス by Yahoo! JAPAN</a></span>
+    <!-- End Yahoo! JAPAN Web Services Attribution Snippet -->
+
   </footer>
 
 
@@ -880,7 +886,7 @@
           "最新优惠",
 
         heroDescription:
-          "整理日本电商及实体店近期值得关注的优惠信息。所有公开展示的优惠均经过人工确认，实际价格、库存及活动条件请以商家页面为准。",
+          "自动展示日本商品采集标价与已核验优惠活动。自动发现商品不代表降价、推荐或已核验；价格、库存和活动条件以商家页面为准。",
 
         loading:
           "正在读取数据…",
@@ -1000,7 +1006,7 @@
           "最新のお得情報",
 
         heroDescription:
-          "日本のECサイトや実店舗で実施されている、注目のお得情報をまとめています。掲載情報は確認のうえ公開していますが、最新の価格、在庫、キャンペーン条件は各ショップのページをご確認ください。",
+          "日本の商品の取得価格と確認済みキャンペーン情報を掲載します。自動取得商品は値下げ・推奨・確認済みを意味しません。最新の価格・在庫・条件は各ショップでご確認ください。",
 
         loading:
           "データを読み込んでいます…",
@@ -1120,7 +1126,7 @@
           "Latest Deals",
 
         heroDescription:
-          "We collect noteworthy deals from online and physical stores in Japan. Published deals are manually reviewed, but final prices, availability and promotion terms should always be confirmed on the merchant's website.",
+          "We display collected listing prices and reviewed promotions in Japan. Automatically discovered listings are not verified discounts or recommendations. Check current prices, stock and terms with the seller.",
 
         loading:
           "Loading deals…",
@@ -1223,11 +1229,40 @@
     };
 
 
+    Object.assign(translations.zh, {
+      autoType: "自动发现", unverified: "未核验・采集标价",
+      confirmedLabel: "人工核验", observed: "采集于", rawUntil: "数据有效至",
+      riskHint: "注意：可能为配件、拆卖、特殊保修或其他销售条件。",
+      autoDescription: "以下为商家采集标价，不代表真实降价。请核对型号、规格、库存、运费及最终价格。",
+      autoLink: "查看商品原页", noVerified: "暂无有效商品或优惠",
+      monitoring: "自动采集数据暂不可用或已过期，请稍后刷新。",
+      autoUnavailable: "自动采集暂不可用"
+    });
+    Object.assign(translations.ja, {
+      autoType: "自動取得", unverified: "未確認・取得価格",
+      confirmedLabel: "確認済み", observed: "取得日時", rawUntil: "データ有効期限",
+      riskHint: "付属品・単品販売・保証条件などにご注意ください。",
+      autoDescription: "取得時の表示価格です。値下げを意味しません。型番、仕様、在庫、送料、最終価格をご確認ください。",
+      autoLink: "商品ページへ", noVerified: "有効な掲載情報はありません",
+      monitoring: "自動取得データは現在利用できないか期限切れです。",
+      autoUnavailable: "自動取得データ利用不可"
+    });
+    Object.assign(translations.en, {
+      autoType: "Discovered listings", unverified: "Unverified listing price",
+      confirmedLabel: "Reviewed", observed: "Observed", rawUntil: "Data valid until",
+      riskHint: "Check for accessories, individual parts, warranty or other special conditions.",
+      autoDescription: "Collected listing price, not a confirmed discount. Check model, specifications, stock, shipping and final price.",
+      autoLink: "View product listing", noVerified: "No current listings or promotions",
+      monitoring: "Automatic data is unavailable or expired. Please refresh later.",
+      autoUnavailable: "Automatic listing data unavailable"
+    });
+
     /* =====================================================
        State
        ===================================================== */
 
     let all = [];
+    let catalogueUnavailable = false;
 
     let selectedType = "";
 
@@ -1317,7 +1352,9 @@
           t("coupon"),
 
         "线下促销":
-          t("offline")
+          t("offline"),
+        "自动发现":
+          t("autoType")
 
       };
 
@@ -1391,6 +1428,7 @@
 
       typeButtons[3].textContent =
         t("offline");
+      typeButtons[4].textContent = t("autoType");
 
 
       /* Search */
@@ -1619,7 +1657,8 @@
         + " · "
         + all.length
         + " "
-        + t("itemUnit");
+        + t("itemUnit")
+        + (catalogueUnavailable ? " · " + t("autoUnavailable") : "");
 
     }
 
@@ -1644,7 +1683,7 @@
       let items =
         all.filter(
           item => {
-
+            if (item.expires_at && !(Date.parse(item.expires_at) > Date.now())) return false;
 
             if (
               selectedType &&
@@ -1668,6 +1707,8 @@
 
               item.title,
               item.merchant,
+              item.shop_name,
+              item.jan_code,
               item.description,
               item.location,
               item.deal_type,
@@ -1714,17 +1755,8 @@
       } else {
 
         items.sort(
-          (a, b) =>
-            String(
-              b.verified_at
-              || ""
-            )
-              .localeCompare(
-                String(
-                  a.verified_at
-                  || ""
-                )
-              )
+          (a, b) => Number(b.verified === true) - Number(a.verified === true) ||
+            String(b.verified_at || b.observed_at || "").localeCompare(String(a.verified_at || a.observed_at || ""))
         );
 
       }
@@ -1893,9 +1925,11 @@
         }
 
 
-        card.append(
-          tags
-        );
+        const stateTag = document.createElement("span");
+        stateTag.className = "tag";
+        stateTag.textContent = t(item.auto_discovered ? "unverified" : "confirmedLabel");
+        tags.append(stateTag);
+        card.append(tags);
 
 
         /* Title */
@@ -1919,7 +1953,7 @@
         /* Description */
 
         if (
-          item.description
+          item.description || item.auto_discovered
         ) {
 
           const description =
@@ -1932,8 +1966,9 @@
             "description";
 
 
-          description.textContent =
-            item.description;
+          description.textContent = item.auto_discovered
+            ? [item.shop_name, t("autoDescription"), item.risk_hint ? t("riskHint") : ""].filter(Boolean).join(" · ")
+            : item.description;
 
 
           card.append(
@@ -2067,15 +2102,15 @@
         ) {
 
           metadata.push(
-            t("expires")
+            t(item.auto_discovered ? "rawUntil" : "expires")
             + " "
-            + formatDate(
-                item.expires_at
-              )
+            + (item.auto_discovered ? formatDateTime(item.expires_at) : formatDate(item.expires_at))
           );
 
         }
 
+
+        if (item.auto_discovered && item.observed_at) metadata.push(t("observed") + " " + formatDateTime(item.observed_at));
 
         if (
           item.verified_at
@@ -2151,8 +2186,7 @@
         }
 
 
-        link.textContent =
-          t("viewDeal");
+        link.textContent = t(item.auto_discovered ? "autoLink" : "viewDeal");
 
 
         card.append(
@@ -2181,77 +2215,41 @@
 
       try {
 
-        const response =
-          await fetch(
-            "./deals.json",
-            {
-              cache:
-                "no-store"
-            }
-          );
-
-
-        if (
-          !response.ok
-        ) {
-
-          throw new Error(
-            "HTTP "
-            + response.status
-          );
-
-        }
-
-
-        const data =
-          await response.json();
-
-
-        generatedAt =
-          data.generated_at
-          || null;
-
-
-        all =
-          (
-            data.deals
-            || []
-          ).filter(
-            item =>
-              item.verified
-              === true
-
-              &&
-
-              (
-                item.price_jpy
-                == null
-
-                ||
-
-                item.price_jpy
-                > 0
-              )
-
-              &&
-
-              item.url
-
-              &&
-
-              (
-                !item.expires_at
-
-                ||
-
-                Date.parse(
-                  item.expires_at
-                )
-                >
-                Date.now()
-              )
-          );
-
+        const read = async path => {
+          const response = await fetch(path, {cache: "no-store"});
+          if (!response.ok) throw new Error("HTTP " + response.status);
+          return response.json();
+        };
+        const [manual, catalogue] = await Promise.allSettled([read("./deals.json"), read("./catalog.json")]);
+        if (manual.status !== "fulfilled" && catalogue.status !== "fulfilled") throw new Error("Both data feeds unavailable");
+        const verifiedFeed = manual.status === "fulfilled" ? manual.value : {};
+        const autoFeed = catalogue.status === "fulfilled" ? catalogue.value : {};
+        const time = Date.now();
+        const live = item => item && (!item.expires_at || Date.parse(item.expires_at) > time);
+        const validPrice = item => item.price_jpy == null || (typeof item.price_jpy === "number" && Number.isFinite(item.price_jpy) && item.price_jpy > 0);
+        const verified = (Array.isArray(verifiedFeed.deals) ? verifiedFeed.deals : []).filter(item =>
+          live(item) && item.verified === true && validPrice(item) && safeUrl(item.url) !== "#");
+        const sourceTime = Date.parse(autoFeed.source_generated_at);
+        catalogueUnavailable = !(autoFeed.version === 1 && autoFeed.status === "OK" && Array.isArray(autoFeed.items) && sourceTime <= time && time-sourceTime <= 8*60*60*1000);
+        const canonical = url => {
+          try {
+            const u = new URL(url);
+            if (["store.shopping.yahoo.co.jp","shopping.yahoo.co.jp","lohaco.yahoo.co.jp"].includes(u.hostname)) {u.search = "";u.hash = "";}
+            return u.href.replace(/\/$/, "");
+          } catch (_) {return "";}
+        };
+        const verifiedIds = new Set(verified.flatMap(x => [x.id,x.candidate_id]).filter(Boolean));
+        const seen = new Set(verified.map(x => canonical(x.url)));
+        const discovered = catalogueUnavailable ? [] : autoFeed.items.filter(item => {
+          if (!live(item) || !item.expires_at || item.auto_discovered !== true || item.verified !== false ||
+              typeof item.title !== "string" || typeof item.id !== "string" ||
+              item.price_jpy == null || !validPrice(item) || safeUrl(item.url) === "#" ||
+              verifiedIds.has(item.id) || seen.has(canonical(item.url))) return false;
+          seen.add(canonical(item.url));
+          return true;
+        });
+        all = [...verified, ...discovered];
+        generatedAt = [verifiedFeed.generated_at, catalogueUnavailable ? null : autoFeed.generated_at].filter(x => Number.isFinite(Date.parse(x))).sort().pop() || new Date().toISOString();
 
         /* Categories */
 
@@ -2481,6 +2479,8 @@
 
 
     load();
+    setInterval(() => { all = all.filter(x => !x.expires_at || Date.parse(x.expires_at) > Date.now()); updateStatus(); render(); }, 60000);
+    setInterval(load, 300000);
 
   </script>
 
