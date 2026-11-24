@@ -1,10 +1,10 @@
 {
   "version": 1,
-  "generated_at": "2026-11-24T15:01:24.393102+00:00",
-  "source_generated_at": "2026-11-24T15:01:11+00:00",
+  "generated_at": "2026-11-24T15:06:27.358796+00:00",
+  "source_generated_at": "2026-11-24T15:06:17+00:00",
   "snapshot_fresh": true,
-  "listing_count": 234,
-  "missing_jan_count": 58,
+  "listing_count": 235,
+  "missing_jan_count": 59,
   "pair_count": 1,
   "rejected": {},
   "pairs": [

@@ -4086,6 +4086,10 @@
         {
           "time": "2026-11-24T14:02:38+00:00",
           "price": 23999
+        },
+        {
+          "time": "2026-11-24T15:06:17+00:00",
+          "price": 24269
         }
       ]
     },
@@ -4316,7 +4320,91 @@
           "price": 6980
         }
       ]
+    },
+    "yahoo:audio-technica_130308930": {
+      "title": "オーディオテクニカ ATH-SQ1TW2 ワイヤレス Bluetooth マルチポイント ながら聞き ハンズフリー通話 片耳通話 小型 低遅延",
+      "jan_code": "4961310160456",
+      "shop_name": "オーディオテクニカ公式 Yahoo!店",
+      "url": "https://store.shopping.yahoo.co.jp/audio-technica/130308930.html",
+      "history": [
+        {
+          "time": "2026-11-24T15:06:17+00:00",
+          "price": 5390
+        }
+      ]
+    },
+    "yahoo:yamada-denki_4418525018": {
+      "title": "オーディオテクニカ ワイヤレス イヤホン ノイズキャンセリング IP55 最大25時間 USB-C ATH-CKS50TW2 BK ブラック系",
+      "jan_code": "4961310162696",
+      "shop_name": "ヤマダデンキ Yahoo!店",
+      "url": "https://store.shopping.yahoo.co.jp/yamada-denki/4418525018.html",
+      "history": [
+        {
+          "time": "2026-11-24T15:06:17+00:00",
+          "price": 23980
+        }
+      ]
+    },
+    "yahoo:irisplaza_212764": {
+      "title": "掃除機 コードレス 軽量 アイリスオーヤマ ゴミ収集ドック 1.5L サイクロン 充電式 きわまでヘッド SCD-124PD-NH",
+      "jan_code": "4967576831123",
+      "shop_name": "アイリスプラザ Yahoo!店",
+      "url": "https://store.shopping.yahoo.co.jp/irisplaza/212764.html",
+      "history": [
+        {
+          "time": "2026-11-24T15:06:17+00:00",
+          "price": 29800
+        }
+      ]
+    },
+    "yahoo:queensshop_sal016": {
+      "title": "ドライヤー サロニア スムースシャイン ドライヤー 速乾 SALONIA公式店 ヘアドライヤー 大風量 30日間全額返金保証付き ヘアードライヤー",
+      "jan_code": "",
+      "shop_name": "アンドハビット",
+      "url": "https://store.shopping.yahoo.co.jp/queensshop/sal016.html",
+      "history": [
+        {
+          "time": "2026-11-24T15:06:17+00:00",
+          "price": 9900
+        }
+      ]
+    },
+    "yahoo:dyson_711289-01": {
+      "title": "ドライヤー ヘアドライヤー ダイソン 【新製品】 Dyson Supersonic Origin ブラック/ニッケル HD08BBN お得なシンプルモデル",
+      "jan_code": "5025155149515",
+      "shop_name": "Dyson公式Yahoo!ショッピング店",
+      "url": "https://store.shopping.yahoo.co.jp/dyson/711289-01.html",
+      "history": [
+        {
+          "time": "2026-11-24T15:06:17+00:00",
+          "price": 29900
+        }
+      ]
+    },
+    "yahoo:yamada-denki_3467233011": {
+      "title": "フィリップス HX7110／04 ソニッケアー 電動歯ブラシ 音波水流式 クリーンモード搭載 ホワイト",
+      "jan_code": "8720689046473",
+      "shop_name": "ヤマダデンキ Yahoo!店",
+      "url": "https://store.shopping.yahoo.co.jp/yamada-denki/3467233011.html",
+      "history": [
+        {
+          "time": "2026-11-24T15:06:17+00:00",
+          "price": 16045
+        }
+      ]
+    },
+    "yahoo:joshin_4549980869505-24-46091": {
+      "title": "パナソニック コーヒーメーカー ブラック Panasonic 全自動コーヒーメーカー クリスマス ギフト NC-A58-K 返品種別A",
+      "jan_code": "4549980869505",
+      "shop_name": "Joshin web",
+      "url": "https://store.shopping.yahoo.co.jp/joshin/4549980869505-24-46091.html",
+      "history": [
+        {
+          "time": "2026-11-24T15:06:17+00:00",
+          "price": 22817
+        }
+      ]
     }
   },
-  "updated_at": "2026-11-24T15:01:11+00:00"
+  "updated_at": "2026-11-24T15:06:17+00:00"
 }

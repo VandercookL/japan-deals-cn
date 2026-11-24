@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "status": "OK",
-  "source_generated_at": "2026-11-24T15:01:11+00:00",
-  "generated_at": "2026-11-24T15:01:35.538727+00:00",
+  "status": "PARTIAL",
+  "source_generated_at": "2026-11-24T15:06:17+00:00",
+  "generated_at": "2026-11-24T15:06:39.469143+00:00",
   "request_budget": 12,
-  "requests": 8,
-  "planned_queries": 8,
+  "requests": 9,
+  "planned_queries": 9,
   "successful_queries": 8,
-  "failed_queries": 0,
+  "failed_queries": 1,
   "query_results": [
     {
       "key": [
@@ -3359,7 +3359,15 @@
       ]
     }
   ],
-  "errors": [],
+  "errors": [
+    {
+      "key": [
+        "jan",
+        "4549550415958"
+      ],
+      "code": "INVALID_HIT"
+    }
+  ],
   "evidence": {
     "yahoo:densidonya_4549995519921": {
       "id": "yahoo:densidonya_4549995519921",
@@ -3565,6 +3573,17 @@
       "excluded": {
         "risk_or_spec_conflict": 7
       }
+    },
+    "yahoo:elecom_4549550415958": {
+      "id": "yahoo:elecom_4549550415958",
+      "query_type": "jan",
+      "query_key": [
+        "jan",
+        "4549550415958"
+      ],
+      "candidate_price_jpy": 19800,
+      "status": "query_error",
+      "error": "INVALID_HIT"
     },
     "yahoo:densidonya_4549995519860": {
       "id": "yahoo:densidonya_4549995519860",
