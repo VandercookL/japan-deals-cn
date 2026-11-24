@@ -34,12 +34,17 @@ jobs:
       - name: Score Yahoo deal candidates (review only)
         continue-on-error: true
         run: python scripts/deal_scoring.py
+      - name: Precise Yahoo JAN and model comparison (review only)
+        continue-on-error: true
+        env:
+          YAHOO_CLIENT_ID: ${{ secrets.YAHOO_CLIENT_ID }}
+        run: python scripts/precise_comparison.py
       - name: Commit updated data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add site/deals.json
-          for f in data/yahoo_candidates.json data/deal_candidates.json data/product_comparison.json data/model_match_candidates.json data/deal_scores.json; do
+          for f in data/yahoo_candidates.json data/deal_candidates.json data/product_comparison.json data/model_match_candidates.json data/deal_scores.json data/precise_comparison.json; do
             if [ -f "$f" ]; then git add "$f"; fi
           done
           if [ -d data/price_history ]; then git add data/price_history/; fi
