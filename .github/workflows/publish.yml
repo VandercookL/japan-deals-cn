@@ -1,121 +1,50 @@
 name: Update deals data
-
 on:
   workflow_dispatch:
-
   schedule:
     - cron: '17 */6 * * *'
-
   push:
-    branches:
-      - main
+    branches: [main]
     paths:
       - 'data/manual_deals.json'
       - 'scripts/**'
       - '.github/workflows/publish.yml'
-
-
 permissions:
   contents: write
-
-
 concurrency:
   group: update-deals
   cancel-in-progress: false
-
-
 jobs:
-
   update:
-
     runs-on: ubuntu-latest
-
     steps:
-
-      # -----------------------------------------
-      # 1. Checkout repository
-      # -----------------------------------------
-
       - name: Checkout repository
         uses: actions/checkout@v4
-
-
-      # -----------------------------------------
-      # 2. Python
-      # -----------------------------------------
-
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-
-
-      # -----------------------------------------
-      # 3. Generate deals and price data
-      # -----------------------------------------
-
       - name: Generate deals data
-
         env:
-
-          # Rakuten API
           RAKUTEN_APP_ID: ${{ secrets.RAKUTEN_APP_ID }}
           RAKUTEN_ACCESS_KEY: ${{ secrets.RAKUTEN_ACCESS_KEY }}
           RAKUTEN_AFFILIATE_ID: ${{ secrets.RAKUTEN_AFFILIATE_ID }}
-
-          # Yahoo! Shopping API
           YAHOO_CLIENT_ID: ${{ secrets.YAHOO_CLIENT_ID }}
-
-        run: python scripts/build_feed.py
-
-
-      # -----------------------------------------
-      # 4. Commit generated data
-      # -----------------------------------------
-
-      - name: Commit updated data
-
         run: |
-
+          python scripts/build_feed.py
+          python scripts/price_analysis.py
+      - name: Commit updated data
+        run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
-          # Published verified deals
           git add site/deals.json
-
-          # Rakuten discovery candidates
-          if [ -f data/rakuten_candidates.json ]; then
-            git add data/rakuten_candidates.json
-          fi
-
-          # Yahoo discovery candidates
-          if [ -f data/yahoo_candidates.json ]; then
-            git add data/yahoo_candidates.json
-          fi
-
-          # Yahoo historical prices
-          if [ -d data/price_history ]; then
-            git add data/price_history/
-          fi
-
-          # Automatically detected price-drop candidates
-          if [ -f data/deal_candidates.json ]; then
-            git add data/deal_candidates.json
-          fi
-          
-          # JAN-based product comparison
-            if [ -f data/product_comparison.json ]; then
-            git add data/product_comparison.json
-             fi
-         
-          # Commit only when something actually changed
+          for f in data/rakuten_candidates.json data/yahoo_candidates.json data/deal_candidates.json data/product_comparison.json; do
+            if [ -f "$f" ]; then git add "$f"; fi
+          done
+          if [ -d data/price_history ]; then git add data/price_history/; fi
           if ! git diff --cached --quiet; then
-
             git commit -m "Update deals data"
             git push
-
           else
-
             echo "No data changes"
-
           fi
