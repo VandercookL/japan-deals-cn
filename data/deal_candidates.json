@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T14:17:44+00:00",
+  "generated_at": "2026-11-24T14:32:07+00:00",
   "version": 3,
   "rules": {
     "minimum_drop_percent": 5,
@@ -43,8 +43,8 @@
       "note": "自动筛选，尚未人工验证；不含运费、积分及优惠券",
       "history_7d": {
         "window_days": 7,
-        "covered_hours": 0.24,
-        "coverage_percent": 0.14,
+        "covered_hours": 0.48,
+        "coverage_percent": 0.28,
         "complete": false,
         "observed_low_jpy": 11980,
         "low_jpy": null,
@@ -53,8 +53,8 @@
       },
       "history_30d": {
         "window_days": 30,
-        "covered_hours": 0.24,
-        "coverage_percent": 0.03,
+        "covered_hours": 0.48,
+        "coverage_percent": 0.07,
         "complete": false,
         "observed_low_jpy": 11980,
         "low_jpy": null,
@@ -64,7 +64,7 @@
       "history_classification": "恢复原价",
       "recovered_price": true,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-24T14:17:44+00:00",
+      "last_seen_at": "2026-11-24T14:32:07+00:00",
       "price_changed_at": "2026-11-23T07:44:55+00:00",
       "comparison_shop_count": 0
     },
@@ -100,8 +100,8 @@
       "note": "自动筛选，尚未人工验证；不含运费、积分及优惠券",
       "history_7d": {
         "window_days": 7,
-        "covered_hours": 0.24,
-        "coverage_percent": 0.14,
+        "covered_hours": 0.48,
+        "coverage_percent": 0.28,
         "complete": false,
         "observed_low_jpy": 12680,
         "low_jpy": null,
@@ -110,8 +110,8 @@
       },
       "history_30d": {
         "window_days": 30,
-        "covered_hours": 0.24,
-        "coverage_percent": 0.03,
+        "covered_hours": 0.48,
+        "coverage_percent": 0.07,
         "complete": false,
         "observed_low_jpy": 12680,
         "low_jpy": null,
@@ -121,7 +121,7 @@
       "history_classification": "恢复原价",
       "recovered_price": true,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-24T14:17:44+00:00",
+      "last_seen_at": "2026-11-24T14:32:07+00:00",
       "price_changed_at": "2026-11-23T07:44:55+00:00",
       "comparison_shop_count": 0
     },
@@ -157,8 +157,8 @@
       "note": "自动筛选，尚未人工验证；不含运费、积分及优惠券",
       "history_7d": {
         "window_days": 7,
-        "covered_hours": 0.24,
-        "coverage_percent": 0.14,
+        "covered_hours": 0.48,
+        "coverage_percent": 0.28,
         "complete": false,
         "observed_low_jpy": 12680,
         "low_jpy": null,
@@ -167,8 +167,8 @@
       },
       "history_30d": {
         "window_days": 30,
-        "covered_hours": 0.24,
-        "coverage_percent": 0.03,
+        "covered_hours": 0.48,
+        "coverage_percent": 0.07,
         "complete": false,
         "observed_low_jpy": 12680,
         "low_jpy": null,
@@ -178,7 +178,7 @@
       "history_classification": "恢复原价",
       "recovered_price": true,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-24T14:17:44+00:00",
+      "last_seen_at": "2026-11-24T14:32:07+00:00",
       "price_changed_at": "2026-11-23T07:44:55+00:00",
       "comparison_shop_count": 0
     }
