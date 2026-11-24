@@ -1,0 +1,81 @@
+name: Review and publish deals
+on:
+  workflow_dispatch:
+    inputs:
+      action:
+        description: '操作：review 查看 / approve 批准 / reject 拒绝 / restore 恢复 / unpublish 下架'
+        type: choice
+        options: [review, approve, reject, restore, unpublish]
+        default: review
+        required: true
+      listing_id:
+        description: '候选ID（下架时用人工记录ID）'
+        type: string
+        required: false
+      price:
+        description: '批准时填写实际核验标价（日元整数）'
+        type: string
+        required: false
+      title:
+        description: '批准时填写中文商品标题（可含品牌型号）'
+        type: string
+        required: false
+      description:
+        description: '批准时填写中文介绍、优惠依据和适用条件（禁止密钥或隐私）'
+        type: string
+        required: false
+      category:
+        description: '商品分类'
+        type: choice
+        options: [数码家电, 综合购物, 超市日用, 食品饮料, 美妆个护, 服饰鞋包, 其他]
+        default: 数码家电
+      hours:
+        description: '发布有效期（小时；真实优惠更早截止时不要使用快捷审批）'
+        type: choice
+        options: ['1', '3', '6', '12', '24']
+        default: '6'
+      confirmed:
+        description: '确认本次操作；批准时已人工核验价格、库存、条件、优势依据和有效期'
+        type: boolean
+        default: false
+permissions:
+  contents: write
+concurrency:
+  group: update-deals
+  cancel-in-progress: false
+jobs:
+  review:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Review or prepare approved changes
+        env:
+          REVIEW_ACTION: ${{ inputs.action }}
+          REVIEW_ID: ${{ inputs.listing_id }}
+          REVIEW_PRICE: ${{ inputs.price }}
+          REVIEW_TITLE: ${{ inputs.title }}
+          REVIEW_DESCRIPTION: ${{ inputs.description }}
+          REVIEW_CATEGORY: ${{ inputs.category }}
+          REVIEW_HOURS: ${{ inputs.hours }}
+          REVIEW_CONFIRMED: ${{ inputs.confirmed }}
+        run: python scripts/deal_review.py
+      - name: Commit review changes
+        if: inputs.action != 'review'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/manual_deals.json site/deals.json data/review_decisions.json
+          git diff --cached --check
+          if ! git diff --cached --quiet; then
+            git commit -m "Apply human deal review"
+            git push origin HEAD:main
+            echo 'Review changes committed successfully. Check Cloudflare deployment and the public site.' >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo 'No changes' >> "$GITHUB_STEP_SUMMARY"
+          fi
