@@ -1,0 +1,55 @@
+name: Update deals data
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 */6 * * *'
+  push:
+    branches: [main]
+    paths:
+      - 'data/manual_deals.json'
+      - 'scripts/**'
+      - '.github/workflows/publish.yml'
+permissions:
+  contents: write
+concurrency:
+  group: update-deals
+  cancel-in-progress: false
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Generate deals data
+        env:
+          YAHOO_CLIENT_ID: ${{ secrets.YAHOO_CLIENT_ID }}
+        run: |
+          python scripts/build_feed.py
+          python scripts/price_analysis.py
+          python scripts/product_matching.py
+      - name: Commit updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/deals.json
+          for f in data/yahoo_candidates.json data/deal_candidates.json data/product_comparison.json data/model_match_candidates.json; do
+            if [ -f "$f" ]; then git add "$f"; fi
+          done
+          if [ -d data/price_history ]; then git add data/price_history/; fi
+          if ! git diff --cached --quiet; then
+            git commit -m "Update deals data"
+            git push
+          else
+            echo "No data changes"
+          fi
+      - name: Rakuten live discovery and comparison (no price persistence)
+        env:
+          RAKUTEN_APP_ID: ${{ secrets.RAKUTEN_APP_ID }}
+          RAKUTEN_ACCESS_KEY: ${{ secrets.RAKUTEN_ACCESS_KEY }}
+          RAKUTEN_AFFILIATE_ID: ${{ secrets.RAKUTEN_AFFILIATE_ID }}
+          RAKUTEN_ALLOWED_ORIGIN: ${{ vars.RAKUTEN_ALLOWED_ORIGIN }}
+        run: python scripts/rakuten_integration.py
