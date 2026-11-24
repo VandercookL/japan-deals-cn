@@ -442,6 +442,10 @@
         {
           "time": "2026-11-24T09:58:26+00:00",
           "price": 37010
+        },
+        {
+          "time": "2026-11-24T14:02:38+00:00",
+          "price": 37370
         }
       ]
     },
@@ -1242,6 +1246,10 @@
         {
           "time": "2026-11-24T09:58:26+00:00",
           "price": 60989
+        },
+        {
+          "time": "2026-11-24T14:02:38+00:00",
+          "price": 61007
         }
       ]
     },
@@ -1366,6 +1374,10 @@
         {
           "time": "2026-11-23T23:56:57+00:00",
           "price": 60109
+        },
+        {
+          "time": "2026-11-24T14:02:38+00:00",
+          "price": 60435
         }
       ]
     },
@@ -1662,6 +1674,10 @@
         {
           "time": "2026-11-24T09:58:26+00:00",
           "price": 17380
+        },
+        {
+          "time": "2026-11-24T14:02:38+00:00",
+          "price": 17150
         }
       ]
     },
@@ -2998,6 +3014,10 @@
         {
           "time": "2026-11-22T11:43:50+00:00",
           "price": 29700
+        },
+        {
+          "time": "2026-11-24T14:02:38+00:00",
+          "price": 31185
         }
       ]
     },
@@ -3634,6 +3654,10 @@
         {
           "time": "2026-11-24T09:58:26+00:00",
           "price": 61800
+        },
+        {
+          "time": "2026-11-24T14:02:38+00:00",
+          "price": 62180
         }
       ]
     },
@@ -3682,6 +3706,10 @@
         {
           "time": "2026-11-24T09:58:26+00:00",
           "price": 61112
+        },
+        {
+          "time": "2026-11-24T14:02:38+00:00",
+          "price": 61334
         }
       ]
     },
@@ -3742,6 +3770,10 @@
         {
           "time": "2026-11-24T09:58:26+00:00",
           "price": 27299
+        },
+        {
+          "time": "2026-11-24T14:02:38+00:00",
+          "price": 26900
         }
       ]
     },
@@ -4020,7 +4052,271 @@
           "price": 15710
         }
       ]
+    },
+    "yahoo:ankerdirect_a110r": {
+      "title": "Anker MagGo Power Bank 2 Pro 10000mAh Qi25W MagSafeモバイルバッテリー 【釘を刺しても燃えない】MagSafeモバイルバッテリー【期間限定クーポン実施中】",
+      "jan_code": "4571651017625",
+      "shop_name": "Anker 公式ストア ヤフー店",
+      "url": "https://store.shopping.yahoo.co.jp/ankerdirect/a110r.html",
+      "history": [
+        {
+          "time": "2026-11-24T14:02:38+00:00",
+          "price": 16990
+        }
+      ]
+    },
+    "yahoo:noahshoping_4549995725049-hosyou": {
+      "title": "『新品外箱傷みあり』Apple(アップル) AirPods 5 MKFW4J/A ※1年保証開始済み商品",
+      "jan_code": "4549995725049",
+      "shop_name": "ノア商社Yahoo!店",
+      "url": "https://store.shopping.yahoo.co.jp/noahshoping/4549995725049-hosyou.html",
+      "history": [
+        {
+          "time": "2026-11-24T14:02:38+00:00",
+          "price": 22389
+        }
+      ]
+    },
+    "yahoo:noahshoping_4549995725025-hosyou": {
+      "title": "『新品外箱傷みあり』Apple(アップル)AirPods 5 ワイヤレス充電ケース付き MKFT4J/A ※1年保証開始済み商品",
+      "jan_code": "4549995725025",
+      "shop_name": "ノア商社Yahoo!店",
+      "url": "https://store.shopping.yahoo.co.jp/noahshoping/4549995725025-hosyou.html",
+      "history": [
+        {
+          "time": "2026-11-24T14:02:38+00:00",
+          "price": 23999
+        }
+      ]
+    },
+    "yahoo:ankerdirect_a110d": {
+      "title": "モバイルバッテリー Anker Zolo Power Bank (10000mAh, 22.5W, Built-In USB-Cケーブル)USB PD/PowerIQ搭載/PSE技術基準適合10K 10000mAh iPhone 18 / アンカー",
+      "jan_code": "4571651001020",
+      "shop_name": "Anker 公式ストア ヤフー店",
+      "url": "https://store.shopping.yahoo.co.jp/ankerdirect/a110d.html",
+      "history": [
+        {
+          "time": "2026-11-24T14:02:38+00:00",
+          "price": 3490
+        }
+      ]
+    },
+    "yahoo:onetoothshop_6349all": {
+      "title": "モバイルバッテリー MagSafe 13600mAh ワイヤレス 磁気 超軽量 薄型 小型 マグネット 充電器 PSE マグセーフ iPhone 17 16 15 iPhone14 fiprin 7508",
+      "jan_code": "4560438081201",
+      "shop_name": "ONETOOTHショップ",
+      "url": "https://store.shopping.yahoo.co.jp/onetoothshop/6349all.html",
+      "history": [
+        {
+          "time": "2026-11-24T14:02:38+00:00",
+          "price": 3080
+        }
+      ]
+    },
+    "yahoo:yamada-denki_1593567017": {
+      "title": "ソニー ワイヤレス イヤホン 左右分離 IPX4 最大22時間 USB-C WF-C510 WFC510 BZ ブラック系",
+      "jan_code": "4548736161429",
+      "shop_name": "ヤマダデンキ Yahoo!店",
+      "url": "https://store.shopping.yahoo.co.jp/yamada-denki/1593567017.html",
+      "history": [
+        {
+          "time": "2026-11-24T14:02:38+00:00",
+          "price": 7980
+        }
+      ]
+    },
+    "yahoo:fastonline_lnm790x004t-rn9ng": {
+      "title": "Lexar SSD 4TB NVMe M.2 SSD PCIe Gen4 ×4 ヒートシンク 内蔵SSD M2 2280 ssd PS5 ストレージ増設 高耐久簡単取付 ゲーミングPC デスクトップパソコン 5年保証",
+      "jan_code": "0843367131518",
+      "shop_name": "SSD ストレージ専門店SUNEASTストア",
+      "url": "https://store.shopping.yahoo.co.jp/fastonline/lnm790x004t-rn9ng.html",
+      "history": [
+        {
+          "time": "2026-11-24T14:02:38+00:00",
+          "price": 86980
+        }
+      ]
+    },
+    "yahoo:densidonya_4902370554779": {
+      "title": "【ラッピング可】【即日発送】【新品】Nintendo Switch 2 スプラトゥーン レイタセット 日本語・国内専用 BEE-S-KB6PE",
+      "jan_code": "4902370554779",
+      "shop_name": "電子問屋",
+      "url": "https://store.shopping.yahoo.co.jp/densidonya/4902370554779.html",
+      "history": [
+        {
+          "time": "2026-11-24T14:02:38+00:00",
+          "price": 64800
+        }
+      ]
+    },
+    "yahoo:live2_4902370554595": {
+      "title": "Nintendo Switch 2 （日本語・国内専用） ゼルダの伝説 40周年 アニバーサリーエディション",
+      "jan_code": "4902370554595",
+      "shop_name": "らいぶshop2号店",
+      "url": "https://store.shopping.yahoo.co.jp/live2/4902370554595.html",
+      "history": [
+        {
+          "time": "2026-11-24T14:02:38+00:00",
+          "price": 63852
+        }
+      ]
+    },
+    "yahoo:digitalisland_4902370553024": {
+      "title": "ブラックフライデーセール　新品 Nintendo Switch 2(日本語・国内専用) 4902370553024",
+      "jan_code": "4902370553024",
+      "shop_name": "digitalisland",
+      "url": "https://store.shopping.yahoo.co.jp/digitalisland/4902370553024.html",
+      "history": [
+        {
+          "time": "2026-11-24T14:02:38+00:00",
+          "price": 62498
+        }
+      ]
+    },
+    "yahoo:sokutei_4902370554779": {
+      "title": "スプラトゥーン レイダース セット [Nintendo Switch 2（日本語・国内専用）] 任天堂[ラッピング可]",
+      "jan_code": "4902370554779",
+      "shop_name": "測定の森 2号店",
+      "url": "https://store.shopping.yahoo.co.jp/sokutei/4902370554779.html",
+      "history": [
+        {
+          "time": "2026-11-24T14:02:38+00:00",
+          "price": 63100
+        }
+      ]
+    },
+    "yahoo:murauchi_4974305227980": {
+      "title": "ZOJIRUSHI 象印 炊飯器 圧力IH炊飯ジャー 極め炊き NP-RU05-BZ",
+      "jan_code": "4974305227980",
+      "shop_name": "murauchi.co.jp",
+      "url": "https://store.shopping.yahoo.co.jp/murauchi/4974305227980.html",
+      "history": [
+        {
+          "time": "2026-11-24T14:02:38+00:00",
+          "price": 31640
+        }
+      ]
+    },
+    "yahoo:d-rise_p000000909869": {
+      "title": "★タイガー魔法瓶 土鍋ご泡火炊き JRX-S060-KS [ストーンブラック]【炊飯器】【送料無料】",
+      "jan_code": "4904710443293",
+      "shop_name": "ディーライズ",
+      "url": "https://store.shopping.yahoo.co.jp/d-rise/p000000909869.html",
+      "history": [
+        {
+          "time": "2026-11-24T14:02:38+00:00",
+          "price": 77200
+        }
+      ]
+    },
+    "yahoo:ecovacsjapan_ddx47": {
+      "title": "ロボット掃除機 水拭き両用 25,000pa 薄型 エコバックス DEEBOT T50S OMNI 高性能 自動掃除機 メーカー保証最大24ヶ月",
+      "jan_code": "6979463770536",
+      "shop_name": "エコバックス公式ストア",
+      "url": "https://store.shopping.yahoo.co.jp/ecovacsjapan/ddx47.html",
+      "history": [
+        {
+          "time": "2026-11-24T14:02:38+00:00",
+          "price": 44800
+        }
+      ]
+    },
+    "yahoo:dyson_631031-01": {
+      "title": "掃除機 コードレス掃除機 ダイソン Dyson V8 Slim Fluffy ダイソン掃除機 dyson SV25SLM 軽量モデル",
+      "jan_code": "5025155139639",
+      "shop_name": "Dyson公式Yahoo!ショッピング店",
+      "url": "https://store.shopping.yahoo.co.jp/dyson/631031-01.html",
+      "history": [
+        {
+          "time": "2026-11-24T14:02:38+00:00",
+          "price": 29900
+        }
+      ]
+    },
+    "yahoo:ecovacsjapan_ydlx11-35ee": {
+      "title": "ロボット掃除機 水拭き両用 10,000pa エコバックス DEEBOT N30 PLUS 高性能 水拭 自動掃除機 掃除機 お掃除ロボット メーカー保証最大24ヶ月",
+      "jan_code": "6970135037810",
+      "shop_name": "エコバックス公式ストア",
+      "url": "https://store.shopping.yahoo.co.jp/ecovacsjapan/ydlx11-35ee.html",
+      "history": [
+        {
+          "time": "2026-11-24T14:02:38+00:00",
+          "price": 29800
+        }
+      ]
+    },
+    "yahoo:ecovacsjapan_dex68-21ee": {
+      "title": "ロボット掃除機 水拭き両用 18,000pa エコバックス DEEBOT T80 OMNI 高性能 水拭 自動掃除機 掃除機 お掃除ロボット メーカー保証最大24ヶ月",
+      "jan_code": "6970135036769",
+      "shop_name": "エコバックス公式ストア",
+      "url": "https://store.shopping.yahoo.co.jp/ecovacsjapan/dex68-21ee.html",
+      "history": [
+        {
+          "time": "2026-11-24T14:02:38+00:00",
+          "price": 59800
+        }
+      ]
+    },
+    "yahoo:yamada-denki_6792000013": {
+      "title": "パナソニック EH-NE7P-V ヘアードライヤー イオニティ ダブルミネラル＆マイナスイオン 3段階モード切替 ミスティラベンダー",
+      "jan_code": "4550719176160",
+      "shop_name": "ヤマダデンキ Yahoo!店",
+      "url": "https://store.shopping.yahoo.co.jp/yamada-denki/6792000013.html",
+      "history": [
+        {
+          "time": "2026-11-24T14:02:38+00:00",
+          "price": 8701
+        }
+      ]
+    },
+    "yahoo:irodorikukanin_23410615": {
+      "title": "象印 スチーム式加湿器 EE-RV50 3.0L 480mL/h 木造8畳 プレハブ13畳 ホワイト",
+      "jan_code": "4974305232564",
+      "shop_name": "彩り空間ホームライフ館",
+      "url": "https://store.shopping.yahoo.co.jp/irodorikukanin/23410615.html",
+      "history": [
+        {
+          "time": "2026-11-24T14:02:38+00:00",
+          "price": 16800
+        }
+      ]
+    },
+    "yahoo:sake-premoa_2980000205811": {
+      "title": "加湿空気清浄機 シャープ KC-T50-W プラズマクラスター7000 ホワイト系 SHARP (空清23畳/加湿14畳まで) 加湿器 花粉対策 除菌 脱臭 集じん リビング 新生活",
+      "jan_code": "4550556135856",
+      "shop_name": "総合通販PREMOA Yahoo!店",
+      "url": "https://store.shopping.yahoo.co.jp/sake-premoa/2980000205811.html",
+      "history": [
+        {
+          "time": "2026-11-24T14:02:38+00:00",
+          "price": 21100
+        }
+      ]
+    },
+    "yahoo:delonghi_0132250203": {
+      "title": "コーヒーメーカー デロンギ マグニフィカ スタート 全自動コーヒーマシン ECAM22062B delonghi 公式 全自動 豆 コーヒーマシーン ミルク",
+      "jan_code": "",
+      "shop_name": "デロンギ公式Yahoo!ショッピング店",
+      "url": "https://store.shopping.yahoo.co.jp/delonghi/0132250203.html",
+      "history": [
+        {
+          "time": "2026-11-24T14:02:38+00:00",
+          "price": 128000
+        }
+      ]
+    },
+    "yahoo:delonghi_0132301113": {
+      "title": "コーヒーメーカー デロンギ アクティブ シリーズ ドリップコーヒーメーカー ICM14011J-W ホワイト delonghi コーヒーマシン 保温 家庭用",
+      "jan_code": "4988371023605",
+      "shop_name": "デロンギ公式Yahoo!ショッピング店",
+      "url": "https://store.shopping.yahoo.co.jp/delonghi/0132301113.html",
+      "history": [
+        {
+          "time": "2026-11-24T14:02:38+00:00",
+          "price": 6980
+        }
+      ]
     }
   },
-  "updated_at": "2026-11-24T09:58:26+00:00"
+  "updated_at": "2026-11-24T14:02:38+00:00"
 }
