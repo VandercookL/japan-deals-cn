@@ -1,15 +1,73 @@
 {
-  "generated_at": "2026-11-25T08:40:45+00:00",
+  "generated_at": "2026-11-25T21:44:40+00:00",
   "version": 3,
   "rules": {
     "minimum_drop_percent": 5,
     "good_deal": "非恢复原价、7日完整覆盖、低于7日估算均价至少5%、不同店铺最低价",
     "strong_deal": "好价且降幅及7日均价优势至少10%、比其他店最低价便宜至少5%"
   },
-  "count": 0,
+  "count": 1,
   "strong_candidate_count": 0,
   "good_candidate_count": 0,
-  "price_drop_candidate_count": 0,
-  "items": [],
+  "price_drop_candidate_count": 1,
+  "items": [
+    {
+      "id": "yahoo:tescom-shop_nbt-nib400-h",
+      "title": "【在庫限り残り僅か】 ドライヤー 速乾 テスコム ノビー ヘアドライヤー 1200w 軽量 日本製 プロテクトイオン プロ仕様 2年保証 NIB400A 公式店 日本メーカー",
+      "merchant": "Yahoo!ショッピング",
+      "shop_name": "テスコム公式Yahoo!店",
+      "jan_code": "4975302126214",
+      "url": "https://store.shopping.yahoo.co.jp/tescom-shop/nbt-nib400-h.html",
+      "previous_price_jpy": 15400,
+      "current_price_jpy": 7980,
+      "drop_percent": 48.2,
+      "historical_low_jpy": 7980,
+      "historical_high_jpy": 15400,
+      "event_median_price_jpy": 11690.0,
+      "price_change_points": 2,
+      "cross_shop_available": false,
+      "comparison_listing_count": 1,
+      "is_cross_shop_lowest": false,
+      "lowest_cross_shop_price_jpy": null,
+      "second_lowest_price_jpy": null,
+      "cheaper_than_second_jpy": null,
+      "cheaper_than_second_percent": null,
+      "status": "降价候选",
+      "reasons": [
+        "较上一变价记录下降48.2%",
+        "监测期新低",
+        "7日覆盖不足，不升级为好价"
+      ],
+      "detected_at": "2026-11-25T21:44:40+00:00",
+      "verified": false,
+      "note": "自动筛选，尚未人工验证；不含运费、积分及优惠券",
+      "history_7d": {
+        "window_days": 7,
+        "covered_hours": 8.44,
+        "coverage_percent": 5.02,
+        "complete": false,
+        "observed_low_jpy": 7980,
+        "low_jpy": null,
+        "estimated_average_jpy": 15400.0,
+        "average_jpy": null
+      },
+      "history_30d": {
+        "window_days": 30,
+        "covered_hours": 8.44,
+        "coverage_percent": 1.17,
+        "complete": false,
+        "observed_low_jpy": 7980,
+        "low_jpy": null,
+        "estimated_average_jpy": 15400.0,
+        "average_jpy": null
+      },
+      "history_classification": "监测期新低",
+      "recovered_price": false,
+      "new_observed_low": true,
+      "last_seen_at": "2026-11-25T21:44:40+00:00",
+      "price_changed_at": "2026-11-25T21:44:40+00:00",
+      "comparison_shop_count": 1
+    }
+  ],
   "snapshot_fresh": true
 }
