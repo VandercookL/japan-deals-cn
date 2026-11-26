@@ -10,6 +10,10 @@
         {
           "time": "2026-11-22T11:43:50+00:00",
           "price": 3990
+        },
+        {
+          "time": "2026-11-26T21:37:28+00:00",
+          "price": 2890
         }
       ]
     },
@@ -58,6 +62,10 @@
         {
           "time": "2026-11-22T11:43:50+00:00",
           "price": 3990
+        },
+        {
+          "time": "2026-11-26T21:37:28+00:00",
+          "price": 2790
         }
       ]
     },
@@ -118,6 +126,10 @@
         {
           "time": "2026-11-22T11:43:50+00:00",
           "price": 9990
+        },
+        {
+          "time": "2026-11-26T21:37:28+00:00",
+          "price": 6990
         }
       ]
     },
@@ -226,6 +238,10 @@
         {
           "time": "2026-11-22T11:43:50+00:00",
           "price": 3990
+        },
+        {
+          "time": "2026-11-26T21:37:28+00:00",
+          "price": 3790
         }
       ]
     },
@@ -1502,6 +1518,10 @@
         {
           "time": "2026-11-25T21:44:40+00:00",
           "price": 62500
+        },
+        {
+          "time": "2026-11-26T21:37:28+00:00",
+          "price": 62700
         }
       ]
     },
@@ -1658,6 +1678,10 @@
         {
           "time": "2026-11-24T09:58:26+00:00",
           "price": 34800
+        },
+        {
+          "time": "2026-11-26T21:37:28+00:00",
+          "price": 34380
         }
       ]
     },
@@ -1730,6 +1754,10 @@
         {
           "time": "2026-11-26T08:26:27+00:00",
           "price": 17420
+        },
+        {
+          "time": "2026-11-26T21:37:28+00:00",
+          "price": 17150
         }
       ]
     },
@@ -2894,6 +2922,10 @@
         {
           "time": "2026-11-22T11:43:50+00:00",
           "price": 69800
+        },
+        {
+          "time": "2026-11-26T21:37:28+00:00",
+          "price": 66460
         }
       ]
     },
@@ -3062,6 +3094,10 @@
         {
           "time": "2026-11-22T11:43:50+00:00",
           "price": 69800
+        },
+        {
+          "time": "2026-11-26T21:37:28+00:00",
+          "price": 66460
         }
       ]
     },
@@ -3574,6 +3610,10 @@
         {
           "time": "2026-11-24T09:58:26+00:00",
           "price": 37706
+        },
+        {
+          "time": "2026-11-26T21:37:28+00:00",
+          "price": 37659
         }
       ]
     },
@@ -3710,6 +3750,10 @@
         {
           "time": "2026-11-26T08:26:27+00:00",
           "price": 69938
+        },
+        {
+          "time": "2026-11-26T21:37:28+00:00",
+          "price": 64220
         }
       ]
     },
@@ -3894,6 +3938,10 @@
         {
           "time": "2026-11-26T08:26:27+00:00",
           "price": 27299
+        },
+        {
+          "time": "2026-11-26T21:37:28+00:00",
+          "price": 26900
         }
       ]
     },
@@ -4022,6 +4070,10 @@
         {
           "time": "2026-11-26T08:26:27+00:00",
           "price": 15400
+        },
+        {
+          "time": "2026-11-26T21:37:28+00:00",
+          "price": 7980
         }
       ]
     },
@@ -4210,6 +4262,10 @@
         {
           "time": "2026-11-24T14:02:38+00:00",
           "price": 22389
+        },
+        {
+          "time": "2026-11-26T21:37:28+00:00",
+          "price": 21980
         }
       ]
     },
@@ -4230,6 +4286,10 @@
         {
           "time": "2026-11-25T08:40:45+00:00",
           "price": 23880
+        },
+        {
+          "time": "2026-11-26T21:37:28+00:00",
+          "price": 24269
         }
       ]
     },
@@ -4634,6 +4694,10 @@
         {
           "time": "2026-11-26T08:26:27+00:00",
           "price": 32030
+        },
+        {
+          "time": "2026-11-26T21:37:28+00:00",
+          "price": 32050
         }
       ]
     },
@@ -4850,6 +4914,10 @@
         {
           "time": "2026-11-25T08:40:45+00:00",
           "price": 65280
+        },
+        {
+          "time": "2026-11-26T21:37:28+00:00",
+          "price": 65248
         }
       ]
     },
@@ -5208,7 +5276,139 @@
           "price": 14800
         }
       ]
+    },
+    "yahoo:ankerdirect_a8052": {
+      "title": "ケーブル Anker Zolo USB-C &amp; USB-A ケーブルUSB-IF認証 高耐久ナイロン素材採用 iPhone 18 / 17 / 16 / Galaxy Google Pixel 各種対応 アンカー",
+      "jan_code": "4571651003963",
+      "shop_name": "Anker 公式ストア ヤフー店",
+      "url": "https://store.shopping.yahoo.co.jp/ankerdirect/a8052.html",
+      "history": [
+        {
+          "time": "2026-11-26T21:37:28+00:00",
+          "price": 890
+        }
+      ]
+    },
+    "yahoo:digimart-shop_aa00182": {
+      "title": "Apple純正品 アップル Apple AirPods 4 第4世代 MXP63J/A Bluetooth イヤホン【国内正規品・新品】",
+      "jan_code": "4549995519860",
+      "shop_name": "カメラ・レンズ・家電のDigiMart",
+      "url": "https://store.shopping.yahoo.co.jp/digimart-shop/aa00182.html",
+      "history": [
+        {
+          "time": "2026-11-26T21:37:28+00:00",
+          "price": 20465
+        }
+      ]
+    },
+    "yahoo:noahshoping_4549995725049": {
+      "title": "『新品』Apple(アップル) AirPods 5 MKFW4J/A",
+      "jan_code": "4549995725049",
+      "shop_name": "ノア商社Yahoo!店",
+      "url": "https://store.shopping.yahoo.co.jp/noahshoping/4549995725049.html",
+      "history": [
+        {
+          "time": "2026-11-26T21:37:28+00:00",
+          "price": 22980
+        }
+      ]
+    },
+    "yahoo:yamada-denki_1592982019": {
+      "title": "BOSE ワイヤレスイヤホン 耳かけ型 typeC 最大7.5時間再生 IPX4 Ultra Open Earbuds ホワイト系",
+      "jan_code": "4969929259257",
+      "shop_name": "ヤマダデンキ Yahoo!店",
+      "url": "https://store.shopping.yahoo.co.jp/yamada-denki/1592982019.html",
+      "history": [
+        {
+          "time": "2026-11-26T21:37:28+00:00",
+          "price": 22380
+        }
+      ]
+    },
+    "yahoo:jnh_sa8013ssde10-1t-g25": {
+      "title": "ポータブルSSD 1TB 外付けSSD SanDisk SSD USB3.2 Gen2 R:600MB/s USB-C to Cケーブル付き SDSSDE10-1T00-G25 並行輸入品3年保証 翌日配達",
+      "jan_code": "0619659224530",
+      "shop_name": "嘉年華",
+      "url": "https://store.shopping.yahoo.co.jp/jnh/sa8013ssde10-1t-g25.html",
+      "history": [
+        {
+          "time": "2026-11-26T21:37:28+00:00",
+          "price": 22980
+        }
+      ]
+    },
+    "yahoo:amiami_game-0035461": {
+      "title": "【あみあみ限定特典】Nintendo Switch 負けるな！魔剣道1＆2 特装版[エディア]《０３月予約》",
+      "jan_code": "4589889291052",
+      "shop_name": "あみあみ Yahoo!店",
+      "url": "https://store.shopping.yahoo.co.jp/amiami/game-0035461.html",
+      "history": [
+        {
+          "time": "2026-11-26T21:37:28+00:00",
+          "price": 15140
+        }
+      ]
+    },
+    "yahoo:emedama_4904710437681": {
+      "title": "正規販売店 タイガー 圧力IH炊飯器 炊きたて ご泡火炊き JPI-X100KX フォグブラック [5.5合炊き] TIGER メーカー公認店 新生活",
+      "jan_code": "4904710437681",
+      "shop_name": "カメラのキタムラヤフー店",
+      "url": "https://store.shopping.yahoo.co.jp/emedama/4904710437681.html",
+      "history": [
+        {
+          "time": "2026-11-26T21:37:28+00:00",
+          "price": 34480
+        }
+      ]
+    },
+    "yahoo:joshin_4974305227980-24-11072": {
+      "title": "象印 圧力IH炊飯ジャー(3合炊き) スレートブラック ZOJIRUSHI 極め炊き NP-RU05-BZ 返品種別A",
+      "jan_code": "4974305227980",
+      "shop_name": "Joshin web",
+      "url": "https://store.shopping.yahoo.co.jp/joshin/4974305227980-24-11072.html",
+      "history": [
+        {
+          "time": "2026-11-26T21:37:28+00:00",
+          "price": 27110
+        }
+      ]
+    },
+    "yahoo:shark_cs651j-xkit07cs200j": {
+      "title": "シャーク Shark EVOPOWER SYSTEM ADV コードレススティッククリーナー CS651J + アクセサリーパック ブラシセット スティック型 掃除機 スタンド付",
+      "jan_code": "0622356251433",
+      "shop_name": "SharkNinja公式ヤフーショッピング店",
+      "url": "https://store.shopping.yahoo.co.jp/shark/cs651j-xkit07cs200j.html",
+      "history": [
+        {
+          "time": "2026-11-26T21:37:28+00:00",
+          "price": 35200
+        }
+      ]
+    },
+    "yahoo:joshin_4974305232502-22-4621": {
+      "title": "象印 スチーム式加湿器(木造10畳まで/ プレハブ洋室17畳まで ソフトブラック) ZOJIRUSHI EE-TC60-BM 返品種別A",
+      "jan_code": "4974305232502",
+      "shop_name": "Joshin web",
+      "url": "https://store.shopping.yahoo.co.jp/joshin/4974305232502-22-4621.html",
+      "history": [
+        {
+          "time": "2026-11-26T21:37:28+00:00",
+          "price": 29480
+        }
+      ]
+    },
+    "yahoo:dyson_545001-01": {
+      "title": "空気清浄機 加湿器 Dyson Purifier Humidify+Cool PH2 De-NOx 加湿空気清浄機 PH05 WG 空気清浄加湿 扇風機 ホワイト/ゴールド 【アウトレットSALE】",
+      "jan_code": "5025155100721",
+      "shop_name": "Dyson公式Yahoo!ショッピング店",
+      "url": "https://store.shopping.yahoo.co.jp/dyson/545001-01.html",
+      "history": [
+        {
+          "time": "2026-11-26T21:37:28+00:00",
+          "price": 69800
+        }
+      ]
     }
   },
-  "updated_at": "2026-11-26T08:26:27+00:00"
+  "updated_at": "2026-11-26T21:37:28+00:00"
 }

@@ -1,880 +1,14 @@
 {
   "version": 1,
   "status": "PARTIAL",
-  "source_generated_at": "2026-11-26T08:26:27+00:00",
-  "generated_at": "2026-11-26T08:26:55.980894+00:00",
+  "source_generated_at": "2026-11-26T21:37:28+00:00",
+  "generated_at": "2026-11-26T21:37:58.143799+00:00",
   "request_budget": 12,
-  "requests": 10,
-  "planned_queries": 10,
-  "successful_queries": 7,
-  "failed_queries": 3,
+  "requests": 12,
+  "planned_queries": 12,
+  "successful_queries": 10,
+  "failed_queries": 2,
   "query_results": [
-    {
-      "key": [
-        "jan",
-        "4549995519921"
-      ],
-      "total_available": 35,
-      "returned": 35,
-      "truncated": false,
-      "offers": [
-        {
-          "id": "yahoo:serekuto-takagise_a3059",
-          "title": "Apple AirPods 4 (アクティブノイズ キャンセリング搭載) アップル エアーポッズ エアーポッツ 国内正規品 純正 新品 バラ売り A3059(充電ケース)",
-          "shop_id": "serekuto-takagise",
-          "shop_name": "セレクト高木瀬",
-          "price_jpy": 12800,
-          "jan_code": "4549995519921",
-          "url": "https://store.shopping.yahoo.co.jp/serekuto-takagise/a3059.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:serekuto-takagise_a3055",
-          "title": "Apple AirPods 4 (アクティブノイズ キャンセリング搭載) アップル エアーポッズ エアーポッツ 国内正規品 純正 新品 バラ売り A3055(右耳用)",
-          "shop_id": "serekuto-takagise",
-          "shop_name": "セレクト高木瀬",
-          "price_jpy": 13800,
-          "jan_code": "4549995519921",
-          "url": "https://store.shopping.yahoo.co.jp/serekuto-takagise/a3055.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:serekuto-takagise_a3056",
-          "title": "Apple AirPods 4 (アクティブノイズ キャンセリング搭載) アップル エアーポッズ エアーポッツ 国内正規品 純正 新品 バラ売り A3056(左耳用)",
-          "shop_id": "serekuto-takagise",
-          "shop_name": "セレクト高木瀬",
-          "price_jpy": 13800,
-          "jan_code": "4549995519921",
-          "url": "https://store.shopping.yahoo.co.jp/serekuto-takagise/a3056.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:mobax_ap-airpods4-mxp93j-s",
-          "title": "◆キャンペーン【新品未開封品（未使用）】 第４世代 Apple AirPods 4　MXP93J/A アクティブノイズキャンセリング搭載 [ホワイト] イヤホン マイク付 2024年版",
-          "shop_id": "mobax",
-          "shop_name": "モバックス",
-          "price_jpy": 20800,
-          "jan_code": "4549995519921",
-          "url": "https://store.shopping.yahoo.co.jp/mobax/ap-airpods4-mxp93j-s.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": [
-            "extra_sales_condition"
-          ]
-        },
-        {
-          "id": "yahoo:akibasoko_out-4549995519921",
-          "title": "【訳アリ・apple保証サポート登録済】AirPods (第4世代)(2024) MXP93J/A/apple",
-          "shop_id": "akibasoko",
-          "shop_name": "アキバ倉庫",
-          "price_jpy": 21580,
-          "jan_code": "4549995519921",
-          "url": "https://store.shopping.yahoo.co.jp/akibasoko/out-4549995519921.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": [
-            "extra_sales_condition"
-          ]
-        },
-        {
-          "id": "yahoo:densidonya_4549995519921-d",
-          "title": "【安心！当社1ヶ月保証付き】【整備済品】AirPods 4 アクティブノイズキャンセリング搭載モデル MXP93J/A",
-          "shop_id": "densidonya",
-          "shop_name": "電子問屋",
-          "price_jpy": 21600,
-          "jan_code": "4549995519921",
-          "url": "https://store.shopping.yahoo.co.jp/densidonya/4549995519921-d.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": [
-            "condition"
-          ]
-        },
-        {
-          "id": "yahoo:try3_4549995519921",
-          "title": "Apple AirPods 4 MXP93J/A アクティブノイズキャンセリング H2チップ ワイヤレスイヤホン 第4世代 ANC MXP93JA MXP93J AirPods4 アップル",
-          "shop_id": "try3",
-          "shop_name": "トライスリー",
-          "price_jpy": 21898,
-          "jan_code": "4549995519921",
-          "url": "https://store.shopping.yahoo.co.jp/try3/4549995519921.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:digitalisland_4549995519921",
-          "title": "【在庫一掃】【新品未開封】 Apple AirPods 4 MXP93J/A　[ノイズキャンセリング版]  4549995519921",
-          "shop_id": "digitalisland",
-          "shop_name": "digitalisland",
-          "price_jpy": 22000,
-          "jan_code": "4549995519921",
-          "url": "https://store.shopping.yahoo.co.jp/digitalisland/4549995519921.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:noahshoping_4549995519921-wk",
-          "title": "『新品外箱傷みあり』Apple(アップル) AirPods 4 アクティブノイズキャンセリング搭載モデル MXP93J/A",
-          "shop_id": "noahshoping",
-          "shop_name": "ノア商社Yahoo!店",
-          "price_jpy": 22280,
-          "jan_code": "4549995519921",
-          "url": "https://store.shopping.yahoo.co.jp/noahshoping/4549995519921-wk.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": [
-            "condition"
-          ]
-        },
-        {
-          "id": "yahoo:kaikyou_4549995519921",
-          "title": "【新品未開封・保証未開始】APPLE AirPods 第4世代 アクティブノイズキャンセリング搭載モデル MXP93J/A【送料無料】【日曜日以外即日発送】",
-          "shop_id": "kaikyou",
-          "shop_name": "モバイル販売",
-          "price_jpy": 22469,
-          "jan_code": "4549995519921",
-          "url": "https://store.shopping.yahoo.co.jp/kaikyou/4549995519921.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:jcka-mobile2_4549995519921",
-          "title": "★国内正規品 新品未開封・保証未開始 Apple AirPods 4 アクティブノイズキャンセリング搭載モデル MXP93J/A ワイヤレスイヤホン 本体",
-          "shop_id": "jcka-mobile2",
-          "shop_name": "ジェーシカモバイル2号店",
-          "price_jpy": 22470,
-          "jan_code": "4549995519921",
-          "url": "https://store.shopping.yahoo.co.jp/jcka-mobile2/4549995519921.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:noahshoping_4549995519921",
-          "title": "『新品』Apple(アップル) AirPods 4 アクティブノイズキャンセリング搭載モデル MXP93J/A",
-          "shop_id": "noahshoping",
-          "shop_name": "ノア商社Yahoo!店",
-          "price_jpy": 22480,
-          "jan_code": "4549995519921",
-          "url": "https://store.shopping.yahoo.co.jp/noahshoping/4549995519921.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:aprice_4549995519921",
-          "title": "AirPods 第4世代 エアポッズ Apple アップル MXP93J/A AirPods 4 完全ワイヤレスイヤホン (Bluetooth・マイク対応)",
-          "shop_id": "aprice",
-          "shop_name": "XPRICE Yahoo!店",
-          "price_jpy": 22930,
-          "jan_code": "4549995519921",
-          "url": "https://store.shopping.yahoo.co.jp/aprice/4549995519921.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:rcmdin_uw-4549995519921",
-          "title": "AirPods 4 アップル Apple ワイヤレスイヤホン MXP93J/A 第4世代 アクティブノイズキャンセリング H2チップ 国内正規品 新品 ワイヤレス イヤホン",
-          "shop_id": "rcmdin",
-          "shop_name": "リコメン堂インテリア館",
-          "price_jpy": 22979,
-          "jan_code": "4549995519921",
-          "url": "https://store.shopping.yahoo.co.jp/rcmdin/uw-4549995519921.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:oyama_mxp93ja",
-          "title": "Apple AirPods 第4世代 MXP93J/A アクティブノイズキャンセリング搭載 AirPods 4",
-          "shop_id": "oyama",
-          "shop_name": "おやま質店ヤフーショップ",
-          "price_jpy": 23100,
-          "jan_code": "4549995519921",
-          "url": "https://store.shopping.yahoo.co.jp/oyama/mxp93ja.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:jcka-mobile_4549995519921",
-          "title": "★国内正規品 新品未開封・保証未開始 Apple AirPods 4 アクティブノイズキャンセリング搭載モデル MXP93J/A ワイヤレスイヤホン",
-          "shop_id": "jcka-mobile",
-          "shop_name": "ジェーシカモバイル",
-          "price_jpy": 23480,
-          "jan_code": "4549995519921",
-          "url": "https://store.shopping.yahoo.co.jp/jcka-mobile/4549995519921.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:cocostore1_mxp93ja-9921",
-          "title": "apple AirPods 4 アクティブノイズキャンセリング搭載モデル MXP93J/A",
-          "shop_id": "cocostore1",
-          "shop_name": "CocoStore",
-          "price_jpy": 23480,
-          "jan_code": "4549995519921",
-          "url": "https://store.shopping.yahoo.co.jp/cocostore1/mxp93ja-9921.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:d-rise2_p000000887019",
-          "title": "★アップル / APPLE AirPods 4 アクティブノイズキャンセリング搭載モデル MXP93J/A【イヤホン・ヘッドホン】【送料無料】",
-          "shop_id": "d-rise2",
-          "shop_name": "ディーライズ2号",
-          "price_jpy": 23540,
-          "jan_code": "4549995519921",
-          "url": "https://store.shopping.yahoo.co.jp/d-rise2/p000000887019.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:d-rise_p000000887019",
-          "title": "★アップル / APPLE AirPods 4 アクティブノイズキャンセリング搭載モデル MXP93J/A【イヤホン・ヘッドホン】【送料無料】",
-          "shop_id": "d-rise",
-          "shop_name": "ディーライズ",
-          "price_jpy": 24110,
-          "jan_code": "4549995519921",
-          "url": "https://store.shopping.yahoo.co.jp/d-rise/p000000887019.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:sokutei_4549995519921",
-          "title": "Apple アップル AirPods 第4世代 アクティブノイズキャンセリング搭載モデル MXP93J/A[ラッピング可] R-LOGI",
-          "shop_id": "sokutei",
-          "shop_name": "測定の森 2号店",
-          "price_jpy": 24130,
-          "jan_code": "4549995519921",
-          "url": "https://store.shopping.yahoo.co.jp/sokutei/4549995519921.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:outletplaza_40001059327",
-          "title": "【新品/取寄品】Apple AirPods 4 アクティブノイズキャンセリング搭載モデル MXP93J/A 完全ワイヤレスイヤホン アップル",
-          "shop_id": "outletplaza",
-          "shop_name": "秋葉原　アウトレットプラザ",
-          "price_jpy": 24194,
-          "jan_code": "4549995519921",
-          "url": "https://store.shopping.yahoo.co.jp/outletplaza/40001059327.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:densidonya_4549995519921",
-          "title": "【ラッピング可】【新品】AirPods4 ホワイト MXP93J/A アクティブノイズキャンセリング搭載",
-          "shop_id": "densidonya",
-          "shop_name": "電子問屋",
-          "price_jpy": 24530,
-          "jan_code": "4549995519921",
-          "url": "https://store.shopping.yahoo.co.jp/densidonya/4549995519921.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:live2_4549995519921",
-          "title": "Apple AirPods 4 [ノイキャン版] MXP93J/A　未開封・購入前に商品情報欄をご覧ください。",
-          "shop_id": "live2",
-          "shop_name": "らいぶshop2号店",
-          "price_jpy": 24552,
-          "jan_code": "4549995519921",
-          "url": "https://store.shopping.yahoo.co.jp/live2/4549995519921.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:sake-premoa_4549995519921",
-          "title": "AirPods 第4世代 エアポッズ Apple アップル MXP93J/A AirPods 4 完全ワイヤレスイヤホン (Bluetooth・マイク対応)",
-          "shop_id": "sake-premoa",
-          "shop_name": "総合通販PREMOA Yahoo!店",
-          "price_jpy": 24640,
-          "jan_code": "4549995519921",
-          "url": "https://store.shopping.yahoo.co.jp/sake-premoa/4549995519921.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:light-hikari_4549995519921",
-          "title": "Apple AirPods 4 [ノイキャン版] MXP93J/A　未開封・購入前に商品情報欄をご覧ください。",
-          "shop_id": "light-hikari",
-          "shop_name": "らいぶshop",
-          "price_jpy": 24670,
-          "jan_code": "4549995519921",
-          "url": "https://store.shopping.yahoo.co.jp/light-hikari/4549995519921.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:recommendo_uw-4549995519921",
-          "title": "AirPods 4 アップル Apple ワイヤレスイヤホン MXP93J/A 第4世代 アクティブノイズキャンセリング H2チップ 国内正規品 新品 ワイヤレス イヤホン",
-          "shop_id": "recommendo",
-          "shop_name": "リコメン堂",
-          "price_jpy": 24680,
-          "jan_code": "4549995519921",
-          "url": "https://store.shopping.yahoo.co.jp/recommendo/uw-4549995519921.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:alljapan-online-shop_4549995519921",
-          "title": "大特価[保証未開始 未開封新品]AirPods 第4世代 MXP93J/A アクティブノイズキャンセリング搭載AirPods 4 ワイヤレスイヤホン APPLE 純正品",
-          "shop_id": "alljapan-online-shop",
-          "shop_name": "販売一丁目",
-          "price_jpy": 24700,
-          "jan_code": "4549995519921",
-          "url": "https://store.shopping.yahoo.co.jp/alljapan-online-shop/4549995519921.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:digimart-shop_aa00181",
-          "title": "Apple純正品 アップル Apple AirPods 4 第4世代 MXP93J/A アクティブノイズキャンセリング搭載モデル イヤホン【国内正規品・新品】",
-          "shop_id": "digimart-shop",
-          "shop_name": "カメラ・レンズ・家電のDigiMart",
-          "price_jpy": 25300,
-          "jan_code": "4549995519921",
-          "url": "https://store.shopping.yahoo.co.jp/digimart-shop/aa00181.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:maxzen_4549995519921",
-          "title": "AirPods 第4世代 エアポッズ Apple アップル MXP93J/A AirPods 4 完全ワイヤレスイヤホン (Bluetooth・マイク対応)",
-          "shop_id": "maxzen",
-          "shop_name": "MAXZEN Direct Yahoo!店",
-          "price_jpy": 25620,
-          "jan_code": "4549995519921",
-          "url": "https://store.shopping.yahoo.co.jp/maxzen/4549995519921.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:seimobile_1045",
-          "title": "セイモバイル★ 国内正規品 未開封 AirPods 第4世代 アクティブノイズキャンセリング搭載モデル MXP93J/A",
-          "shop_id": "seimobile",
-          "shop_name": "セイモバイル",
-          "price_jpy": 26800,
-          "jan_code": "4549995519921",
-          "url": "https://store.shopping.yahoo.co.jp/seimobile/1045.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:onemorething_4549995519921",
-          "title": "Apple アップル 純正 AirPods 4 エアポッズ4 エアーポッズ4 アクティブノイズキャンセリング搭載 MXP93J/A ワイヤレスイヤホン メーカー保証 ブラックフライデー",
-          "shop_id": "onemorething",
-          "shop_name": "AirPodsのワンモアシング",
-          "price_jpy": 26980,
-          "jan_code": "4549995519921",
-          "url": "https://store.shopping.yahoo.co.jp/onemorething/4549995519921.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:rcmdse_uw-4549995519921",
-          "title": "AirPods 4 アップル Apple ワイヤレスイヤホン MXP93J/A 第4世代 アクティブノイズキャンセリング H2チップ 国内正規品 新品 ワイヤレス イヤホン",
-          "shop_id": "rcmdse",
-          "shop_name": "リコメン堂生活館",
-          "price_jpy": 30500,
-          "jan_code": "4549995519921",
-          "url": "https://store.shopping.yahoo.co.jp/rcmdse/uw-4549995519921.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:rcmdhl_uw-4549995519921",
-          "title": "AirPods 4 アップル Apple ワイヤレスイヤホン MXP93J/A 第4世代 アクティブノイズキャンセリング H2チップ 国内正規品 新品 ワイヤレス イヤホン",
-          "shop_id": "rcmdhl",
-          "shop_name": "リコメン堂ホームライフ館",
-          "price_jpy": 30500,
-          "jan_code": "4549995519921",
-          "url": "https://store.shopping.yahoo.co.jp/rcmdhl/uw-4549995519921.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:newstar_airpods4anc",
-          "title": "「新品未開封品、保証未開始」AirPods4( ANC ) アクティブノイズキャンセリング搭載モデル MXP93J/Aアップル純正ワイヤレスイヤホン",
-          "shop_id": "newstar",
-          "shop_name": "new star",
-          "price_jpy": 30800,
-          "jan_code": "4549995519921",
-          "url": "https://store.shopping.yahoo.co.jp/newstar/airpods4anc.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": [
-            "extra_sales_condition"
-          ]
-        },
-        {
-          "id": "yahoo:sokutei_4549995519921-wake",
-          "title": "【訳あり】Apple アップル AirPods 第4世代 アクティブノイズキャンセリング搭載モデル MXP93J/A [ラッピング可] R-LOGI",
-          "shop_id": "sokutei",
-          "shop_name": "測定の森 2号店",
-          "price_jpy": 56500,
-          "jan_code": "4549995519921",
-          "url": "https://store.shopping.yahoo.co.jp/sokutei/4549995519921-wake.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": [
-            "condition"
-          ]
-        }
-      ]
-    },
-    {
-      "key": [
-        "jan",
-        "4549995725025"
-      ],
-      "total_available": 33,
-      "returned": 33,
-      "truncated": false,
-      "offers": [
-        {
-          "id": "yahoo:light-hikari_4549995725025-y",
-          "title": "「訳あり品-外装箱傷あり」新品 AirPods 第5世代 ワイヤレス充電ケース付き MKFT4J/A  未開封・購入前に商品情報欄をご覧ください。",
-          "shop_id": "light-hikari",
-          "shop_name": "らいぶshop",
-          "price_jpy": 23730,
-          "jan_code": "4549995725025",
-          "url": "https://store.shopping.yahoo.co.jp/light-hikari/4549995725025-y.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": [
-            "condition"
-          ]
-        },
-        {
-          "id": "yahoo:noahshoping_4549995725025-hosyou",
-          "title": "『新品外箱傷みあり』Apple(アップル)AirPods 5 ワイヤレス充電ケース付き MKFT4J/A ※1年保証開始済み商品",
-          "shop_id": "noahshoping",
-          "shop_name": "ノア商社Yahoo!店",
-          "price_jpy": 23880,
-          "jan_code": "4549995725025",
-          "url": "https://store.shopping.yahoo.co.jp/noahshoping/4549995725025-hosyou.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": [
-            "condition"
-          ]
-        },
-        {
-          "id": "yahoo:kaikyou_o549995725025",
-          "title": "【新品未開封・保証開始】Apple AirPods 5 ワイヤレス充電ケース付き MKFT4J/A 【日曜日以外即日発送】【送料無料】",
-          "shop_id": "kaikyou",
-          "shop_name": "モバイル販売",
-          "price_jpy": 24270,
-          "jan_code": "4549995725025",
-          "url": "https://store.shopping.yahoo.co.jp/kaikyou/o549995725025.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:akibasoko_out-4549995725025",
-          "title": "【訳アリ・apple保証サポート登録済】AirPods (第5世代)(2026)ワイヤレス充電ケース MKFT4J/A/apple",
-          "shop_id": "akibasoko",
-          "shop_name": "アキバ倉庫",
-          "price_jpy": 24380,
-          "jan_code": "4549995725025",
-          "url": "https://store.shopping.yahoo.co.jp/akibasoko/out-4549995725025.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": [
-            "extra_sales_condition"
-          ]
-        },
-        {
-          "id": "yahoo:panda-mobile_4549995725025-nw2",
-          "title": "【土日、祝日も発送】訳あり 新品未開封品【Nランク】AirPods 5 MKFT4J/A ワイヤレス充電ケース付き アクティブノイズキャンセリング 4549995725025 ※保証開始",
-          "shop_id": "panda-mobile",
-          "shop_name": "panda mobile",
-          "price_jpy": 24407,
-          "jan_code": "4549995725025",
-          "url": "https://store.shopping.yahoo.co.jp/panda-mobile/4549995725025-nw2.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": [
-            "condition",
-            "extra_sales_condition"
-          ]
-        },
-        {
-          "id": "yahoo:kaikyou_4549995725025",
-          "title": "【新品未開封】Apple AirPods 5 ワイヤレス充電ケース付き MKFT4J/A【日曜日以外即日発送】【送料無料】",
-          "shop_id": "kaikyou",
-          "shop_name": "モバイル販売",
-          "price_jpy": 25190,
-          "jan_code": "4549995725025",
-          "url": "https://store.shopping.yahoo.co.jp/kaikyou/4549995725025.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:ki-zu-na_4549995725025",
-          "title": "【新品未開封】Apple（アップル） AirPods 5 ワイヤレス充電ケース付き MKFT4J/A 4549995725025",
-          "shop_id": "ki-zu-na",
-          "shop_name": "KizunaStore",
-          "price_jpy": 25200,
-          "jan_code": "4549995725025",
-          "url": "https://store.shopping.yahoo.co.jp/ki-zu-na/4549995725025.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:d-rise2_p000000992099",
-          "title": "★アップル / APPLE AirPods 5 ワイヤレス充電ケース付き MKFT4J/A【イヤホン・ヘッドホン】【送料無料】",
-          "shop_id": "d-rise2",
-          "shop_name": "ディーライズ2号",
-          "price_jpy": 25270,
-          "jan_code": "4549995725025",
-          "url": "https://store.shopping.yahoo.co.jp/d-rise2/p000000992099.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:akibasoko_4549995725025",
-          "title": "AirPods (第5世代)(2026)ワイヤレス充電ケース MKFT4J/A/apple",
-          "shop_id": "akibasoko",
-          "shop_name": "アキバ倉庫",
-          "price_jpy": 25320,
-          "jan_code": "4549995725025",
-          "url": "https://store.shopping.yahoo.co.jp/akibasoko/4549995725025.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:light-hikari_4549995725025",
-          "title": "AirPods 第5世代 ワイヤレス充電ケース付き MKFT4J/A　未開封・購入前に商品情報欄をご覧ください。",
-          "shop_id": "light-hikari",
-          "shop_name": "らいぶshop",
-          "price_jpy": 25327,
-          "jan_code": "4549995725025",
-          "url": "https://store.shopping.yahoo.co.jp/light-hikari/4549995725025.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:sokuteikiya_4549995725025",
-          "title": "Apple AirPods 5 ワイヤレス充電ケース付き MKFT4J/A[ラッピング可]",
-          "shop_id": "sokuteikiya",
-          "shop_name": "測定の森Yahoo!ショッピング店",
-          "price_jpy": 25341,
-          "jan_code": "4549995725025",
-          "url": "https://store.shopping.yahoo.co.jp/sokuteikiya/4549995725025.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:jcka-mobile2_4549995725025",
-          "title": "★国内正規品 新品未開封・保証未開始 Apple AirPods 5 ワイヤレス充電ケース付き アクティブノイズキャンセリング MKFT4J/A 第5世代",
-          "shop_id": "jcka-mobile2",
-          "shop_name": "ジェーシカモバイル2号店",
-          "price_jpy": 25800,
-          "jan_code": "4549995725025",
-          "url": "https://store.shopping.yahoo.co.jp/jcka-mobile2/4549995725025.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:digitalisland_4549995725025",
-          "title": "【新品未開封】Apple（アップル） AirPods 5 ワイヤレス充電ケース付き MKFT4J/A 4549995725025",
-          "shop_id": "digitalisland",
-          "shop_name": "digitalisland",
-          "price_jpy": 25879,
-          "jan_code": "4549995725025",
-          "url": "https://store.shopping.yahoo.co.jp/digitalisland/4549995725025.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:d-rise_p000000992099",
-          "title": "★アップル / APPLE AirPods 5 ワイヤレス充電ケース付き MKFT4J/A【イヤホン・ヘッドホン】【送料無料】",
-          "shop_id": "d-rise",
-          "shop_name": "ディーライズ",
-          "price_jpy": 25880,
-          "jan_code": "4549995725025",
-          "url": "https://store.shopping.yahoo.co.jp/d-rise/p000000992099.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:live2_4549995725025",
-          "title": "AirPods 第5世代 ワイヤレス充電ケース付き MKFT4J/A 新品未開封・購入前に商品情報欄をご覧ください。",
-          "shop_id": "live2",
-          "shop_name": "らいぶshop2号店",
-          "price_jpy": 25889,
-          "jan_code": "4549995725025",
-          "url": "https://store.shopping.yahoo.co.jp/live2/4549995725025.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:rcmdin_uw-4549995725025",
-          "title": "MKFT4J/A Apple AirPods 5 アップル ワイヤレス充電ケース付き ノイズキャンセリング ワイヤレスイヤホン イヤホン",
-          "shop_id": "rcmdin",
-          "shop_name": "リコメン堂インテリア館",
-          "price_jpy": 25979,
-          "jan_code": "4549995725025",
-          "url": "https://store.shopping.yahoo.co.jp/rcmdin/uw-4549995725025.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:panda-mobile_4549995725025-n",
-          "title": "【土日、祝日も発送】新品未開封品【Nランク】AirPods 5 MKFT4J/A ワイヤレス充電ケース付き アクティブノイズキャンセリング 4549995725025",
-          "shop_id": "panda-mobile",
-          "shop_name": "panda mobile",
-          "price_jpy": 25998,
-          "jan_code": "4549995725025",
-          "url": "https://store.shopping.yahoo.co.jp/panda-mobile/4549995725025-n.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": [
-            "condition",
-            "extra_sales_condition"
-          ]
-        },
-        {
-          "id": "yahoo:noahshoping_4549995725025",
-          "title": "『新品』Apple(アップル)AirPods 5 ワイヤレス充電ケース付き MKFT4J/A",
-          "shop_id": "noahshoping",
-          "shop_name": "ノア商社Yahoo!店",
-          "price_jpy": 26030,
-          "jan_code": "4549995725025",
-          "url": "https://store.shopping.yahoo.co.jp/noahshoping/4549995725025.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:densidonya_4549995725025",
-          "title": "【ラッピング可】【即日発送】【新品】Apple アップル イヤホン AirPods 5 ワイヤレス充電ケース付き MKFT4J/A",
-          "shop_id": "densidonya",
-          "shop_name": "電子問屋",
-          "price_jpy": 26120,
-          "jan_code": "4549995725025",
-          "url": "https://store.shopping.yahoo.co.jp/densidonya/4549995725025.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:sokutei_4549995725025",
-          "title": "Apple AirPods 5 ワイヤレス充電ケース付き MKFT4J/A[ラッピング可]",
-          "shop_id": "sokutei",
-          "shop_name": "測定の森 2号店",
-          "price_jpy": 26181,
-          "jan_code": "4549995725025",
-          "url": "https://store.shopping.yahoo.co.jp/sokutei/4549995725025.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:alljapan-online-shop_4549995725025",
-          "title": "「保証未開始 未開封新品」Apple AirPods 5 MKFT4J/A ワイヤレス充電ケース ノイズキャンセリング 第5世代 Apple純正品",
-          "shop_id": "alljapan-online-shop",
-          "shop_name": "販売一丁目",
-          "price_jpy": 26330,
-          "jan_code": "4549995725025",
-          "url": "https://store.shopping.yahoo.co.jp/alljapan-online-shop/4549995725025.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:aprice_4549995725025",
-          "title": "APPLE MKFT4J/A AirPods 5 ワイヤレス充電ケース付き 完全ワイヤレスイヤホン",
-          "shop_id": "aprice",
-          "shop_name": "XPRICE Yahoo!店",
-          "price_jpy": 26500,
-          "jan_code": "4549995725025",
-          "url": "https://store.shopping.yahoo.co.jp/aprice/4549995725025.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:jcka-mobile_4549995725025",
-          "title": "★国内正規品 新品未開封・保証未開始 Apple AirPods 5 ワイヤレス充電ケース付き アクティブノイズキャンセリング MKFT4J/A ワイヤレスイヤホン 第5世代",
-          "shop_id": "jcka-mobile",
-          "shop_name": "ジェーシカモバイル",
-          "price_jpy": 26800,
-          "jan_code": "4549995725025",
-          "url": "https://store.shopping.yahoo.co.jp/jcka-mobile/4549995725025.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:recommendo_uw-4549995725025",
-          "title": "MKFT4J/A Apple AirPods 5 アップル ワイヤレス充電ケース付き ノイズキャンセリング ワイヤレスイヤホン イヤホン",
-          "shop_id": "recommendo",
-          "shop_name": "リコメン堂",
-          "price_jpy": 27480,
-          "jan_code": "4549995725025",
-          "url": "https://store.shopping.yahoo.co.jp/recommendo/uw-4549995725025.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:digimart-shop_aa00197",
-          "title": "Apple純正品 アップル エアポッズ Apple AirPods 5 MKFT4J/A ワイヤレス充電ケース付き Bluetoothイヤホン【国内正規品・新品】",
-          "shop_id": "digimart-shop",
-          "shop_name": "カメラ・レンズ・家電のDigiMart",
-          "price_jpy": 27580,
-          "jan_code": "4549995725025",
-          "url": "https://store.shopping.yahoo.co.jp/digimart-shop/aa00197.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:newstar_airpods5-wireless",
-          "title": "「新品未開封品、保証未開始」AirPods 5 ワイヤレス充電ケース付き MKFT4J/A  アップル純正ワイヤレスイヤホン",
-          "shop_id": "newstar",
-          "shop_name": "new star",
-          "price_jpy": 27800,
-          "jan_code": "4549995725025",
-          "url": "https://store.shopping.yahoo.co.jp/newstar/airpods5-wireless.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": [
-            "extra_sales_condition"
-          ]
-        },
-        {
-          "id": "yahoo:sake-premoa_4549995725025",
-          "title": "APPLE MKFT4J/A AirPods 5 ワイヤレス充電ケース付き 完全ワイヤレスイヤホン",
-          "shop_id": "sake-premoa",
-          "shop_name": "総合通販PREMOA Yahoo!店",
-          "price_jpy": 28030,
-          "jan_code": "4549995725025",
-          "url": "https://store.shopping.yahoo.co.jp/sake-premoa/4549995725025.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:ai-gr_2100000028449",
-          "title": "ワイヤレス充電ケース付きAirPods 5 MKFT4J/A【お取り寄せ（1週間から10営業日程度）での入荷、発送】（2100000028449）",
-          "shop_id": "ai-gr",
-          "shop_name": "愛グループヤフー店",
-          "price_jpy": 28371,
-          "jan_code": "4549995725025",
-          "url": "https://store.shopping.yahoo.co.jp/ai-gr/2100000028449.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": [
-            "extra_sales_condition"
-          ]
-        },
-        {
-          "id": "yahoo:onemorething_4549995725025",
-          "title": "Apple アップル 純正 AirPods 5 ワイヤレス充電ケース付き エアポッズ5 エアーポッズ5 MKFT4J/A メーカー保証付き ブラックフライデー",
-          "shop_id": "onemorething",
-          "shop_name": "AirPodsのワンモアシング",
-          "price_jpy": 28980,
-          "jan_code": "4549995725025",
-          "url": "https://store.shopping.yahoo.co.jp/onemorething/4549995725025.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:maxzen_4549995725025",
-          "title": "APPLE MKFT4J/A AirPods 5 ワイヤレス充電ケース付き 完全ワイヤレスイヤホン",
-          "shop_id": "maxzen",
-          "shop_name": "MAXZEN Direct Yahoo!店",
-          "price_jpy": 29140,
-          "jan_code": "4549995725025",
-          "url": "https://store.shopping.yahoo.co.jp/maxzen/4549995725025.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:rcmdse_uw-4549995725025",
-          "title": "MKFT4J/A Apple AirPods 5 アップル ワイヤレス充電ケース付き ノイズキャンセリング ワイヤレスイヤホン イヤホン",
-          "shop_id": "rcmdse",
-          "shop_name": "リコメン堂生活館",
-          "price_jpy": 30500,
-          "jan_code": "4549995725025",
-          "url": "https://store.shopping.yahoo.co.jp/rcmdse/uw-4549995725025.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:rcmdhl_uw-4549995725025",
-          "title": "MKFT4J/A Apple AirPods 5 アップル ワイヤレス充電ケース付き ノイズキャンセリング ワイヤレスイヤホン イヤホン",
-          "shop_id": "rcmdhl",
-          "shop_name": "リコメン堂ホームライフ館",
-          "price_jpy": 30500,
-          "jan_code": "4549995725025",
-          "url": "https://store.shopping.yahoo.co.jp/rcmdhl/uw-4549995725025.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:try3_4549995725025",
-          "title": "Apple AirPods 5 MKFT4J/A ワイヤレス充電ケース ノイズキャンセリング H2チップ IP57 国内正規品 新品 ワイヤレス イヤホン ワイヤレスイヤホン",
-          "shop_id": "try3",
-          "shop_name": "トライスリー",
-          "price_jpy": 30528,
-          "jan_code": "4549995725025",
-          "url": "https://store.shopping.yahoo.co.jp/try3/4549995725025.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        }
-      ]
-    },
     {
       "key": [
         "jan",
@@ -957,6 +91,18 @@
           "risk_flags": []
         },
         {
+          "id": "yahoo:ki-zu-na_4549995519860",
+          "title": "【保証未開始】【ブラックフライデー】【新品未開封】 Apple AirPods 4 MXP63J/A  4549995519860",
+          "shop_id": "ki-zu-na",
+          "shop_name": "KizunaStore",
+          "price_jpy": 19490,
+          "jan_code": "4549995519860",
+          "url": "https://store.shopping.yahoo.co.jp/ki-zu-na/4549995519860.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
           "id": "yahoo:kaikyou_4549995519860",
           "title": "【新品未開封・保証未開始】APPLE AirPods 第4世代 MXP63J/A【送料無料】【日曜日以外即日発送】",
           "shop_id": "kaikyou",
@@ -964,18 +110,6 @@
           "price_jpy": 19490,
           "jan_code": "4549995519860",
           "url": "https://store.shopping.yahoo.co.jp/kaikyou/4549995519860.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:ki-zu-na_4549995519860",
-          "title": "【保証未開始】【ブラックフライデー】【新品未開封】 Apple AirPods 4 MXP63J/A  4549995519860",
-          "shop_id": "ki-zu-na",
-          "shop_name": "KizunaStore",
-          "price_jpy": 19500,
-          "jan_code": "4549995519860",
-          "url": "https://store.shopping.yahoo.co.jp/ki-zu-na/4549995519860.html",
           "in_stock": true,
           "condition": "new",
           "risk_flags": []
@@ -1044,7 +178,7 @@
         },
         {
           "id": "yahoo:digitalisland_4549995519860",
-          "title": "【保証未開始】【新品未開封】 Apple AirPods 4 MXP63J/A  4549995519860",
+          "title": "【ブラックフライデー】【保証未開始】【新品未開封】 Apple AirPods 4 MXP63J/A  4549995519860",
           "shop_id": "digitalisland",
           "shop_name": "digitalisland",
           "price_jpy": 19900,
@@ -1221,428 +355,149 @@
     {
       "key": [
         "jan",
-        "4902370542943"
+        "4571411219498"
       ],
-      "total_available": 35,
-      "returned": 35,
+      "total_available": 1,
+      "returned": 1,
       "truncated": false,
       "offers": [
         {
-          "id": "yahoo:llhat_4902370542943",
-          "title": "Nintendo Switch Lite ターコイズ 【任天堂】",
-          "shop_id": "llhat",
-          "shop_name": "エルエルハット",
-          "price_jpy": 29980,
-          "jan_code": "4902370542943",
-          "url": "https://store.shopping.yahoo.co.jp/llhat/4902370542943.html",
+          "id": "yahoo:ankerdirect_a1257",
+          "title": "モバイルバッテリー Anker Power Bank (10000mAh, 22.5W)アップグレード版10000mAh 最大22.5W出力 ディスプレイ搭載 PD/PowerIQ搭載/PSE技術基準適合 / アンカー",
+          "shop_id": "ankerdirect",
+          "shop_name": "Anker 公式ストア ヤフー店",
+          "price_jpy": 2890,
+          "jan_code": "4571411219498",
+          "url": "https://store.shopping.yahoo.co.jp/ankerdirect/a1257.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        }
+      ]
+    },
+    {
+      "key": [
+        "jan",
+        "4571411213045"
+      ],
+      "total_available": 1,
+      "returned": 1,
+      "truncated": false,
+      "offers": [
+        {
+          "id": "yahoo:ankerdirect_a1653",
+          "title": "モバイルバッテリー Anker Nano Power Bank (22.5W, Built-In USB-C Connector)5000mAh 軽量 小型 コンパクトPowerIQ搭載/USB-C一体型 iPhone 18 / 17 アンカー",
+          "shop_id": "ankerdirect",
+          "shop_name": "Anker 公式ストア ヤフー店",
+          "price_jpy": 2790,
+          "jan_code": "4571411213045",
+          "url": "https://store.shopping.yahoo.co.jp/ankerdirect/a1653.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        }
+      ]
+    },
+    {
+      "key": [
+        "jan",
+        "4571411223051"
+      ],
+      "total_available": 3,
+      "returned": 3,
+      "truncated": false,
+      "offers": [
+        {
+          "id": "yahoo:ankerdirect_a1664",
+          "title": "モバイルバッテリー Anker MagGo Power Bank (10000mAh, Slim)10000mAh Qi2認証 ワイヤレス充電 最大出力15W マグセーフ対応 コンパクト 薄型 小型 18 アンカー",
+          "shop_id": "ankerdirect",
+          "shop_name": "Anker 公式ストア ヤフー店",
+          "price_jpy": 6990,
+          "jan_code": "4571411223051",
+          "url": "https://store.shopping.yahoo.co.jp/ankerdirect/a1664.html",
           "in_stock": true,
           "condition": "new",
           "risk_flags": []
         },
         {
-          "id": "yahoo:archholesale_1309837",
-          "title": "ゲーム機 Nintendo Switch Lite [ターコイズ]",
-          "shop_id": "archholesale",
-          "shop_name": "ア-チホ-ルセ-ル",
-          "price_jpy": 31260,
-          "jan_code": "4902370542943",
-          "url": "https://store.shopping.yahoo.co.jp/archholesale/1309837.html",
+          "id": "yahoo:alicemall_5dank5017-w0",
+          "title": "18ヵ月保証 Anker Model:A1664N21 Anker MagGo Power Bank 10000mAh, Slim ホワイト 薄型 モバイルバッテリー Qi2 ラッピング対応",
+          "shop_id": "alicemall",
+          "shop_name": "アリスモールYahoo!店",
+          "price_jpy": 7080,
+          "jan_code": "4571411223051",
+          "url": "https://store.shopping.yahoo.co.jp/alicemall/5dank5017-w0.html",
           "in_stock": true,
           "condition": "new",
           "risk_flags": []
         },
         {
-          "id": "yahoo:d-rise2_p000000690600",
-          "title": "★Nintendo / 任天堂 Nintendo Switch Lite [ターコイズ]【送料無料】",
-          "shop_id": "d-rise2",
-          "shop_name": "ディーライズ2号",
-          "price_jpy": 31280,
-          "jan_code": "4902370542943",
-          "url": "https://store.shopping.yahoo.co.jp/d-rise2/p000000690600.html",
+          "id": "yahoo:appbankstore_4571411223051",
+          "title": "モバイルバッテリー アンカー anker iPhone 軽量 小型 大容量 10000mah 土日発送 送料無料 MagSafe Anker MagGo Power Bank 15W Qi2 認証 ギフト ホワイト",
+          "shop_id": "appbankstore",
+          "shop_name": "AB-Next",
+          "price_jpy": 9990,
+          "jan_code": "4571411223051",
+          "url": "https://store.shopping.yahoo.co.jp/appbankstore/4571411223051.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        }
+      ]
+    },
+    {
+      "key": [
+        "jan",
+        "4571651014112"
+      ],
+      "total_available": 4,
+      "returned": 4,
+      "truncated": false,
+      "offers": [
+        {
+          "id": "yahoo:ankerdirect_a121d",
+          "title": "充電器 Anker Nano Charger (45W, Display, スイングプラグ)45W USB-C急速充電器 iPad Galaxy MacBook Air対応 PSE技術基準適合 アンカー クーポン対象",
+          "shop_id": "ankerdirect",
+          "shop_name": "Anker 公式ストア ヤフー店",
+          "price_jpy": 3790,
+          "jan_code": "4571651014112",
+          "url": "https://store.shopping.yahoo.co.jp/ankerdirect/a121d.html",
           "in_stock": true,
           "condition": "new",
           "risk_flags": []
         },
         {
-          "id": "yahoo:ki-zu-na_4902370542943",
-          "title": "新品 任天堂 Nintendo Switch Lite ターコイズ ライト",
-          "shop_id": "ki-zu-na",
-          "shop_name": "KizunaStore",
-          "price_jpy": 31488,
-          "jan_code": "4902370542943",
-          "url": "https://store.shopping.yahoo.co.jp/ki-zu-na/4902370542943.html",
+          "id": "yahoo:pc-express_4571651014112",
+          "title": "アンカー・ジャパン A121DN11 Anker Nano Charger (45W Display スイングプラグ) ブラック",
+          "shop_id": "pc-express",
+          "shop_name": "PC&家電CaravanYU Yahoo!店",
+          "price_jpy": 4627,
+          "jan_code": "4571651014112",
+          "url": "https://store.shopping.yahoo.co.jp/pc-express/4571651014112.html",
           "in_stock": true,
           "condition": "new",
           "risk_flags": []
         },
         {
-          "id": "yahoo:gamedarake-store_4902370542943",
-          "title": "【即日出荷】【新品】Nintendo Switch Lite 本体 ターコイズ  140548【ラッピング 対応不可】",
-          "shop_id": "gamedarake-store",
-          "shop_name": "ゲームだらけ",
-          "price_jpy": 31600,
-          "jan_code": "4902370542943",
-          "url": "https://store.shopping.yahoo.co.jp/gamedarake-store/4902370542943.html",
+          "id": "yahoo:plusyu_4571651014112",
+          "title": "アンカー・ジャパン A121DN11 Anker Nano Charger (45W Display スイングプラグ) ブラック",
+          "shop_id": "plusyu",
+          "shop_name": "PLUS YU",
+          "price_jpy": 4890,
+          "jan_code": "4571651014112",
+          "url": "https://store.shopping.yahoo.co.jp/plusyu/4571651014112.html",
           "in_stock": true,
           "condition": "new",
           "risk_flags": []
         },
         {
-          "id": "yahoo:toukaikaden_p000000690600",
-          "title": "Nintendo / 任天堂 Nintendo Switch Lite [ターコイズ]",
-          "shop_id": "toukaikaden",
-          "shop_name": "東海ドットコム",
-          "price_jpy": 31860,
-          "jan_code": "4902370542943",
-          "url": "https://store.shopping.yahoo.co.jp/toukaikaden/p000000690600.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:pandora-a3_4902370542943-0214",
-          "title": "【即納新品】任天堂 Nintendo Switch Lite ターコイズ HDH-S-BAZAA ニンテンドースイッチ  ライト ゲーム 本体",
-          "shop_id": "pandora-a3",
-          "shop_name": "pandora-a3",
-          "price_jpy": 31876,
-          "jan_code": "4902370542943",
-          "url": "https://store.shopping.yahoo.co.jp/pandora-a3/4902370542943-0214.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:digitalisland_4902370542943",
-          "title": "新品 任天堂 Nintendo Switch Lite ターコイズ ライト",
-          "shop_id": "digitalisland",
-          "shop_name": "digitalisland",
-          "price_jpy": 31980,
-          "jan_code": "4902370542943",
-          "url": "https://store.shopping.yahoo.co.jp/digitalisland/4902370542943.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:d-rise_p000000690600",
-          "title": "★Nintendo / 任天堂 Nintendo Switch Lite [ターコイズ]【送料無料】",
-          "shop_id": "d-rise",
-          "shop_name": "ディーライズ",
-          "price_jpy": 32030,
-          "jan_code": "4902370542943",
-          "url": "https://store.shopping.yahoo.co.jp/d-rise/p000000690600.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:light-hikari_4902370542943",
-          "title": "Nintendo Switch Lite ターコイズ HDH-S-BAZAA 任天堂 Switch本体  ※量販店舗印付の場合があります、商品情報ご覧ください。",
-          "shop_id": "light-hikari",
-          "shop_name": "らいぶshop",
-          "price_jpy": 32066,
-          "jan_code": "4902370542943",
-          "url": "https://store.shopping.yahoo.co.jp/light-hikari/4902370542943.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:gamedarake03_4902370542943",
-          "title": "【送料無料(宅配便発送)・即日出荷】【新品】Nintendo Switch Lite 本体 ターコイズ 140548【ラッピング 対応不可】",
-          "shop_id": "gamedarake03",
-          "shop_name": "ゲームだらけ3号店",
-          "price_jpy": 32100,
-          "jan_code": "4902370542943",
-          "url": "https://store.shopping.yahoo.co.jp/gamedarake03/4902370542943.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:ecjoyecj25_19113816",
-          "title": "任天堂 NINTENDO Switch Lite ターコイズ",
-          "shop_id": "ecjoyecj25",
-          "shop_name": "HJN ヤフー店",
-          "price_jpy": 32120,
-          "jan_code": "4902370542943",
-          "url": "https://store.shopping.yahoo.co.jp/ecjoyecj25/19113816.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:ecj_19113816",
-          "title": "任天堂 NINTENDO Switch Lite ターコイズ",
-          "shop_id": "ecj",
-          "shop_name": "ECJOY!",
-          "price_jpy": 32120,
-          "jan_code": "4902370542943",
-          "url": "https://store.shopping.yahoo.co.jp/ecj/19113816.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:jcka-mobile_4902370542943",
-          "title": "★Nintendo Switch Lite ターコイズ HDH-S-BAZAA 任天堂 Switch 本体 未使用 新品※量販店印付き場合あり",
-          "shop_id": "jcka-mobile",
-          "shop_name": "ジェーシカモバイル",
-          "price_jpy": 32200,
-          "jan_code": "4902370542943",
-          "url": "https://store.shopping.yahoo.co.jp/jcka-mobile/4902370542943.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:live2_4902370542943",
-          "title": "Nintendo Switch Lite ターコイズ※量販店舗印付の場合があります、商品情報ご覧ください。",
-          "shop_id": "live2",
-          "shop_name": "らいぶshop2号店",
-          "price_jpy": 32223,
-          "jan_code": "4902370542943",
-          "url": "https://store.shopping.yahoo.co.jp/live2/4902370542943.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:game-paani_4902370542943",
-          "title": "Nintendo Switch Lite [ターコイズ] 任天堂 HDH-S-BAZAA【新品/ラッピング対応可】",
-          "shop_id": "game-paani",
-          "shop_name": "ゲームショップ・パーニYahoo!店",
-          "price_jpy": 32490,
-          "jan_code": "4902370542943",
-          "url": "https://store.shopping.yahoo.co.jp/game-paani/4902370542943.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:outletplaza_40000891096",
-          "title": "[ニンテンドースイッチ本体] ニンテンドースイッチ ライト ターコイズ [HDH-S-BAZAA]",
-          "shop_id": "outletplaza",
-          "shop_name": "秋葉原　アウトレットプラザ",
-          "price_jpy": 32558,
-          "jan_code": "4902370542943",
-          "url": "https://store.shopping.yahoo.co.jp/outletplaza/40000891096.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:arc-online_4902370542943",
-          "title": "【新品】Nintendo Switch Lite 本体 (ターコイズ) [HDH-S-BAZAA]",
-          "shop_id": "arc-online",
-          "shop_name": "アークオンライン Yahoo!店",
-          "price_jpy": 32744,
-          "jan_code": "4902370542943",
-          "url": "https://store.shopping.yahoo.co.jp/arc-online/4902370542943.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:topone1_toy-0016",
-          "title": "Nintendo 任天堂 Switch Lite スイッチライト 本体 ターコイズ HDH-S-BAZAA 新品",
-          "shop_id": "topone1",
-          "shop_name": "トップワン ヤフーショッピング店",
-          "price_jpy": 32780,
-          "jan_code": "4902370542943",
-          "url": "https://store.shopping.yahoo.co.jp/topone1/toy-0016.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:pc-akindo-y_hdh-s-bazaa",
-          "title": "【新品】 任天堂 ニンテンドースイッチ ライト Nintendo Switch Lite 本体 HDH-S-BAZAA ターコイズ",
-          "shop_id": "pc-akindo-y",
-          "shop_name": "PCあきんどデジタル館",
-          "price_jpy": 32800,
-          "jan_code": "4902370542943",
-          "url": "https://store.shopping.yahoo.co.jp/pc-akindo-y/hdh-s-bazaa.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:emon-shop_hdh-s-bazaa",
-          "title": "【新品】 任天堂 ニンテンドースイッチ ライト Nintendo Switch Lite 本体 HDH-S-BAZAA ターコイズ【60サイズ】",
-          "shop_id": "emon-shop",
-          "shop_name": "家電と雑貨のemon(えもん)",
-          "price_jpy": 32800,
-          "jan_code": "4902370542943",
-          "url": "https://store.shopping.yahoo.co.jp/emon-shop/hdh-s-bazaa.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:pc-akindo_hdh-s-bazaa",
-          "title": "【新品】 任天堂 ニンテンドースイッチ ライト Nintendo Switch Lite 本体 HDH-S-BAZAA ターコイズ",
-          "shop_id": "pc-akindo",
-          "shop_name": "PCあきんど",
-          "price_jpy": 32800,
-          "jan_code": "4902370542943",
-          "url": "https://store.shopping.yahoo.co.jp/pc-akindo/hdh-s-bazaa.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:newstar_nintendolitegreen",
-          "title": "【新品】Nintendo Switch Lite ターコイズ スイッチライト本体",
-          "shop_id": "newstar",
-          "shop_name": "new star",
-          "price_jpy": 33580,
-          "jan_code": "4902370542943",
-          "url": "https://store.shopping.yahoo.co.jp/newstar/nintendolitegreen.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:ceresu-syouji_hdh-s-bazaa",
-          "title": "任天堂 Nintendo Switch Lite Nintendo Switch Lite (ターコイズ)新品・即納",
-          "shop_id": "ceresu-syouji",
-          "shop_name": "ケレスショウジ",
-          "price_jpy": 33798,
-          "jan_code": "4902370542943",
-          "url": "https://store.shopping.yahoo.co.jp/ceresu-syouji/hdh-s-bazaa.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:newstar_nintendolitecoral",
-          "title": "【新品】Nintendo Switch Lite ［Coral］ スイッチライト本体　送料無料　日本モデル",
-          "shop_id": "newstar",
-          "shop_name": "new star",
-          "price_jpy": 33800,
-          "jan_code": "4902370542943",
-          "url": "https://store.shopping.yahoo.co.jp/newstar/nintendolitecoral.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:toreneko_m4902370542943",
-          "title": "【新品】 Nintendo Switch Lite ターコイズ【本体】",
-          "shop_id": "toreneko",
-          "shop_name": "トレネコ",
-          "price_jpy": 33924,
-          "jan_code": "4902370542943",
-          "url": "https://store.shopping.yahoo.co.jp/toreneko/m4902370542943.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:toy24shop_4902370542943",
-          "title": "送料込 Nintendo Switch Lite本体 ターコイズ",
-          "shop_id": "toy24shop",
-          "shop_name": "GAMEダッシュ",
-          "price_jpy": 34078,
-          "jan_code": "4902370542943",
-          "url": "https://store.shopping.yahoo.co.jp/toy24shop/4902370542943.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:nekoyashokai_m4902370542943",
-          "title": "【新品】 Nintendo Switch Lite ターコイズ【本体】",
-          "shop_id": "nekoyashokai",
-          "shop_name": "ネコヤ商会",
-          "price_jpy": 34584,
-          "jan_code": "4902370542943",
-          "url": "https://store.shopping.yahoo.co.jp/nekoyashokai/m4902370542943.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:aprice_4902370542943",
-          "title": "任天堂 HDH-S-BAZAA Nintendo Switch Lite ターコイズ ゲーム機本体",
-          "shop_id": "aprice",
-          "shop_name": "XPRICE Yahoo!店",
-          "price_jpy": 34980,
-          "jan_code": "4902370542943",
-          "url": "https://store.shopping.yahoo.co.jp/aprice/4902370542943.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:sake-premoa_4902370542943",
-          "title": "任天堂 HDH-S-BAZAA Nintendo Switch Lite ターコイズ ゲーム機本体",
-          "shop_id": "sake-premoa",
-          "shop_name": "総合通販PREMOA Yahoo!店",
-          "price_jpy": 35940,
-          "jan_code": "4902370542943",
-          "url": "https://store.shopping.yahoo.co.jp/sake-premoa/4902370542943.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:jo-5butya_b07x779zk5",
-          "title": "Nintendo Switch Lite ターコイズ",
-          "shop_id": "jo-5butya",
-          "shop_name": "PASSIONEヤフー店",
-          "price_jpy": 36255,
-          "jan_code": "4902370542943",
-          "url": "https://store.shopping.yahoo.co.jp/jo-5butya/b07x779zk5.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:maxzen_4902370542943",
-          "title": "任天堂 HDH-S-BAZAA Nintendo Switch Lite ターコイズ ゲーム機本体",
-          "shop_id": "maxzen",
-          "shop_name": "MAXZEN Direct Yahoo!店",
-          "price_jpy": 37370,
-          "jan_code": "4902370542943",
-          "url": "https://store.shopping.yahoo.co.jp/maxzen/4902370542943.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:pandora-a3_4902370542943-1154",
-          "title": "【即納新品/ソフト付】任天堂 Nintendo Switch  Lite ターコイズ 本体 +あつまれどうぶつの森 ソフト +マイクロファイバークロス【3点1セット】",
-          "shop_id": "pandora-a3",
-          "shop_name": "pandora-a3",
-          "price_jpy": 37996,
-          "jan_code": "4902370542943",
-          "url": "https://store.shopping.yahoo.co.jp/pandora-a3/4902370542943-1154.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:speedwagon_10003873",
-          "title": "【新品】1週間以内発送　Nintendo Switch Lite 本体 ターコイズ ＆あつまれどうぶつの森ソフトセット ニンテンドースイッチ ライト",
-          "shop_id": "speedwagon",
-          "shop_name": "SPW(適格請求書発行事業者)Yahoo!店",
-          "price_jpy": 45098,
-          "jan_code": "4902370542943",
-          "url": "https://store.shopping.yahoo.co.jp/speedwagon/10003873.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:youplan_100003719981",
-          "title": "任天堂 ゲーム機 Nintendo Switch Lite [ターコイズ]",
-          "shop_id": "youplan",
-          "shop_name": "ユープラン",
-          "price_jpy": 49170,
-          "jan_code": "4902370542943",
-          "url": "https://store.shopping.yahoo.co.jp/youplan/100003719981.html",
+          "id": "yahoo:podpark_4571651014112",
+          "title": "アンカー・ジャパン A121DN11 Anker Nano Charger (45W Display スイングプラグ) ブラック",
+          "shop_id": "podpark",
+          "shop_name": "PodPark Yahoo!店",
+          "price_jpy": 6110,
+          "jan_code": "4571651014112",
+          "url": "https://store.shopping.yahoo.co.jp/podpark/4571651014112.html",
           "in_stock": true,
           "condition": "new",
           "risk_flags": []
@@ -1654,10 +509,22 @@
         "jan",
         "4902370554595"
       ],
-      "total_available": 59,
+      "total_available": 55,
       "returned": 50,
       "truncated": true,
       "offers": [
+        {
+          "id": "yahoo:free-world_zzz-20260911-04",
+          "title": "26年10月29日発売 予約 任天堂純正品 Nintendo Switch 2 Proコントローラー ゼルダの伝説 40周年 アニバーサリーエディション ディスプレイスタンド付き スイッ",
+          "shop_id": "free-world",
+          "shop_name": "カウカウSTORE",
+          "price_jpy": 16380,
+          "jan_code": "4902370554595",
+          "url": "https://store.shopping.yahoo.co.jp/free-world/zzz-20260911-04.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
         {
           "id": "yahoo:kaikyou_4902370554595",
           "title": "【新品】Nintendo Switch 2 ゼルダの伝説 40周年 アニバーサリーエディション 国内版【日曜日以外即日発送】【送料無料】",
@@ -1695,23 +562,11 @@
           "risk_flags": []
         },
         {
-          "id": "yahoo:lifecreate-kc_m-bee-s-kl6cc",
-          "title": "Nintendo Switch 2 ゼルダの伝説 40周年 アニバーサリーエディション 日本語 国内専用 BEE-S-KL6CC 任天堂",
-          "shop_id": "lifecreate-kc",
-          "shop_name": "ライフクリエイト",
-          "price_jpy": 62800,
-          "jan_code": "4902370554595",
-          "url": "https://store.shopping.yahoo.co.jp/lifecreate-kc/m-bee-s-kl6cc.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
           "id": "yahoo:sokuteikiya_4902370554595",
           "title": "Nintendo Switch 2 ゼルダの伝説 40周年 アニバーサリーエディション 日本語・国内専用 BEE-S-KL6CC[ラッピング可]",
           "shop_id": "sokuteikiya",
           "shop_name": "測定の森Yahoo!ショッピング店",
-          "price_jpy": 62870,
+          "price_jpy": 62978,
           "jan_code": "4902370554595",
           "url": "https://store.shopping.yahoo.co.jp/sokuteikiya/4902370554595.html",
           "in_stock": true,
@@ -1755,20 +610,6 @@
           "risk_flags": []
         },
         {
-          "id": "yahoo:noahshoping_4902370554595-wk",
-          "title": "『新品外箱傷みあり』Nintendo Switch 2 ゼルダの伝説 40周年 アニバーサリーエディション BEE-S-KL6CC",
-          "shop_id": "noahshoping",
-          "shop_name": "ノア商社Yahoo!店",
-          "price_jpy": 63500,
-          "jan_code": "4902370554595",
-          "url": "https://store.shopping.yahoo.co.jp/noahshoping/4902370554595-wk.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": [
-            "condition"
-          ]
-        },
-        {
           "id": "yahoo:d-rise2_p000000991925",
           "title": "★Nintendo / 任天堂 Nintendo Switch 2 ゼルダの伝説 40周年 アニバーサリーエディション BEE-S-KL6CC【送料無料】",
           "shop_id": "d-rise2",
@@ -1779,6 +620,20 @@
           "in_stock": true,
           "condition": "new",
           "risk_flags": []
+        },
+        {
+          "id": "yahoo:sokuteikiya_4902370554595-wake",
+          "title": "【訳あり】Nintendo Switch 2 ゼルダの伝説 40周年 アニバーサリーエディション 日本語・国内専用 本体 BEE-S-KL6CC 任天堂[ラッピング可]",
+          "shop_id": "sokuteikiya",
+          "shop_name": "測定の森Yahoo!ショッピング店",
+          "price_jpy": 63643,
+          "jan_code": "4902370554595",
+          "url": "https://store.shopping.yahoo.co.jp/sokuteikiya/4902370554595-wake.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": [
+            "condition"
+          ]
         },
         {
           "id": "yahoo:d-rise2_p700000020112",
@@ -1844,18 +699,6 @@
           "risk_flags": []
         },
         {
-          "id": "yahoo:densidonya_4902370554595",
-          "title": "【ラッピング可】【即日発送】【新品】Nintendo Switch 2 ゼルダの伝説 40周年 アニバーサリーエディション 日本語・国内専用 BEE-S-KL6CC",
-          "shop_id": "densidonya",
-          "shop_name": "電子問屋",
-          "price_jpy": 64200,
-          "jan_code": "4902370554595",
-          "url": "https://store.shopping.yahoo.co.jp/densidonya/4902370554595.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
           "id": "yahoo:noahshoping_4902370554595",
           "title": "『新品』Nintendo Switch 2 ゼルダの伝説 40周年 アニバーサリーエディション BEE-S-KL6CC",
           "shop_id": "noahshoping",
@@ -1868,6 +711,18 @@
           "risk_flags": []
         },
         {
+          "id": "yahoo:densidonya_4902370554595",
+          "title": "【ラッピング可】【即日発送】【新品】Nintendo Switch 2 ゼルダの伝説 40周年 アニバーサリーエディション 日本語・国内専用 BEE-S-KL6CC",
+          "shop_id": "densidonya",
+          "shop_name": "電子問屋",
+          "price_jpy": 64200,
+          "jan_code": "4902370554595",
+          "url": "https://store.shopping.yahoo.co.jp/densidonya/4902370554595.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
           "id": "yahoo:motona_69394600",
           "title": "Nintendo Switch 2 （日本語・国内専用） ゼルダの伝説 40周年 アニバーサリーエディション",
           "shop_id": "motona",
@@ -1875,18 +730,6 @@
           "price_jpy": 64380,
           "jan_code": "4902370554595",
           "url": "https://store.shopping.yahoo.co.jp/motona/69394600.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:ecjoyecj25_22352851",
-          "title": "任天堂 NINTENDO Switch 2 （日本語・国内専用） ゼルダの伝説 40周年 アニバーサリーエディション",
-          "shop_id": "ecjoyecj25",
-          "shop_name": "HJN ヤフー店",
-          "price_jpy": 64720,
-          "jan_code": "4902370554595",
-          "url": "https://store.shopping.yahoo.co.jp/ecjoyecj25/22352851.html",
           "in_stock": true,
           "condition": "new",
           "risk_flags": []
@@ -1916,6 +759,18 @@
           "risk_flags": []
         },
         {
+          "id": "yahoo:ecjoyecj25_22352851",
+          "title": "任天堂 NINTENDO Switch 2 （日本語・国内専用） ゼルダの伝説 40周年 アニバーサリーエディション",
+          "shop_id": "ecjoyecj25",
+          "shop_name": "HJN ヤフー店",
+          "price_jpy": 64720,
+          "jan_code": "4902370554595",
+          "url": "https://store.shopping.yahoo.co.jp/ecjoyecj25/22352851.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
           "id": "yahoo:toukaikaden_p000000991925",
           "title": "Nintendo / 任天堂 Nintendo Switch 2 ゼルダの伝説 40周年 アニバーサリーエディション BEE-S-KL6CC",
           "shop_id": "toukaikaden",
@@ -1935,18 +790,6 @@
           "price_jpy": 64935,
           "jan_code": "4902370554595",
           "url": "https://store.shopping.yahoo.co.jp/sokutei/4902370554595.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:harukaze-shouten_4902370554595-0",
-          "title": "任天堂 Nintendo Switch 2（日本語・国内専用）ゼルダの伝説 40周年 アニバーサリーエディション",
-          "shop_id": "harukaze-shouten",
-          "shop_name": "はるかぜ商店",
-          "price_jpy": 64990,
-          "jan_code": "4902370554595",
-          "url": "https://store.shopping.yahoo.co.jp/harukaze-shouten/4902370554595-0.html",
           "in_stock": true,
           "condition": "new",
           "risk_flags": []
@@ -1991,20 +834,6 @@
           ]
         },
         {
-          "id": "yahoo:sokutei_4902370554595-wake",
-          "title": "【訳あり】Nintendo Switch 2 ゼルダの伝説 40周年 アニバーサリーエディション 日本語・国内専用 本体 BEE-S-KL6CC 任天堂[ラッピング可]",
-          "shop_id": "sokutei",
-          "shop_name": "測定の森 2号店",
-          "price_jpy": 65274,
-          "jan_code": "4902370554595",
-          "url": "https://store.shopping.yahoo.co.jp/sokutei/4902370554595-wake.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": [
-            "condition"
-          ]
-        },
-        {
           "id": "yahoo:comgstore_1411-4902370554595",
           "title": "新品 Nintendo Switch 2 （日本語・国内専用） ゼルダの伝説 40周年 アニバーサリーエディション",
           "shop_id": "comgstore",
@@ -2029,11 +858,25 @@
           "risk_flags": []
         },
         {
+          "id": "yahoo:sokutei_4902370554595-wake",
+          "title": "【訳あり】Nintendo Switch 2 ゼルダの伝説 40周年 アニバーサリーエディション 日本語・国内専用 本体 BEE-S-KL6CC 任天堂[ラッピング可]",
+          "shop_id": "sokutei",
+          "shop_name": "測定の森 2号店",
+          "price_jpy": 65752,
+          "jan_code": "4902370554595",
+          "url": "https://store.shopping.yahoo.co.jp/sokutei/4902370554595-wake.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": [
+            "condition"
+          ]
+        },
+        {
           "id": "yahoo:game-paani_4902370554595",
           "title": "Nintendo Switch 2 (日本語・国内専用) [ゼルダの伝説 40周年 アニバーサリーエディション] 任天堂 BEE-S-KL6CC【新品/ラッピング対応可】",
           "shop_id": "game-paani",
           "shop_name": "ゲームショップ・パーニYahoo!店",
-          "price_jpy": 68290,
+          "price_jpy": 68100,
           "jan_code": "4902370554595",
           "url": "https://store.shopping.yahoo.co.jp/game-paani/4902370554595.html",
           "in_stock": true,
@@ -2101,6 +944,20 @@
           "risk_flags": []
         },
         {
+          "id": "yahoo:digimart-shop_kd0415",
+          "title": "任天堂 Nintendo Switch 2（日本語・国内専用）ゼルダの伝説 40周年 アニバーサリーエディション [BEE-S-KL6CC]【新品・国内正規品】【返品不可商品】",
+          "shop_id": "digimart-shop",
+          "shop_name": "カメラ・レンズ・家電のDigiMart",
+          "price_jpy": 69918,
+          "jan_code": "4902370554595",
+          "url": "https://store.shopping.yahoo.co.jp/digimart-shop/kd0415.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": [
+            "extra_sales_condition"
+          ]
+        },
+        {
           "id": "yahoo:at-field_sw2-h-zelda40",
           "title": "Nintendo Switch 2 （日本語・国内専用） ゼルダの伝説 40周年 アニバーサリーエディション【新品・未開封】",
           "shop_id": "at-field",
@@ -2123,20 +980,6 @@
           "in_stock": true,
           "condition": "new",
           "risk_flags": []
-        },
-        {
-          "id": "yahoo:digimart-shop_kd0415",
-          "title": "任天堂 Nintendo Switch 2（日本語・国内専用）ゼルダの伝説 40周年 アニバーサリーエディション [BEE-S-KL6CC]【新品・国内正規品】【返品不可商品】",
-          "shop_id": "digimart-shop",
-          "shop_name": "カメラ・レンズ・家電のDigiMart",
-          "price_jpy": 70118,
-          "jan_code": "4902370554595",
-          "url": "https://store.shopping.yahoo.co.jp/digimart-shop/kd0415.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": [
-            "extra_sales_condition"
-          ]
         },
         {
           "id": "yahoo:aprice_4902370554595",
@@ -2213,18 +1056,6 @@
           "risk_flags": []
         },
         {
-          "id": "yahoo:rcmdhl_uw-4902370554595",
-          "title": "Nintendo Switch 2 ニンテンドー スイッチ 2 (日本語・国内専用) ゼルダの伝説 40周年 アニバーサリーエディション BEE-S-KL6CC",
-          "shop_id": "rcmdhl",
-          "shop_name": "リコメン堂ホームライフ館",
-          "price_jpy": 77000,
-          "jan_code": "4902370554595",
-          "url": "https://store.shopping.yahoo.co.jp/rcmdhl/uw-4902370554595.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
           "id": "yahoo:rcmdse_uw-4902370554595",
           "title": "Nintendo Switch 2 ニンテンドー スイッチ 2 (日本語・国内専用) ゼルダの伝説 40周年 アニバーサリーエディション BEE-S-KL6CC",
           "shop_id": "rcmdse",
@@ -2232,6 +1063,18 @@
           "price_jpy": 77000,
           "jan_code": "4902370554595",
           "url": "https://store.shopping.yahoo.co.jp/rcmdse/uw-4902370554595.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:rcmdhl_uw-4902370554595",
+          "title": "Nintendo Switch 2 ニンテンドー スイッチ 2 (日本語・国内専用) ゼルダの伝説 40周年 アニバーサリーエディション BEE-S-KL6CC",
+          "shop_id": "rcmdhl",
+          "shop_name": "リコメン堂ホームライフ館",
+          "price_jpy": 77000,
+          "jan_code": "4902370554595",
+          "url": "https://store.shopping.yahoo.co.jp/rcmdhl/uw-4902370554595.html",
           "in_stock": true,
           "condition": "new",
           "risk_flags": []
@@ -2249,18 +1092,16 @@
           "risk_flags": []
         },
         {
-          "id": "yahoo:sokuteikiya_4902370554595-wake",
-          "title": "【訳あり】Nintendo Switch 2 ゼルダの伝説 40周年 アニバーサリーエディション 日本語・国内専用 本体 BEE-S-KL6CC 任天堂[ラッピング可]",
-          "shop_id": "sokuteikiya",
-          "shop_name": "測定の森Yahoo!ショッピング店",
-          "price_jpy": 78688,
+          "id": "yahoo:hinatainc_who965",
+          "title": "Nintendo Switch 2 本体 ゼルダの伝説 40周年 アニバーサリーエディション 日本語・国内専用 任天堂 純正品 特別デザイン 限定モデル ゼルダ BEE-S-KL6CC",
+          "shop_id": "hinatainc",
+          "shop_name": "HINATA.inc",
+          "price_jpy": 79800,
           "jan_code": "4902370554595",
-          "url": "https://store.shopping.yahoo.co.jp/sokuteikiya/4902370554595-wake.html",
+          "url": "https://store.shopping.yahoo.co.jp/hinatainc/who965.html",
           "in_stock": true,
           "condition": "new",
-          "risk_flags": [
-            "condition"
-          ]
+          "risk_flags": []
         },
         {
           "id": "yahoo:manjiro_who965",
@@ -2273,6 +1114,18 @@
           "in_stock": true,
           "condition": "new",
           "risk_flags": []
+        },
+        {
+          "id": "yahoo:free-store1_4902370554595",
+          "title": "Nintendo Switch 2 日本語・国内専用 ゼルダの伝説 40周年 アニバーサリーエディション BEE-S-KL6CC 任天堂",
+          "shop_id": "free-store1",
+          "shop_name": "Freeストア",
+          "price_jpy": 81000,
+          "jan_code": "4902370554595",
+          "url": "https://store.shopping.yahoo.co.jp/free-store1/4902370554595.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
         }
       ]
     },
@@ -2281,8 +1134,8 @@
         "jan",
         "4549995725049"
       ],
-      "total_available": 28,
-      "returned": 28,
+      "total_available": 27,
+      "returned": 27,
       "truncated": false,
       "offers": [
         {
@@ -2293,18 +1146,6 @@
           "price_jpy": 12800,
           "jan_code": "4549995725049",
           "url": "https://store.shopping.yahoo.co.jp/serekuto-takagise/a3530.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:serekuto-takagise_a3531",
-          "title": "Apple AirPods 5 (アクティブノイズ キャンセリング搭載) アップル エアーポッズ エアーポッツ 国内正規品 純正 新品 バラ売り A3531(右耳用)",
-          "shop_id": "serekuto-takagise",
-          "shop_name": "セレクト高木瀬",
-          "price_jpy": 13800,
-          "jan_code": "4549995725049",
-          "url": "https://store.shopping.yahoo.co.jp/serekuto-takagise/a3531.html",
           "in_stock": true,
           "condition": "new",
           "risk_flags": []
@@ -2322,31 +1163,17 @@
           "risk_flags": []
         },
         {
-          "id": "yahoo:light-hikari_4549995725049-yh",
-          "title": "「訳あり品-保証開始済」新品AirPods 第5世代 MKFW4J/A 保証期間開始・購入前に商品情報欄をご覧ください。",
-          "shop_id": "light-hikari",
-          "shop_name": "らいぶshop",
-          "price_jpy": 21160,
+          "id": "yahoo:noahshoping_4549995725049-hosyou",
+          "title": "『新品外箱傷みあり』Apple(アップル) AirPods 5 MKFW4J/A ※1年保証開始済み商品",
+          "shop_id": "noahshoping",
+          "shop_name": "ノア商社Yahoo!店",
+          "price_jpy": 21980,
           "jan_code": "4549995725049",
-          "url": "https://store.shopping.yahoo.co.jp/light-hikari/4549995725049-yh.html",
+          "url": "https://store.shopping.yahoo.co.jp/noahshoping/4549995725049-hosyou.html",
           "in_stock": true,
           "condition": "new",
           "risk_flags": [
             "condition"
-          ]
-        },
-        {
-          "id": "yahoo:akibasoko_out-4549995725049",
-          "title": "【訳アリ・apple保証サポート登録済】AirPods (第5世代)(2026) MKFW4J/A/apple",
-          "shop_id": "akibasoko",
-          "shop_name": "アキバ倉庫",
-          "price_jpy": 21280,
-          "jan_code": "4549995725049",
-          "url": "https://store.shopping.yahoo.co.jp/akibasoko/out-4549995725049.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": [
-            "extra_sales_condition"
           ]
         },
         {
@@ -2362,13 +1189,13 @@
           "risk_flags": []
         },
         {
-          "id": "yahoo:sokuteikiya_4549995725049",
-          "title": "Apple AirPods 5 ノイズキャンセリング ワイヤレス イヤホン MKFW4J/A[ラッピング可]",
-          "shop_id": "sokuteikiya",
-          "shop_name": "測定の森Yahoo!ショッピング店",
-          "price_jpy": 22432,
+          "id": "yahoo:light-hikari_4549995725049",
+          "title": "AirPods 第5世代 MKFW4J/A　未開封・購入前に商品情報欄をご覧ください。",
+          "shop_id": "light-hikari",
+          "shop_name": "らいぶshop",
+          "price_jpy": 22419,
           "jan_code": "4549995725049",
-          "url": "https://store.shopping.yahoo.co.jp/sokuteikiya/4549995725049.html",
+          "url": "https://store.shopping.yahoo.co.jp/light-hikari/4549995725049.html",
           "in_stock": true,
           "condition": "new",
           "risk_flags": []
@@ -2378,7 +1205,7 @@
           "title": "Apple AirPods 5 ノイズキャンセリング ワイヤレス イヤホン MKFW4J/A[ラッピング可]",
           "shop_id": "sokutei",
           "shop_name": "測定の森 2号店",
-          "price_jpy": 22432,
+          "price_jpy": 22420,
           "jan_code": "4549995725049",
           "url": "https://store.shopping.yahoo.co.jp/sokutei/4549995725049.html",
           "in_stock": true,
@@ -2386,13 +1213,13 @@
           "risk_flags": []
         },
         {
-          "id": "yahoo:light-hikari_4549995725049",
-          "title": "AirPods 第5世代 MKFW4J/A　未開封・購入前に商品情報欄をご覧ください。",
-          "shop_id": "light-hikari",
-          "shop_name": "らいぶshop",
-          "price_jpy": 22433,
+          "id": "yahoo:sokuteikiya_4549995725049",
+          "title": "Apple AirPods 5 ノイズキャンセリング ワイヤレス イヤホン MKFW4J/A[ラッピング可]",
+          "shop_id": "sokuteikiya",
+          "shop_name": "測定の森Yahoo!ショッピング店",
+          "price_jpy": 22420,
           "jan_code": "4549995725049",
-          "url": "https://store.shopping.yahoo.co.jp/light-hikari/4549995725049.html",
+          "url": "https://store.shopping.yahoo.co.jp/sokuteikiya/4549995725049.html",
           "in_stock": true,
           "condition": "new",
           "risk_flags": []
@@ -2426,9 +1253,21 @@
           "title": "【ラッピング可】【即日発送】【新品】Apple アップル イヤホン AirPods 5 MKFW4J/A",
           "shop_id": "densidonya",
           "shop_name": "電子問屋",
-          "price_jpy": 22660,
+          "price_jpy": 22600,
           "jan_code": "4549995725049",
           "url": "https://store.shopping.yahoo.co.jp/densidonya/4549995725049.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:noahshoping_4549995725049",
+          "title": "『新品』Apple(アップル) AirPods 5 MKFW4J/A",
+          "shop_id": "noahshoping",
+          "shop_name": "ノア商社Yahoo!店",
+          "price_jpy": 22980,
+          "jan_code": "4549995725049",
+          "url": "https://store.shopping.yahoo.co.jp/noahshoping/4549995725049.html",
           "in_stock": true,
           "condition": "new",
           "risk_flags": []
@@ -2638,6 +1477,339 @@
     },
     {
       "key": [
+        "jan",
+        "4549995635232"
+      ],
+      "total_available": 26,
+      "returned": 26,
+      "truncated": false,
+      "offers": [
+        {
+          "id": "yahoo:serekuto-takagise_a3122",
+          "title": "Apple AirPods Pro 3 アップル エアーポッズ エアーポッツ ノイズキャンセリング ライブ翻訳 心拍センサー 国内正規品 純正 新品 バラ売り A3122(充電ケース)",
+          "shop_id": "serekuto-takagise",
+          "shop_name": "セレクト高木瀬",
+          "price_jpy": 12900,
+          "jan_code": "4549995635232",
+          "url": "https://store.shopping.yahoo.co.jp/serekuto-takagise/a3122.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:serekuto-takagise_a3064",
+          "title": "Apple AirPods Pro 3 アップル エアーポッズ エアーポッツ ノイズキャンセリング ライブ翻訳 心拍センサー 国内正規品 純正 新品 バラ売り A3064(左耳用)",
+          "shop_id": "serekuto-takagise",
+          "shop_name": "セレクト高木瀬",
+          "price_jpy": 20800,
+          "jan_code": "4549995635232",
+          "url": "https://store.shopping.yahoo.co.jp/serekuto-takagise/a3064.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:akibasoko_out2-4549995635232",
+          "title": "【訳アリ・apple保証サポート登録済み短め(-2027.1月)】AirPods Pro (第3世代) USB-C(2025) MFHP4J/A/apple",
+          "shop_id": "akibasoko",
+          "shop_name": "アキバ倉庫",
+          "price_jpy": 35880,
+          "jan_code": "4549995635232",
+          "url": "https://store.shopping.yahoo.co.jp/akibasoko/out2-4549995635232.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": [
+            "extra_sales_condition"
+          ]
+        },
+        {
+          "id": "yahoo:sokuteikiya_4549995635232",
+          "title": "Apple AirPods Pro 第3世代 MFHP4J/A[ラッピング可] R-LOGI",
+          "shop_id": "sokuteikiya",
+          "shop_name": "測定の森Yahoo!ショッピング店",
+          "price_jpy": 36809,
+          "jan_code": "4549995635232",
+          "url": "https://store.shopping.yahoo.co.jp/sokuteikiya/4549995635232.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:d-rise2_p000000921698",
+          "title": "★アップル / APPLE AirPods Pro 3 MFHP4J/A【イヤホン・ヘッドホン】【送料無料】",
+          "shop_id": "d-rise2",
+          "shop_name": "ディーライズ2号",
+          "price_jpy": 36810,
+          "jan_code": "4549995635232",
+          "url": "https://store.shopping.yahoo.co.jp/d-rise2/p000000921698.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:noahshoping_4549995635232-hosyou",
+          "title": "『新品外箱傷みあり』Apple(アップル)AirPods Pro 第3世代 MFHP4J/A ※アップル1年保証開始済み商品",
+          "shop_id": "noahshoping",
+          "shop_name": "ノア商社Yahoo!店",
+          "price_jpy": 37480,
+          "jan_code": "4549995635232",
+          "url": "https://store.shopping.yahoo.co.jp/noahshoping/4549995635232-hosyou.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": [
+            "condition"
+          ]
+        },
+        {
+          "id": "yahoo:recycle-mart_otsuka-038",
+          "title": "◎【送料無料】Apple AirPods Pro 3 ワイヤレスイヤホン 本体 完全ワイヤレス Bluetooth USB-C充電 純正品 MFHP4J/A A3063 A3064 A3122",
+          "shop_id": "recycle-mart",
+          "shop_name": "リサイクルマート宮崎・鹿児島",
+          "price_jpy": 37500,
+          "jan_code": "4549995635232",
+          "url": "https://store.shopping.yahoo.co.jp/recycle-mart/otsuka-038.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:sokutei_4549995635232",
+          "title": "Apple AirPods Pro 第3世代 MFHP4J/A[ラッピング可] R-LOGI",
+          "shop_id": "sokutei",
+          "shop_name": "測定の森 2号店",
+          "price_jpy": 37659,
+          "jan_code": "4549995635232",
+          "url": "https://store.shopping.yahoo.co.jp/sokutei/4549995635232.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:live2_4549995635232",
+          "title": "AirPods Pro 第3世代 MFHP4J/A 新品未開封・購入前に商品情報欄をご覧ください。",
+          "shop_id": "live2",
+          "shop_name": "らいぶshop2号店",
+          "price_jpy": 37667,
+          "jan_code": "4549995635232",
+          "url": "https://store.shopping.yahoo.co.jp/live2/4549995635232.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:d-rise_p000000921698",
+          "title": "★アップル / APPLE AirPods Pro 3 MFHP4J/A【イヤホン・ヘッドホン】【送料無料】",
+          "shop_id": "d-rise",
+          "shop_name": "ディーライズ",
+          "price_jpy": 37690,
+          "jan_code": "4549995635232",
+          "url": "https://store.shopping.yahoo.co.jp/d-rise/p000000921698.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:mobax_apple-airpods-pro3-s",
+          "title": "◆キャンペーン【新品未開封品（未使用）】 2025年版　第３世代 AirPods Pro 3　MFHP4J/A　[ホワイト]　ワイヤレスイヤホン Bluetooth対応 マイク付",
+          "shop_id": "mobax",
+          "shop_name": "モバックス",
+          "price_jpy": 37700,
+          "jan_code": "4549995635232",
+          "url": "https://store.shopping.yahoo.co.jp/mobax/apple-airpods-pro3-s.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": [
+            "extra_sales_condition"
+          ]
+        },
+        {
+          "id": "yahoo:jcka-mobile_4549995635232",
+          "title": "★ 新品未開封 保証開始 国内正規品 AirPods Pro 第3世代 MFHP4J/A  ワイヤレスイヤホン 本体 2025年発売",
+          "shop_id": "jcka-mobile",
+          "shop_name": "ジェーシカモバイル",
+          "price_jpy": 37800,
+          "jan_code": "4549995635232",
+          "url": "https://store.shopping.yahoo.co.jp/jcka-mobile/4549995635232.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:jcka-mobile2_4549995635232",
+          "title": "★保証未開始 国内正規品 AirPods Pro 3  MFHP4J/A  ワイヤレスイヤホン 新品未開封 本体 2025年発売 第3世代",
+          "shop_id": "jcka-mobile2",
+          "shop_name": "ジェーシカモバイル2号店",
+          "price_jpy": 37800,
+          "jan_code": "4549995635232",
+          "url": "https://store.shopping.yahoo.co.jp/jcka-mobile2/4549995635232.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:kaikyou_4549995635232",
+          "title": "【新品未開封・保証未開始】AirPods Pro 3 MFHP4J/A【日曜日以外即日発送】【送料無料】",
+          "shop_id": "kaikyou",
+          "shop_name": "モバイル販売",
+          "price_jpy": 37900,
+          "jan_code": "4549995635232",
+          "url": "https://store.shopping.yahoo.co.jp/kaikyou/4549995635232.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:noahshoping_4549995635232-wk",
+          "title": "『新品外箱傷みあり』Apple(アップル)AirPods Pro 第3世代 MFHP4J/A",
+          "shop_id": "noahshoping",
+          "shop_name": "ノア商社Yahoo!店",
+          "price_jpy": 38080,
+          "jan_code": "4549995635232",
+          "url": "https://store.shopping.yahoo.co.jp/noahshoping/4549995635232-wk.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": [
+            "condition"
+          ]
+        },
+        {
+          "id": "yahoo:noahshoping_4549995635232",
+          "title": "『新品』Apple(アップル)AirPods Pro 第3世代 MFHP4J/A",
+          "shop_id": "noahshoping",
+          "shop_name": "ノア商社Yahoo!店",
+          "price_jpy": 38580,
+          "jan_code": "4549995635232",
+          "url": "https://store.shopping.yahoo.co.jp/noahshoping/4549995635232.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:densidonya_4549995635232",
+          "title": "【ラッピング可】【即日発送】【新品】Apple アップル AirPods Pro 3 MFHP4J/A",
+          "shop_id": "densidonya",
+          "shop_name": "電子問屋",
+          "price_jpy": 38780,
+          "jan_code": "4549995635232",
+          "url": "https://store.shopping.yahoo.co.jp/densidonya/4549995635232.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:jcka-mobile_4549995635233",
+          "title": "★保証未開始 国内正規品AirPods Pro 3 MFHP4J/A  ワイヤレスイヤホン 新品未開封 本体 2025年発売 第3世代 4549995635232",
+          "shop_id": "jcka-mobile",
+          "shop_name": "ジェーシカモバイル",
+          "price_jpy": 38780,
+          "jan_code": "4549995635232",
+          "url": "https://store.shopping.yahoo.co.jp/jcka-mobile/4549995635233.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:digitalisland_4549995635232",
+          "title": "【冬祭り】【新品未開封】Apple（アップル） AirPods Pro 3 MFHP4J/A 4549995635232",
+          "shop_id": "digitalisland",
+          "shop_name": "digitalisland",
+          "price_jpy": 38800,
+          "jan_code": "4549995635232",
+          "url": "https://store.shopping.yahoo.co.jp/digitalisland/4549995635232.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:outletplaza_40001095859",
+          "title": "【新品/取寄品】Apple 完全ワイヤレスイヤホン AirPods Pro 3 MFHP4J/A アクティブノイズキャンセリング対応 アップル",
+          "shop_id": "outletplaza",
+          "shop_name": "秋葉原　アウトレットプラザ",
+          "price_jpy": 39547,
+          "jan_code": "4549995635232",
+          "url": "https://store.shopping.yahoo.co.jp/outletplaza/40001095859.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:brandworthtell_ma-04206",
+          "title": "【新品未開封】Apple アップル AirPods Pro 3 エアーポッズプロ 第3世代 MFHP4J/A ホワイト ワイヤレスイヤホン Bluetoothイヤホン 最大8時間再生",
+          "shop_id": "brandworthtell",
+          "shop_name": "BRAND WORTHTELL",
+          "price_jpy": 39980,
+          "jan_code": "4549995635232",
+          "url": "https://store.shopping.yahoo.co.jp/brandworthtell/ma-04206.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:akibasoko_4549995635232",
+          "title": "AirPods Pro (第3世代) USB-C(2025) MFHP4J/A/apple",
+          "shop_id": "akibasoko",
+          "shop_name": "アキバ倉庫",
+          "price_jpy": 40000,
+          "jan_code": "4549995635232",
+          "url": "https://store.shopping.yahoo.co.jp/akibasoko/4549995635232.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:digimart-shop_aa00188",
+          "title": "Apple純正品 アップル エアポッズ Apple AirPods Pro 3 第3世代 MFHP4J/A Bluetooth イヤホン【国内正規品・新品】【保証未開始】",
+          "shop_id": "digimart-shop",
+          "shop_name": "カメラ・レンズ・家電のDigiMart",
+          "price_jpy": 40798,
+          "jan_code": "4549995635232",
+          "url": "https://store.shopping.yahoo.co.jp/digimart-shop/aa00188.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:try3_4549995635232",
+          "title": "AirPods Pro 3 ワイヤレスイヤホン MFHP4J/A 心拍数センサー アクティブノイズキャンセリング type-C充電 MagSafe対応ケース 国内正規品",
+          "shop_id": "try3",
+          "shop_name": "トライスリー",
+          "price_jpy": 42544,
+          "jan_code": "4549995635232",
+          "url": "https://store.shopping.yahoo.co.jp/try3/4549995635232.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:onemorething_4549995635232",
+          "title": "Apple アップル 純正 AirPods Pro 3 第3世代 USB-C エアポッズプロ3 エアーポッズプロ3 MFHP4J/A ワイヤレスイヤホン メーカー保証付 ブラックフライデー",
+          "shop_id": "onemorething",
+          "shop_name": "AirPodsのワンモアシング",
+          "price_jpy": 42880,
+          "jan_code": "4549995635232",
+          "url": "https://store.shopping.yahoo.co.jp/onemorething/4549995635232.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:ai-gr_2100000017620",
+          "title": "Apple AirPods Pro 3 MFHP4J/A【お取り寄せ（２週から３週間程度での入荷、発送）】（2100000017620）",
+          "shop_id": "ai-gr",
+          "shop_name": "愛グループヤフー店",
+          "price_jpy": 43221,
+          "jan_code": "4549995635232",
+          "url": "https://store.shopping.yahoo.co.jp/ai-gr/2100000017620.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": [
+            "extra_sales_condition"
+          ]
+        }
+      ]
+    },
+    {
+      "key": [
         "model",
         "crucial",
         "ct1000p3pssd8"
@@ -2735,7 +1907,7 @@
           "title": "crucial 内蔵型 M.2 SSD P3 Plus CT1000P3PSSD8 1TB",
           "shop_id": "excellar-plus",
           "shop_name": "エクセラープラス",
-          "price_jpy": 29200,
+          "price_jpy": 27200,
           "jan_code": "0649528918833",
           "url": "https://store.shopping.yahoo.co.jp/excellar-plus/1000032469.html",
           "in_stock": true,
@@ -2747,7 +1919,7 @@
           "title": "crucial 内蔵型 M.2 SSD P3 Plus CT1000P3PSSD8 1TB",
           "shop_id": "excellar",
           "shop_name": "エクセラー",
-          "price_jpy": 29800,
+          "price_jpy": 27800,
           "jan_code": "0649528918833",
           "url": "https://store.shopping.yahoo.co.jp/excellar/1000032469.html",
           "in_stock": true,
@@ -2759,7 +1931,7 @@
           "title": "【新品訳あり(箱きず・やぶれ)】 crucial 内蔵型 M.2 SSD P3 Plus CT1000P3PSSD8JP 1TB",
           "shop_id": "excellar-plus",
           "shop_name": "エクセラープラス",
-          "price_jpy": 34620,
+          "price_jpy": 32000,
           "jan_code": "0649528918970",
           "url": "https://store.shopping.yahoo.co.jp/excellar-plus/1000030853.html",
           "in_stock": true,
@@ -2773,7 +1945,7 @@
           "title": "【新品訳あり(箱きず・やぶれ)】 crucial 内蔵型 M.2 SSD P3 Plus CT1000P3PSSD8JP 1TB",
           "shop_id": "excellar",
           "shop_name": "エクセラー",
-          "price_jpy": 34800,
+          "price_jpy": 32600,
           "jan_code": "0649528918970",
           "url": "https://store.shopping.yahoo.co.jp/excellar/1000030853.html",
           "in_stock": true,
@@ -2941,16 +2113,57 @@
           ]
         }
       ]
+    },
+    {
+      "key": [
+        "model",
+        "delonghi",
+        "ecam22112b"
+      ],
+      "total_available": 3,
+      "returned": 3,
+      "truncated": false,
+      "offers": [
+        {
+          "id": "yahoo:delonghi_0132240076",
+          "title": "コーヒーメーカー デロンギ 全自動コーヒーマシン マグニフィカS ECAM22112B 保証期間最大3年 delonghi 豆から挽く エスプレッソ",
+          "shop_id": "delonghi",
+          "shop_name": "デロンギ公式Yahoo!ショッピング店",
+          "price_jpy": 66460,
+          "jan_code": "",
+          "url": "https://store.shopping.yahoo.co.jp/delonghi/0132240076.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:quality-shop_m-delonghi-s-4176",
+          "title": "[新品未開封] DeLonghi ECAM22112B  コーヒー機",
+          "shop_id": "quality-shop",
+          "shop_name": "Quality Shop",
+          "price_jpy": 67222,
+          "jan_code": "4988371024176",
+          "url": "https://store.shopping.yahoo.co.jp/quality-shop/m-delonghi-s-4176.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:kaden-oasis_52kitc-195delonghi-250509",
+          "title": "De'Longhi デロンギ 全自動コーヒーマシン マグニフィカS ECAM22112B エスプレッソ カフェジャポーネ搭載 珈琲豆挽き ミルクフロッサー【新品】",
+          "shop_id": "kaden-oasis",
+          "shop_name": "家電のオアシス 大阪店",
+          "price_jpy": 68700,
+          "jan_code": "4988371024176",
+          "url": "https://store.shopping.yahoo.co.jp/kaden-oasis/52kitc-195delonghi-250509.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        }
+      ]
     }
   ],
   "errors": [
-    {
-      "key": [
-        "jan",
-        "4571411228452"
-      ],
-      "code": "INVALID_HIT"
-    },
     {
       "key": [
         "jan",
@@ -2967,86 +2180,6 @@
     }
   ],
   "evidence": {
-    "yahoo:densidonya_4549995519921": {
-      "id": "yahoo:densidonya_4549995519921",
-      "query_type": "jan",
-      "query_key": [
-        "jan",
-        "4549995519921"
-      ],
-      "candidate_price_jpy": 24530,
-      "total_available": 35,
-      "returned": 35,
-      "truncated": false,
-      "matched_listing_count": 29,
-      "comparison_shop_count": 27,
-      "other_shop_lowest_jpy": 12800,
-      "lowest_observed_jpy": 12800,
-      "cross_shop_advantage_percent": 0,
-      "cheaper_offers": [
-        {
-          "id": "yahoo:serekuto-takagise_a3059",
-          "title": "Apple AirPods 4 (アクティブノイズ キャンセリング搭載) アップル エアーポッズ エアーポッツ 国内正規品 純正 新品 バラ売り A3059(充電ケース)",
-          "shop_name": "セレクト高木瀬",
-          "price_jpy": 12800,
-          "url": "https://store.shopping.yahoo.co.jp/serekuto-takagise/a3059.html",
-          "jan_code": "4549995519921",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:serekuto-takagise_a3055",
-          "title": "Apple AirPods 4 (アクティブノイズ キャンセリング搭載) アップル エアーポッズ エアーポッツ 国内正規品 純正 新品 バラ売り A3055(右耳用)",
-          "shop_name": "セレクト高木瀬",
-          "price_jpy": 13800,
-          "url": "https://store.shopping.yahoo.co.jp/serekuto-takagise/a3055.html",
-          "jan_code": "4549995519921",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:serekuto-takagise_a3056",
-          "title": "Apple AirPods 4 (アクティブノイズ キャンセリング搭載) アップル エアーポッズ エアーポッツ 国内正規品 純正 新品 バラ売り A3056(左耳用)",
-          "shop_name": "セレクト高木瀬",
-          "price_jpy": 13800,
-          "url": "https://store.shopping.yahoo.co.jp/serekuto-takagise/a3056.html",
-          "jan_code": "4549995519921",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:try3_4549995519921",
-          "title": "Apple AirPods 4 MXP93J/A アクティブノイズキャンセリング H2チップ ワイヤレスイヤホン 第4世代 ANC MXP93JA MXP93J AirPods4 アップル",
-          "shop_name": "トライスリー",
-          "price_jpy": 21898,
-          "url": "https://store.shopping.yahoo.co.jp/try3/4549995519921.html",
-          "jan_code": "4549995519921",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:digitalisland_4549995519921",
-          "title": "【在庫一掃】【新品未開封】 Apple AirPods 4 MXP93J/A　[ノイズキャンセリング版]  4549995519921",
-          "shop_name": "digitalisland",
-          "price_jpy": 22000,
-          "url": "https://store.shopping.yahoo.co.jp/digitalisland/4549995519921.html",
-          "jan_code": "4549995519921",
-          "risk_flags": []
-        }
-      ],
-      "own_confirmed": true,
-      "status": "cheaper_found",
-      "excluded": {
-        "risk_or_spec_conflict": 6
-      }
-    },
-    "yahoo:alicemall_5dank5010": {
-      "id": "yahoo:alicemall_5dank5010",
-      "query_type": "jan",
-      "query_key": [
-        "jan",
-        "4571411228452"
-      ],
-      "candidate_price_jpy": 13980,
-      "status": "query_error",
-      "error": "INVALID_HIT"
-    },
     "yahoo:elecom_4549550415958": {
       "id": "yahoo:elecom_4549550415958",
       "query_type": "jan",
@@ -3057,75 +2190,6 @@
       "candidate_price_jpy": 19800,
       "status": "query_error",
       "error": "INVALID_HIT"
-    },
-    "yahoo:digitalisland_4549995725025": {
-      "id": "yahoo:digitalisland_4549995725025",
-      "query_type": "jan",
-      "query_key": [
-        "jan",
-        "4549995725025"
-      ],
-      "candidate_price_jpy": 25879,
-      "total_available": 33,
-      "returned": 33,
-      "truncated": false,
-      "matched_listing_count": 26,
-      "comparison_shop_count": 25,
-      "other_shop_lowest_jpy": 24270,
-      "lowest_observed_jpy": 24270,
-      "cross_shop_advantage_percent": 0,
-      "cheaper_offers": [
-        {
-          "id": "yahoo:kaikyou_o549995725025",
-          "title": "【新品未開封・保証開始】Apple AirPods 5 ワイヤレス充電ケース付き MKFT4J/A 【日曜日以外即日発送】【送料無料】",
-          "shop_name": "モバイル販売",
-          "price_jpy": 24270,
-          "url": "https://store.shopping.yahoo.co.jp/kaikyou/o549995725025.html",
-          "jan_code": "4549995725025",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:kaikyou_4549995725025",
-          "title": "【新品未開封】Apple AirPods 5 ワイヤレス充電ケース付き MKFT4J/A【日曜日以外即日発送】【送料無料】",
-          "shop_name": "モバイル販売",
-          "price_jpy": 25190,
-          "url": "https://store.shopping.yahoo.co.jp/kaikyou/4549995725025.html",
-          "jan_code": "4549995725025",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:ki-zu-na_4549995725025",
-          "title": "【新品未開封】Apple（アップル） AirPods 5 ワイヤレス充電ケース付き MKFT4J/A 4549995725025",
-          "shop_name": "KizunaStore",
-          "price_jpy": 25200,
-          "url": "https://store.shopping.yahoo.co.jp/ki-zu-na/4549995725025.html",
-          "jan_code": "4549995725025",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:d-rise2_p000000992099",
-          "title": "★アップル / APPLE AirPods 5 ワイヤレス充電ケース付き MKFT4J/A【イヤホン・ヘッドホン】【送料無料】",
-          "shop_name": "ディーライズ2号",
-          "price_jpy": 25270,
-          "url": "https://store.shopping.yahoo.co.jp/d-rise2/p000000992099.html",
-          "jan_code": "4549995725025",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:akibasoko_4549995725025",
-          "title": "AirPods (第5世代)(2026)ワイヤレス充電ケース MKFT4J/A/apple",
-          "shop_name": "アキバ倉庫",
-          "price_jpy": 25320,
-          "url": "https://store.shopping.yahoo.co.jp/akibasoko/4549995725025.html",
-          "jan_code": "4549995725025",
-          "risk_flags": []
-        }
-      ],
-      "own_confirmed": true,
-      "status": "cheaper_found",
-      "excluded": {
-        "risk_or_spec_conflict": 7
-      }
     },
     "yahoo:densidonya_4549995519860": {
       "id": "yahoo:densidonya_4549995519860",
@@ -3196,71 +2260,88 @@
         "risk_or_spec_conflict": 4
       }
     },
-    "yahoo:d-rise_p000000690600": {
-      "id": "yahoo:d-rise_p000000690600",
+    "yahoo:ankerdirect_a1257": {
+      "id": "yahoo:ankerdirect_a1257",
       "query_type": "jan",
       "query_key": [
         "jan",
-        "4902370542943"
+        "4571411219498"
       ],
-      "candidate_price_jpy": 32030,
-      "total_available": 35,
-      "returned": 35,
+      "candidate_price_jpy": 2890,
+      "total_available": 1,
+      "returned": 1,
       "truncated": false,
-      "matched_listing_count": 35,
-      "comparison_shop_count": 33,
-      "other_shop_lowest_jpy": 29980,
-      "lowest_observed_jpy": 29980,
+      "matched_listing_count": 1,
+      "comparison_shop_count": 1,
+      "other_shop_lowest_jpy": null,
+      "lowest_observed_jpy": 2890,
       "cross_shop_advantage_percent": 0,
-      "cheaper_offers": [
-        {
-          "id": "yahoo:llhat_4902370542943",
-          "title": "Nintendo Switch Lite ターコイズ 【任天堂】",
-          "shop_name": "エルエルハット",
-          "price_jpy": 29980,
-          "url": "https://store.shopping.yahoo.co.jp/llhat/4902370542943.html",
-          "jan_code": "4902370542943",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:archholesale_1309837",
-          "title": "ゲーム機 Nintendo Switch Lite [ターコイズ]",
-          "shop_name": "ア-チホ-ルセ-ル",
-          "price_jpy": 31260,
-          "url": "https://store.shopping.yahoo.co.jp/archholesale/1309837.html",
-          "jan_code": "4902370542943",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:d-rise2_p000000690600",
-          "title": "★Nintendo / 任天堂 Nintendo Switch Lite [ターコイズ]【送料無料】",
-          "shop_name": "ディーライズ2号",
-          "price_jpy": 31280,
-          "url": "https://store.shopping.yahoo.co.jp/d-rise2/p000000690600.html",
-          "jan_code": "4902370542943",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:ki-zu-na_4902370542943",
-          "title": "新品 任天堂 Nintendo Switch Lite ターコイズ ライト",
-          "shop_name": "KizunaStore",
-          "price_jpy": 31488,
-          "url": "https://store.shopping.yahoo.co.jp/ki-zu-na/4902370542943.html",
-          "jan_code": "4902370542943",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:gamedarake-store_4902370542943",
-          "title": "【即日出荷】【新品】Nintendo Switch Lite 本体 ターコイズ  140548【ラッピング 対応不可】",
-          "shop_name": "ゲームだらけ",
-          "price_jpy": 31600,
-          "url": "https://store.shopping.yahoo.co.jp/gamedarake-store/4902370542943.html",
-          "jan_code": "4902370542943",
-          "risk_flags": []
-        }
-      ],
+      "cheaper_offers": [],
       "own_confirmed": true,
-      "status": "cheaper_found",
+      "status": "no_comparable",
+      "excluded": {}
+    },
+    "yahoo:ankerdirect_a1653": {
+      "id": "yahoo:ankerdirect_a1653",
+      "query_type": "jan",
+      "query_key": [
+        "jan",
+        "4571411213045"
+      ],
+      "candidate_price_jpy": 2790,
+      "total_available": 1,
+      "returned": 1,
+      "truncated": false,
+      "matched_listing_count": 1,
+      "comparison_shop_count": 1,
+      "other_shop_lowest_jpy": null,
+      "lowest_observed_jpy": 2790,
+      "cross_shop_advantage_percent": 0,
+      "cheaper_offers": [],
+      "own_confirmed": true,
+      "status": "no_comparable",
+      "excluded": {}
+    },
+    "yahoo:ankerdirect_a1664": {
+      "id": "yahoo:ankerdirect_a1664",
+      "query_type": "jan",
+      "query_key": [
+        "jan",
+        "4571411223051"
+      ],
+      "candidate_price_jpy": 6990,
+      "total_available": 3,
+      "returned": 3,
+      "truncated": false,
+      "matched_listing_count": 3,
+      "comparison_shop_count": 3,
+      "other_shop_lowest_jpy": 7080,
+      "lowest_observed_jpy": 6990,
+      "cross_shop_advantage_percent": 1.27,
+      "cheaper_offers": [],
+      "own_confirmed": true,
+      "status": "insufficient_advantage",
+      "excluded": {}
+    },
+    "yahoo:ankerdirect_a121d": {
+      "id": "yahoo:ankerdirect_a121d",
+      "query_type": "jan",
+      "query_key": [
+        "jan",
+        "4571651014112"
+      ],
+      "candidate_price_jpy": 3790,
+      "total_available": 4,
+      "returned": 4,
+      "truncated": false,
+      "matched_listing_count": 4,
+      "comparison_shop_count": 4,
+      "other_shop_lowest_jpy": 4627,
+      "lowest_observed_jpy": 3790,
+      "cross_shop_advantage_percent": 18.09,
+      "cheaper_offers": [],
+      "own_confirmed": true,
+      "status": "confirmed_advantage",
       "excluded": {}
     },
     "yahoo:densidonya_4902370554595": {
@@ -3271,15 +2352,24 @@
         "4902370554595"
       ],
       "candidate_price_jpy": 64200,
-      "total_available": 59,
+      "total_available": 55,
       "returned": 50,
       "truncated": true,
-      "matched_listing_count": 43,
+      "matched_listing_count": 44,
       "comparison_shop_count": 42,
-      "other_shop_lowest_jpy": 62130,
-      "lowest_observed_jpy": 62130,
+      "other_shop_lowest_jpy": 16380,
+      "lowest_observed_jpy": 16380,
       "cross_shop_advantage_percent": 0,
       "cheaper_offers": [
+        {
+          "id": "yahoo:free-world_zzz-20260911-04",
+          "title": "26年10月29日発売 予約 任天堂純正品 Nintendo Switch 2 Proコントローラー ゼルダの伝説 40周年 アニバーサリーエディション ディスプレイスタンド付き スイッ",
+          "shop_name": "カウカウSTORE",
+          "price_jpy": 16380,
+          "url": "https://store.shopping.yahoo.co.jp/free-world/zzz-20260911-04.html",
+          "jan_code": "4902370554595",
+          "risk_flags": []
+        },
         {
           "id": "yahoo:kaikyou_4902370554595",
           "title": "【新品】Nintendo Switch 2 ゼルダの伝説 40周年 アニバーサリーエディション 国内版【日曜日以外即日発送】【送料無料】",
@@ -3308,19 +2398,10 @@
           "risk_flags": []
         },
         {
-          "id": "yahoo:lifecreate-kc_m-bee-s-kl6cc",
-          "title": "Nintendo Switch 2 ゼルダの伝説 40周年 アニバーサリーエディション 日本語 国内専用 BEE-S-KL6CC 任天堂",
-          "shop_name": "ライフクリエイト",
-          "price_jpy": 62800,
-          "url": "https://store.shopping.yahoo.co.jp/lifecreate-kc/m-bee-s-kl6cc.html",
-          "jan_code": "4902370554595",
-          "risk_flags": []
-        },
-        {
           "id": "yahoo:sokuteikiya_4902370554595",
           "title": "Nintendo Switch 2 ゼルダの伝説 40周年 アニバーサリーエディション 日本語・国内専用 BEE-S-KL6CC[ラッピング可]",
           "shop_name": "測定の森Yahoo!ショッピング店",
-          "price_jpy": 62870,
+          "price_jpy": 62978,
           "url": "https://store.shopping.yahoo.co.jp/sokuteikiya/4902370554595.html",
           "jan_code": "4902370554595",
           "risk_flags": []
@@ -3329,7 +2410,7 @@
       "own_confirmed": true,
       "status": "cheaper_found",
       "excluded": {
-        "risk_or_spec_conflict": 7
+        "risk_or_spec_conflict": 6
       }
     },
     "yahoo:live2_4902370554595": {
@@ -3340,15 +2421,24 @@
         "4902370554595"
       ],
       "candidate_price_jpy": 63778,
-      "total_available": 59,
+      "total_available": 55,
       "returned": 50,
       "truncated": true,
-      "matched_listing_count": 43,
+      "matched_listing_count": 44,
       "comparison_shop_count": 42,
-      "other_shop_lowest_jpy": 62130,
-      "lowest_observed_jpy": 62130,
+      "other_shop_lowest_jpy": 16380,
+      "lowest_observed_jpy": 16380,
       "cross_shop_advantage_percent": 0,
       "cheaper_offers": [
+        {
+          "id": "yahoo:free-world_zzz-20260911-04",
+          "title": "26年10月29日発売 予約 任天堂純正品 Nintendo Switch 2 Proコントローラー ゼルダの伝説 40周年 アニバーサリーエディション ディスプレイスタンド付き スイッ",
+          "shop_name": "カウカウSTORE",
+          "price_jpy": 16380,
+          "url": "https://store.shopping.yahoo.co.jp/free-world/zzz-20260911-04.html",
+          "jan_code": "4902370554595",
+          "risk_flags": []
+        },
         {
           "id": "yahoo:kaikyou_4902370554595",
           "title": "【新品】Nintendo Switch 2 ゼルダの伝説 40周年 アニバーサリーエディション 国内版【日曜日以外即日発送】【送料無料】",
@@ -3377,19 +2467,10 @@
           "risk_flags": []
         },
         {
-          "id": "yahoo:lifecreate-kc_m-bee-s-kl6cc",
-          "title": "Nintendo Switch 2 ゼルダの伝説 40周年 アニバーサリーエディション 日本語 国内専用 BEE-S-KL6CC 任天堂",
-          "shop_name": "ライフクリエイト",
-          "price_jpy": 62800,
-          "url": "https://store.shopping.yahoo.co.jp/lifecreate-kc/m-bee-s-kl6cc.html",
-          "jan_code": "4902370554595",
-          "risk_flags": []
-        },
-        {
           "id": "yahoo:sokuteikiya_4902370554595",
           "title": "Nintendo Switch 2 ゼルダの伝説 40周年 アニバーサリーエディション 日本語・国内専用 BEE-S-KL6CC[ラッピング可]",
           "shop_name": "測定の森Yahoo!ショッピング店",
-          "price_jpy": 62870,
+          "price_jpy": 62978,
           "url": "https://store.shopping.yahoo.co.jp/sokuteikiya/4902370554595.html",
           "jan_code": "4902370554595",
           "risk_flags": []
@@ -3398,7 +2479,7 @@
       "own_confirmed": true,
       "status": "cheaper_found",
       "excluded": {
-        "risk_or_spec_conflict": 7
+        "risk_or_spec_conflict": 6
       }
     },
     "yahoo:densidonya_4549995725049": {
@@ -3409,14 +2490,14 @@
         "4549995725049"
       ],
       "candidate_price_jpy": 22600,
-      "total_available": 28,
-      "returned": 28,
+      "total_available": 27,
+      "returned": 27,
       "truncated": false,
       "matched_listing_count": 22,
-      "comparison_shop_count": 0,
-      "other_shop_lowest_jpy": null,
-      "lowest_observed_jpy": null,
-      "cross_shop_advantage_percent": null,
+      "comparison_shop_count": 21,
+      "other_shop_lowest_jpy": 12800,
+      "lowest_observed_jpy": 12800,
+      "cross_shop_advantage_percent": 0,
       "cheaper_offers": [
         {
           "id": "yahoo:serekuto-takagise_a3530",
@@ -3424,15 +2505,6 @@
           "shop_name": "セレクト高木瀬",
           "price_jpy": 12800,
           "url": "https://store.shopping.yahoo.co.jp/serekuto-takagise/a3530.html",
-          "jan_code": "4549995725049",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:serekuto-takagise_a3531",
-          "title": "Apple AirPods 5 (アクティブノイズ キャンセリング搭載) アップル エアーポッズ エアーポッツ 国内正規品 純正 新品 バラ売り A3531(右耳用)",
-          "shop_name": "セレクト高木瀬",
-          "price_jpy": 13800,
-          "url": "https://store.shopping.yahoo.co.jp/serekuto-takagise/a3531.html",
           "jan_code": "4549995725049",
           "risk_flags": []
         },
@@ -3455,19 +2527,97 @@
           "risk_flags": []
         },
         {
-          "id": "yahoo:sokuteikiya_4549995725049",
+          "id": "yahoo:light-hikari_4549995725049",
+          "title": "AirPods 第5世代 MKFW4J/A　未開封・購入前に商品情報欄をご覧ください。",
+          "shop_name": "らいぶshop",
+          "price_jpy": 22419,
+          "url": "https://store.shopping.yahoo.co.jp/light-hikari/4549995725049.html",
+          "jan_code": "4549995725049",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:sokutei_4549995725049",
           "title": "Apple AirPods 5 ノイズキャンセリング ワイヤレス イヤホン MKFW4J/A[ラッピング可]",
-          "shop_name": "測定の森Yahoo!ショッピング店",
-          "price_jpy": 22432,
-          "url": "https://store.shopping.yahoo.co.jp/sokuteikiya/4549995725049.html",
+          "shop_name": "測定の森 2号店",
+          "price_jpy": 22420,
+          "url": "https://store.shopping.yahoo.co.jp/sokutei/4549995725049.html",
           "jan_code": "4549995725049",
           "risk_flags": []
         }
       ],
-      "own_confirmed": false,
-      "status": "price_changed",
+      "own_confirmed": true,
+      "status": "cheaper_found",
       "excluded": {
-        "risk_or_spec_conflict": 6
+        "risk_or_spec_conflict": 5
+      }
+    },
+    "yahoo:sokutei_4549995635232": {
+      "id": "yahoo:sokutei_4549995635232",
+      "query_type": "jan",
+      "query_key": [
+        "jan",
+        "4549995635232"
+      ],
+      "candidate_price_jpy": 37659,
+      "total_available": 26,
+      "returned": 26,
+      "truncated": false,
+      "matched_listing_count": 21,
+      "comparison_shop_count": 19,
+      "other_shop_lowest_jpy": 12900,
+      "lowest_observed_jpy": 12900,
+      "cross_shop_advantage_percent": 0,
+      "cheaper_offers": [
+        {
+          "id": "yahoo:serekuto-takagise_a3122",
+          "title": "Apple AirPods Pro 3 アップル エアーポッズ エアーポッツ ノイズキャンセリング ライブ翻訳 心拍センサー 国内正規品 純正 新品 バラ売り A3122(充電ケース)",
+          "shop_name": "セレクト高木瀬",
+          "price_jpy": 12900,
+          "url": "https://store.shopping.yahoo.co.jp/serekuto-takagise/a3122.html",
+          "jan_code": "4549995635232",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:serekuto-takagise_a3064",
+          "title": "Apple AirPods Pro 3 アップル エアーポッズ エアーポッツ ノイズキャンセリング ライブ翻訳 心拍センサー 国内正規品 純正 新品 バラ売り A3064(左耳用)",
+          "shop_name": "セレクト高木瀬",
+          "price_jpy": 20800,
+          "url": "https://store.shopping.yahoo.co.jp/serekuto-takagise/a3064.html",
+          "jan_code": "4549995635232",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:sokuteikiya_4549995635232",
+          "title": "Apple AirPods Pro 第3世代 MFHP4J/A[ラッピング可] R-LOGI",
+          "shop_name": "測定の森Yahoo!ショッピング店",
+          "price_jpy": 36809,
+          "url": "https://store.shopping.yahoo.co.jp/sokuteikiya/4549995635232.html",
+          "jan_code": "4549995635232",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:d-rise2_p000000921698",
+          "title": "★アップル / APPLE AirPods Pro 3 MFHP4J/A【イヤホン・ヘッドホン】【送料無料】",
+          "shop_name": "ディーライズ2号",
+          "price_jpy": 36810,
+          "url": "https://store.shopping.yahoo.co.jp/d-rise2/p000000921698.html",
+          "jan_code": "4549995635232",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:recycle-mart_otsuka-038",
+          "title": "◎【送料無料】Apple AirPods Pro 3 ワイヤレスイヤホン 本体 完全ワイヤレス Bluetooth USB-C充電 純正品 MFHP4J/A A3063 A3064 A3122",
+          "shop_name": "リサイクルマート宮崎・鹿児島",
+          "price_jpy": 37500,
+          "url": "https://store.shopping.yahoo.co.jp/recycle-mart/otsuka-038.html",
+          "jan_code": "4549995635232",
+          "risk_flags": []
+        }
+      ],
+      "own_confirmed": true,
+      "status": "cheaper_found",
+      "excluded": {
+        "risk_or_spec_conflict": 5
       }
     },
     "yahoo:zozo_84228698": {
@@ -3562,6 +2712,28 @@
       "excluded": {
         "model_or_spec_mismatch": 14
       }
+    },
+    "yahoo:delonghi_0132240076": {
+      "id": "yahoo:delonghi_0132240076",
+      "query_type": "model",
+      "query_key": [
+        "model",
+        "delonghi",
+        "ecam22112b"
+      ],
+      "candidate_price_jpy": 66460,
+      "total_available": 3,
+      "returned": 3,
+      "truncated": false,
+      "matched_listing_count": 3,
+      "comparison_shop_count": 0,
+      "other_shop_lowest_jpy": null,
+      "lowest_observed_jpy": null,
+      "cross_shop_advantage_percent": null,
+      "cheaper_offers": [],
+      "own_confirmed": false,
+      "status": "model_review_only",
+      "excluded": {}
     }
   },
   "note": "Yahoo新品有库存查询返回范围内的标价；不是全网最低价，未计运费、积分、优惠券；型号匹配仅人工核验。"
