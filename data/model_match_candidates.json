@@ -1,10 +1,10 @@
 {
   "version": 1,
-  "generated_at": "2026-11-26T21:37:42.232587+00:00",
-  "source_generated_at": "2026-11-26T21:37:28+00:00",
+  "generated_at": "2026-11-27T08:41:16.601951+00:00",
+  "source_generated_at": "2026-11-27T08:41:04+00:00",
   "snapshot_fresh": true,
-  "listing_count": 233,
-  "missing_jan_count": 55,
+  "listing_count": 235,
+  "missing_jan_count": 58,
   "pair_count": 1,
   "rejected": {},
   "pairs": [
@@ -25,24 +25,24 @@
       ],
       "offers": [
         {
+          "id": "yahoo:jnh_mc8013p3p-b",
+          "title": "特価セール Crucial 1TB P3 Plus NVMe PCIe Gen4x4 SSD M.2 2280 R:5000MB/s W:3600MB/s CT1000P3PSSD8 5年保証・翌日配達 企業向けバルクMC8013P3P-EB",
+          "shop_name": "嘉年華",
+          "price_jpy": 22981,
+          "url": "https://store.shopping.yahoo.co.jp/jnh/mc8013p3p-b.html",
+          "jan_code": ""
+        },
+        {
           "id": "yahoo:spd-shop_mcssd1t-p3p",
           "title": "ポイント2倍 Crucial クルーシャル 1TB P3 Plus NVMe PCIe Gen4x4 SSD M.2 2280 R:5000MB/sW:3600MB/s CT1000P3PSSD8 5年保証翌日配達 バルク品MCSSD1T-P3P-BULK",
           "shop_name": "spdshop",
           "price_jpy": 23580,
           "url": "https://store.shopping.yahoo.co.jp/spd-shop/mcssd1t-p3p.html",
           "jan_code": ""
-        },
-        {
-          "id": "yahoo:jnh_mc8013p3p-b",
-          "title": "Crucial 1TB P3 Plus NVMe PCIe Gen4x4 SSD M.2 2280 R:5000MB/s W:3600MB/s CT1000P3PSSD8 5年保証・翌日配達 企業向けバルクMC8013P3P-EB",
-          "shop_name": "嘉年華",
-          "price_jpy": 23988,
-          "url": "https://store.shopping.yahoo.co.jp/jnh/mc8013p3p-b.html",
-          "jan_code": ""
         }
       ],
-      "price_difference_jpy": 408,
-      "price_difference_percent": 1.7
+      "price_difference_jpy": 599,
+      "price_difference_percent": 2.54
     }
   ],
   "note": "仅人工审核候选，不改变JAN比价、V3候选或网站发布。"
