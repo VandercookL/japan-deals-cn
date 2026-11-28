@@ -1,13 +1,13 @@
 {
   "version": 1,
   "status": "PARTIAL",
-  "source_generated_at": "2026-11-27T21:21:43+00:00",
-  "generated_at": "2026-11-27T21:22:12.234975+00:00",
+  "source_generated_at": "2026-11-28T07:54:33+00:00",
+  "generated_at": "2026-11-28T07:55:02.021508+00:00",
   "request_budget": 12,
   "requests": 12,
   "planned_queries": 12,
-  "successful_queries": 11,
-  "failed_queries": 1,
+  "successful_queries": 10,
+  "failed_queries": 2,
   "query_results": [
     {
       "key": [
@@ -26,18 +26,6 @@
           "price_jpy": 8782,
           "jan_code": "4987176417268",
           "url": "https://store.shopping.yahoo.co.jp/bestone1/yk7452-a2607.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:pc-akindo_iog41b60bkph",
-          "title": "ブラウン 電動歯ブラシ オーラルB iO4 ポーチ付き iOG41B60BKPH マットブラック",
-          "shop_id": "pc-akindo",
-          "shop_name": "PCあきんど",
-          "price_jpy": 8978,
-          "jan_code": "4987176417268",
-          "url": "https://store.shopping.yahoo.co.jp/pc-akindo/iog41b60bkph.html",
           "in_stock": true,
           "condition": "new",
           "risk_flags": []
@@ -67,13 +55,13 @@
           "risk_flags": []
         },
         {
-          "id": "yahoo:y-sofmap_4987176417268",
-          "title": "ブラウン ブラウン　オーラルB　電動歯ブラシ　iO4　iOG41B60BKPH（マットブラック）   iOG41B60BKPH ［オーラルB /回転式］",
-          "shop_id": "y-sofmap",
-          "shop_name": "ソフマップ Yahoo!店",
-          "price_jpy": 8980,
+          "id": "yahoo:pc-akindo_iog41b60bkph",
+          "title": "ブラウン 電動歯ブラシ オーラルB iO4 ポーチ付き iOG41B60BKPH マットブラック",
+          "shop_id": "pc-akindo",
+          "shop_name": "PCあきんど",
+          "price_jpy": 8978,
           "jan_code": "4987176417268",
-          "url": "https://store.shopping.yahoo.co.jp/y-sofmap/4987176417268.html",
+          "url": "https://store.shopping.yahoo.co.jp/pc-akindo/iog41b60bkph.html",
           "in_stock": true,
           "condition": "new",
           "risk_flags": []
@@ -86,6 +74,18 @@
           "price_jpy": 8980,
           "jan_code": "4987176417268",
           "url": "https://store.shopping.yahoo.co.jp/y-kojima/4987176417268.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:y-sofmap_4987176417268",
+          "title": "ブラウン ブラウン　オーラルB　電動歯ブラシ　iO4　iOG41B60BKPH（マットブラック）   iOG41B60BKPH ［オーラルB /回転式］",
+          "shop_id": "y-sofmap",
+          "shop_name": "ソフマップ Yahoo!店",
+          "price_jpy": 8980,
+          "jan_code": "4987176417268",
+          "url": "https://store.shopping.yahoo.co.jp/y-sofmap/4987176417268.html",
           "in_stock": true,
           "condition": "new",
           "risk_flags": []
@@ -133,8 +133,8 @@
         "jan",
         "4549995519860"
       ],
-      "total_available": 22,
-      "returned": 22,
+      "total_available": 23,
+      "returned": 23,
       "truncated": false,
       "offers": [
         {
@@ -174,18 +174,16 @@
           "risk_flags": []
         },
         {
-          "id": "yahoo:akibasoko_out2-4549995519860",
-          "title": "【訳アリ・外箱イタミ】AirPods (第4世代)(2024) MXP63J/A/apple",
-          "shop_id": "akibasoko",
-          "shop_name": "アキバ倉庫",
-          "price_jpy": 18980,
+          "id": "yahoo:light-hikari_4549995519860",
+          "title": "Apple AirPods 4 MXP63J/A 　未開封・購入前に商品情報欄をご覧ください。",
+          "shop_id": "light-hikari",
+          "shop_name": "らいぶshop",
+          "price_jpy": 18841,
           "jan_code": "4549995519860",
-          "url": "https://store.shopping.yahoo.co.jp/akibasoko/out2-4549995519860.html",
+          "url": "https://store.shopping.yahoo.co.jp/light-hikari/4549995519860.html",
           "in_stock": true,
           "condition": "new",
-          "risk_flags": [
-            "extra_sales_condition"
-          ]
+          "risk_flags": []
         },
         {
           "id": "yahoo:d-rise2_p000000887018",
@@ -195,6 +193,18 @@
           "price_jpy": 19220,
           "jan_code": "4549995519860",
           "url": "https://store.shopping.yahoo.co.jp/d-rise2/p000000887018.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:live2_4549995519860",
+          "title": "Apple AirPods 4 MXP63J/A 　未開封・購入前に商品情報欄をご覧ください。",
+          "shop_id": "live2",
+          "shop_name": "らいぶshop2号店",
+          "price_jpy": 19259,
+          "jan_code": "4549995519860",
+          "url": "https://store.shopping.yahoo.co.jp/live2/4549995519860.html",
           "in_stock": true,
           "condition": "new",
           "risk_flags": []
@@ -326,7 +336,7 @@
           "title": "【新品/取寄品】Apple 完全ワイヤレスイヤホン AirPods 4 MXP63J/A H2チップ搭載 USB-C対応 アップル",
           "shop_id": "outletplaza",
           "shop_name": "秋葉原　アウトレットプラザ",
-          "price_jpy": 20704,
+          "price_jpy": 20703,
           "jan_code": "4549995519860",
           "url": "https://store.shopping.yahoo.co.jp/outletplaza/40001058837.html",
           "in_stock": true,
@@ -451,7 +461,7 @@
           "title": "「訳あり品-保証開始済」新品 AirPods Pro 第3世代 MFHP4J/A  未開封・保証期間開始・購入前に商品情報欄をご覧ください。",
           "shop_id": "light-hikari",
           "shop_name": "らいぶshop",
-          "price_jpy": 36300,
+          "price_jpy": 37090,
           "jan_code": "4549995635232",
           "url": "https://store.shopping.yahoo.co.jp/light-hikari/4549995635232-yh.html",
           "in_stock": true,
@@ -461,13 +471,13 @@
           ]
         },
         {
-          "id": "yahoo:jcka-mobile2_4549995635233",
-          "title": "★国内正規品 新品未開封・保証開始 AirPods Pro 3 MFHP4J/A  ワイヤレスイヤホン 本体 2025年発売 第3世代",
-          "shop_id": "jcka-mobile2",
-          "shop_name": "ジェーシカモバイル2号店",
-          "price_jpy": 36450,
+          "id": "yahoo:kaikyou_4549995635232",
+          "title": "【新品未開封・保証未開始】AirPods Pro 3 MFHP4J/A【日曜日以外即日発送】【送料無料】",
+          "shop_id": "kaikyou",
+          "shop_name": "モバイル販売",
+          "price_jpy": 37240,
           "jan_code": "4549995635232",
-          "url": "https://store.shopping.yahoo.co.jp/jcka-mobile2/4549995635233.html",
+          "url": "https://store.shopping.yahoo.co.jp/kaikyou/4549995635232.html",
           "in_stock": true,
           "condition": "new",
           "risk_flags": []
@@ -535,6 +545,18 @@
           "risk_flags": []
         },
         {
+          "id": "yahoo:live2_4549995635232",
+          "title": "AirPods Pro 第3世代 MFHP4J/A 新品未開封・購入前に商品情報欄をご覧ください。",
+          "shop_id": "live2",
+          "shop_name": "らいぶshop2号店",
+          "price_jpy": 37649,
+          "jan_code": "4549995635232",
+          "url": "https://store.shopping.yahoo.co.jp/live2/4549995635232.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
           "id": "yahoo:sokutei_4549995635232",
           "title": "Apple AirPods Pro 第3世代 MFHP4J/A[ラッピング可] R-LOGI",
           "shop_id": "sokutei",
@@ -566,18 +588,6 @@
           "price_jpy": 37800,
           "jan_code": "4549995635232",
           "url": "https://store.shopping.yahoo.co.jp/jcka-mobile2/4549995635232.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:kaikyou_4549995635232",
-          "title": "【新品未開封・保証未開始】AirPods Pro 3 MFHP4J/A【日曜日以外即日発送】【送料無料】",
-          "shop_id": "kaikyou",
-          "shop_name": "モバイル販売",
-          "price_jpy": 37900,
-          "jan_code": "4549995635232",
-          "url": "https://store.shopping.yahoo.co.jp/kaikyou/4549995635232.html",
           "in_stock": true,
           "condition": "new",
           "risk_flags": []
@@ -676,7 +686,7 @@
           "title": "【新品/取寄品】Apple 完全ワイヤレスイヤホン AirPods Pro 3 MFHP4J/A アクティブノイズキャンセリング対応 アップル",
           "shop_id": "outletplaza",
           "shop_name": "秋葉原　アウトレットプラザ",
-          "price_jpy": 39640,
+          "price_jpy": 39527,
           "jan_code": "4549995635232",
           "url": "https://store.shopping.yahoo.co.jp/outletplaza/40001095859.html",
           "in_stock": true,
@@ -765,6 +775,975 @@
           "price_jpy": 42880,
           "jan_code": "4549995635232",
           "url": "https://store.shopping.yahoo.co.jp/onemorething/4549995635232.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        }
+      ]
+    },
+    {
+      "key": [
+        "jan",
+        "4902370553024"
+      ],
+      "total_available": 45,
+      "returned": 45,
+      "truncated": false,
+      "offers": [
+        {
+          "id": "yahoo:1932_83000",
+          "title": "Nintendo Switch 2（日本語・国内専用）（ニンテンドースイッチ２本体）（ポスト投函便不可）【新品】",
+          "shop_id": "1932",
+          "shop_name": "一休さん 2号館",
+          "price_jpy": 58450,
+          "jan_code": "4902370553024",
+          "url": "https://store.shopping.yahoo.co.jp/1932/83000.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:kaikyou_w902370553024",
+          "title": "【新品・箱訳あり】Nintendo Switch 2 国内版 BEE-S-KB6CA【日曜日以外即日発送】【送料無料】",
+          "shop_id": "kaikyou",
+          "shop_name": "モバイル販売",
+          "price_jpy": 59290,
+          "jan_code": "4902370553024",
+          "url": "https://store.shopping.yahoo.co.jp/kaikyou/w902370553024.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": [
+            "condition"
+          ]
+        },
+        {
+          "id": "yahoo:light-hikari_4902370553024-y",
+          "title": "「訳あり品-外装箱傷あり」新品 Nintendo Switch 2 日本語・国内専用",
+          "shop_id": "light-hikari",
+          "shop_name": "らいぶshop",
+          "price_jpy": 59314,
+          "jan_code": "4902370553024",
+          "url": "https://store.shopping.yahoo.co.jp/light-hikari/4902370553024-y.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": [
+            "condition"
+          ]
+        },
+        {
+          "id": "yahoo:light-hikari_4902370553024",
+          "title": "【新品・在庫あり】Nintendo Switch 2 日本語・国内専用 BEE-S-KB6CA 本体 任天堂 スイッチ2 平日14時までのご注文で当日発送 全国送料無料（一部地域を除く）",
+          "shop_id": "light-hikari",
+          "shop_name": "らいぶshop",
+          "price_jpy": 59950,
+          "jan_code": "4902370553024",
+          "url": "https://store.shopping.yahoo.co.jp/light-hikari/4902370553024.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:wink-digital_270570",
+          "title": "NINTENDO　ゲーム機本体(据置型）　Nintendo Switch 2 BEE-S-KB6CA",
+          "shop_id": "wink-digital",
+          "shop_name": "ウインクデジタル ヤフー店",
+          "price_jpy": 59980,
+          "jan_code": "4902370553024",
+          "url": "https://store.shopping.yahoo.co.jp/wink-digital/270570.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:cocostore1_4902370553024",
+          "title": "Nintendo Switch 2 日本語・国内専用",
+          "shop_id": "cocostore1",
+          "shop_name": "CocoStore",
+          "price_jpy": 59980,
+          "jan_code": "4902370553024",
+          "url": "https://store.shopping.yahoo.co.jp/cocostore1/4902370553024.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:hhshop_beeskb6ca",
+          "title": "Ｎｉｎｔｅｎｄｏ　Ｓｗｉｔｃｈ　２ 本体（日本語・国内版）",
+          "shop_id": "hhshop",
+          "shop_name": "Holly&Hock",
+          "price_jpy": 59980,
+          "jan_code": "4902370553024",
+          "url": "https://store.shopping.yahoo.co.jp/hhshop/beeskb6ca.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:amiami_game-0035339",
+          "title": "【ギフトバッグ付】Nintendo Switch 2(日本語・国内専用)[任天堂]【同梱不可】《発売済・在庫品》",
+          "shop_id": "amiami",
+          "shop_name": "あみあみ Yahoo!店",
+          "price_jpy": 59980,
+          "jan_code": "4902370553024",
+          "url": "https://store.shopping.yahoo.co.jp/amiami/game-0035339.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:kaikyou_4902370553024",
+          "title": "【新品・在庫あり】Nintendo Switch 2 国内版 BEE-S-KB6CA【日曜日以外即日発送】【送料無料】",
+          "shop_id": "kaikyou",
+          "shop_name": "モバイル販売",
+          "price_jpy": 60479,
+          "jan_code": "4902370553024",
+          "url": "https://store.shopping.yahoo.co.jp/kaikyou/4902370553024.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:sokuteikiya_4902370553024",
+          "title": "任天堂 Nintendo Switch2 日本語 国内専用 [ラッピング可] R-LOGI NKAG",
+          "shop_id": "sokuteikiya",
+          "shop_name": "測定の森Yahoo!ショッピング店",
+          "price_jpy": 60480,
+          "jan_code": "4902370553024",
+          "url": "https://store.shopping.yahoo.co.jp/sokuteikiya/4902370553024.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:alljapan-online-shop_4902370553024",
+          "title": "Nintendo Switch 2 (日本語・国内専用) 日本国内版 2025年6月5日発売",
+          "shop_id": "alljapan-online-shop",
+          "shop_name": "販売一丁目",
+          "price_jpy": 60800,
+          "jan_code": "4902370553024",
+          "url": "https://store.shopping.yahoo.co.jp/alljapan-online-shop/4902370553024.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:ki-zu-na_4902370553024kz",
+          "title": "新品 Nintendo Switch 2(日本語・国内専用) 4902370553024",
+          "shop_id": "ki-zu-na",
+          "shop_name": "KizunaStore",
+          "price_jpy": 60980,
+          "jan_code": "4902370553024",
+          "url": "https://store.shopping.yahoo.co.jp/ki-zu-na/4902370553024kz.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:pc-akindo_bee-s-kb6ca",
+          "title": "【新品】任天堂 Nintendo Switch 2 本体 日本語・国内専用 ニンテンドースイッチ2 BEE-S-KB6CA",
+          "shop_id": "pc-akindo",
+          "shop_name": "PCあきんど",
+          "price_jpy": 60980,
+          "jan_code": "4902370553024",
+          "url": "https://store.shopping.yahoo.co.jp/pc-akindo/bee-s-kb6ca.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:d-rise2_p000000899072",
+          "title": "★Nintendo / 任天堂 Nintendo Switch 2 BEE-S-KB6CA【送料無料】",
+          "shop_id": "d-rise2",
+          "shop_name": "ディーライズ2号",
+          "price_jpy": 61020,
+          "jan_code": "4902370553024",
+          "url": "https://store.shopping.yahoo.co.jp/d-rise2/p000000899072.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:gomashop-y_4902370553024",
+          "title": "スイッチ2 本体 日本語国内専用 通常版 NintendoSwitch2",
+          "shop_id": "gomashop-y",
+          "shop_name": "ゴマショップ Yahoo!店",
+          "price_jpy": 61780,
+          "jan_code": "4902370553024",
+          "url": "https://store.shopping.yahoo.co.jp/gomashop-y/4902370553024.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:alljapan-online-shop_4902370553024-set",
+          "title": "【NS2 福袋 3点セット】Nintendo Switch2 日本語・国内専用 本体+Switch2専用ケース+強化フィルム2枚 プレゼント クリスマス 任天堂 ニンテンドー",
+          "shop_id": "alljapan-online-shop",
+          "shop_name": "販売一丁目",
+          "price_jpy": 61800,
+          "jan_code": "4902370553024",
+          "url": "https://store.shopping.yahoo.co.jp/alljapan-online-shop/4902370553024-set.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": [
+            "accessory_or_bundle"
+          ]
+        },
+        {
+          "id": "yahoo:ecjoyecj25_21697659",
+          "title": "任天堂 NINTENDO Switch 2(日本語・国内専用)",
+          "shop_id": "ecjoyecj25",
+          "shop_name": "HJN ヤフー店",
+          "price_jpy": 61881,
+          "jan_code": "4902370553024",
+          "url": "https://store.shopping.yahoo.co.jp/ecjoyecj25/21697659.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:ecj_21697659",
+          "title": "任天堂 NINTENDO Switch 2(日本語・国内専用)",
+          "shop_id": "ecj",
+          "shop_name": "ECJOY!",
+          "price_jpy": 61881,
+          "jan_code": "4902370553024",
+          "url": "https://store.shopping.yahoo.co.jp/ecj/21697659.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:famicom-plaza_971742506",
+          "title": "正規流通品(Switch 2)Nintendo Switch 2本体(日本語・国内専用)(新品)",
+          "shop_id": "famicom-plaza",
+          "shop_name": "ファミコンプラザ本店",
+          "price_jpy": 61900,
+          "jan_code": "4902370553024",
+          "url": "https://store.shopping.yahoo.co.jp/famicom-plaza/971742506.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:live2_4902370553024",
+          "title": "Nintendo Switch 2 日本語・国内専用 BEE-S-KB6CA ※ 平日14時まで即日発送",
+          "shop_id": "live2",
+          "shop_name": "らいぶshop2号店",
+          "price_jpy": 61979,
+          "jan_code": "4902370553024",
+          "url": "https://store.shopping.yahoo.co.jp/live2/4902370553024.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:toukaikaden_p000000899072",
+          "title": "Nintendo / 任天堂 Nintendo Switch 2 BEE-S-KB6CA",
+          "shop_id": "toukaikaden",
+          "shop_name": "東海ドットコム",
+          "price_jpy": 62150,
+          "jan_code": "4902370553024",
+          "url": "https://store.shopping.yahoo.co.jp/toukaikaden/p000000899072.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:digitalisland_4902370553024",
+          "title": "ブラックフライデーセール　新品 Nintendo Switch 2(日本語・国内専用) 4902370553024",
+          "shop_id": "digitalisland",
+          "shop_name": "digitalisland",
+          "price_jpy": 62220,
+          "jan_code": "4902370553024",
+          "url": "https://store.shopping.yahoo.co.jp/digitalisland/4902370553024.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:primeworldjp_nintendo082",
+          "title": "【当日出荷／新品】Nintendo Switch2（日本語・国内専用）本体 BEE-S-KB6CA ニンテンドースイッチ2 [クリスマス/プレゼント/ラッピング可]",
+          "shop_id": "primeworldjp",
+          "shop_name": "プライムワールド",
+          "price_jpy": 62480,
+          "jan_code": "4902370553024",
+          "url": "https://store.shopping.yahoo.co.jp/primeworldjp/nintendo082.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:sokutei_4902370553024",
+          "title": "任天堂 Nintendo Switch2 日本語 国内専用 [ラッピング可] R-LOGI NKAG",
+          "shop_id": "sokutei",
+          "shop_name": "測定の森 2号店",
+          "price_jpy": 62488,
+          "jan_code": "4902370553024",
+          "url": "https://store.shopping.yahoo.co.jp/sokutei/4902370553024.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:d-rise_p000000899072",
+          "title": "★Nintendo / 任天堂 Nintendo Switch 2 BEE-S-KB6CA【送料無料】",
+          "shop_id": "d-rise",
+          "shop_name": "ディーライズ",
+          "price_jpy": 62490,
+          "jan_code": "4902370553024",
+          "url": "https://store.shopping.yahoo.co.jp/d-rise/p000000899072.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:panda-mobile_4902370553024-n",
+          "title": "【土日、祝日発送】新品未開封品【Nランク】Nintendo Switch 2 日本語・国内専用モデル BEE-S-KB6CA ニンテンドースイッチ2 Switch2 スイッチ 2 4902370553024",
+          "shop_id": "panda-mobile",
+          "shop_name": "panda mobile",
+          "price_jpy": 62504,
+          "jan_code": "4902370553024",
+          "url": "https://store.shopping.yahoo.co.jp/panda-mobile/4902370553024-n.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": [
+            "condition",
+            "extra_sales_condition"
+          ]
+        },
+        {
+          "id": "yahoo:densidonya_4902370553024",
+          "title": "【ラッピング可】【即日発送】【新品】任天堂 Nintendo Switch 2 本体 日本語・国内専用 BEE-S-KB6CA",
+          "shop_id": "densidonya",
+          "shop_name": "電子問屋",
+          "price_jpy": 62700,
+          "jan_code": "4902370553024",
+          "url": "https://store.shopping.yahoo.co.jp/densidonya/4902370553024.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:game-paani_4902370553024",
+          "title": "Nintendo Switch 2 (日本語・国内専用) 任天堂 BEE-S-KB6CA【新品/ラッピング対応可】",
+          "shop_id": "game-paani",
+          "shop_name": "ゲームショップ・パーニYahoo!店",
+          "price_jpy": 63180,
+          "jan_code": "4902370553024",
+          "url": "https://store.shopping.yahoo.co.jp/game-paani/4902370553024.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:pc-akindo-y_bee-s-kb6ca",
+          "title": "【新品】任天堂 Nintendo Switch 2 本体 日本語・国内専用 ニンテンドースイッチ2 BEE-S-KB6CA",
+          "shop_id": "pc-akindo-y",
+          "shop_name": "PCあきんどデジタル館",
+          "price_jpy": 63480,
+          "jan_code": "4902370553024",
+          "url": "https://store.shopping.yahoo.co.jp/pc-akindo-y/bee-s-kb6ca.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:emon-shop_bee-s-kb6ca",
+          "title": "【新品】任天堂 Nintendo Switch 2 本体 日本語・国内専用 ニンテンドースイッチ2 BEE-S-KB6CA",
+          "shop_id": "emon-shop",
+          "shop_name": "家電と雑貨のemon(えもん)",
+          "price_jpy": 63480,
+          "jan_code": "4902370553024",
+          "url": "https://store.shopping.yahoo.co.jp/emon-shop/bee-s-kb6ca.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:at-field_sw2-h-jls-jpo",
+          "title": "Nintendo Switch 2（日本語・国内専用）【新品】",
+          "shop_id": "at-field",
+          "shop_name": "エーティーフィールド",
+          "price_jpy": 63680,
+          "jan_code": "4902370553024",
+          "url": "https://store.shopping.yahoo.co.jp/at-field/sw2-h-jls-jpo.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:gamedarake-store_4902370553024",
+          "title": "【送料無料・即日出荷・新品】Nintendo Switch 2（日本語・国内専用）本体 140201",
+          "shop_id": "gamedarake-store",
+          "shop_name": "ゲームだらけ",
+          "price_jpy": 63900,
+          "jan_code": "4902370553024",
+          "url": "https://store.shopping.yahoo.co.jp/gamedarake-store/4902370553024.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:gamedarake03_4902370553024",
+          "title": "【送料無料(宅配便発送)・即日出荷・新品】Nintendo Switch 2（日本語・国内専用）140201",
+          "shop_id": "gamedarake03",
+          "shop_name": "ゲームだらけ3号店",
+          "price_jpy": 64400,
+          "jan_code": "4902370553024",
+          "url": "https://store.shopping.yahoo.co.jp/gamedarake03/4902370553024.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:newstar_nintendoswitch2",
+          "title": "【新品】Nintendo Switch 2 国内専用 日本語版 BEE-S-KB6CA 新品本体 任天堂スイッチ",
+          "shop_id": "newstar",
+          "shop_name": "new star",
+          "price_jpy": 64800,
+          "jan_code": "4902370553024",
+          "url": "https://store.shopping.yahoo.co.jp/newstar/nintendoswitch2.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:characterland_4902370553024",
+          "title": "Nintendo Switch 2 (日本語・国内専用)",
+          "shop_id": "characterland",
+          "shop_name": "きゃらくた〜らんど",
+          "price_jpy": 64998,
+          "jan_code": "4902370553024",
+          "url": "https://store.shopping.yahoo.co.jp/characterland/4902370553024.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:whitemocha_4902370553024-wake",
+          "title": "外箱訳アリ Nintendo Switch 2 ニンテンドー スイッチ 2 本体 日本語 国内専用 新品未使用 BEE-S-KB6CA",
+          "shop_id": "whitemocha",
+          "shop_name": "ホワイトモカ",
+          "price_jpy": 65000,
+          "jan_code": "4902370553024",
+          "url": "https://store.shopping.yahoo.co.jp/whitemocha/4902370553024-wake.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": [
+            "extra_sales_condition"
+          ]
+        },
+        {
+          "id": "yahoo:toy24shop_4902370553024",
+          "title": "送料込新品 Nintendo Switch 2 本体(日本語・国内専用)　クロネコヤマト宅急便で安心お届け",
+          "shop_id": "toy24shop",
+          "shop_name": "GAMEダッシュ",
+          "price_jpy": 65978,
+          "jan_code": "4902370553024",
+          "url": "https://store.shopping.yahoo.co.jp/toy24shop/4902370553024.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:speedwagon_10013792",
+          "title": "【新品】【即納】Nintendo Switch 2（日本語・国内専用）　スイッチ 任天堂 ニンテンドー ゲーム機 本体",
+          "shop_id": "speedwagon",
+          "shop_name": "SPW(適格請求書発行事業者)Yahoo!店",
+          "price_jpy": 65998,
+          "jan_code": "4902370553024",
+          "url": "https://store.shopping.yahoo.co.jp/speedwagon/10013792.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:live2_4902370553024st1",
+          "title": "Nintendo Switch 2 日本語・国内専用 本体＋スプラトゥーン レイダースセット ヤフー限定 オリジナル 平日14時まで即日発送",
+          "shop_id": "live2",
+          "shop_name": "らいぶshop2号店",
+          "price_jpy": 66333,
+          "jan_code": "4902370553024",
+          "url": "https://store.shopping.yahoo.co.jp/live2/4902370553024st1.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:light-hikari_4902370553024st1",
+          "title": "Nintendo Switch 2 日本語・国内専用 本体＋Nintendo Switch Sports Resort 当店オリジナルセット ヤフー限定 オリジナル 平日14時まで即日発送",
+          "shop_id": "light-hikari",
+          "shop_name": "らいぶshop",
+          "price_jpy": 67200,
+          "jan_code": "4902370553024",
+          "url": "https://store.shopping.yahoo.co.jp/light-hikari/4902370553024st1.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:e-zoa_itm0015926152",
+          "title": "Nintendo 任天堂ニンテンドー Nintendo Switch 2（日本語・国内専用） BEE-S-KB6CA(2652236)",
+          "shop_id": "e-zoa",
+          "shop_name": "e-zoa",
+          "price_jpy": 67818,
+          "jan_code": "4902370553024",
+          "url": "https://store.shopping.yahoo.co.jp/e-zoa/itm0015926152.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:toreneko_m4902370553024",
+          "title": "【新品】 Nintendo Switch 2（日本語 国内専用）【本体】",
+          "shop_id": "toreneko",
+          "shop_name": "トレネコ",
+          "price_jpy": 67859,
+          "jan_code": "4902370553024",
+          "url": "https://store.shopping.yahoo.co.jp/toreneko/m4902370553024.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:maruishoten_switch-2",
+          "title": "【完全未開封】Nintendo Switch 2 (日本語・国内専用) 日本国内版",
+          "shop_id": "maruishoten",
+          "shop_name": "ホビーシティオンライン",
+          "price_jpy": 68000,
+          "jan_code": "4902370553024",
+          "url": "https://store.shopping.yahoo.co.jp/maruishoten/switch-2.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:nekoyashokai_m4902370553024",
+          "title": "【新品】 Nintendo Switch 2（日本語 国内専用）【本体】",
+          "shop_id": "nekoyashokai",
+          "shop_name": "ネコヤ商会",
+          "price_jpy": 68365,
+          "jan_code": "4902370553024",
+          "url": "https://store.shopping.yahoo.co.jp/nekoyashokai/m4902370553024.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:alljapan-online-shop_4902370553024-softset",
+          "title": "【Switch2 福袋 4点セット】 日本語国内専用 マリオセット pokemonセット 選べる スイッチ2 本体+ソフト１枚+Switch2ケース+フィルム2枚 プレゼント クリスマス",
+          "shop_id": "alljapan-online-shop",
+          "shop_name": "販売一丁目",
+          "price_jpy": 90000,
+          "jan_code": "4902370553024",
+          "url": "https://store.shopping.yahoo.co.jp/alljapan-online-shop/4902370553024-softset.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        }
+      ]
+    },
+    {
+      "key": [
+        "jan",
+        "4902370554779"
+      ],
+      "total_available": 33,
+      "returned": 33,
+      "truncated": false,
+      "offers": [
+        {
+          "id": "yahoo:light-hikari_4902370554779",
+          "title": "Nintendo Switch 2（日本語・国内専用）スプラトゥーン レイダース セット",
+          "shop_id": "light-hikari",
+          "shop_name": "らいぶshop",
+          "price_jpy": 60870,
+          "jan_code": "4902370554779",
+          "url": "https://store.shopping.yahoo.co.jp/light-hikari/4902370554779.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:cocostore1_4902370554779",
+          "title": "【返品交換不可】Nintendo Switch 2 スプラトゥーン レイダース セット",
+          "shop_id": "cocostore1",
+          "shop_name": "CocoStore",
+          "price_jpy": 61000,
+          "jan_code": "4902370554779",
+          "url": "https://store.shopping.yahoo.co.jp/cocostore1/4902370554779.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:alljapan-online-shop_4902370554779",
+          "title": "Nintendo Switch 2(日本語・国内専用) スプラトゥーン レイダース セット BEE-S-KB6PE SW2 任天堂",
+          "shop_id": "alljapan-online-shop",
+          "shop_name": "販売一丁目",
+          "price_jpy": 61008,
+          "jan_code": "4902370554779",
+          "url": "https://store.shopping.yahoo.co.jp/alljapan-online-shop/4902370554779.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:sokuteikiya_4902370554779",
+          "title": "スプラトゥーン レイダース セット [Nintendo Switch 2（日本語・国内専用）] 任天堂[ラッピング可]",
+          "shop_id": "sokuteikiya",
+          "shop_name": "測定の森Yahoo!ショッピング店",
+          "price_jpy": 61400,
+          "jan_code": "4902370554779",
+          "url": "https://store.shopping.yahoo.co.jp/sokuteikiya/4902370554779.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:live2_4902370554779",
+          "title": "Nintendo Switch 2（日本語・国内専用）スプラトゥーン レイダ　※量販店舗印付の場合があります、商品情報ご覧ください",
+          "shop_id": "live2",
+          "shop_name": "らいぶshop2号店",
+          "price_jpy": 62778,
+          "jan_code": "4902370554779",
+          "url": "https://store.shopping.yahoo.co.jp/live2/4902370554779.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:sokutei_4902370554779",
+          "title": "スプラトゥーン レイダース セット [Nintendo Switch 2（日本語・国内専用）] 任天堂[ラッピング可]",
+          "shop_id": "sokutei",
+          "shop_name": "測定の森 2号店",
+          "price_jpy": 63500,
+          "jan_code": "4902370554779",
+          "url": "https://store.shopping.yahoo.co.jp/sokutei/4902370554779.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:densidonya_4902370554779",
+          "title": "【ラッピング可】【即日発送】【新品】Nintendo Switch 2 スプラトゥーン レイタセット 日本語・国内専用 BEE-S-KB6PE",
+          "shop_id": "densidonya",
+          "shop_name": "電子問屋",
+          "price_jpy": 63740,
+          "jan_code": "4902370554779",
+          "url": "https://store.shopping.yahoo.co.jp/densidonya/4902370554779.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:digitalisland_4902370554779",
+          "title": "爆買WEEK　新品任天堂 Nintendo Switch 2 （日本語国内専用） スプラトゥーン レイダース セット Nintendo Switch Nintendo Switch 2本体4902370554779",
+          "shop_id": "digitalisland",
+          "shop_name": "digitalisland",
+          "price_jpy": 63748,
+          "jan_code": "4902370554779",
+          "url": "https://store.shopping.yahoo.co.jp/digitalisland/4902370554779.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:joshin_s902370554779-54-73608",
+          "title": "任天堂 (特典付)Nintendo Switch 2(日本語・国内専用) スプラトゥーン レイダース セット 返品種別B",
+          "shop_id": "joshin",
+          "shop_name": "Joshin web",
+          "price_jpy": 64200,
+          "jan_code": "4902370554779",
+          "url": "https://store.shopping.yahoo.co.jp/joshin/s902370554779-54-73608.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:ecj_22198563",
+          "title": "任天堂 NINTENDO Switch 2（日本語・国内専用）スプラトゥーン レイダース セット",
+          "shop_id": "ecj",
+          "shop_name": "ECJOY!",
+          "price_jpy": 64227,
+          "jan_code": "4902370554779",
+          "url": "https://store.shopping.yahoo.co.jp/ecj/22198563.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:llhat_4902370554779",
+          "title": "【新品】Nintendo Switch 2（日本語・国内専用） スプラトゥーン レイダースセット【任天堂】",
+          "shop_id": "llhat",
+          "shop_name": "エルエルハット",
+          "price_jpy": 64980,
+          "jan_code": "4902370554779",
+          "url": "https://store.shopping.yahoo.co.jp/llhat/4902370554779.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:amiami_game-0035352",
+          "title": "【ギフトバッグ付】Nintendo Switch 2(日本語・国内専用) スプラトゥーン レイダース セット[任天堂]【同梱不可】《発売済・在庫品》",
+          "shop_id": "amiami",
+          "shop_name": "あみあみ Yahoo!店",
+          "price_jpy": 64980,
+          "jan_code": "4902370554779",
+          "url": "https://store.shopping.yahoo.co.jp/amiami/game-0035352.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:game-paani_4902370554779",
+          "title": "Nintendo Switch 2 (日本語・国内専用) [スプラトゥーン レイダース セット] 任天堂 BEE-S-KB6PE【新品/ラッピング対応可】",
+          "shop_id": "game-paani",
+          "shop_name": "ゲームショップ・パーニYahoo!店",
+          "price_jpy": 65360,
+          "jan_code": "4902370554779",
+          "url": "https://store.shopping.yahoo.co.jp/game-paani/4902370554779.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:ki-zu-na_4902370554779",
+          "title": "新品任天堂 Nintendo Switch 2 （日本語国内専用） スプラトゥーン レイダース セット Nintendo Switch Nintendo Switch 2本体4902370554779",
+          "shop_id": "ki-zu-na",
+          "shop_name": "KizunaStore",
+          "price_jpy": 65688,
+          "jan_code": "4902370554779",
+          "url": "https://store.shopping.yahoo.co.jp/ki-zu-na/4902370554779.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:motona_69393500",
+          "title": "Nintendo Switch 2（日本語・国内専用） スプラトゥーン レイダース セット",
+          "shop_id": "motona",
+          "shop_name": "モトナワールドYahoo!ショップ",
+          "price_jpy": 65780,
+          "jan_code": "4902370554779",
+          "url": "https://store.shopping.yahoo.co.jp/motona/69393500.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:toy24shop_4902370554779",
+          "title": "送料込新品 Nintendo Switch 2 本体(日本語・国内専用) スプラトゥーン レイダース セット クロネコヤマト宅急便で安心お届け",
+          "shop_id": "toy24shop",
+          "shop_name": "GAMEダッシュ",
+          "price_jpy": 65978,
+          "jan_code": "4902370554779",
+          "url": "https://store.shopping.yahoo.co.jp/toy24shop/4902370554779.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:toreneko_m4902370554779",
+          "title": "【新品】 Nintendo Switch 2（日本語・国内専用） スプラトゥーン レイダース セット 【本体】",
+          "shop_id": "toreneko",
+          "shop_name": "トレネコ",
+          "price_jpy": 67628,
+          "jan_code": "4902370554779",
+          "url": "https://store.shopping.yahoo.co.jp/toreneko/m4902370554779.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:newstar_nintendoswitch2-supuraton",
+          "title": "【新品】Nintendo Switch 2 日本国内専用版 スプラトゥーン レイダース セット BEE-S-KB6PE 任天堂スイッチ",
+          "shop_id": "newstar",
+          "shop_name": "new star",
+          "price_jpy": 68000,
+          "jan_code": "4902370554779",
+          "url": "https://store.shopping.yahoo.co.jp/newstar/nintendoswitch2-supuraton.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:nekoyashokai_m4902370554779",
+          "title": "【新品】 Nintendo Switch 2（日本語・国内専用） スプラトゥーン レイダース セット 【本体】",
+          "shop_id": "nekoyashokai",
+          "shop_name": "ネコヤ商会",
+          "price_jpy": 68145,
+          "jan_code": "4902370554779",
+          "url": "https://store.shopping.yahoo.co.jp/nekoyashokai/m4902370554779.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:arc-online_4902370554779",
+          "title": "【新品】Switch2 本体 Nintendo Switch 2(日本語・国内専用) スプラトゥーン レイダース セット",
+          "shop_id": "arc-online",
+          "shop_name": "アークオンライン Yahoo!店",
+          "price_jpy": 68857,
+          "jan_code": "4902370554779",
+          "url": "https://store.shopping.yahoo.co.jp/arc-online/4902370554779.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:comgstore_1411-4902370554779",
+          "title": "新品 Nintendo Switch 2（日本語・国内専用） スプラトゥーン レイダース セット",
+          "shop_id": "comgstore",
+          "shop_name": "COMG通販部",
+          "price_jpy": 68980,
+          "jan_code": "4902370554779",
+          "url": "https://store.shopping.yahoo.co.jp/comgstore/1411-4902370554779.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:characterland_4902370554779",
+          "title": "Nintendo Switch 2（日本語・国内専用） スプラトゥーン レイダース セット",
+          "shop_id": "characterland",
+          "shop_name": "きゃらくた〜らんど",
+          "price_jpy": 69998,
+          "jan_code": "4902370554779",
+          "url": "https://store.shopping.yahoo.co.jp/characterland/4902370554779.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:outletplaza_40001110962",
+          "title": "[代引き決済不可][ニンテンドースイッチ2本体] Nintendo Switch2（日本語・国内専用） スプラトゥーン レイダース セット [BEE-",
+          "shop_id": "outletplaza",
+          "shop_name": "秋葉原　アウトレットプラザ",
+          "price_jpy": 70568,
+          "jan_code": "4902370554779",
+          "url": "https://store.shopping.yahoo.co.jp/outletplaza/40001110962.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:at-field_sw2-h-splar-set",
+          "title": "Nintendo Switch 2（日本語・国内専用） スプラトゥーンレイダース セット【新品・未開封】",
+          "shop_id": "at-field",
+          "shop_name": "エーティーフィールド",
+          "price_jpy": 70780,
+          "jan_code": "4902370554779",
+          "url": "https://store.shopping.yahoo.co.jp/at-field/sw2-h-splar-set.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:aprice_4902370554779",
+          "title": "任天堂 Nintendo Switch 2(日本語・国内専用) スプラトゥーン レイダース セット BEE-S-KB6PE SW2",
+          "shop_id": "aprice",
+          "shop_name": "XPRICE Yahoo!店",
+          "price_jpy": 71480,
+          "jan_code": "4902370554779",
+          "url": "https://store.shopping.yahoo.co.jp/aprice/4902370554779.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:sake-premoa_4902370554779",
+          "title": "任天堂 Nintendo Switch 2(日本語・国内専用) スプラトゥーン レイダース セット BEE-S-KB6PE SW2",
+          "shop_id": "sake-premoa",
+          "shop_name": "総合通販PREMOA Yahoo!店",
+          "price_jpy": 73430,
+          "jan_code": "4902370554779",
+          "url": "https://store.shopping.yahoo.co.jp/sake-premoa/4902370554779.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:mannenya_4902370554779",
+          "title": "Nintendo Switch2 (日本語・国内専用) スプラトゥーンレイダースセット (新品・未開封) (ニンテンドー スイッチ2 ゲーム機本体)",
+          "shop_id": "mannenya",
+          "shop_name": "おもちゃのマンネンヤ",
+          "price_jpy": 74699,
+          "jan_code": "4902370554779",
+          "url": "https://store.shopping.yahoo.co.jp/mannenya/4902370554779.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:maxzen_4902370554779",
+          "title": "任天堂 Nintendo Switch 2(日本語・国内専用) スプラトゥーン レイダース セット BEE-S-KB6PE SW2",
+          "shop_id": "maxzen",
+          "shop_name": "MAXZEN Direct Yahoo!店",
+          "price_jpy": 76360,
+          "jan_code": "4902370554779",
+          "url": "https://store.shopping.yahoo.co.jp/maxzen/4902370554779.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:rcmdin_uw-4902370554779",
+          "title": "Nintendo Switch 2 スプラトゥーンレイダースセット スイッチ2 スプラトゥーン ニンテンドースイッチ Switch 2 プレゼント お祝い品 誕生日",
+          "shop_id": "rcmdin",
+          "shop_name": "リコメン堂インテリア館",
+          "price_jpy": 76500,
+          "jan_code": "4902370554779",
+          "url": "https://store.shopping.yahoo.co.jp/rcmdin/uw-4902370554779.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:recommendo_uw-4902370554779",
+          "title": "Nintendo Switch 2 スプラトゥーンレイダースセット スイッチ2 スプラトゥーン ニンテンドースイッチ Switch 2 プレゼント お祝い品 誕生日",
+          "shop_id": "recommendo",
+          "shop_name": "リコメン堂",
+          "price_jpy": 76500,
+          "jan_code": "4902370554779",
+          "url": "https://store.shopping.yahoo.co.jp/recommendo/uw-4902370554779.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:e-zoa_itm0015931513",
+          "title": "Nintendo 任天堂ニンテンドー Nintendo Switch 2 スプラトゥーンレイダースセット BEE-S-KB6PE(2689933)",
+          "shop_id": "e-zoa",
+          "shop_name": "e-zoa",
+          "price_jpy": 77878,
+          "jan_code": "4902370554779",
+          "url": "https://store.shopping.yahoo.co.jp/e-zoa/itm0015931513.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:rcmdhl_uw-4902370554779",
+          "title": "Nintendo Switch 2 スプラトゥーンレイダースセット スイッチ2 スプラトゥーン ニンテンドースイッチ Switch 2 プレゼント お祝い品 誕生日",
+          "shop_id": "rcmdhl",
+          "shop_name": "リコメン堂ホームライフ館",
+          "price_jpy": 84150,
+          "jan_code": "4902370554779",
+          "url": "https://store.shopping.yahoo.co.jp/rcmdhl/uw-4902370554779.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:rcmdse_uw-4902370554779",
+          "title": "Nintendo Switch 2 スプラトゥーンレイダースセット スイッチ2 スプラトゥーン ニンテンドースイッチ Switch 2 プレゼント お祝い品 誕生日",
+          "shop_id": "rcmdse",
+          "shop_name": "リコメン堂生活館",
+          "price_jpy": 84150,
+          "jan_code": "4902370554779",
+          "url": "https://store.shopping.yahoo.co.jp/rcmdse/uw-4902370554779.html",
           "in_stock": true,
           "condition": "new",
           "risk_flags": []
@@ -866,1054 +1845,12 @@
     },
     {
       "key": [
-        "jan",
-        "4902370554595"
-      ],
-      "total_available": 55,
-      "returned": 50,
-      "truncated": true,
-      "offers": [
-        {
-          "id": "yahoo:free-world_zzz-20260911-04",
-          "title": "26年10月29日発売 予約 任天堂純正品 Nintendo Switch 2 Proコントローラー ゼルダの伝説 40周年 アニバーサリーエディション ディスプレイスタンド付き スイッ",
-          "shop_id": "free-world",
-          "shop_name": "カウカウSTORE",
-          "price_jpy": 16380,
-          "jan_code": "4902370554595",
-          "url": "https://store.shopping.yahoo.co.jp/free-world/zzz-20260911-04.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:kaikyou_4902370554595",
-          "title": "【新品】Nintendo Switch 2 ゼルダの伝説 40周年 アニバーサリーエディション 国内版【日曜日以外即日発送】【送料無料】",
-          "shop_id": "kaikyou",
-          "shop_name": "モバイル販売",
-          "price_jpy": 62130,
-          "jan_code": "4902370554595",
-          "url": "https://store.shopping.yahoo.co.jp/kaikyou/4902370554595.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:light-hikari_4902370554595",
-          "title": "【新品・在庫あり】Nintendo Switch 2 （日本語・国内専用） ゼルダの伝説 40周年 アニバーサリーエディション",
-          "shop_id": "light-hikari",
-          "shop_name": "らいぶshop",
-          "price_jpy": 62174,
-          "jan_code": "4902370554595",
-          "url": "https://store.shopping.yahoo.co.jp/light-hikari/4902370554595.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:cocostore1_4902370554595",
-          "title": "Nintendo Switch2 ゼルダの伝説40周年 アニバーサリーエディション",
-          "shop_id": "cocostore1",
-          "shop_name": "CocoStore",
-          "price_jpy": 62300,
-          "jan_code": "4902370554595",
-          "url": "https://store.shopping.yahoo.co.jp/cocostore1/4902370554595.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:sokuteikiya_4902370554595",
-          "title": "Nintendo Switch 2 ゼルダの伝説 40周年 アニバーサリーエディション 日本語・国内専用 BEE-S-KL6CC[ラッピング可]",
-          "shop_id": "sokuteikiya",
-          "shop_name": "測定の森Yahoo!ショッピング店",
-          "price_jpy": 62978,
-          "jan_code": "4902370554595",
-          "url": "https://store.shopping.yahoo.co.jp/sokuteikiya/4902370554595.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:pur-peo_4902370554595",
-          "title": "Nintendo Switch 2(日本語・国内専用) ゼルダの伝説 40周年 アニバーサリーエディション",
-          "shop_id": "pur-peo",
-          "shop_name": "Purple People",
-          "price_jpy": 62979,
-          "jan_code": "4902370554595",
-          "url": "https://store.shopping.yahoo.co.jp/pur-peo/4902370554595.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:llhat_4902370554595",
-          "title": "【新品】Nintendo Switch 2 （日本語・国内専用） ゼルダの伝説 40周年 アニバーサリーエディション【任天堂】",
-          "shop_id": "llhat",
-          "shop_name": "エルエルハット",
-          "price_jpy": 62980,
-          "jan_code": "4902370554595",
-          "url": "https://store.shopping.yahoo.co.jp/llhat/4902370554595.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:gomashop-y_4902370554595",
-          "title": "スイッチ2 本体 ゼルダの伝説 40周年 アニバーサリーエディション NintendoSwitch2",
-          "shop_id": "gomashop-y",
-          "shop_name": "ゴマショップ Yahoo!店",
-          "price_jpy": 63480,
-          "jan_code": "4902370554595",
-          "url": "https://store.shopping.yahoo.co.jp/gomashop-y/4902370554595.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:d-rise2_p000000991925",
-          "title": "★Nintendo / 任天堂 Nintendo Switch 2 ゼルダの伝説 40周年 アニバーサリーエディション BEE-S-KL6CC【送料無料】",
-          "shop_id": "d-rise2",
-          "shop_name": "ディーライズ2号",
-          "price_jpy": 63590,
-          "jan_code": "4902370554595",
-          "url": "https://store.shopping.yahoo.co.jp/d-rise2/p000000991925.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:d-rise2_p700000020112",
-          "title": "【アウトレット 化粧箱破損品】★Nintendo / 任天堂 Nintendo Switch 2 ゼルダの伝説 40周年 アニバーサリーエディション BEE-S-KL6CC【送料無料】",
-          "shop_id": "d-rise2",
-          "shop_name": "ディーライズ2号",
-          "price_jpy": 63700,
-          "jan_code": "4902370554595",
-          "url": "https://store.shopping.yahoo.co.jp/d-rise2/p700000020112.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": [
-            "condition",
-            "extra_sales_condition"
-          ]
-        },
-        {
-          "id": "yahoo:live2_4902370554595",
-          "title": "Nintendo Switch 2 （日本語・国内専用） ゼルダの伝説 40周年 アニバーサリーエディション",
-          "shop_id": "live2",
-          "shop_name": "らいぶshop2号店",
-          "price_jpy": 63778,
-          "jan_code": "4902370554595",
-          "url": "https://store.shopping.yahoo.co.jp/live2/4902370554595.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:famicom-plaza_962092610",
-          "title": "(Switch 2)Nintendo Switch 2(日本語・国内専用)ゼルダの伝説 40周年 アニバーサリーエディション(新品)",
-          "shop_id": "famicom-plaza",
-          "shop_name": "ファミコンプラザ本店",
-          "price_jpy": 63800,
-          "jan_code": "4902370554595",
-          "url": "https://store.shopping.yahoo.co.jp/famicom-plaza/962092610.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:lyco-an-shop_yak-4902370554595",
-          "title": "Nintendo Switch 2 （日本語・国内専用） ゼルダの伝説 40周年 アニバーサリーエディション  スイッチ2 本体",
-          "shop_id": "lyco-an-shop",
-          "shop_name": "りこあんショップ-ヤフー店",
-          "price_jpy": 63870,
-          "jan_code": "4902370554595",
-          "url": "https://store.shopping.yahoo.co.jp/lyco-an-shop/yak-4902370554595.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:densidonya_4902370554595",
-          "title": "【ラッピング可】【即日発送】【新品】Nintendo Switch 2 ゼルダの伝説 40周年 アニバーサリーエディション 日本語・国内専用 BEE-S-KL6CC",
-          "shop_id": "densidonya",
-          "shop_name": "電子問屋",
-          "price_jpy": 64200,
-          "jan_code": "4902370554595",
-          "url": "https://store.shopping.yahoo.co.jp/densidonya/4902370554595.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:noahshoping_4902370554595",
-          "title": "『新品』Nintendo Switch 2 ゼルダの伝説 40周年 アニバーサリーエディション BEE-S-KL6CC",
-          "shop_id": "noahshoping",
-          "shop_name": "ノア商社Yahoo!店",
-          "price_jpy": 64200,
-          "jan_code": "4902370554595",
-          "url": "https://store.shopping.yahoo.co.jp/noahshoping/4902370554595.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:motona_69394600",
-          "title": "Nintendo Switch 2 （日本語・国内専用） ゼルダの伝説 40周年 アニバーサリーエディション",
-          "shop_id": "motona",
-          "shop_name": "モトナワールドYahoo!ショップ",
-          "price_jpy": 64380,
-          "jan_code": "4902370554595",
-          "url": "https://store.shopping.yahoo.co.jp/motona/69394600.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:ecj_22352851",
-          "title": "任天堂 NINTENDO Switch 2 （日本語・国内専用） ゼルダの伝説 40周年 アニバーサリーエディション",
-          "shop_id": "ecj",
-          "shop_name": "ECJOY!",
-          "price_jpy": 64720,
-          "jan_code": "4902370554595",
-          "url": "https://store.shopping.yahoo.co.jp/ecj/22352851.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:ecjoyecj25_22352851",
-          "title": "任天堂 NINTENDO Switch 2 （日本語・国内専用） ゼルダの伝説 40周年 アニバーサリーエディション",
-          "shop_id": "ecjoyecj25",
-          "shop_name": "HJN ヤフー店",
-          "price_jpy": 64720,
-          "jan_code": "4902370554595",
-          "url": "https://store.shopping.yahoo.co.jp/ecjoyecj25/22352851.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:ecjoyecj30_22352851",
-          "title": "任天堂 NINTENDO Switch 2 （日本語・国内専用） ゼルダの伝説 40周年 アニバーサリーエディション",
-          "shop_id": "ecjoyecj30",
-          "shop_name": "エクセレントショップ",
-          "price_jpy": 64720,
-          "jan_code": "4902370554595",
-          "url": "https://store.shopping.yahoo.co.jp/ecjoyecj30/22352851.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:sokutei_4902370554595",
-          "title": "Nintendo Switch 2 ゼルダの伝説 40周年 アニバーサリーエディション 日本語・国内専用 BEE-S-KL6CC[ラッピング可]",
-          "shop_id": "sokutei",
-          "shop_name": "測定の森 2号店",
-          "price_jpy": 64759,
-          "jan_code": "4902370554595",
-          "url": "https://store.shopping.yahoo.co.jp/sokutei/4902370554595.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:toukaikaden_p000000991925",
-          "title": "Nintendo / 任天堂 Nintendo Switch 2 ゼルダの伝説 40周年 アニバーサリーエディション BEE-S-KL6CC",
-          "shop_id": "toukaikaden",
-          "shop_name": "東海ドットコム",
-          "price_jpy": 64760,
-          "jan_code": "4902370554595",
-          "url": "https://store.shopping.yahoo.co.jp/toukaikaden/p000000991925.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:d-rise_p000000991925",
-          "title": "★Nintendo / 任天堂 Nintendo Switch 2 ゼルダの伝説 40周年 アニバーサリーエディション BEE-S-KL6CC【送料無料】",
-          "shop_id": "d-rise",
-          "shop_name": "ディーライズ",
-          "price_jpy": 65120,
-          "jan_code": "4902370554595",
-          "url": "https://store.shopping.yahoo.co.jp/d-rise/p000000991925.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:jcka-mobile_4902370554595",
-          "title": "即納★任天堂 Nintendo Switch2 国内版 日本語版 ゼルダの伝説 40周年 アニバーサリーエディション BEE-S-KL6CC 新品 任天堂スイッチ 本体 4902370554595",
-          "shop_id": "jcka-mobile",
-          "shop_name": "ジェーシカモバイル",
-          "price_jpy": 65200,
-          "jan_code": "4902370554595",
-          "url": "https://store.shopping.yahoo.co.jp/jcka-mobile/4902370554595.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:d-rise_p700000020112",
-          "title": "【アウトレット 化粧箱破損品】★Nintendo / 任天堂 Nintendo Switch 2 ゼルダの伝説 40周年 アニバーサリーエディション BEE-S-KL6CC【送料無料】",
-          "shop_id": "d-rise",
-          "shop_name": "ディーライズ",
-          "price_jpy": 65230,
-          "jan_code": "4902370554595",
-          "url": "https://store.shopping.yahoo.co.jp/d-rise/p700000020112.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": [
-            "condition",
-            "extra_sales_condition"
-          ]
-        },
-        {
-          "id": "yahoo:comgstore_1411-4902370554595",
-          "title": "新品 Nintendo Switch 2 （日本語・国内専用） ゼルダの伝説 40周年 アニバーサリーエディション",
-          "shop_id": "comgstore",
-          "shop_name": "COMG通販部",
-          "price_jpy": 65480,
-          "jan_code": "4902370554595",
-          "url": "https://store.shopping.yahoo.co.jp/comgstore/1411-4902370554595.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:wink-digital_277519",
-          "title": "NINTENDO　ゲーム機本体(据置型）　Nintendo Switch 2 （日本語・国内専用） ゼルダの伝説 40周年 アニバーサリーエディション",
-          "shop_id": "wink-digital",
-          "shop_name": "ウインクデジタル ヤフー店",
-          "price_jpy": 65700,
-          "jan_code": "4902370554595",
-          "url": "https://store.shopping.yahoo.co.jp/wink-digital/277519.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:sokutei_4902370554595-wake",
-          "title": "【訳あり】Nintendo Switch 2 ゼルダの伝説 40周年 アニバーサリーエディション 日本語・国内専用 本体 BEE-S-KL6CC 任天堂[ラッピング可]",
-          "shop_id": "sokutei",
-          "shop_name": "測定の森 2号店",
-          "price_jpy": 65752,
-          "jan_code": "4902370554595",
-          "url": "https://store.shopping.yahoo.co.jp/sokutei/4902370554595-wake.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": [
-            "condition"
-          ]
-        },
-        {
-          "id": "yahoo:game-paani_4902370554595",
-          "title": "Nintendo Switch 2 (日本語・国内専用) [ゼルダの伝説 40周年 アニバーサリーエディション] 任天堂 BEE-S-KL6CC【新品/ラッピング対応可】",
-          "shop_id": "game-paani",
-          "shop_name": "ゲームショップ・パーニYahoo!店",
-          "price_jpy": 68100,
-          "jan_code": "4902370554595",
-          "url": "https://store.shopping.yahoo.co.jp/game-paani/4902370554595.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:speedwagon_10015134",
-          "title": "【新品】【即納】Nintendo Switch 2 （日本語・国内専用） ゼルダの伝説 40周年 アニバーサリーエディション　BEE-S-KL6CC　任天堂 Nintendo",
-          "shop_id": "speedwagon",
-          "shop_name": "SPW(適格請求書発行事業者)Yahoo!店",
-          "price_jpy": 69298,
-          "jan_code": "4902370554595",
-          "url": "https://store.shopping.yahoo.co.jp/speedwagon/10015134.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:newstar_nintendoswitch2-zelda",
-          "title": "【新品】Nintendo Switch2 ゼルダの伝説 40周年 アニバーサリーエディション 日本語・国内専用 BEE-S-KL6CC  任天堂スイッチ",
-          "shop_id": "newstar",
-          "shop_name": "new star",
-          "price_jpy": 69800,
-          "jan_code": "4902370554595",
-          "url": "https://store.shopping.yahoo.co.jp/newstar/nintendoswitch2-zelda.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:rcmdin_uw-4902370554595",
-          "title": "Nintendo Switch 2 ニンテンドー スイッチ 2 (日本語・国内専用) ゼルダの伝説 40周年 アニバーサリーエディション BEE-S-KL6CC",
-          "shop_id": "rcmdin",
-          "shop_name": "リコメン堂インテリア館",
-          "price_jpy": 69800,
-          "jan_code": "4902370554595",
-          "url": "https://store.shopping.yahoo.co.jp/rcmdin/uw-4902370554595.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:recommendo_uw-4902370554595",
-          "title": "Nintendo Switch 2 ニンテンドー スイッチ 2 (日本語・国内専用) ゼルダの伝説 40周年 アニバーサリーエディション BEE-S-KL6CC",
-          "shop_id": "recommendo",
-          "shop_name": "リコメン堂",
-          "price_jpy": 69800,
-          "jan_code": "4902370554595",
-          "url": "https://store.shopping.yahoo.co.jp/recommendo/uw-4902370554595.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:free-world_zzz-20260911-05",
-          "title": "26年10月29日発売 予約 Nintendo Switch 2 日本語・国内専用 ゼルダの伝説 40周年 アニバーサリーエディション 任天堂 スイッチ",
-          "shop_id": "free-world",
-          "shop_name": "カウカウSTORE",
-          "price_jpy": 69800,
-          "jan_code": "4902370554595",
-          "url": "https://store.shopping.yahoo.co.jp/free-world/zzz-20260911-05.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:digimart-shop_kd0415",
-          "title": "任天堂 Nintendo Switch 2（日本語・国内専用）ゼルダの伝説 40周年 アニバーサリーエディション [BEE-S-KL6CC]【新品・国内正規品】【返品不可商品】",
-          "shop_id": "digimart-shop",
-          "shop_name": "カメラ・レンズ・家電のDigiMart",
-          "price_jpy": 69918,
-          "jan_code": "4902370554595",
-          "url": "https://store.shopping.yahoo.co.jp/digimart-shop/kd0415.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": [
-            "extra_sales_condition"
-          ]
-        },
-        {
-          "id": "yahoo:at-field_sw2-h-zelda40",
-          "title": "Nintendo Switch 2 （日本語・国内専用） ゼルダの伝説 40周年 アニバーサリーエディション【新品・未開封】",
-          "shop_id": "at-field",
-          "shop_name": "エーティーフィールド",
-          "price_jpy": 69980,
-          "jan_code": "4902370554595",
-          "url": "https://store.shopping.yahoo.co.jp/at-field/sw2-h-zelda40.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:toy24shop_4902370554595",
-          "title": "送料込新品 Nintendo Switch 2 本体(日本語・国内専用)  ゼルダの伝説 40周年 アニバーサリーエディション クロネコヤマト宅急便で安心お届け",
-          "shop_id": "toy24shop",
-          "shop_name": "GAMEダッシュ",
-          "price_jpy": 69993,
-          "jan_code": "4902370554595",
-          "url": "https://store.shopping.yahoo.co.jp/toy24shop/4902370554595.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:characterland_4902370554595",
-          "title": "Nintendo Switch 2 （日本語・国内専用） ゼルダの伝説 40周年 アニバーサリーエディション",
-          "shop_id": "characterland",
-          "shop_name": "きゃらくた〜らんど",
-          "price_jpy": 69998,
-          "jan_code": "4902370554595",
-          "url": "https://store.shopping.yahoo.co.jp/characterland/4902370554595.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:aprice_4902370554595",
-          "title": "任天堂 ゼルダの伝説 40周年 アニバーサリーエディション BEE-S-KL6CC SW2",
-          "shop_id": "aprice",
-          "shop_name": "XPRICE Yahoo!店",
-          "price_jpy": 70180,
-          "jan_code": "4902370554595",
-          "url": "https://store.shopping.yahoo.co.jp/aprice/4902370554595.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:light-hikari_4902370554595st1",
-          "title": "Nintendo Switch 2ゼルダの伝説 40周年 アニバーサリーエディション＋ゼルダの伝説 時のオカリナ 当店オリジナルセット ヤフー限定 予約販売",
-          "shop_id": "light-hikari",
-          "shop_name": "らいぶshop",
-          "price_jpy": 71770,
-          "jan_code": "4902370554595",
-          "url": "https://store.shopping.yahoo.co.jp/light-hikari/4902370554595st1.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": [
-            "extra_sales_condition"
-          ]
-        },
-        {
-          "id": "yahoo:toreneko_m4902370554595",
-          "title": "【新品】 Nintendo Switch 2 （日本語・国内専用） ゼルダの伝説 40周年 アニバーサリーエディション",
-          "shop_id": "toreneko",
-          "shop_name": "トレネコ",
-          "price_jpy": 71973,
-          "jan_code": "4902370554595",
-          "url": "https://store.shopping.yahoo.co.jp/toreneko/m4902370554595.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:sake-premoa_4902370554595",
-          "title": "任天堂 ゼルダの伝説 40周年 アニバーサリーエディション BEE-S-KL6CC SW2",
-          "shop_id": "sake-premoa",
-          "shop_name": "総合通販PREMOA Yahoo!店",
-          "price_jpy": 72100,
-          "jan_code": "4902370554595",
-          "url": "https://store.shopping.yahoo.co.jp/sake-premoa/4902370554595.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:nekoyashokai_m4902370554595",
-          "title": "【新品】 Nintendo Switch 2 （日本語・国内専用） ゼルダの伝説 40周年 アニバーサリーエディション",
-          "shop_id": "nekoyashokai",
-          "shop_name": "ネコヤ商会",
-          "price_jpy": 72468,
-          "jan_code": "4902370554595",
-          "url": "https://store.shopping.yahoo.co.jp/nekoyashokai/m4902370554595.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:maxzen_4902370554595",
-          "title": "任天堂 ゼルダの伝説 40周年 アニバーサリーエディション BEE-S-KL6CC SW2",
-          "shop_id": "maxzen",
-          "shop_name": "MAXZEN Direct Yahoo!店",
-          "price_jpy": 74970,
-          "jan_code": "4902370554595",
-          "url": "https://store.shopping.yahoo.co.jp/maxzen/4902370554595.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:rcmdse_uw-4902370554595",
-          "title": "Nintendo Switch 2 ニンテンドー スイッチ 2 (日本語・国内専用) ゼルダの伝説 40周年 アニバーサリーエディション BEE-S-KL6CC",
-          "shop_id": "rcmdse",
-          "shop_name": "リコメン堂生活館",
-          "price_jpy": 77000,
-          "jan_code": "4902370554595",
-          "url": "https://store.shopping.yahoo.co.jp/rcmdse/uw-4902370554595.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:rcmdhl_uw-4902370554595",
-          "title": "Nintendo Switch 2 ニンテンドー スイッチ 2 (日本語・国内専用) ゼルダの伝説 40周年 アニバーサリーエディション BEE-S-KL6CC",
-          "shop_id": "rcmdhl",
-          "shop_name": "リコメン堂ホームライフ館",
-          "price_jpy": 77000,
-          "jan_code": "4902370554595",
-          "url": "https://store.shopping.yahoo.co.jp/rcmdhl/uw-4902370554595.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:sokuteikiya_4902370554595-wake",
-          "title": "【訳あり】Nintendo Switch 2 ゼルダの伝説 40周年 アニバーサリーエディション 日本語・国内専用 本体 BEE-S-KL6CC 任天堂[ラッピング可]",
-          "shop_id": "sokuteikiya",
-          "shop_name": "測定の森Yahoo!ショッピング店",
-          "price_jpy": 77007,
-          "jan_code": "4902370554595",
-          "url": "https://store.shopping.yahoo.co.jp/sokuteikiya/4902370554595-wake.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": [
-            "condition"
-          ]
-        },
-        {
-          "id": "yahoo:free-world_zzz-20260911-06",
-          "title": "26年10月29日発売 予約 ソフトセット Nintendo Switch 2 ゼルダの伝説 40周年 アニバーサリーエディション＆ゼルダの伝説 時のオカリナ -Switch2 任天堂 スイッ",
-          "shop_id": "free-world",
-          "shop_name": "カウカウSTORE",
-          "price_jpy": 77800,
-          "jan_code": "4902370554595",
-          "url": "https://store.shopping.yahoo.co.jp/free-world/zzz-20260911-06.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:manjiro_who965",
-          "title": "Nintendo Switch 2 本体 ゼルダの伝説 40周年 アニバーサリーエディション 日本語・国内専用 任天堂 純正品 特別デザイン 限定モデル ゼルダ BEE-S-KL6CC",
-          "shop_id": "manjiro",
-          "shop_name": "Manjiro",
-          "price_jpy": 79800,
-          "jan_code": "4902370554595",
-          "url": "https://store.shopping.yahoo.co.jp/manjiro/who965.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:hinatainc_who965",
-          "title": "Nintendo Switch 2 本体 ゼルダの伝説 40周年 アニバーサリーエディション 日本語・国内専用 任天堂 純正品 特別デザイン 限定モデル ゼルダ BEE-S-KL6CC",
-          "shop_id": "hinatainc",
-          "shop_name": "HINATA.inc",
-          "price_jpy": 79800,
-          "jan_code": "4902370554595",
-          "url": "https://store.shopping.yahoo.co.jp/hinatainc/who965.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:free-store1_4902370554595",
-          "title": "Nintendo Switch 2 日本語・国内専用 ゼルダの伝説 40周年 アニバーサリーエディション BEE-S-KL6CC 任天堂",
-          "shop_id": "free-store1",
-          "shop_name": "Freeストア",
-          "price_jpy": 81000,
-          "jan_code": "4902370554595",
-          "url": "https://store.shopping.yahoo.co.jp/free-store1/4902370554595.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        }
-      ]
-    },
-    {
-      "key": [
-        "jan",
-        "4571651014112"
-      ],
-      "total_available": 4,
-      "returned": 4,
-      "truncated": false,
-      "offers": [
-        {
-          "id": "yahoo:ankerdirect_a121d",
-          "title": "Anker Nano Charger (45W)",
-          "shop_id": "ankerdirect",
-          "shop_name": "Anker 公式ストア ヤフー店",
-          "price_jpy": 3590,
-          "jan_code": "4571651014112",
-          "url": "https://store.shopping.yahoo.co.jp/ankerdirect/a121d.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:pc-express_4571651014112",
-          "title": "アンカー・ジャパン A121DN11 Anker Nano Charger (45W Display スイングプラグ) ブラック",
-          "shop_id": "pc-express",
-          "shop_name": "PC&家電CaravanYU Yahoo!店",
-          "price_jpy": 4627,
-          "jan_code": "4571651014112",
-          "url": "https://store.shopping.yahoo.co.jp/pc-express/4571651014112.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:plusyu_4571651014112",
-          "title": "アンカー・ジャパン A121DN11 Anker Nano Charger (45W Display スイングプラグ) ブラック",
-          "shop_id": "plusyu",
-          "shop_name": "PLUS YU",
-          "price_jpy": 4890,
-          "jan_code": "4571651014112",
-          "url": "https://store.shopping.yahoo.co.jp/plusyu/4571651014112.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:podpark_4571651014112",
-          "title": "アンカー・ジャパン A121DN11 Anker Nano Charger (45W Display スイングプラグ) ブラック",
-          "shop_id": "podpark",
-          "shop_name": "PodPark Yahoo!店",
-          "price_jpy": 6110,
-          "jan_code": "4571651014112",
-          "url": "https://store.shopping.yahoo.co.jp/podpark/4571651014112.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        }
-      ]
-    },
-    {
-      "key": [
-        "jan",
-        "4549995725049"
-      ],
-      "total_available": 28,
-      "returned": 28,
-      "truncated": false,
-      "offers": [
-        {
-          "id": "yahoo:serekuto-takagise_a3530",
-          "title": "Apple AirPods 5 (アクティブノイズ キャンセリング搭載) アップル エアーポッズ エアーポッツ 国内正規品 純正 新品 バラ売り A3530(充電ケース)",
-          "shop_id": "serekuto-takagise",
-          "shop_name": "セレクト高木瀬",
-          "price_jpy": 12800,
-          "jan_code": "4549995725049",
-          "url": "https://store.shopping.yahoo.co.jp/serekuto-takagise/a3530.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:serekuto-takagise_a3532",
-          "title": "Apple AirPods 5 (アクティブノイズ キャンセリング搭載) アップル エアーポッズ エアーポッツ 国内正規品 純正 新品 バラ売り A3532(左耳用)",
-          "shop_id": "serekuto-takagise",
-          "shop_name": "セレクト高木瀬",
-          "price_jpy": 13800,
-          "jan_code": "4549995725049",
-          "url": "https://store.shopping.yahoo.co.jp/serekuto-takagise/a3532.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:oyama_mkfw4ja",
-          "title": "Apple AirPods 5 MKFW4J/A 第5世代 ノイズキャンセリング ワイヤレス イヤホン",
-          "shop_id": "oyama",
-          "shop_name": "おやま質店ヤフーショップ",
-          "price_jpy": 22000,
-          "jan_code": "4549995725049",
-          "url": "https://store.shopping.yahoo.co.jp/oyama/mkfw4ja.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:noahshoping_4549995725049-hosyou",
-          "title": "『新品外箱傷みあり』Apple(アップル) AirPods 5 MKFW4J/A ※1年保証開始済み商品",
-          "shop_id": "noahshoping",
-          "shop_name": "ノア商社Yahoo!店",
-          "price_jpy": 22429,
-          "jan_code": "4549995725049",
-          "url": "https://store.shopping.yahoo.co.jp/noahshoping/4549995725049-hosyou.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": [
-            "condition"
-          ]
-        },
-        {
-          "id": "yahoo:light-hikari_4549995725049",
-          "title": "AirPods 第5世代 MKFW4J/A　未開封・購入前に商品情報欄をご覧ください。",
-          "shop_id": "light-hikari",
-          "shop_name": "らいぶshop",
-          "price_jpy": 22526,
-          "jan_code": "4549995725049",
-          "url": "https://store.shopping.yahoo.co.jp/light-hikari/4549995725049.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:sokuteikiya_4549995725049",
-          "title": "Apple AirPods 5 ノイズキャンセリング ワイヤレス イヤホン MKFW4J/A[ラッピング可]",
-          "shop_id": "sokuteikiya",
-          "shop_name": "測定の森Yahoo!ショッピング店",
-          "price_jpy": 22527,
-          "jan_code": "4549995725049",
-          "url": "https://store.shopping.yahoo.co.jp/sokuteikiya/4549995725049.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:sokutei_4549995725049",
-          "title": "Apple AirPods 5 ノイズキャンセリング ワイヤレス イヤホン MKFW4J/A[ラッピング可]",
-          "shop_id": "sokutei",
-          "shop_name": "測定の森 2号店",
-          "price_jpy": 22527,
-          "jan_code": "4549995725049",
-          "url": "https://store.shopping.yahoo.co.jp/sokutei/4549995725049.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:alljapan-online-shop_4549995725049",
-          "title": "[保証未開始 未使用新品]Apple AirPods 5 MKFW4J/A ノイズキャンセリング H2チップ IP57 国内正規品 新品 ワイヤレス イヤホン ワイヤレスイヤホン 最新 第5世代",
-          "shop_id": "alljapan-online-shop",
-          "shop_name": "販売一丁目",
-          "price_jpy": 22540,
-          "jan_code": "4549995725049",
-          "url": "https://store.shopping.yahoo.co.jp/alljapan-online-shop/4549995725049.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:d-rise2_p000000992098",
-          "title": "★アップル / APPLE AirPods 5 MKFW4J/A【イヤホン・ヘッドホン】【送料無料】",
-          "shop_id": "d-rise2",
-          "shop_name": "ディーライズ2号",
-          "price_jpy": 22570,
-          "jan_code": "4549995725049",
-          "url": "https://store.shopping.yahoo.co.jp/d-rise2/p000000992098.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:densidonya_4549995725049",
-          "title": "【ラッピング可】【即日発送】【新品】Apple アップル イヤホン AirPods 5 MKFW4J/A",
-          "shop_id": "densidonya",
-          "shop_name": "電子問屋",
-          "price_jpy": 22600,
-          "jan_code": "4549995725049",
-          "url": "https://store.shopping.yahoo.co.jp/densidonya/4549995725049.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:systempark_mkfw4ja",
-          "title": "＜新品/在庫あり＞Apple AirPods 5 MKFW4J/A",
-          "shop_id": "systempark",
-          "shop_name": "System Park",
-          "price_jpy": 22780,
-          "jan_code": "4549995725049",
-          "url": "https://store.shopping.yahoo.co.jp/systempark/mkfw4ja.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:noahshoping_4549995725049",
-          "title": "『新品』Apple(アップル) AirPods 5 MKFW4J/A",
-          "shop_id": "noahshoping",
-          "shop_name": "ノア商社Yahoo!店",
-          "price_jpy": 22980,
-          "jan_code": "4549995725049",
-          "url": "https://store.shopping.yahoo.co.jp/noahshoping/4549995725049.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:rcmdin_uw-4549995725049",
-          "title": "MKFW4J/A Apple AirPods 5 アップル ノイズキャンセリング ワイヤレスイヤホン イヤホン 完全ワイヤレスイヤホン",
-          "shop_id": "rcmdin",
-          "shop_name": "リコメン堂インテリア館",
-          "price_jpy": 23100,
-          "jan_code": "4549995725049",
-          "url": "https://store.shopping.yahoo.co.jp/rcmdin/uw-4549995725049.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:d-rise_p000000992098",
-          "title": "★アップル / APPLE AirPods 5 MKFW4J/A【イヤホン・ヘッドホン】【送料無料】",
-          "shop_id": "d-rise",
-          "shop_name": "ディーライズ",
-          "price_jpy": 23120,
-          "jan_code": "4549995725049",
-          "url": "https://store.shopping.yahoo.co.jp/d-rise/p000000992098.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:panda-mobile_4549995725049-n",
-          "title": "【土日、祝日も発送】新品未開封品【Nランク】国内Appleストア正規品 AirPods 5 MKFW4J/A アクティブノイズキャンセリング ワイヤレス Bluetooth 4549995725049",
-          "shop_id": "panda-mobile",
-          "shop_name": "panda mobile",
-          "price_jpy": 23256,
-          "jan_code": "4549995725049",
-          "url": "https://store.shopping.yahoo.co.jp/panda-mobile/4549995725049-n.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": [
-            "condition",
-            "extra_sales_condition"
-          ]
-        },
-        {
-          "id": "yahoo:live2_4549995725049",
-          "title": "AirPods 第5世代 MKFW4J/A 新品未開封・購入前に商品情報欄をご覧ください。",
-          "shop_id": "live2",
-          "shop_name": "らいぶshop2号店",
-          "price_jpy": 23499,
-          "jan_code": "4549995725049",
-          "url": "https://store.shopping.yahoo.co.jp/live2/4549995725049.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:aprice_4549995725049",
-          "title": "APPLE MKFW4J/A AirPods 5 完全ワイヤレスイヤホン",
-          "shop_id": "aprice",
-          "shop_name": "XPRICE Yahoo!店",
-          "price_jpy": 23800,
-          "jan_code": "4549995725049",
-          "url": "https://store.shopping.yahoo.co.jp/aprice/4549995725049.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:outletplaza_40001117655",
-          "title": "【新品/取寄品】Apple 完全ワイヤレスイヤホン AirPods 5 MKFW4J/A アクティブノイズキャンセリング対応 アップル",
-          "shop_id": "outletplaza",
-          "shop_name": "秋葉原　アウトレットプラザ",
-          "price_jpy": 23801,
-          "jan_code": "4549995725049",
-          "url": "https://store.shopping.yahoo.co.jp/outletplaza/40001117655.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:ai-gr_2100000028448",
-          "title": "AirPods 5 MKFW4J/A【お取り寄せ（1週間から10営業日程度）での入荷、発送】（2100000028448）",
-          "shop_id": "ai-gr",
-          "shop_name": "愛グループヤフー店",
-          "price_jpy": 24173,
-          "jan_code": "4549995725049",
-          "url": "https://store.shopping.yahoo.co.jp/ai-gr/2100000028448.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": [
-            "extra_sales_condition"
-          ]
-        },
-        {
-          "id": "yahoo:recommendo_uw-4549995725049",
-          "title": "MKFW4J/A Apple AirPods 5 アップル ノイズキャンセリング ワイヤレスイヤホン イヤホン 完全ワイヤレスイヤホン",
-          "shop_id": "recommendo",
-          "shop_name": "リコメン堂",
-          "price_jpy": 24380,
-          "jan_code": "4549995725049",
-          "url": "https://store.shopping.yahoo.co.jp/recommendo/uw-4549995725049.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:onemorething_4549995725049",
-          "title": "Apple アップル 純正 AirPods 5 アクティブノイズキャンセリング ワイヤレスヘッドフォン エアポッズ5 エアーポッズ5 MKFW4J/A メーカー保証 ブラックフライデー",
-          "shop_id": "onemorething",
-          "shop_name": "AirPodsのワンモアシング",
-          "price_jpy": 24980,
-          "jan_code": "4549995725049",
-          "url": "https://store.shopping.yahoo.co.jp/onemorething/4549995725049.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:sokutei_4549995725049-wake",
-          "title": "[訳あり]Apple AirPods 5 MKFW4J/A[ラッピング可]",
-          "shop_id": "sokutei",
-          "shop_name": "測定の森 2号店",
-          "price_jpy": 25295,
-          "jan_code": "4549995725049",
-          "url": "https://store.shopping.yahoo.co.jp/sokutei/4549995725049-wake.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": [
-            "condition"
-          ]
-        },
-        {
-          "id": "yahoo:sake-premoa_4549995725049",
-          "title": "APPLE MKFW4J/A AirPods 5 完全ワイヤレスイヤホン",
-          "shop_id": "sake-premoa",
-          "shop_name": "総合通販PREMOA Yahoo!店",
-          "price_jpy": 25320,
-          "jan_code": "4549995725049",
-          "url": "https://store.shopping.yahoo.co.jp/sake-premoa/4549995725049.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:try3_4549995725049",
-          "title": "Apple AirPods 5 MKFW4J/A ノイズキャンセリング H2チップ IP57 国内正規品 新品 ワイヤレス イヤホン ワイヤレスイヤホン 最新 ノイズキャンセル アップル",
-          "shop_id": "try3",
-          "shop_name": "トライスリー",
-          "price_jpy": 26290,
-          "jan_code": "4549995725049",
-          "url": "https://store.shopping.yahoo.co.jp/try3/4549995725049.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:maxzen_4549995725049",
-          "title": "APPLE MKFW4J/A AirPods 5 完全ワイヤレスイヤホン",
-          "shop_id": "maxzen",
-          "shop_name": "MAXZEN Direct Yahoo!店",
-          "price_jpy": 26320,
-          "jan_code": "4549995725049",
-          "url": "https://store.shopping.yahoo.co.jp/maxzen/4549995725049.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:rcmdhl_uw-4549995725049",
-          "title": "MKFW4J/A Apple AirPods 5 アップル ノイズキャンセリング ワイヤレスイヤホン イヤホン 完全ワイヤレスイヤホン",
-          "shop_id": "rcmdhl",
-          "shop_name": "リコメン堂ホームライフ館",
-          "price_jpy": 26500,
-          "jan_code": "4549995725049",
-          "url": "https://store.shopping.yahoo.co.jp/rcmdhl/uw-4549995725049.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:rcmdse_uw-4549995725049",
-          "title": "MKFW4J/A Apple AirPods 5 アップル ノイズキャンセリング ワイヤレスイヤホン イヤホン 完全ワイヤレスイヤホン",
-          "shop_id": "rcmdse",
-          "shop_name": "リコメン堂生活館",
-          "price_jpy": 26500,
-          "jan_code": "4549995725049",
-          "url": "https://store.shopping.yahoo.co.jp/rcmdse/uw-4549995725049.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:sokuteikiya_4549995725049-wake",
-          "title": "[訳あり]Apple AirPods 5 MKFW4J/A[ラッピング可]",
-          "shop_id": "sokuteikiya",
-          "shop_name": "測定の森Yahoo!ショッピング店",
-          "price_jpy": 39016,
-          "jan_code": "4549995725049",
-          "url": "https://store.shopping.yahoo.co.jp/sokuteikiya/4549995725049-wake.html",
-          "in_stock": true,
-          "condition": "new",
-          "risk_flags": [
-            "condition"
-          ]
-        }
-      ]
-    },
-    {
-      "key": [
         "model",
         "crucial",
         "ct1000p3pssd8"
       ],
-      "total_available": 21,
-      "returned": 21,
+      "total_available": 22,
+      "returned": 22,
       "truncated": false,
       "offers": [
         {
@@ -2095,11 +2032,25 @@
           ]
         },
         {
+          "id": "yahoo:olg_b0b25nxwc7",
+          "title": "【並行輸入品】 CT1000P3PSSD8",
+          "shop_id": "olg",
+          "shop_name": "オーエルジー",
+          "price_jpy": 48500,
+          "jan_code": "0649528918833",
+          "url": "https://store.shopping.yahoo.co.jp/olg/b0b25nxwc7.html",
+          "in_stock": true,
+          "condition": "new",
+          "risk_flags": [
+            "packaging_or_import"
+          ]
+        },
+        {
           "id": "yahoo:techno-launcher_new-b0b25nxwc7",
           "title": "Crucial P3 Plus 1TB PCIe 4.0 3D NAND NVMe M.2 SSD 最大5000MB/秒 - CT1000P3PSSD8",
           "shop_id": "techno-launcher",
           "shop_name": "テクノランチャー",
-          "price_jpy": 54800,
+          "price_jpy": 54900,
           "jan_code": "",
           "url": "https://store.shopping.yahoo.co.jp/techno-launcher/new-b0b25nxwc7.html",
           "in_stock": true,
@@ -2268,6 +2219,13 @@
         "4549550415958"
       ],
       "code": "INVALID_HIT"
+    },
+    {
+      "key": [
+        "jan",
+        "4571604941496"
+      ],
+      "code": "INVALID_HIT"
     }
   ],
   "evidence": {
@@ -2298,15 +2256,6 @@
           "risk_flags": []
         },
         {
-          "id": "yahoo:pc-akindo_iog41b60bkph",
-          "title": "ブラウン 電動歯ブラシ オーラルB iO4 ポーチ付き iOG41B60BKPH マットブラック",
-          "shop_name": "PCあきんど",
-          "price_jpy": 8978,
-          "url": "https://store.shopping.yahoo.co.jp/pc-akindo/iog41b60bkph.html",
-          "jan_code": "4987176417268",
-          "risk_flags": []
-        },
-        {
           "id": "yahoo:pc-akindo-y_iog41b60bkph",
           "title": "ブラウン 電動歯ブラシ オーラルB iO4 ポーチ付き iOG41B60BKPH マットブラック",
           "shop_name": "PCあきんどデジタル館",
@@ -2321,6 +2270,15 @@
           "shop_name": "家電と雑貨のemon(えもん)",
           "price_jpy": 8978,
           "url": "https://store.shopping.yahoo.co.jp/emon-shop/iog41b60bkph.html",
+          "jan_code": "4987176417268",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:pc-akindo_iog41b60bkph",
+          "title": "ブラウン 電動歯ブラシ オーラルB iO4 ポーチ付き iOG41B60BKPH マットブラック",
+          "shop_name": "PCあきんど",
+          "price_jpy": 8978,
+          "url": "https://store.shopping.yahoo.co.jp/pc-akindo/iog41b60bkph.html",
           "jan_code": "4987176417268",
           "risk_flags": []
         }
@@ -2348,11 +2306,11 @@
         "4549995519860"
       ],
       "candidate_price_jpy": 19670,
-      "total_available": 22,
-      "returned": 22,
+      "total_available": 23,
+      "returned": 23,
       "truncated": false,
-      "matched_listing_count": 17,
-      "comparison_shop_count": 14,
+      "matched_listing_count": 19,
+      "comparison_shop_count": 16,
       "other_shop_lowest_jpy": 6870,
       "lowest_observed_jpy": 6870,
       "cross_shop_advantage_percent": 0,
@@ -2385,6 +2343,15 @@
           "risk_flags": []
         },
         {
+          "id": "yahoo:light-hikari_4549995519860",
+          "title": "Apple AirPods 4 MXP63J/A 　未開封・購入前に商品情報欄をご覧ください。",
+          "shop_name": "らいぶshop",
+          "price_jpy": 18841,
+          "url": "https://store.shopping.yahoo.co.jp/light-hikari/4549995519860.html",
+          "jan_code": "4549995519860",
+          "risk_flags": []
+        },
+        {
           "id": "yahoo:d-rise2_p000000887018",
           "title": "★アップル / APPLE AirPods 4 MXP63J/A【イヤホン・ヘッドホン】【送料無料】",
           "shop_name": "ディーライズ2号",
@@ -2392,36 +2359,38 @@
           "url": "https://store.shopping.yahoo.co.jp/d-rise2/p000000887018.html",
           "jan_code": "4549995519860",
           "risk_flags": []
-        },
-        {
-          "id": "yahoo:ki-zu-na_4549995519860",
-          "title": "【保証未開始】【ブラックフライデー】【新品未開封】 Apple AirPods 4 MXP63J/A  4549995519860",
-          "shop_name": "KizunaStore",
-          "price_jpy": 19490,
-          "url": "https://store.shopping.yahoo.co.jp/ki-zu-na/4549995519860.html",
-          "jan_code": "4549995519860",
-          "risk_flags": []
         }
       ],
       "own_confirmed": true,
       "status": "cheaper_found",
       "excluded": {
-        "risk_or_spec_conflict": 5
+        "risk_or_spec_conflict": 4
       }
     },
-    "yahoo:sokutei_4549995635232": {
-      "id": "yahoo:sokutei_4549995635232",
+    "yahoo:yamada-denki_1595156011": {
+      "id": "yahoo:yamada-denki_1595156011",
+      "query_type": "jan",
+      "query_key": [
+        "jan",
+        "4571604941496"
+      ],
+      "candidate_price_jpy": 37380,
+      "status": "query_error",
+      "error": "INVALID_HIT"
+    },
+    "yahoo:live2_4549995635232": {
+      "id": "yahoo:live2_4549995635232",
       "query_type": "jan",
       "query_key": [
         "jan",
         "4549995635232"
       ],
-      "candidate_price_jpy": 37659,
+      "candidate_price_jpy": 37649,
       "total_available": 28,
       "returned": 28,
       "truncated": false,
       "matched_listing_count": 23,
-      "comparison_shop_count": 20,
+      "comparison_shop_count": 21,
       "other_shop_lowest_jpy": 12900,
       "lowest_observed_jpy": 12900,
       "cross_shop_advantage_percent": 0,
@@ -2445,11 +2414,11 @@
           "risk_flags": []
         },
         {
-          "id": "yahoo:jcka-mobile2_4549995635233",
-          "title": "★国内正規品 新品未開封・保証開始 AirPods Pro 3 MFHP4J/A  ワイヤレスイヤホン 本体 2025年発売 第3世代",
-          "shop_name": "ジェーシカモバイル2号店",
-          "price_jpy": 36450,
-          "url": "https://store.shopping.yahoo.co.jp/jcka-mobile2/4549995635233.html",
+          "id": "yahoo:kaikyou_4549995635232",
+          "title": "【新品未開封・保証未開始】AirPods Pro 3 MFHP4J/A【日曜日以外即日発送】【送料無料】",
+          "shop_name": "モバイル販売",
+          "price_jpy": 37240,
+          "url": "https://store.shopping.yahoo.co.jp/kaikyou/4549995635232.html",
           "jan_code": "4549995635232",
           "risk_flags": []
         },
@@ -2477,6 +2446,142 @@
       "excluded": {
         "risk_or_spec_conflict": 5
       }
+    },
+    "yahoo:digitalisland_4902370553024": {
+      "id": "yahoo:digitalisland_4902370553024",
+      "query_type": "jan",
+      "query_key": [
+        "jan",
+        "4902370553024"
+      ],
+      "candidate_price_jpy": 62220,
+      "total_available": 45,
+      "returned": 45,
+      "truncated": false,
+      "matched_listing_count": 40,
+      "comparison_shop_count": 37,
+      "other_shop_lowest_jpy": 58450,
+      "lowest_observed_jpy": 58450,
+      "cross_shop_advantage_percent": 0,
+      "cheaper_offers": [
+        {
+          "id": "yahoo:1932_83000",
+          "title": "Nintendo Switch 2（日本語・国内専用）（ニンテンドースイッチ２本体）（ポスト投函便不可）【新品】",
+          "shop_name": "一休さん 2号館",
+          "price_jpy": 58450,
+          "url": "https://store.shopping.yahoo.co.jp/1932/83000.html",
+          "jan_code": "4902370553024",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:light-hikari_4902370553024",
+          "title": "【新品・在庫あり】Nintendo Switch 2 日本語・国内専用 BEE-S-KB6CA 本体 任天堂 スイッチ2 平日14時までのご注文で当日発送 全国送料無料（一部地域を除く）",
+          "shop_name": "らいぶshop",
+          "price_jpy": 59950,
+          "url": "https://store.shopping.yahoo.co.jp/light-hikari/4902370553024.html",
+          "jan_code": "4902370553024",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:wink-digital_270570",
+          "title": "NINTENDO　ゲーム機本体(据置型）　Nintendo Switch 2 BEE-S-KB6CA",
+          "shop_name": "ウインクデジタル ヤフー店",
+          "price_jpy": 59980,
+          "url": "https://store.shopping.yahoo.co.jp/wink-digital/270570.html",
+          "jan_code": "4902370553024",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:cocostore1_4902370553024",
+          "title": "Nintendo Switch 2 日本語・国内専用",
+          "shop_name": "CocoStore",
+          "price_jpy": 59980,
+          "url": "https://store.shopping.yahoo.co.jp/cocostore1/4902370553024.html",
+          "jan_code": "4902370553024",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:hhshop_beeskb6ca",
+          "title": "Ｎｉｎｔｅｎｄｏ　Ｓｗｉｔｃｈ　２ 本体（日本語・国内版）",
+          "shop_name": "Holly&Hock",
+          "price_jpy": 59980,
+          "url": "https://store.shopping.yahoo.co.jp/hhshop/beeskb6ca.html",
+          "jan_code": "4902370553024",
+          "risk_flags": []
+        }
+      ],
+      "own_confirmed": true,
+      "status": "cheaper_found",
+      "excluded": {
+        "risk_or_spec_conflict": 5
+      }
+    },
+    "yahoo:densidonya_4902370554779": {
+      "id": "yahoo:densidonya_4902370554779",
+      "query_type": "jan",
+      "query_key": [
+        "jan",
+        "4902370554779"
+      ],
+      "candidate_price_jpy": 63740,
+      "total_available": 33,
+      "returned": 33,
+      "truncated": false,
+      "matched_listing_count": 33,
+      "comparison_shop_count": 33,
+      "other_shop_lowest_jpy": 60870,
+      "lowest_observed_jpy": 60870,
+      "cross_shop_advantage_percent": 0,
+      "cheaper_offers": [
+        {
+          "id": "yahoo:light-hikari_4902370554779",
+          "title": "Nintendo Switch 2（日本語・国内専用）スプラトゥーン レイダース セット",
+          "shop_name": "らいぶshop",
+          "price_jpy": 60870,
+          "url": "https://store.shopping.yahoo.co.jp/light-hikari/4902370554779.html",
+          "jan_code": "4902370554779",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:cocostore1_4902370554779",
+          "title": "【返品交換不可】Nintendo Switch 2 スプラトゥーン レイダース セット",
+          "shop_name": "CocoStore",
+          "price_jpy": 61000,
+          "url": "https://store.shopping.yahoo.co.jp/cocostore1/4902370554779.html",
+          "jan_code": "4902370554779",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:alljapan-online-shop_4902370554779",
+          "title": "Nintendo Switch 2(日本語・国内専用) スプラトゥーン レイダース セット BEE-S-KB6PE SW2 任天堂",
+          "shop_name": "販売一丁目",
+          "price_jpy": 61008,
+          "url": "https://store.shopping.yahoo.co.jp/alljapan-online-shop/4902370554779.html",
+          "jan_code": "4902370554779",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:sokuteikiya_4902370554779",
+          "title": "スプラトゥーン レイダース セット [Nintendo Switch 2（日本語・国内専用）] 任天堂[ラッピング可]",
+          "shop_name": "測定の森Yahoo!ショッピング店",
+          "price_jpy": 61400,
+          "url": "https://store.shopping.yahoo.co.jp/sokuteikiya/4902370554779.html",
+          "jan_code": "4902370554779",
+          "risk_flags": []
+        },
+        {
+          "id": "yahoo:live2_4902370554779",
+          "title": "Nintendo Switch 2（日本語・国内専用）スプラトゥーン レイダ　※量販店舗印付の場合があります、商品情報ご覧ください",
+          "shop_name": "らいぶshop2号店",
+          "price_jpy": 62778,
+          "url": "https://store.shopping.yahoo.co.jp/live2/4902370554779.html",
+          "jan_code": "4902370554779",
+          "risk_flags": []
+        }
+      ],
+      "own_confirmed": true,
+      "status": "cheaper_found",
+      "excluded": {}
     },
     "yahoo:ankerdirect_a1257": {
       "id": "yahoo:ankerdirect_a1257",
@@ -2541,234 +2646,6 @@
       "status": "insufficient_advantage",
       "excluded": {}
     },
-    "yahoo:densidonya_4902370554595": {
-      "id": "yahoo:densidonya_4902370554595",
-      "query_type": "jan",
-      "query_key": [
-        "jan",
-        "4902370554595"
-      ],
-      "candidate_price_jpy": 64200,
-      "total_available": 55,
-      "returned": 50,
-      "truncated": true,
-      "matched_listing_count": 44,
-      "comparison_shop_count": 42,
-      "other_shop_lowest_jpy": 16380,
-      "lowest_observed_jpy": 16380,
-      "cross_shop_advantage_percent": 0,
-      "cheaper_offers": [
-        {
-          "id": "yahoo:free-world_zzz-20260911-04",
-          "title": "26年10月29日発売 予約 任天堂純正品 Nintendo Switch 2 Proコントローラー ゼルダの伝説 40周年 アニバーサリーエディション ディスプレイスタンド付き スイッ",
-          "shop_name": "カウカウSTORE",
-          "price_jpy": 16380,
-          "url": "https://store.shopping.yahoo.co.jp/free-world/zzz-20260911-04.html",
-          "jan_code": "4902370554595",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:kaikyou_4902370554595",
-          "title": "【新品】Nintendo Switch 2 ゼルダの伝説 40周年 アニバーサリーエディション 国内版【日曜日以外即日発送】【送料無料】",
-          "shop_name": "モバイル販売",
-          "price_jpy": 62130,
-          "url": "https://store.shopping.yahoo.co.jp/kaikyou/4902370554595.html",
-          "jan_code": "4902370554595",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:light-hikari_4902370554595",
-          "title": "【新品・在庫あり】Nintendo Switch 2 （日本語・国内専用） ゼルダの伝説 40周年 アニバーサリーエディション",
-          "shop_name": "らいぶshop",
-          "price_jpy": 62174,
-          "url": "https://store.shopping.yahoo.co.jp/light-hikari/4902370554595.html",
-          "jan_code": "4902370554595",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:cocostore1_4902370554595",
-          "title": "Nintendo Switch2 ゼルダの伝説40周年 アニバーサリーエディション",
-          "shop_name": "CocoStore",
-          "price_jpy": 62300,
-          "url": "https://store.shopping.yahoo.co.jp/cocostore1/4902370554595.html",
-          "jan_code": "4902370554595",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:sokuteikiya_4902370554595",
-          "title": "Nintendo Switch 2 ゼルダの伝説 40周年 アニバーサリーエディション 日本語・国内専用 BEE-S-KL6CC[ラッピング可]",
-          "shop_name": "測定の森Yahoo!ショッピング店",
-          "price_jpy": 62978,
-          "url": "https://store.shopping.yahoo.co.jp/sokuteikiya/4902370554595.html",
-          "jan_code": "4902370554595",
-          "risk_flags": []
-        }
-      ],
-      "own_confirmed": true,
-      "status": "cheaper_found",
-      "excluded": {
-        "risk_or_spec_conflict": 6
-      }
-    },
-    "yahoo:live2_4902370554595": {
-      "id": "yahoo:live2_4902370554595",
-      "query_type": "jan",
-      "query_key": [
-        "jan",
-        "4902370554595"
-      ],
-      "candidate_price_jpy": 63778,
-      "total_available": 55,
-      "returned": 50,
-      "truncated": true,
-      "matched_listing_count": 44,
-      "comparison_shop_count": 42,
-      "other_shop_lowest_jpy": 16380,
-      "lowest_observed_jpy": 16380,
-      "cross_shop_advantage_percent": 0,
-      "cheaper_offers": [
-        {
-          "id": "yahoo:free-world_zzz-20260911-04",
-          "title": "26年10月29日発売 予約 任天堂純正品 Nintendo Switch 2 Proコントローラー ゼルダの伝説 40周年 アニバーサリーエディション ディスプレイスタンド付き スイッ",
-          "shop_name": "カウカウSTORE",
-          "price_jpy": 16380,
-          "url": "https://store.shopping.yahoo.co.jp/free-world/zzz-20260911-04.html",
-          "jan_code": "4902370554595",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:kaikyou_4902370554595",
-          "title": "【新品】Nintendo Switch 2 ゼルダの伝説 40周年 アニバーサリーエディション 国内版【日曜日以外即日発送】【送料無料】",
-          "shop_name": "モバイル販売",
-          "price_jpy": 62130,
-          "url": "https://store.shopping.yahoo.co.jp/kaikyou/4902370554595.html",
-          "jan_code": "4902370554595",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:light-hikari_4902370554595",
-          "title": "【新品・在庫あり】Nintendo Switch 2 （日本語・国内専用） ゼルダの伝説 40周年 アニバーサリーエディション",
-          "shop_name": "らいぶshop",
-          "price_jpy": 62174,
-          "url": "https://store.shopping.yahoo.co.jp/light-hikari/4902370554595.html",
-          "jan_code": "4902370554595",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:cocostore1_4902370554595",
-          "title": "Nintendo Switch2 ゼルダの伝説40周年 アニバーサリーエディション",
-          "shop_name": "CocoStore",
-          "price_jpy": 62300,
-          "url": "https://store.shopping.yahoo.co.jp/cocostore1/4902370554595.html",
-          "jan_code": "4902370554595",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:sokuteikiya_4902370554595",
-          "title": "Nintendo Switch 2 ゼルダの伝説 40周年 アニバーサリーエディション 日本語・国内専用 BEE-S-KL6CC[ラッピング可]",
-          "shop_name": "測定の森Yahoo!ショッピング店",
-          "price_jpy": 62978,
-          "url": "https://store.shopping.yahoo.co.jp/sokuteikiya/4902370554595.html",
-          "jan_code": "4902370554595",
-          "risk_flags": []
-        }
-      ],
-      "own_confirmed": true,
-      "status": "cheaper_found",
-      "excluded": {
-        "risk_or_spec_conflict": 6
-      }
-    },
-    "yahoo:ankerdirect_a121d": {
-      "id": "yahoo:ankerdirect_a121d",
-      "query_type": "jan",
-      "query_key": [
-        "jan",
-        "4571651014112"
-      ],
-      "candidate_price_jpy": 3590,
-      "total_available": 4,
-      "returned": 4,
-      "truncated": false,
-      "matched_listing_count": 4,
-      "comparison_shop_count": 4,
-      "other_shop_lowest_jpy": 4627,
-      "lowest_observed_jpy": 3590,
-      "cross_shop_advantage_percent": 22.41,
-      "cheaper_offers": [],
-      "own_confirmed": true,
-      "status": "confirmed_advantage",
-      "excluded": {}
-    },
-    "yahoo:densidonya_4549995725049": {
-      "id": "yahoo:densidonya_4549995725049",
-      "query_type": "jan",
-      "query_key": [
-        "jan",
-        "4549995725049"
-      ],
-      "candidate_price_jpy": 22600,
-      "total_available": 28,
-      "returned": 28,
-      "truncated": false,
-      "matched_listing_count": 23,
-      "comparison_shop_count": 22,
-      "other_shop_lowest_jpy": 12800,
-      "lowest_observed_jpy": 12800,
-      "cross_shop_advantage_percent": 0,
-      "cheaper_offers": [
-        {
-          "id": "yahoo:serekuto-takagise_a3530",
-          "title": "Apple AirPods 5 (アクティブノイズ キャンセリング搭載) アップル エアーポッズ エアーポッツ 国内正規品 純正 新品 バラ売り A3530(充電ケース)",
-          "shop_name": "セレクト高木瀬",
-          "price_jpy": 12800,
-          "url": "https://store.shopping.yahoo.co.jp/serekuto-takagise/a3530.html",
-          "jan_code": "4549995725049",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:serekuto-takagise_a3532",
-          "title": "Apple AirPods 5 (アクティブノイズ キャンセリング搭載) アップル エアーポッズ エアーポッツ 国内正規品 純正 新品 バラ売り A3532(左耳用)",
-          "shop_name": "セレクト高木瀬",
-          "price_jpy": 13800,
-          "url": "https://store.shopping.yahoo.co.jp/serekuto-takagise/a3532.html",
-          "jan_code": "4549995725049",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:oyama_mkfw4ja",
-          "title": "Apple AirPods 5 MKFW4J/A 第5世代 ノイズキャンセリング ワイヤレス イヤホン",
-          "shop_name": "おやま質店ヤフーショップ",
-          "price_jpy": 22000,
-          "url": "https://store.shopping.yahoo.co.jp/oyama/mkfw4ja.html",
-          "jan_code": "4549995725049",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:light-hikari_4549995725049",
-          "title": "AirPods 第5世代 MKFW4J/A　未開封・購入前に商品情報欄をご覧ください。",
-          "shop_name": "らいぶshop",
-          "price_jpy": 22526,
-          "url": "https://store.shopping.yahoo.co.jp/light-hikari/4549995725049.html",
-          "jan_code": "4549995725049",
-          "risk_flags": []
-        },
-        {
-          "id": "yahoo:sokuteikiya_4549995725049",
-          "title": "Apple AirPods 5 ノイズキャンセリング ワイヤレス イヤホン MKFW4J/A[ラッピング可]",
-          "shop_name": "測定の森Yahoo!ショッピング店",
-          "price_jpy": 22527,
-          "url": "https://store.shopping.yahoo.co.jp/sokuteikiya/4549995725049.html",
-          "jan_code": "4549995725049",
-          "risk_flags": []
-        }
-      ],
-      "own_confirmed": true,
-      "status": "cheaper_found",
-      "excluded": {
-        "risk_or_spec_conflict": 5
-      }
-    },
     "yahoo:jnh_mc8013p3p-b": {
       "id": "yahoo:jnh_mc8013p3p-b",
       "query_type": "model",
@@ -2778,8 +2655,8 @@
         "ct1000p3pssd8"
       ],
       "candidate_price_jpy": 22981,
-      "total_available": 21,
-      "returned": 21,
+      "total_available": 22,
+      "returned": 22,
       "truncated": false,
       "matched_listing_count": 7,
       "comparison_shop_count": 0,
@@ -2802,7 +2679,7 @@
       "own_confirmed": false,
       "status": "model_review_only",
       "excluded": {
-        "model_or_spec_mismatch": 14
+        "model_or_spec_mismatch": 15
       }
     },
     "yahoo:spd-shop_mcssd1t-p3p": {
@@ -2814,8 +2691,8 @@
         "ct1000p3pssd8"
       ],
       "candidate_price_jpy": 23580,
-      "total_available": 21,
-      "returned": 21,
+      "total_available": 22,
+      "returned": 22,
       "truncated": false,
       "matched_listing_count": 7,
       "comparison_shop_count": 0,
@@ -2849,7 +2726,7 @@
       "own_confirmed": false,
       "status": "model_review_only",
       "excluded": {
-        "model_or_spec_mismatch": 14
+        "model_or_spec_mismatch": 15
       }
     },
     "yahoo:delonghi_0132240076": {

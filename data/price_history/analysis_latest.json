@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T21:21:43+00:00",
+  "generated_at": "2026-11-28T07:54:33+00:00",
   "count": 235,
   "items": [
     {
@@ -30,7 +30,7 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-22T11:43:50+00:00",
       "current_price_jpy": 1390
     },
@@ -62,9 +62,41 @@
       "history_classification": "监测期新低",
       "recovered_price": false,
       "new_observed_low": true,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-26T21:37:28+00:00",
       "current_price_jpy": 2890
+    },
+    {
+      "id": "yahoo:ankerdirect_t8404",
+      "history_7d": {
+        "window_days": 7,
+        "covered_hours": 0.0,
+        "coverage_percent": 0.0,
+        "complete": false,
+        "observed_low_jpy": 9990,
+        "low_jpy": null,
+        "estimated_average_jpy": null,
+        "average_jpy": null
+      },
+      "history_30d": {
+        "window_days": 30,
+        "covered_hours": 0.0,
+        "coverage_percent": 0.0,
+        "complete": false,
+        "observed_low_jpy": 9990,
+        "low_jpy": null,
+        "estimated_average_jpy": null,
+        "average_jpy": null
+      },
+      "historical_low_jpy": 9990,
+      "historical_high_jpy": 9990,
+      "price_change_points": 1,
+      "history_classification": "数据不足",
+      "recovered_price": false,
+      "new_observed_low": false,
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
+      "price_changed_at": "2026-11-28T07:54:33+00:00",
+      "current_price_jpy": 9990
     },
     {
       "id": "yahoo:ankerdirect_a8060",
@@ -94,7 +126,7 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-22T11:43:50+00:00",
       "current_price_jpy": 1090
     },
@@ -126,7 +158,7 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-22T11:43:50+00:00",
       "current_price_jpy": 7990
     },
@@ -158,7 +190,7 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-22T11:43:50+00:00",
       "current_price_jpy": 1990
     },
@@ -190,7 +222,7 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-22T11:43:50+00:00",
       "current_price_jpy": 4490
     },
@@ -222,7 +254,7 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-22T11:43:50+00:00",
       "current_price_jpy": 2990
     },
@@ -254,9 +286,41 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-22T11:43:50+00:00",
       "current_price_jpy": 6490
+    },
+    {
+      "id": "yahoo:ankerdirect_a1664",
+      "history_7d": {
+        "window_days": 7,
+        "covered_hours": 8.44,
+        "coverage_percent": 5.02,
+        "complete": false,
+        "observed_low_jpy": 6990,
+        "low_jpy": null,
+        "estimated_average_jpy": 9990.0,
+        "average_jpy": null
+      },
+      "history_30d": {
+        "window_days": 30,
+        "covered_hours": 8.44,
+        "coverage_percent": 1.17,
+        "complete": false,
+        "observed_low_jpy": 6990,
+        "low_jpy": null,
+        "estimated_average_jpy": 9990.0,
+        "average_jpy": null
+      },
+      "historical_low_jpy": 6990,
+      "historical_high_jpy": 9990,
+      "price_change_points": 2,
+      "history_classification": "监测期新低",
+      "recovered_price": false,
+      "new_observed_low": true,
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
+      "price_changed_at": "2026-11-26T21:37:28+00:00",
+      "current_price_jpy": 6990
     },
     {
       "id": "yahoo:ankerdirect_d1202",
@@ -286,7 +350,7 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-22T11:43:50+00:00",
       "current_price_jpy": 5490
     },
@@ -318,7 +382,7 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-24T14:02:38+00:00",
       "current_price_jpy": 16990
     },
@@ -350,7 +414,7 @@
       "history_classification": "监测期新低",
       "recovered_price": false,
       "new_observed_low": true,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-27T08:41:04+00:00",
       "current_price_jpy": 3590
     },
@@ -382,73 +446,9 @@
       "history_classification": "监测期新低",
       "recovered_price": false,
       "new_observed_low": true,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-26T21:37:28+00:00",
       "current_price_jpy": 2790
-    },
-    {
-      "id": "yahoo:ankerdirect_a1664",
-      "history_7d": {
-        "window_days": 7,
-        "covered_hours": 8.44,
-        "coverage_percent": 5.02,
-        "complete": false,
-        "observed_low_jpy": 6990,
-        "low_jpy": null,
-        "estimated_average_jpy": 9990.0,
-        "average_jpy": null
-      },
-      "history_30d": {
-        "window_days": 30,
-        "covered_hours": 8.44,
-        "coverage_percent": 1.17,
-        "complete": false,
-        "observed_low_jpy": 6990,
-        "low_jpy": null,
-        "estimated_average_jpy": 9990.0,
-        "average_jpy": null
-      },
-      "historical_low_jpy": 6990,
-      "historical_high_jpy": 9990,
-      "price_change_points": 2,
-      "history_classification": "监测期新低",
-      "recovered_price": false,
-      "new_observed_low": true,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
-      "price_changed_at": "2026-11-26T21:37:28+00:00",
-      "current_price_jpy": 6990
-    },
-    {
-      "id": "yahoo:ankerdirect_a120m",
-      "history_7d": {
-        "window_days": 7,
-        "covered_hours": 0.0,
-        "coverage_percent": 0.0,
-        "complete": false,
-        "observed_low_jpy": 3990,
-        "low_jpy": null,
-        "estimated_average_jpy": null,
-        "average_jpy": null
-      },
-      "history_30d": {
-        "window_days": 30,
-        "covered_hours": 0.0,
-        "coverage_percent": 0.0,
-        "complete": false,
-        "observed_low_jpy": 3990,
-        "low_jpy": null,
-        "estimated_average_jpy": null,
-        "average_jpy": null
-      },
-      "historical_low_jpy": 3990,
-      "historical_high_jpy": 3990,
-      "price_change_points": 1,
-      "history_classification": "数据不足",
-      "recovered_price": false,
-      "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
-      "price_changed_at": "2026-11-25T21:44:40+00:00",
-      "current_price_jpy": 3990
     },
     {
       "id": "yahoo:ankerdirect_a2738",
@@ -478,50 +478,18 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-27T21:21:43+00:00",
       "current_price_jpy": 2990
     },
     {
-      "id": "yahoo:ankerdirect_a1665",
-      "history_7d": {
-        "window_days": 7,
-        "covered_hours": 8.44,
-        "coverage_percent": 5.02,
-        "complete": false,
-        "observed_low_jpy": 6390,
-        "low_jpy": null,
-        "estimated_average_jpy": 6390.0,
-        "average_jpy": null
-      },
-      "history_30d": {
-        "window_days": 30,
-        "covered_hours": 8.44,
-        "coverage_percent": 1.17,
-        "complete": false,
-        "observed_low_jpy": 6390,
-        "low_jpy": null,
-        "estimated_average_jpy": 6390.0,
-        "average_jpy": null
-      },
-      "historical_low_jpy": 6390,
-      "historical_high_jpy": 6390,
-      "price_change_points": 1,
-      "history_classification": "数据不足",
-      "recovered_price": false,
-      "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
-      "price_changed_at": "2026-11-22T11:43:50+00:00",
-      "current_price_jpy": 6390
-    },
-    {
-      "id": "yahoo:ankerdirect_a2637",
+      "id": "yahoo:ankerdirect_a120m",
       "history_7d": {
         "window_days": 7,
         "covered_hours": 0.0,
         "coverage_percent": 0.0,
         "complete": false,
-        "observed_low_jpy": 1290,
+        "observed_low_jpy": 3990,
         "low_jpy": null,
         "estimated_average_jpy": null,
         "average_jpy": null
@@ -531,52 +499,20 @@
         "covered_hours": 0.0,
         "coverage_percent": 0.0,
         "complete": false,
-        "observed_low_jpy": 1290,
+        "observed_low_jpy": 3990,
         "low_jpy": null,
         "estimated_average_jpy": null,
         "average_jpy": null
       },
-      "historical_low_jpy": 1290,
-      "historical_high_jpy": 1290,
+      "historical_low_jpy": 3990,
+      "historical_high_jpy": 3990,
       "price_change_points": 1,
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
-      "price_changed_at": "2026-11-22T11:43:50+00:00",
-      "current_price_jpy": 1290
-    },
-    {
-      "id": "yahoo:ankerdirect_a2039",
-      "history_7d": {
-        "window_days": 7,
-        "covered_hours": 8.44,
-        "coverage_percent": 5.02,
-        "complete": false,
-        "observed_low_jpy": 2990,
-        "low_jpy": null,
-        "estimated_average_jpy": 2990.0,
-        "average_jpy": null
-      },
-      "history_30d": {
-        "window_days": 30,
-        "covered_hours": 8.44,
-        "coverage_percent": 1.17,
-        "complete": false,
-        "observed_low_jpy": 2990,
-        "low_jpy": null,
-        "estimated_average_jpy": 2990.0,
-        "average_jpy": null
-      },
-      "historical_low_jpy": 2990,
-      "historical_high_jpy": 2990,
-      "price_change_points": 1,
-      "history_classification": "数据不足",
-      "recovered_price": false,
-      "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
-      "price_changed_at": "2026-11-22T11:43:50+00:00",
-      "current_price_jpy": 2990
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
+      "price_changed_at": "2026-11-25T21:44:40+00:00",
+      "current_price_jpy": 3990
     },
     {
       "id": "yahoo:ankerdirect_a82e2",
@@ -606,18 +542,18 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-24T09:58:26+00:00",
       "current_price_jpy": 1690
     },
     {
-      "id": "yahoo:ankerdirect_a2727",
+      "id": "yahoo:ankerdirect_a2637",
       "history_7d": {
         "window_days": 7,
         "covered_hours": 0.0,
         "coverage_percent": 0.0,
         "complete": false,
-        "observed_low_jpy": 990,
+        "observed_low_jpy": 1290,
         "low_jpy": null,
         "estimated_average_jpy": null,
         "average_jpy": null
@@ -627,31 +563,31 @@
         "covered_hours": 0.0,
         "coverage_percent": 0.0,
         "complete": false,
-        "observed_low_jpy": 990,
+        "observed_low_jpy": 1290,
         "low_jpy": null,
         "estimated_average_jpy": null,
         "average_jpy": null
       },
-      "historical_low_jpy": 990,
-      "historical_high_jpy": 990,
+      "historical_low_jpy": 1290,
+      "historical_high_jpy": 1290,
       "price_change_points": 1,
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
-      "price_changed_at": "2026-11-27T08:41:04+00:00",
-      "current_price_jpy": 990
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
+      "price_changed_at": "2026-11-22T11:43:50+00:00",
+      "current_price_jpy": 1290
     },
     {
-      "id": "yahoo:onemorething_4549995635232",
+      "id": "yahoo:ankerdirect_a1665",
       "history_7d": {
         "window_days": 7,
         "covered_hours": 8.44,
         "coverage_percent": 5.02,
         "complete": false,
-        "observed_low_jpy": 42880,
+        "observed_low_jpy": 6390,
         "low_jpy": null,
-        "estimated_average_jpy": 42880.0,
+        "estimated_average_jpy": 6390.0,
         "average_jpy": null
       },
       "history_30d": {
@@ -659,20 +595,52 @@
         "covered_hours": 8.44,
         "coverage_percent": 1.17,
         "complete": false,
-        "observed_low_jpy": 42880,
+        "observed_low_jpy": 6390,
         "low_jpy": null,
-        "estimated_average_jpy": 42880.0,
+        "estimated_average_jpy": 6390.0,
         "average_jpy": null
       },
-      "historical_low_jpy": 42880,
-      "historical_high_jpy": 42880,
+      "historical_low_jpy": 6390,
+      "historical_high_jpy": 6390,
       "price_change_points": 1,
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-22T11:43:50+00:00",
-      "current_price_jpy": 42880
+      "current_price_jpy": 6390
+    },
+    {
+      "id": "yahoo:ankerdirect_a2039",
+      "history_7d": {
+        "window_days": 7,
+        "covered_hours": 8.44,
+        "coverage_percent": 5.02,
+        "complete": false,
+        "observed_low_jpy": 2990,
+        "low_jpy": null,
+        "estimated_average_jpy": 2990.0,
+        "average_jpy": null
+      },
+      "history_30d": {
+        "window_days": 30,
+        "covered_hours": 8.44,
+        "coverage_percent": 1.17,
+        "complete": false,
+        "observed_low_jpy": 2990,
+        "low_jpy": null,
+        "estimated_average_jpy": 2990.0,
+        "average_jpy": null
+      },
+      "historical_low_jpy": 2990,
+      "historical_high_jpy": 2990,
+      "price_change_points": 1,
+      "history_classification": "数据不足",
+      "recovered_price": false,
+      "new_observed_low": false,
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
+      "price_changed_at": "2026-11-22T11:43:50+00:00",
+      "current_price_jpy": 2990
     },
     {
       "id": "yahoo:densidonya_4549995519860",
@@ -702,9 +670,41 @@
       "history_classification": "监测期新低",
       "recovered_price": false,
       "new_observed_low": true,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-23T23:56:57+00:00",
       "current_price_jpy": 19670
+    },
+    {
+      "id": "yahoo:onemorething_4549995635232",
+      "history_7d": {
+        "window_days": 7,
+        "covered_hours": 8.44,
+        "coverage_percent": 5.02,
+        "complete": false,
+        "observed_low_jpy": 42880,
+        "low_jpy": null,
+        "estimated_average_jpy": 42880.0,
+        "average_jpy": null
+      },
+      "history_30d": {
+        "window_days": 30,
+        "covered_hours": 8.44,
+        "coverage_percent": 1.17,
+        "complete": false,
+        "observed_low_jpy": 42880,
+        "low_jpy": null,
+        "estimated_average_jpy": 42880.0,
+        "average_jpy": null
+      },
+      "historical_low_jpy": 42880,
+      "historical_high_jpy": 42880,
+      "price_change_points": 1,
+      "history_classification": "数据不足",
+      "recovered_price": false,
+      "new_observed_low": false,
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
+      "price_changed_at": "2026-11-22T11:43:50+00:00",
+      "current_price_jpy": 42880
     },
     {
       "id": "yahoo:densidonya_4549995635232",
@@ -734,7 +734,7 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-24T09:58:26+00:00",
       "current_price_jpy": 38780
     },
@@ -766,7 +766,7 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-24T09:58:26+00:00",
       "current_price_jpy": 38800
     },
@@ -798,7 +798,7 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-22T11:43:50+00:00",
       "current_price_jpy": 21980
     },
@@ -830,9 +830,41 @@
       "history_classification": "恢复原价",
       "recovered_price": true,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-27T21:21:43+00:00",
       "current_price_jpy": 25500
+    },
+    {
+      "id": "yahoo:noahshoping_4549995725049-hosyou",
+      "history_7d": {
+        "window_days": 7,
+        "covered_hours": 8.44,
+        "coverage_percent": 5.02,
+        "complete": false,
+        "observed_low_jpy": 21980,
+        "low_jpy": null,
+        "estimated_average_jpy": 22389.0,
+        "average_jpy": null
+      },
+      "history_30d": {
+        "window_days": 30,
+        "covered_hours": 8.44,
+        "coverage_percent": 1.17,
+        "complete": false,
+        "observed_low_jpy": 21980,
+        "low_jpy": null,
+        "estimated_average_jpy": 22389.0,
+        "average_jpy": null
+      },
+      "historical_low_jpy": 21980,
+      "historical_high_jpy": 22429,
+      "price_change_points": 4,
+      "history_classification": "数据不足",
+      "recovered_price": false,
+      "new_observed_low": false,
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
+      "price_changed_at": "2026-11-28T07:54:33+00:00",
+      "current_price_jpy": 21994
     },
     {
       "id": "yahoo:densidonya_4549995725049",
@@ -862,41 +894,9 @@
       "history_classification": "监测期新低",
       "recovered_price": false,
       "new_observed_low": true,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-26T08:26:27+00:00",
       "current_price_jpy": 22600
-    },
-    {
-      "id": "yahoo:noahshoping_4549995725049-hosyou",
-      "history_7d": {
-        "window_days": 7,
-        "covered_hours": 8.44,
-        "coverage_percent": 5.02,
-        "complete": false,
-        "observed_low_jpy": 21980,
-        "low_jpy": null,
-        "estimated_average_jpy": 22389.0,
-        "average_jpy": null
-      },
-      "history_30d": {
-        "window_days": 30,
-        "covered_hours": 8.44,
-        "coverage_percent": 1.17,
-        "complete": false,
-        "observed_low_jpy": 21980,
-        "low_jpy": null,
-        "estimated_average_jpy": 22389.0,
-        "average_jpy": null
-      },
-      "historical_low_jpy": 21980,
-      "historical_high_jpy": 22429,
-      "price_change_points": 3,
-      "history_classification": "数据不足",
-      "recovered_price": false,
-      "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
-      "price_changed_at": "2026-11-27T21:21:43+00:00",
-      "current_price_jpy": 22429
     },
     {
       "id": "yahoo:akibasoko_4549995519860",
@@ -926,7 +926,7 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-27T08:41:04+00:00",
       "current_price_jpy": 20190
     },
@@ -958,7 +958,7 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-22T11:43:50+00:00",
       "current_price_jpy": 26980
     },
@@ -990,9 +990,41 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-26T21:37:28+00:00",
       "current_price_jpy": 20465
+    },
+    {
+      "id": "yahoo:akibasoko_4549995725025",
+      "history_7d": {
+        "window_days": 7,
+        "covered_hours": 0.0,
+        "coverage_percent": 0.0,
+        "complete": false,
+        "observed_low_jpy": 25320,
+        "low_jpy": null,
+        "estimated_average_jpy": null,
+        "average_jpy": null
+      },
+      "history_30d": {
+        "window_days": 30,
+        "covered_hours": 0.0,
+        "coverage_percent": 0.0,
+        "complete": false,
+        "observed_low_jpy": 25320,
+        "low_jpy": null,
+        "estimated_average_jpy": null,
+        "average_jpy": null
+      },
+      "historical_low_jpy": 25320,
+      "historical_high_jpy": 25320,
+      "price_change_points": 1,
+      "history_classification": "数据不足",
+      "recovered_price": false,
+      "new_observed_low": false,
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
+      "price_changed_at": "2026-11-27T21:21:43+00:00",
+      "current_price_jpy": 25320
     },
     {
       "id": "yahoo:noahshoping_4549995725025-hosyou",
@@ -1022,9 +1054,41 @@
       "history_classification": "恢复原价",
       "recovered_price": true,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-27T21:21:43+00:00",
       "current_price_jpy": 23880
+    },
+    {
+      "id": "yahoo:live2_4549995635232",
+      "history_7d": {
+        "window_days": 7,
+        "covered_hours": 0.0,
+        "coverage_percent": 0.0,
+        "complete": false,
+        "observed_low_jpy": 37649,
+        "low_jpy": null,
+        "estimated_average_jpy": null,
+        "average_jpy": null
+      },
+      "history_30d": {
+        "window_days": 30,
+        "covered_hours": 0.0,
+        "coverage_percent": 0.0,
+        "complete": false,
+        "observed_low_jpy": 37649,
+        "low_jpy": null,
+        "estimated_average_jpy": null,
+        "average_jpy": null
+      },
+      "historical_low_jpy": 37649,
+      "historical_high_jpy": 37667,
+      "price_change_points": 2,
+      "history_classification": "监测期新低",
+      "recovered_price": false,
+      "new_observed_low": true,
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
+      "price_changed_at": "2026-11-28T07:54:33+00:00",
+      "current_price_jpy": 37649
     },
     {
       "id": "yahoo:noahshoping_4549995725049",
@@ -1054,7 +1118,7 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-26T21:37:28+00:00",
       "current_price_jpy": 22980
     },
@@ -1086,7 +1150,7 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-22T11:43:50+00:00",
       "current_price_jpy": 28980
     },
@@ -1118,73 +1182,9 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-25T08:40:45+00:00",
       "current_price_jpy": 40798
-    },
-    {
-      "id": "yahoo:akibasoko_4549995725025",
-      "history_7d": {
-        "window_days": 7,
-        "covered_hours": 0.0,
-        "coverage_percent": 0.0,
-        "complete": false,
-        "observed_low_jpy": 25320,
-        "low_jpy": null,
-        "estimated_average_jpy": null,
-        "average_jpy": null
-      },
-      "history_30d": {
-        "window_days": 30,
-        "covered_hours": 0.0,
-        "coverage_percent": 0.0,
-        "complete": false,
-        "observed_low_jpy": 25320,
-        "low_jpy": null,
-        "estimated_average_jpy": null,
-        "average_jpy": null
-      },
-      "historical_low_jpy": 25320,
-      "historical_high_jpy": 25320,
-      "price_change_points": 1,
-      "history_classification": "数据不足",
-      "recovered_price": false,
-      "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
-      "price_changed_at": "2026-11-27T21:21:43+00:00",
-      "current_price_jpy": 25320
-    },
-    {
-      "id": "yahoo:sokutei_4549995635232",
-      "history_7d": {
-        "window_days": 7,
-        "covered_hours": 0.0,
-        "coverage_percent": 0.0,
-        "complete": false,
-        "observed_low_jpy": 37659,
-        "low_jpy": null,
-        "estimated_average_jpy": null,
-        "average_jpy": null
-      },
-      "history_30d": {
-        "window_days": 30,
-        "covered_hours": 0.0,
-        "coverage_percent": 0.0,
-        "complete": false,
-        "observed_low_jpy": 37659,
-        "low_jpy": null,
-        "estimated_average_jpy": null,
-        "average_jpy": null
-      },
-      "historical_low_jpy": 37659,
-      "historical_high_jpy": 37706,
-      "price_change_points": 2,
-      "history_classification": "监测期新低",
-      "recovered_price": false,
-      "new_observed_low": true,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
-      "price_changed_at": "2026-11-26T21:37:28+00:00",
-      "current_price_jpy": 37659
     },
     {
       "id": "yahoo:alljapan-online-shop_4549995725049",
@@ -1214,7 +1214,7 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-22T11:43:50+00:00",
       "current_price_jpy": 22540
     },
@@ -1246,7 +1246,7 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-22T11:43:50+00:00",
       "current_price_jpy": 24980
     },
@@ -1278,7 +1278,7 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-24T09:58:26+00:00",
       "current_price_jpy": 42544
     },
@@ -1310,7 +1310,7 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-22T11:43:50+00:00",
       "current_price_jpy": 1699
     },
@@ -1342,7 +1342,7 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-22T11:43:50+00:00",
       "current_price_jpy": 2180
     },
@@ -1374,7 +1374,7 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-22T11:43:50+00:00",
       "current_price_jpy": 2480
     },
@@ -1406,7 +1406,7 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-22T11:43:50+00:00",
       "current_price_jpy": 1399
     },
@@ -1438,41 +1438,9 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-22T11:43:50+00:00",
       "current_price_jpy": 1150
-    },
-    {
-      "id": "yahoo:worldlinkshop_s-d99",
-      "history_7d": {
-        "window_days": 7,
-        "covered_hours": 8.44,
-        "coverage_percent": 5.02,
-        "complete": false,
-        "observed_low_jpy": 2580,
-        "low_jpy": null,
-        "estimated_average_jpy": 2580.0,
-        "average_jpy": null
-      },
-      "history_30d": {
-        "window_days": 30,
-        "covered_hours": 8.44,
-        "coverage_percent": 1.17,
-        "complete": false,
-        "observed_low_jpy": 2580,
-        "low_jpy": null,
-        "estimated_average_jpy": 2580.0,
-        "average_jpy": null
-      },
-      "historical_low_jpy": 2580,
-      "historical_high_jpy": 2580,
-      "price_change_points": 1,
-      "history_classification": "数据不足",
-      "recovered_price": false,
-      "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
-      "price_changed_at": "2026-11-22T11:43:50+00:00",
-      "current_price_jpy": 2580
     },
     {
       "id": "yahoo:extendstore_k13",
@@ -1502,9 +1470,41 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-22T11:43:50+00:00",
       "current_price_jpy": 1580
+    },
+    {
+      "id": "yahoo:worldlinkshop_s-d99",
+      "history_7d": {
+        "window_days": 7,
+        "covered_hours": 8.44,
+        "coverage_percent": 5.02,
+        "complete": false,
+        "observed_low_jpy": 2580,
+        "low_jpy": null,
+        "estimated_average_jpy": 2580.0,
+        "average_jpy": null
+      },
+      "history_30d": {
+        "window_days": 30,
+        "covered_hours": 8.44,
+        "coverage_percent": 1.17,
+        "complete": false,
+        "observed_low_jpy": 2580,
+        "low_jpy": null,
+        "estimated_average_jpy": 2580.0,
+        "average_jpy": null
+      },
+      "historical_low_jpy": 2580,
+      "historical_high_jpy": 2580,
+      "price_change_points": 1,
+      "history_classification": "数据不足",
+      "recovered_price": false,
+      "new_observed_low": false,
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
+      "price_changed_at": "2026-11-22T11:43:50+00:00",
+      "current_price_jpy": 2580
     },
     {
       "id": "yahoo:onetoothshop_6349all",
@@ -1534,7 +1534,7 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-24T14:02:38+00:00",
       "current_price_jpy": 3080
     },
@@ -1566,7 +1566,7 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-22T11:43:50+00:00",
       "current_price_jpy": 2680
     },
@@ -1598,7 +1598,7 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-24T09:58:26+00:00",
       "current_price_jpy": 6990
     },
@@ -1625,14 +1625,14 @@
         "average_jpy": null
       },
       "historical_low_jpy": 1580,
-      "historical_high_jpy": 1580,
-      "price_change_points": 1,
+      "historical_high_jpy": 2580,
+      "price_change_points": 2,
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
-      "price_changed_at": "2026-11-22T11:43:50+00:00",
-      "current_price_jpy": 1580
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
+      "price_changed_at": "2026-11-28T07:54:33+00:00",
+      "current_price_jpy": 2580
     },
     {
       "id": "yahoo:meipy-store_a01",
@@ -1662,7 +1662,7 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-22T11:43:50+00:00",
       "current_price_jpy": 1499
     },
@@ -1694,73 +1694,9 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-22T11:43:50+00:00",
       "current_price_jpy": 1760
-    },
-    {
-      "id": "yahoo:shop-kochi_bg-mb-50800b",
-      "history_7d": {
-        "window_days": 7,
-        "covered_hours": 0.0,
-        "coverage_percent": 0.0,
-        "complete": false,
-        "observed_low_jpy": 2090,
-        "low_jpy": null,
-        "estimated_average_jpy": null,
-        "average_jpy": null
-      },
-      "history_30d": {
-        "window_days": 30,
-        "covered_hours": 0.0,
-        "coverage_percent": 0.0,
-        "complete": false,
-        "observed_low_jpy": 2090,
-        "low_jpy": null,
-        "estimated_average_jpy": null,
-        "average_jpy": null
-      },
-      "historical_low_jpy": 2090,
-      "historical_high_jpy": 2150,
-      "price_change_points": 2,
-      "history_classification": "数据不足",
-      "recovered_price": false,
-      "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
-      "price_changed_at": "2026-11-27T21:21:43+00:00",
-      "current_price_jpy": 2150
-    },
-    {
-      "id": "yahoo:ankerdirect_a110d",
-      "history_7d": {
-        "window_days": 7,
-        "covered_hours": 8.44,
-        "coverage_percent": 5.02,
-        "complete": false,
-        "observed_low_jpy": 3490,
-        "low_jpy": null,
-        "estimated_average_jpy": 3490.0,
-        "average_jpy": null
-      },
-      "history_30d": {
-        "window_days": 30,
-        "covered_hours": 8.44,
-        "coverage_percent": 1.17,
-        "complete": false,
-        "observed_low_jpy": 3490,
-        "low_jpy": null,
-        "estimated_average_jpy": 3490.0,
-        "average_jpy": null
-      },
-      "historical_low_jpy": 3490,
-      "historical_high_jpy": 3490,
-      "price_change_points": 1,
-      "history_classification": "数据不足",
-      "recovered_price": false,
-      "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
-      "price_changed_at": "2026-11-24T14:02:38+00:00",
-      "current_price_jpy": 3490
     },
     {
       "id": "yahoo:otokukan_p1dx146-x",
@@ -1790,9 +1726,41 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-27T08:41:04+00:00",
       "current_price_jpy": 2980
+    },
+    {
+      "id": "yahoo:genshinn-store_a20m",
+      "history_7d": {
+        "window_days": 7,
+        "covered_hours": 8.44,
+        "coverage_percent": 5.02,
+        "complete": false,
+        "observed_low_jpy": 1450,
+        "low_jpy": null,
+        "estimated_average_jpy": 1450.0,
+        "average_jpy": null
+      },
+      "history_30d": {
+        "window_days": 30,
+        "covered_hours": 8.44,
+        "coverage_percent": 1.17,
+        "complete": false,
+        "observed_low_jpy": 1450,
+        "low_jpy": null,
+        "estimated_average_jpy": 1450.0,
+        "average_jpy": null
+      },
+      "historical_low_jpy": 1450,
+      "historical_high_jpy": 1450,
+      "price_change_points": 1,
+      "history_classification": "数据不足",
+      "recovered_price": false,
+      "new_observed_low": false,
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
+      "price_changed_at": "2026-11-22T11:43:50+00:00",
+      "current_price_jpy": 1450
     },
     {
       "id": "yahoo:ankerdirect_a1689",
@@ -1822,7 +1790,7 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-22T11:43:50+00:00",
       "current_price_jpy": 4990
     },
@@ -1854,7 +1822,7 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-22T11:43:50+00:00",
       "current_price_jpy": 3880
     },
@@ -1886,7 +1854,7 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-22T11:43:50+00:00",
       "current_price_jpy": 3680
     },
@@ -1918,7 +1886,7 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-22T11:43:50+00:00",
       "current_price_jpy": 1480
     },
@@ -1950,7 +1918,7 @@
       "history_classification": "监测期新低",
       "recovered_price": false,
       "new_observed_low": true,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-23T07:44:55+00:00",
       "current_price_jpy": 1890
     },
@@ -1982,7 +1950,7 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-22T11:43:50+00:00",
       "current_price_jpy": 2360
     },
@@ -2014,7 +1982,7 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-24T15:06:17+00:00",
       "current_price_jpy": 5390
     },
@@ -2046,7 +2014,7 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-26T08:26:27+00:00",
       "current_price_jpy": 9900
     },
@@ -2078,7 +2046,7 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-24T22:29:57+00:00",
       "current_price_jpy": 6000
     },
@@ -2110,7 +2078,7 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-22T11:43:50+00:00",
       "current_price_jpy": 2380
     },
@@ -2142,7 +2110,7 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-22T11:43:50+00:00",
       "current_price_jpy": 1199
     },
@@ -2174,7 +2142,7 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-22T11:43:50+00:00",
       "current_price_jpy": 999
     },
@@ -2206,7 +2174,7 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-22T11:43:50+00:00",
       "current_price_jpy": 8990
     },
@@ -2238,7 +2206,7 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-22T19:44:24+00:00",
       "current_price_jpy": 899
     },
@@ -2270,9 +2238,41 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-23T07:44:55+00:00",
       "current_price_jpy": 13980
+    },
+    {
+      "id": "yahoo:yamada-denki_1594419018",
+      "history_7d": {
+        "window_days": 7,
+        "covered_hours": 8.44,
+        "coverage_percent": 5.02,
+        "complete": false,
+        "observed_low_jpy": 33660,
+        "low_jpy": null,
+        "estimated_average_jpy": 39600.0,
+        "average_jpy": null
+      },
+      "history_30d": {
+        "window_days": 30,
+        "covered_hours": 8.44,
+        "coverage_percent": 1.17,
+        "complete": false,
+        "observed_low_jpy": 33660,
+        "low_jpy": null,
+        "estimated_average_jpy": 39600.0,
+        "average_jpy": null
+      },
+      "historical_low_jpy": 33660,
+      "historical_high_jpy": 39600,
+      "price_change_points": 2,
+      "history_classification": "监测期新低",
+      "recovered_price": false,
+      "new_observed_low": true,
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
+      "price_changed_at": "2026-11-28T07:54:33+00:00",
+      "current_price_jpy": 33660
     },
     {
       "id": "yahoo:yamada-denki_1595156011",
@@ -2281,7 +2281,7 @@
         "covered_hours": 8.44,
         "coverage_percent": 5.02,
         "complete": false,
-        "observed_low_jpy": 39880,
+        "observed_low_jpy": 37380,
         "low_jpy": null,
         "estimated_average_jpy": 39880.0,
         "average_jpy": null
@@ -2290,6 +2290,70 @@
         "window_days": 30,
         "covered_hours": 8.44,
         "coverage_percent": 1.17,
+        "complete": false,
+        "observed_low_jpy": 37380,
+        "low_jpy": null,
+        "estimated_average_jpy": 39880.0,
+        "average_jpy": null
+      },
+      "historical_low_jpy": 37380,
+      "historical_high_jpy": 39880,
+      "price_change_points": 2,
+      "history_classification": "监测期新低",
+      "recovered_price": false,
+      "new_observed_low": true,
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
+      "price_changed_at": "2026-11-28T07:54:33+00:00",
+      "current_price_jpy": 37380
+    },
+    {
+      "id": "yahoo:y-kojima_4961310167004",
+      "history_7d": {
+        "window_days": 7,
+        "covered_hours": 0.0,
+        "coverage_percent": 0.0,
+        "complete": false,
+        "observed_low_jpy": 41800,
+        "low_jpy": null,
+        "estimated_average_jpy": null,
+        "average_jpy": null
+      },
+      "history_30d": {
+        "window_days": 30,
+        "covered_hours": 0.0,
+        "coverage_percent": 0.0,
+        "complete": false,
+        "observed_low_jpy": 41800,
+        "low_jpy": null,
+        "estimated_average_jpy": null,
+        "average_jpy": null
+      },
+      "historical_low_jpy": 41800,
+      "historical_high_jpy": 41800,
+      "price_change_points": 1,
+      "history_classification": "数据不足",
+      "recovered_price": false,
+      "new_observed_low": false,
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
+      "price_changed_at": "2026-11-27T08:41:04+00:00",
+      "current_price_jpy": 41800
+    },
+    {
+      "id": "yahoo:best-denki_1595156011",
+      "history_7d": {
+        "window_days": 7,
+        "covered_hours": 1.09,
+        "coverage_percent": 0.65,
+        "complete": false,
+        "observed_low_jpy": 39880,
+        "low_jpy": null,
+        "estimated_average_jpy": 39880.0,
+        "average_jpy": null
+      },
+      "history_30d": {
+        "window_days": 30,
+        "covered_hours": 1.09,
+        "coverage_percent": 0.15,
         "complete": false,
         "observed_low_jpy": 39880,
         "low_jpy": null,
@@ -2302,82 +2366,18 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
-      "price_changed_at": "2026-11-22T11:43:50+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
+      "price_changed_at": "2026-11-24T09:58:26+00:00",
       "current_price_jpy": 39880
     },
     {
-      "id": "yahoo:yamada-denki_1594419018",
-      "history_7d": {
-        "window_days": 7,
-        "covered_hours": 8.44,
-        "coverage_percent": 5.02,
-        "complete": false,
-        "observed_low_jpy": 39600,
-        "low_jpy": null,
-        "estimated_average_jpy": 39600.0,
-        "average_jpy": null
-      },
-      "history_30d": {
-        "window_days": 30,
-        "covered_hours": 8.44,
-        "coverage_percent": 1.17,
-        "complete": false,
-        "observed_low_jpy": 39600,
-        "low_jpy": null,
-        "estimated_average_jpy": 39600.0,
-        "average_jpy": null
-      },
-      "historical_low_jpy": 39600,
-      "historical_high_jpy": 39600,
-      "price_change_points": 1,
-      "history_classification": "数据不足",
-      "recovered_price": false,
-      "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
-      "price_changed_at": "2026-11-22T11:43:50+00:00",
-      "current_price_jpy": 39600
-    },
-    {
-      "id": "yahoo:yamada-denki_4418525018",
-      "history_7d": {
-        "window_days": 7,
-        "covered_hours": 7.39,
-        "coverage_percent": 4.4,
-        "complete": false,
-        "observed_low_jpy": 23980,
-        "low_jpy": null,
-        "estimated_average_jpy": 23980.0,
-        "average_jpy": null
-      },
-      "history_30d": {
-        "window_days": 30,
-        "covered_hours": 7.39,
-        "coverage_percent": 1.03,
-        "complete": false,
-        "observed_low_jpy": 23980,
-        "low_jpy": null,
-        "estimated_average_jpy": 23980.0,
-        "average_jpy": null
-      },
-      "historical_low_jpy": 23980,
-      "historical_high_jpy": 23980,
-      "price_change_points": 1,
-      "history_classification": "数据不足",
-      "recovered_price": false,
-      "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
-      "price_changed_at": "2026-11-24T15:06:17+00:00",
-      "current_price_jpy": 23980
-    },
-    {
-      "id": "yahoo:yamada-denki_1594164017",
+      "id": "yahoo:jblstore_live-beam4",
       "history_7d": {
         "window_days": 7,
         "covered_hours": 0.0,
         "coverage_percent": 0.0,
         "complete": false,
-        "observed_low_jpy": 17600,
+        "observed_low_jpy": 23760,
         "low_jpy": null,
         "estimated_average_jpy": null,
         "average_jpy": null
@@ -2387,20 +2387,20 @@
         "covered_hours": 0.0,
         "coverage_percent": 0.0,
         "complete": false,
-        "observed_low_jpy": 17600,
+        "observed_low_jpy": 23760,
         "low_jpy": null,
         "estimated_average_jpy": null,
         "average_jpy": null
       },
-      "historical_low_jpy": 17600,
-      "historical_high_jpy": 17600,
+      "historical_low_jpy": 23760,
+      "historical_high_jpy": 23760,
       "price_change_points": 1,
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
-      "price_changed_at": "2026-11-26T08:26:27+00:00",
-      "current_price_jpy": 17600
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
+      "price_changed_at": "2026-11-28T07:54:33+00:00",
+      "current_price_jpy": 23760
     },
     {
       "id": "yahoo:jnh_mc8013p3p-b",
@@ -2430,7 +2430,7 @@
       "history_classification": "监测期新低",
       "recovered_price": false,
       "new_observed_low": true,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-27T08:41:04+00:00",
       "current_price_jpy": 22981
     },
@@ -2462,7 +2462,7 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-23T23:56:57+00:00",
       "current_price_jpy": 2880
     },
@@ -2494,41 +2494,9 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-22T11:43:50+00:00",
       "current_price_jpy": 19800
-    },
-    {
-      "id": "yahoo:jnh_sa8013ssde61-1t-g25",
-      "history_7d": {
-        "window_days": 7,
-        "covered_hours": 8.44,
-        "coverage_percent": 5.02,
-        "complete": false,
-        "observed_low_jpy": 31881,
-        "low_jpy": null,
-        "estimated_average_jpy": 31881.0,
-        "average_jpy": null
-      },
-      "history_30d": {
-        "window_days": 30,
-        "covered_hours": 8.44,
-        "coverage_percent": 1.17,
-        "complete": false,
-        "observed_low_jpy": 31881,
-        "low_jpy": null,
-        "estimated_average_jpy": 31881.0,
-        "average_jpy": null
-      },
-      "historical_low_jpy": 31881,
-      "historical_high_jpy": 31881,
-      "price_change_points": 1,
-      "history_classification": "数据不足",
-      "recovered_price": false,
-      "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
-      "price_changed_at": "2026-11-22T11:43:50+00:00",
-      "current_price_jpy": 31881
     },
     {
       "id": "yahoo:fastonline_m100-1tb",
@@ -2558,9 +2526,41 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-22T11:43:50+00:00",
       "current_price_jpy": 15280
+    },
+    {
+      "id": "yahoo:jnh_sa8013ssde61-1t-g25",
+      "history_7d": {
+        "window_days": 7,
+        "covered_hours": 8.44,
+        "coverage_percent": 5.02,
+        "complete": false,
+        "observed_low_jpy": 31881,
+        "low_jpy": null,
+        "estimated_average_jpy": 31881.0,
+        "average_jpy": null
+      },
+      "history_30d": {
+        "window_days": 30,
+        "covered_hours": 8.44,
+        "coverage_percent": 1.17,
+        "complete": false,
+        "observed_low_jpy": 31881,
+        "low_jpy": null,
+        "estimated_average_jpy": 31881.0,
+        "average_jpy": null
+      },
+      "historical_low_jpy": 31881,
+      "historical_high_jpy": 31881,
+      "price_change_points": 1,
+      "history_classification": "数据不足",
+      "recovered_price": false,
+      "new_observed_low": false,
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
+      "price_changed_at": "2026-11-22T11:43:50+00:00",
+      "current_price_jpy": 31881
     },
     {
       "id": "yahoo:fastonline_se-ps0001t2lo1bg",
@@ -2590,7 +2590,7 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-24T22:29:57+00:00",
       "current_price_jpy": 19580
     },
@@ -2622,9 +2622,41 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-22T11:43:50+00:00",
       "current_price_jpy": 21800
+    },
+    {
+      "id": "yahoo:jnh_sa8013ssde60",
+      "history_7d": {
+        "window_days": 7,
+        "covered_hours": 8.44,
+        "coverage_percent": 5.02,
+        "complete": false,
+        "observed_low_jpy": 31888,
+        "low_jpy": null,
+        "estimated_average_jpy": 31888.0,
+        "average_jpy": null
+      },
+      "history_30d": {
+        "window_days": 30,
+        "covered_hours": 8.44,
+        "coverage_percent": 1.17,
+        "complete": false,
+        "observed_low_jpy": 31888,
+        "low_jpy": null,
+        "estimated_average_jpy": 31888.0,
+        "average_jpy": null
+      },
+      "historical_low_jpy": 31888,
+      "historical_high_jpy": 31888,
+      "price_change_points": 1,
+      "history_classification": "数据不足",
+      "recovered_price": false,
+      "new_observed_low": false,
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
+      "price_changed_at": "2026-11-22T11:43:50+00:00",
+      "current_price_jpy": 31888
     },
     {
       "id": "yahoo:jnh_sa8013ssde61-1t",
@@ -2654,41 +2686,9 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-22T11:43:50+00:00",
       "current_price_jpy": 32988
-    },
-    {
-      "id": "yahoo:spd-shop_mcssd1t-p3p",
-      "history_7d": {
-        "window_days": 7,
-        "covered_hours": 8.44,
-        "coverage_percent": 5.02,
-        "complete": false,
-        "observed_low_jpy": 23580,
-        "low_jpy": null,
-        "estimated_average_jpy": 23580.0,
-        "average_jpy": null
-      },
-      "history_30d": {
-        "window_days": 30,
-        "covered_hours": 8.44,
-        "coverage_percent": 1.17,
-        "complete": false,
-        "observed_low_jpy": 23580,
-        "low_jpy": null,
-        "estimated_average_jpy": 23580.0,
-        "average_jpy": null
-      },
-      "historical_low_jpy": 23580,
-      "historical_high_jpy": 23580,
-      "price_change_points": 1,
-      "history_classification": "数据不足",
-      "recovered_price": false,
-      "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
-      "price_changed_at": "2026-11-22T11:43:50+00:00",
-      "current_price_jpy": 23580
     },
     {
       "id": "yahoo:jnh_mc8012p1-500g",
@@ -2718,7 +2718,7 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-22T19:44:24+00:00",
       "current_price_jpy": 16881
     },
@@ -2750,9 +2750,41 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-22T11:43:50+00:00",
       "current_price_jpy": 21780
+    },
+    {
+      "id": "yahoo:spd-shop_mcssd1t-p3p",
+      "history_7d": {
+        "window_days": 7,
+        "covered_hours": 8.44,
+        "coverage_percent": 5.02,
+        "complete": false,
+        "observed_low_jpy": 23580,
+        "low_jpy": null,
+        "estimated_average_jpy": 23580.0,
+        "average_jpy": null
+      },
+      "history_30d": {
+        "window_days": 30,
+        "covered_hours": 8.44,
+        "coverage_percent": 1.17,
+        "complete": false,
+        "observed_low_jpy": 23580,
+        "low_jpy": null,
+        "estimated_average_jpy": 23580.0,
+        "average_jpy": null
+      },
+      "historical_low_jpy": 23580,
+      "historical_high_jpy": 23580,
+      "price_change_points": 1,
+      "history_classification": "数据不足",
+      "recovered_price": false,
+      "new_observed_low": false,
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
+      "price_changed_at": "2026-11-22T11:43:50+00:00",
+      "current_price_jpy": 23580
     },
     {
       "id": "yahoo:joshin_0619659232139-44-49579",
@@ -2782,7 +2814,7 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-24T09:58:26+00:00",
       "current_price_jpy": 21690
     },
@@ -2814,20 +2846,20 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-22T11:43:50+00:00",
       "current_price_jpy": 26580
     },
     {
-      "id": "yahoo:ksdenki_4523052024313",
+      "id": "yahoo:spd-shop_sassd1t-e10-g25",
       "history_7d": {
         "window_days": 7,
         "covered_hours": 8.44,
         "coverage_percent": 5.02,
         "complete": false,
-        "observed_low_jpy": 40392,
+        "observed_low_jpy": 22769,
         "low_jpy": null,
-        "estimated_average_jpy": 40392.0,
+        "estimated_average_jpy": 22769.0,
         "average_jpy": null
       },
       "history_30d": {
@@ -2835,52 +2867,20 @@
         "covered_hours": 8.44,
         "coverage_percent": 1.17,
         "complete": false,
-        "observed_low_jpy": 40392,
+        "observed_low_jpy": 22769,
         "low_jpy": null,
-        "estimated_average_jpy": 40392.0,
+        "estimated_average_jpy": 22769.0,
         "average_jpy": null
       },
-      "historical_low_jpy": 40392,
-      "historical_high_jpy": 40392,
+      "historical_low_jpy": 22769,
+      "historical_high_jpy": 22769,
       "price_change_points": 1,
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
-      "price_changed_at": "2026-11-24T09:58:26+00:00",
-      "current_price_jpy": 40392
-    },
-    {
-      "id": "yahoo:jnh_sa8013ssde60",
-      "history_7d": {
-        "window_days": 7,
-        "covered_hours": 8.44,
-        "coverage_percent": 5.02,
-        "complete": false,
-        "observed_low_jpy": 31888,
-        "low_jpy": null,
-        "estimated_average_jpy": 31888.0,
-        "average_jpy": null
-      },
-      "history_30d": {
-        "window_days": 30,
-        "covered_hours": 8.44,
-        "coverage_percent": 1.17,
-        "complete": false,
-        "observed_low_jpy": 31888,
-        "low_jpy": null,
-        "estimated_average_jpy": 31888.0,
-        "average_jpy": null
-      },
-      "historical_low_jpy": 31888,
-      "historical_high_jpy": 31888,
-      "price_change_points": 1,
-      "history_classification": "数据不足",
-      "recovered_price": false,
-      "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-22T11:43:50+00:00",
-      "current_price_jpy": 31888
+      "current_price_jpy": 22769
     },
     {
       "id": "yahoo:fastonline_oy20-512gb",
@@ -2910,7 +2910,7 @@
       "history_classification": "监测期新低",
       "recovered_price": false,
       "new_observed_low": true,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-27T08:41:04+00:00",
       "current_price_jpy": 8980
     },
@@ -2942,7 +2942,7 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-24T09:58:26+00:00",
       "current_price_jpy": 3515
     },
@@ -2974,9 +2974,41 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-26T21:37:28+00:00",
       "current_price_jpy": 22980
+    },
+    {
+      "id": "yahoo:ksdenki_4523052024313",
+      "history_7d": {
+        "window_days": 7,
+        "covered_hours": 8.44,
+        "coverage_percent": 5.02,
+        "complete": false,
+        "observed_low_jpy": 40392,
+        "low_jpy": null,
+        "estimated_average_jpy": 40392.0,
+        "average_jpy": null
+      },
+      "history_30d": {
+        "window_days": 30,
+        "covered_hours": 8.44,
+        "coverage_percent": 1.17,
+        "complete": false,
+        "observed_low_jpy": 40392,
+        "low_jpy": null,
+        "estimated_average_jpy": 40392.0,
+        "average_jpy": null
+      },
+      "historical_low_jpy": 40392,
+      "historical_high_jpy": 40392,
+      "price_change_points": 1,
+      "history_classification": "数据不足",
+      "recovered_price": false,
+      "new_observed_low": false,
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
+      "price_changed_at": "2026-11-24T09:58:26+00:00",
+      "current_price_jpy": 40392
     },
     {
       "id": "yahoo:ksdenki_4523052024542",
@@ -3006,41 +3038,9 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-26T21:37:28+00:00",
       "current_price_jpy": 64220
-    },
-    {
-      "id": "yahoo:ksdenki_4573574591572",
-      "history_7d": {
-        "window_days": 7,
-        "covered_hours": 8.44,
-        "coverage_percent": 5.02,
-        "complete": false,
-        "observed_low_jpy": 40391,
-        "low_jpy": null,
-        "estimated_average_jpy": 40391.0,
-        "average_jpy": null
-      },
-      "history_30d": {
-        "window_days": 30,
-        "covered_hours": 8.44,
-        "coverage_percent": 1.17,
-        "complete": false,
-        "observed_low_jpy": 40391,
-        "low_jpy": null,
-        "estimated_average_jpy": 40391.0,
-        "average_jpy": null
-      },
-      "historical_low_jpy": 40391,
-      "historical_high_jpy": 40391,
-      "price_change_points": 1,
-      "history_classification": "数据不足",
-      "recovered_price": false,
-      "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
-      "price_changed_at": "2026-11-24T09:58:26+00:00",
-      "current_price_jpy": 40391
     },
     {
       "id": "yahoo:densidonya_4902370553024",
@@ -3066,45 +3066,13 @@
       },
       "historical_low_jpy": 61000,
       "historical_high_jpy": 62700,
-      "price_change_points": 5,
-      "history_classification": "恢复原价",
-      "recovered_price": true,
-      "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
-      "price_changed_at": "2026-11-27T08:41:04+00:00",
-      "current_price_jpy": 62495
-    },
-    {
-      "id": "yahoo:joshin_4902370554892-54-73634",
-      "history_7d": {
-        "window_days": 7,
-        "covered_hours": 8.44,
-        "coverage_percent": 5.02,
-        "complete": false,
-        "observed_low_jpy": 6350,
-        "low_jpy": null,
-        "estimated_average_jpy": 6350.0,
-        "average_jpy": null
-      },
-      "history_30d": {
-        "window_days": 30,
-        "covered_hours": 8.44,
-        "coverage_percent": 1.17,
-        "complete": false,
-        "observed_low_jpy": 6350,
-        "low_jpy": null,
-        "estimated_average_jpy": 6350.0,
-        "average_jpy": null
-      },
-      "historical_low_jpy": 6350,
-      "historical_high_jpy": 6350,
-      "price_change_points": 1,
+      "price_change_points": 6,
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
-      "price_changed_at": "2026-11-23T07:44:55+00:00",
-      "current_price_jpy": 6350
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
+      "price_changed_at": "2026-11-28T07:54:33+00:00",
+      "current_price_jpy": 62700
     },
     {
       "id": "yahoo:sokutei_4902370553024",
@@ -3134,73 +3102,9 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-27T21:21:43+00:00",
       "current_price_jpy": 62488
-    },
-    {
-      "id": "yahoo:sokutei_4902370554779",
-      "history_7d": {
-        "window_days": 7,
-        "covered_hours": 1.09,
-        "coverage_percent": 0.65,
-        "complete": false,
-        "observed_low_jpy": 63100,
-        "low_jpy": null,
-        "estimated_average_jpy": 63100.0,
-        "average_jpy": null
-      },
-      "history_30d": {
-        "window_days": 30,
-        "covered_hours": 1.09,
-        "coverage_percent": 0.15,
-        "complete": false,
-        "observed_low_jpy": 63100,
-        "low_jpy": null,
-        "estimated_average_jpy": 63100.0,
-        "average_jpy": null
-      },
-      "historical_low_jpy": 63100,
-      "historical_high_jpy": 63500,
-      "price_change_points": 2,
-      "history_classification": "数据不足",
-      "recovered_price": false,
-      "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
-      "price_changed_at": "2026-11-27T21:21:43+00:00",
-      "current_price_jpy": 63500
-    },
-    {
-      "id": "yahoo:live2_8806095700670",
-      "history_7d": {
-        "window_days": 7,
-        "covered_hours": 0.0,
-        "coverage_percent": 0.0,
-        "complete": false,
-        "observed_low_jpy": 8278,
-        "low_jpy": null,
-        "estimated_average_jpy": null,
-        "average_jpy": null
-      },
-      "history_30d": {
-        "window_days": 30,
-        "covered_hours": 0.0,
-        "coverage_percent": 0.0,
-        "complete": false,
-        "observed_low_jpy": 8278,
-        "low_jpy": null,
-        "estimated_average_jpy": null,
-        "average_jpy": null
-      },
-      "historical_low_jpy": 8278,
-      "historical_high_jpy": 8334,
-      "price_change_points": 2,
-      "history_classification": "数据不足",
-      "recovered_price": false,
-      "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
-      "price_changed_at": "2026-11-26T08:26:27+00:00",
-      "current_price_jpy": 8334
     },
     {
       "id": "yahoo:emedama_4902370552843",
@@ -3230,9 +3134,41 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-22T11:43:50+00:00",
       "current_price_jpy": 9980
+    },
+    {
+      "id": "yahoo:live2_8806095700670",
+      "history_7d": {
+        "window_days": 7,
+        "covered_hours": 0.0,
+        "coverage_percent": 0.0,
+        "complete": false,
+        "observed_low_jpy": 8278,
+        "low_jpy": null,
+        "estimated_average_jpy": null,
+        "average_jpy": null
+      },
+      "history_30d": {
+        "window_days": 30,
+        "covered_hours": 0.0,
+        "coverage_percent": 0.0,
+        "complete": false,
+        "observed_low_jpy": 8278,
+        "low_jpy": null,
+        "estimated_average_jpy": null,
+        "average_jpy": null
+      },
+      "historical_low_jpy": 8278,
+      "historical_high_jpy": 8334,
+      "price_change_points": 2,
+      "history_classification": "数据不足",
+      "recovered_price": false,
+      "new_observed_low": false,
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
+      "price_changed_at": "2026-11-26T08:26:27+00:00",
+      "current_price_jpy": 8334
     },
     {
       "id": "yahoo:kaikyou_4902370553024",
@@ -3262,7 +3198,7 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-27T08:41:04+00:00",
       "current_price_jpy": 60479
     },
@@ -3273,7 +3209,7 @@
         "covered_hours": 0.0,
         "coverage_percent": 0.0,
         "complete": false,
-        "observed_low_jpy": 65187,
+        "observed_low_jpy": 65112,
         "low_jpy": null,
         "estimated_average_jpy": null,
         "average_jpy": null
@@ -3283,52 +3219,20 @@
         "covered_hours": 0.0,
         "coverage_percent": 0.0,
         "complete": false,
-        "observed_low_jpy": 65187,
+        "observed_low_jpy": 65112,
         "low_jpy": null,
         "estimated_average_jpy": null,
         "average_jpy": null
       },
-      "historical_low_jpy": 65187,
+      "historical_low_jpy": 65112,
       "historical_high_jpy": 65280,
-      "price_change_points": 4,
+      "price_change_points": 5,
       "history_classification": "监测期新低",
       "recovered_price": false,
       "new_observed_low": true,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
-      "price_changed_at": "2026-11-27T21:21:43+00:00",
-      "current_price_jpy": 65187
-    },
-    {
-      "id": "yahoo:jcka-mobile2_4902370553024",
-      "history_7d": {
-        "window_days": 7,
-        "covered_hours": 0.0,
-        "coverage_percent": 0.0,
-        "complete": false,
-        "observed_low_jpy": 60500,
-        "low_jpy": null,
-        "estimated_average_jpy": null,
-        "average_jpy": null
-      },
-      "history_30d": {
-        "window_days": 30,
-        "covered_hours": 0.0,
-        "coverage_percent": 0.0,
-        "complete": false,
-        "observed_low_jpy": 60500,
-        "low_jpy": null,
-        "estimated_average_jpy": null,
-        "average_jpy": null
-      },
-      "historical_low_jpy": 60500,
-      "historical_high_jpy": 60980,
-      "price_change_points": 3,
-      "history_classification": "数据不足",
-      "recovered_price": false,
-      "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
-      "price_changed_at": "2026-11-25T21:44:40+00:00",
-      "current_price_jpy": 60980
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
+      "price_changed_at": "2026-11-28T07:54:33+00:00",
+      "current_price_jpy": 65112
     },
     {
       "id": "yahoo:densidonya_4902370554779",
@@ -3337,7 +3241,7 @@
         "covered_hours": 1.09,
         "coverage_percent": 0.65,
         "complete": false,
-        "observed_low_jpy": 64800,
+        "observed_low_jpy": 63740,
         "low_jpy": null,
         "estimated_average_jpy": 64800.0,
         "average_jpy": null
@@ -3347,148 +3251,52 @@
         "covered_hours": 1.09,
         "coverage_percent": 0.15,
         "complete": false,
-        "observed_low_jpy": 64800,
+        "observed_low_jpy": 63740,
         "low_jpy": null,
         "estimated_average_jpy": 64800.0,
         "average_jpy": null
       },
-      "historical_low_jpy": 64800,
+      "historical_low_jpy": 63740,
       "historical_high_jpy": 64800,
-      "price_change_points": 1,
-      "history_classification": "数据不足",
+      "price_change_points": 2,
+      "history_classification": "监测期新低",
       "recovered_price": false,
-      "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
-      "price_changed_at": "2026-11-24T14:02:38+00:00",
-      "current_price_jpy": 64800
+      "new_observed_low": true,
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
+      "price_changed_at": "2026-11-28T07:54:33+00:00",
+      "current_price_jpy": 63740
     },
     {
-      "id": "yahoo:fastonline_se-mse512g20z1g",
+      "id": "yahoo:sokutei_4902370554779",
       "history_7d": {
         "window_days": 7,
-        "covered_hours": 8.44,
-        "coverage_percent": 5.02,
+        "covered_hours": 1.09,
+        "coverage_percent": 0.65,
         "complete": false,
-        "observed_low_jpy": 16980,
+        "observed_low_jpy": 63100,
         "low_jpy": null,
-        "estimated_average_jpy": 17980.0,
+        "estimated_average_jpy": 63100.0,
         "average_jpy": null
       },
       "history_30d": {
         "window_days": 30,
-        "covered_hours": 8.44,
-        "coverage_percent": 1.17,
+        "covered_hours": 1.09,
+        "coverage_percent": 0.15,
         "complete": false,
-        "observed_low_jpy": 16980,
+        "observed_low_jpy": 63100,
         "low_jpy": null,
-        "estimated_average_jpy": 17980.0,
+        "estimated_average_jpy": 63100.0,
         "average_jpy": null
       },
-      "historical_low_jpy": 16980,
-      "historical_high_jpy": 17980,
+      "historical_low_jpy": 63100,
+      "historical_high_jpy": 63500,
       "price_change_points": 2,
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
-      "price_changed_at": "2026-11-22T19:44:24+00:00",
-      "current_price_jpy": 17980
-    },
-    {
-      "id": "yahoo:jcka-mobile_4902370553024",
-      "history_7d": {
-        "window_days": 7,
-        "covered_hours": 0.0,
-        "coverage_percent": 0.0,
-        "complete": false,
-        "observed_low_jpy": 62500,
-        "low_jpy": null,
-        "estimated_average_jpy": null,
-        "average_jpy": null
-      },
-      "history_30d": {
-        "window_days": 30,
-        "covered_hours": 0.0,
-        "coverage_percent": 0.0,
-        "complete": false,
-        "observed_low_jpy": 62500,
-        "low_jpy": null,
-        "estimated_average_jpy": null,
-        "average_jpy": null
-      },
-      "historical_low_jpy": 62500,
-      "historical_high_jpy": 62800,
-      "price_change_points": 2,
-      "history_classification": "数据不足",
-      "recovered_price": false,
-      "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
-      "price_changed_at": "2026-11-25T08:40:45+00:00",
-      "current_price_jpy": 62800
-    },
-    {
-      "id": "yahoo:light-hikari_4902370553024",
-      "history_7d": {
-        "window_days": 7,
-        "covered_hours": 0.0,
-        "coverage_percent": 0.0,
-        "complete": false,
-        "observed_low_jpy": 59950,
-        "low_jpy": null,
-        "estimated_average_jpy": null,
-        "average_jpy": null
-      },
-      "history_30d": {
-        "window_days": 30,
-        "covered_hours": 0.0,
-        "coverage_percent": 0.0,
-        "complete": false,
-        "observed_low_jpy": 59950,
-        "low_jpy": null,
-        "estimated_average_jpy": null,
-        "average_jpy": null
-      },
-      "historical_low_jpy": 59950,
-      "historical_high_jpy": 59950,
-      "price_change_points": 1,
-      "history_classification": "数据不足",
-      "recovered_price": false,
-      "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
-      "price_changed_at": "2026-11-27T08:41:04+00:00",
-      "current_price_jpy": 59950
-    },
-    {
-      "id": "yahoo:emedama_4902370554922",
-      "history_7d": {
-        "window_days": 7,
-        "covered_hours": 0.0,
-        "coverage_percent": 0.0,
-        "complete": false,
-        "observed_low_jpy": 8170,
-        "low_jpy": null,
-        "estimated_average_jpy": null,
-        "average_jpy": null
-      },
-      "history_30d": {
-        "window_days": 30,
-        "covered_hours": 0.0,
-        "coverage_percent": 0.0,
-        "complete": false,
-        "observed_low_jpy": 8170,
-        "low_jpy": null,
-        "estimated_average_jpy": null,
-        "average_jpy": null
-      },
-      "historical_low_jpy": 8170,
-      "historical_high_jpy": 8280,
-      "price_change_points": 2,
-      "history_classification": "数据不足",
-      "recovered_price": false,
-      "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
-      "price_changed_at": "2026-11-26T08:26:27+00:00",
-      "current_price_jpy": 8280
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
+      "price_changed_at": "2026-11-27T21:21:43+00:00",
+      "current_price_jpy": 63500
     },
     {
       "id": "yahoo:densidonya_4902370554595",
@@ -3518,105 +3326,41 @@
       "history_classification": "监测期新低",
       "recovered_price": false,
       "new_observed_low": true,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-26T08:26:27+00:00",
       "current_price_jpy": 64200
     },
     {
-      "id": "yahoo:digitalisland_4902370553024",
+      "id": "yahoo:light-hikari_4902370553024",
       "history_7d": {
         "window_days": 7,
-        "covered_hours": 8.44,
-        "coverage_percent": 5.02,
+        "covered_hours": 0.0,
+        "coverage_percent": 0.0,
         "complete": false,
-        "observed_low_jpy": 62498,
+        "observed_low_jpy": 59950,
         "low_jpy": null,
-        "estimated_average_jpy": 62498.0,
+        "estimated_average_jpy": null,
         "average_jpy": null
       },
       "history_30d": {
         "window_days": 30,
-        "covered_hours": 8.44,
-        "coverage_percent": 1.17,
+        "covered_hours": 0.0,
+        "coverage_percent": 0.0,
         "complete": false,
-        "observed_low_jpy": 62498,
+        "observed_low_jpy": 59950,
         "low_jpy": null,
-        "estimated_average_jpy": 62498.0,
+        "estimated_average_jpy": null,
         "average_jpy": null
       },
-      "historical_low_jpy": 62498,
-      "historical_high_jpy": 62498,
+      "historical_low_jpy": 59950,
+      "historical_high_jpy": 59950,
       "price_change_points": 1,
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
-      "price_changed_at": "2026-11-24T14:02:38+00:00",
-      "current_price_jpy": 62498
-    },
-    {
-      "id": "yahoo:d-rise_p000000690600",
-      "history_7d": {
-        "window_days": 7,
-        "covered_hours": 0.0,
-        "coverage_percent": 0.0,
-        "complete": false,
-        "observed_low_jpy": 32030,
-        "low_jpy": null,
-        "estimated_average_jpy": null,
-        "average_jpy": null
-      },
-      "history_30d": {
-        "window_days": 30,
-        "covered_hours": 0.0,
-        "coverage_percent": 0.0,
-        "complete": false,
-        "observed_low_jpy": 32030,
-        "low_jpy": null,
-        "estimated_average_jpy": null,
-        "average_jpy": null
-      },
-      "historical_low_jpy": 32030,
-      "historical_high_jpy": 32300,
-      "price_change_points": 4,
-      "history_classification": "数据不足",
-      "recovered_price": false,
-      "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
-      "price_changed_at": "2026-11-26T21:37:28+00:00",
-      "current_price_jpy": 32050
-    },
-    {
-      "id": "yahoo:digitalisland_4902370553024d",
-      "history_7d": {
-        "window_days": 7,
-        "covered_hours": 0.0,
-        "coverage_percent": 0.0,
-        "complete": false,
-        "observed_low_jpy": 61980,
-        "low_jpy": null,
-        "estimated_average_jpy": null,
-        "average_jpy": null
-      },
-      "history_30d": {
-        "window_days": 30,
-        "covered_hours": 0.0,
-        "coverage_percent": 0.0,
-        "complete": false,
-        "observed_low_jpy": 61980,
-        "low_jpy": null,
-        "estimated_average_jpy": null,
-        "average_jpy": null
-      },
-      "historical_low_jpy": 61980,
-      "historical_high_jpy": 61980,
-      "price_change_points": 1,
-      "history_classification": "数据不足",
-      "recovered_price": false,
-      "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
-      "price_changed_at": "2026-11-25T08:40:45+00:00",
-      "current_price_jpy": 61980
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
+      "price_changed_at": "2026-11-27T08:41:04+00:00",
+      "current_price_jpy": 59950
     },
     {
       "id": "yahoo:live2_4902370554595",
@@ -3646,18 +3390,82 @@
       "history_classification": "监测期新低",
       "recovered_price": false,
       "new_observed_low": true,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-26T08:26:27+00:00",
       "current_price_jpy": 63778
     },
     {
-      "id": "yahoo:comgstore_1291-4902370548495",
+      "id": "yahoo:digitalisland_4902370553024",
+      "history_7d": {
+        "window_days": 7,
+        "covered_hours": 8.44,
+        "coverage_percent": 5.02,
+        "complete": false,
+        "observed_low_jpy": 62220,
+        "low_jpy": null,
+        "estimated_average_jpy": 62498.0,
+        "average_jpy": null
+      },
+      "history_30d": {
+        "window_days": 30,
+        "covered_hours": 8.44,
+        "coverage_percent": 1.17,
+        "complete": false,
+        "observed_low_jpy": 62220,
+        "low_jpy": null,
+        "estimated_average_jpy": 62498.0,
+        "average_jpy": null
+      },
+      "historical_low_jpy": 62220,
+      "historical_high_jpy": 62498,
+      "price_change_points": 2,
+      "history_classification": "监测期新低",
+      "recovered_price": false,
+      "new_observed_low": true,
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
+      "price_changed_at": "2026-11-28T07:54:33+00:00",
+      "current_price_jpy": 62220
+    },
+    {
+      "id": "yahoo:fastonline_se-mse512g20z1g",
+      "history_7d": {
+        "window_days": 7,
+        "covered_hours": 8.44,
+        "coverage_percent": 5.02,
+        "complete": false,
+        "observed_low_jpy": 16980,
+        "low_jpy": null,
+        "estimated_average_jpy": 17980.0,
+        "average_jpy": null
+      },
+      "history_30d": {
+        "window_days": 30,
+        "covered_hours": 8.44,
+        "coverage_percent": 1.17,
+        "complete": false,
+        "observed_low_jpy": 16980,
+        "low_jpy": null,
+        "estimated_average_jpy": 17980.0,
+        "average_jpy": null
+      },
+      "historical_low_jpy": 16980,
+      "historical_high_jpy": 17980,
+      "price_change_points": 2,
+      "history_classification": "数据不足",
+      "recovered_price": false,
+      "new_observed_low": false,
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
+      "price_changed_at": "2026-11-22T19:44:24+00:00",
+      "current_price_jpy": 17980
+    },
+    {
+      "id": "yahoo:emedama_4902370554922",
       "history_7d": {
         "window_days": 7,
         "covered_hours": 0.0,
         "coverage_percent": 0.0,
         "complete": false,
-        "observed_low_jpy": 48980,
+        "observed_low_jpy": 8170,
         "low_jpy": null,
         "estimated_average_jpy": null,
         "average_jpy": null
@@ -3667,20 +3475,212 @@
         "covered_hours": 0.0,
         "coverage_percent": 0.0,
         "complete": false,
-        "observed_low_jpy": 48980,
+        "observed_low_jpy": 8170,
         "low_jpy": null,
         "estimated_average_jpy": null,
         "average_jpy": null
       },
-      "historical_low_jpy": 48980,
-      "historical_high_jpy": 48980,
+      "historical_low_jpy": 8170,
+      "historical_high_jpy": 8280,
+      "price_change_points": 2,
+      "history_classification": "数据不足",
+      "recovered_price": false,
+      "new_observed_low": false,
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
+      "price_changed_at": "2026-11-26T08:26:27+00:00",
+      "current_price_jpy": 8280
+    },
+    {
+      "id": "yahoo:live2_4902370548495",
+      "history_7d": {
+        "window_days": 7,
+        "covered_hours": 0.0,
+        "coverage_percent": 0.0,
+        "complete": false,
+        "observed_low_jpy": 48300,
+        "low_jpy": null,
+        "estimated_average_jpy": null,
+        "average_jpy": null
+      },
+      "history_30d": {
+        "window_days": 30,
+        "covered_hours": 0.0,
+        "coverage_percent": 0.0,
+        "complete": false,
+        "observed_low_jpy": 48300,
+        "low_jpy": null,
+        "estimated_average_jpy": null,
+        "average_jpy": null
+      },
+      "historical_low_jpy": 48300,
+      "historical_high_jpy": 48300,
       "price_change_points": 1,
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
-      "price_changed_at": "2026-11-27T21:21:43+00:00",
-      "current_price_jpy": 48980
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
+      "price_changed_at": "2026-11-28T07:54:33+00:00",
+      "current_price_jpy": 48300
+    },
+    {
+      "id": "yahoo:densidonya_4902370550733-a",
+      "history_7d": {
+        "window_days": 7,
+        "covered_hours": 0.0,
+        "coverage_percent": 0.0,
+        "complete": false,
+        "observed_low_jpy": 42800,
+        "low_jpy": null,
+        "estimated_average_jpy": null,
+        "average_jpy": null
+      },
+      "history_30d": {
+        "window_days": 30,
+        "covered_hours": 0.0,
+        "coverage_percent": 0.0,
+        "complete": false,
+        "observed_low_jpy": 42800,
+        "low_jpy": null,
+        "estimated_average_jpy": null,
+        "average_jpy": null
+      },
+      "historical_low_jpy": 42800,
+      "historical_high_jpy": 43700,
+      "price_change_points": 2,
+      "history_classification": "数据不足",
+      "recovered_price": false,
+      "new_observed_low": false,
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
+      "price_changed_at": "2026-11-28T07:54:33+00:00",
+      "current_price_jpy": 43700
+    },
+    {
+      "id": "yahoo:joshin_4988601012225-54-73630",
+      "history_7d": {
+        "window_days": 7,
+        "covered_hours": 0.0,
+        "coverage_percent": 0.0,
+        "complete": false,
+        "observed_low_jpy": 7700,
+        "low_jpy": null,
+        "estimated_average_jpy": null,
+        "average_jpy": null
+      },
+      "history_30d": {
+        "window_days": 30,
+        "covered_hours": 0.0,
+        "coverage_percent": 0.0,
+        "complete": false,
+        "observed_low_jpy": 7700,
+        "low_jpy": null,
+        "estimated_average_jpy": null,
+        "average_jpy": null
+      },
+      "historical_low_jpy": 7700,
+      "historical_high_jpy": 7700,
+      "price_change_points": 1,
+      "history_classification": "数据不足",
+      "recovered_price": false,
+      "new_observed_low": false,
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
+      "price_changed_at": "2026-11-28T07:54:33+00:00",
+      "current_price_jpy": 7700
+    },
+    {
+      "id": "yahoo:asakusa-mach_4902370552843",
+      "history_7d": {
+        "window_days": 7,
+        "covered_hours": 8.44,
+        "coverage_percent": 5.02,
+        "complete": false,
+        "observed_low_jpy": 9980,
+        "low_jpy": null,
+        "estimated_average_jpy": 9980.0,
+        "average_jpy": null
+      },
+      "history_30d": {
+        "window_days": 30,
+        "covered_hours": 8.44,
+        "coverage_percent": 1.17,
+        "complete": false,
+        "observed_low_jpy": 9980,
+        "low_jpy": null,
+        "estimated_average_jpy": 9980.0,
+        "average_jpy": null
+      },
+      "historical_low_jpy": 9980,
+      "historical_high_jpy": 9980,
+      "price_change_points": 1,
+      "history_classification": "数据不足",
+      "recovered_price": false,
+      "new_observed_low": false,
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
+      "price_changed_at": "2026-11-24T09:58:26+00:00",
+      "current_price_jpy": 9980
+    },
+    {
+      "id": "yahoo:joshin_4902370554892-54-73634",
+      "history_7d": {
+        "window_days": 7,
+        "covered_hours": 8.44,
+        "coverage_percent": 5.02,
+        "complete": false,
+        "observed_low_jpy": 6350,
+        "low_jpy": null,
+        "estimated_average_jpy": 6350.0,
+        "average_jpy": null
+      },
+      "history_30d": {
+        "window_days": 30,
+        "covered_hours": 8.44,
+        "coverage_percent": 1.17,
+        "complete": false,
+        "observed_low_jpy": 6350,
+        "low_jpy": null,
+        "estimated_average_jpy": 6350.0,
+        "average_jpy": null
+      },
+      "historical_low_jpy": 6350,
+      "historical_high_jpy": 6350,
+      "price_change_points": 1,
+      "history_classification": "数据不足",
+      "recovered_price": false,
+      "new_observed_low": false,
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
+      "price_changed_at": "2026-11-23T07:44:55+00:00",
+      "current_price_jpy": 6350
+    },
+    {
+      "id": "yahoo:d-rise_p000000713756",
+      "history_7d": {
+        "window_days": 7,
+        "covered_hours": 0.0,
+        "coverage_percent": 0.0,
+        "complete": false,
+        "observed_low_jpy": 33400,
+        "low_jpy": null,
+        "estimated_average_jpy": null,
+        "average_jpy": null
+      },
+      "history_30d": {
+        "window_days": 30,
+        "covered_hours": 0.0,
+        "coverage_percent": 0.0,
+        "complete": false,
+        "observed_low_jpy": 33400,
+        "low_jpy": null,
+        "estimated_average_jpy": null,
+        "average_jpy": null
+      },
+      "historical_low_jpy": 33400,
+      "historical_high_jpy": 34180,
+      "price_change_points": 2,
+      "history_classification": "数据不足",
+      "recovered_price": false,
+      "new_observed_low": false,
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
+      "price_changed_at": "2026-11-28T07:54:33+00:00",
+      "current_price_jpy": 34180
     },
     {
       "id": "yahoo:tiger-online_jpw-h100k",
@@ -3710,7 +3710,7 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-22T11:43:50+00:00",
       "current_price_jpy": 17600
     },
@@ -3742,7 +3742,7 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-22T11:43:50+00:00",
       "current_price_jpy": 3980
     },
@@ -3774,9 +3774,41 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-22T11:43:50+00:00",
       "current_price_jpy": 6783
+    },
+    {
+      "id": "yahoo:pcbomber_254250001377000",
+      "history_7d": {
+        "window_days": 7,
+        "covered_hours": 8.44,
+        "coverage_percent": 5.02,
+        "complete": false,
+        "observed_low_jpy": 31980,
+        "low_jpy": null,
+        "estimated_average_jpy": 31980.0,
+        "average_jpy": null
+      },
+      "history_30d": {
+        "window_days": 30,
+        "covered_hours": 8.44,
+        "coverage_percent": 1.17,
+        "complete": false,
+        "observed_low_jpy": 31980,
+        "low_jpy": null,
+        "estimated_average_jpy": 31980.0,
+        "average_jpy": null
+      },
+      "historical_low_jpy": 31980,
+      "historical_high_jpy": 33804,
+      "price_change_points": 2,
+      "history_classification": "数据不足",
+      "recovered_price": false,
+      "new_observed_low": false,
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
+      "price_changed_at": "2026-11-28T07:54:33+00:00",
+      "current_price_jpy": 33804
     },
     {
       "id": "yahoo:e-kurashi_op-77578",
@@ -3806,18 +3838,18 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-24T09:58:26+00:00",
       "current_price_jpy": 16590
     },
     {
-      "id": "yahoo:tiger-online_jpn-n100k",
+      "id": "yahoo:tiger-online_jpv-n100k",
       "history_7d": {
         "window_days": 7,
         "covered_hours": 0.0,
         "coverage_percent": 0.0,
         "complete": false,
-        "observed_low_jpy": 17800,
+        "observed_low_jpy": 29700,
         "low_jpy": null,
         "estimated_average_jpy": null,
         "average_jpy": null
@@ -3827,52 +3859,20 @@
         "covered_hours": 0.0,
         "coverage_percent": 0.0,
         "complete": false,
-        "observed_low_jpy": 17800,
+        "observed_low_jpy": 29700,
         "low_jpy": null,
         "estimated_average_jpy": null,
         "average_jpy": null
       },
-      "historical_low_jpy": 17800,
-      "historical_high_jpy": 17800,
+      "historical_low_jpy": 29700,
+      "historical_high_jpy": 29700,
       "price_change_points": 1,
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
-      "price_changed_at": "2026-11-22T19:44:24+00:00",
-      "current_price_jpy": 17800
-    },
-    {
-      "id": "yahoo:y-kojima_4974305232328",
-      "history_7d": {
-        "window_days": 7,
-        "covered_hours": 0.0,
-        "coverage_percent": 0.0,
-        "complete": false,
-        "observed_low_jpy": 42500,
-        "low_jpy": null,
-        "estimated_average_jpy": null,
-        "average_jpy": null
-      },
-      "history_30d": {
-        "window_days": 30,
-        "covered_hours": 0.0,
-        "coverage_percent": 0.0,
-        "complete": false,
-        "observed_low_jpy": 42500,
-        "low_jpy": null,
-        "estimated_average_jpy": null,
-        "average_jpy": null
-      },
-      "historical_low_jpy": 42500,
-      "historical_high_jpy": 42500,
-      "price_change_points": 1,
-      "history_classification": "数据不足",
-      "recovered_price": false,
-      "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
-      "price_changed_at": "2026-11-27T08:41:04+00:00",
-      "current_price_jpy": 42500
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
+      "price_changed_at": "2026-11-25T08:40:45+00:00",
+      "current_price_jpy": 29700
     },
     {
       "id": "yahoo:irisplaza_h516545f",
@@ -3902,7 +3902,7 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-26T08:26:27+00:00",
       "current_price_jpy": 10980
     },
@@ -3934,73 +3934,9 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-22T11:43:50+00:00",
       "current_price_jpy": 4980
-    },
-    {
-      "id": "yahoo:tiger-online_jpv-n100k",
-      "history_7d": {
-        "window_days": 7,
-        "covered_hours": 0.0,
-        "coverage_percent": 0.0,
-        "complete": false,
-        "observed_low_jpy": 29700,
-        "low_jpy": null,
-        "estimated_average_jpy": null,
-        "average_jpy": null
-      },
-      "history_30d": {
-        "window_days": 30,
-        "covered_hours": 0.0,
-        "coverage_percent": 0.0,
-        "complete": false,
-        "observed_low_jpy": 29700,
-        "low_jpy": null,
-        "estimated_average_jpy": null,
-        "average_jpy": null
-      },
-      "historical_low_jpy": 29700,
-      "historical_high_jpy": 29700,
-      "price_change_points": 1,
-      "history_classification": "数据不足",
-      "recovered_price": false,
-      "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
-      "price_changed_at": "2026-11-25T08:40:45+00:00",
-      "current_price_jpy": 29700
-    },
-    {
-      "id": "yahoo:joshin_4974305227980-24-11072",
-      "history_7d": {
-        "window_days": 7,
-        "covered_hours": 0.0,
-        "coverage_percent": 0.0,
-        "complete": false,
-        "observed_low_jpy": 27110,
-        "low_jpy": null,
-        "estimated_average_jpy": null,
-        "average_jpy": null
-      },
-      "history_30d": {
-        "window_days": 30,
-        "covered_hours": 0.0,
-        "coverage_percent": 0.0,
-        "complete": false,
-        "observed_low_jpy": 27110,
-        "low_jpy": null,
-        "estimated_average_jpy": null,
-        "average_jpy": null
-      },
-      "historical_low_jpy": 27110,
-      "historical_high_jpy": 27110,
-      "price_change_points": 1,
-      "history_classification": "数据不足",
-      "recovered_price": false,
-      "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
-      "price_changed_at": "2026-11-26T21:37:28+00:00",
-      "current_price_jpy": 27110
     },
     {
       "id": "yahoo:sake-premoa_4974305220264",
@@ -4030,9 +3966,41 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-24T22:29:57+00:00",
       "current_price_jpy": 32784
+    },
+    {
+      "id": "yahoo:joshin_4974305227980-24-11072",
+      "history_7d": {
+        "window_days": 7,
+        "covered_hours": 0.0,
+        "coverage_percent": 0.0,
+        "complete": false,
+        "observed_low_jpy": 27110,
+        "low_jpy": null,
+        "estimated_average_jpy": null,
+        "average_jpy": null
+      },
+      "history_30d": {
+        "window_days": 30,
+        "covered_hours": 0.0,
+        "coverage_percent": 0.0,
+        "complete": false,
+        "observed_low_jpy": 27110,
+        "low_jpy": null,
+        "estimated_average_jpy": null,
+        "average_jpy": null
+      },
+      "historical_low_jpy": 27110,
+      "historical_high_jpy": 27110,
+      "price_change_points": 1,
+      "history_classification": "数据不足",
+      "recovered_price": false,
+      "new_observed_low": false,
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
+      "price_changed_at": "2026-11-26T21:37:28+00:00",
+      "current_price_jpy": 27110
     },
     {
       "id": "yahoo:tiger-online_jbs-a055km",
@@ -4062,41 +4030,9 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-25T08:40:45+00:00",
       "current_price_jpy": 10800
-    },
-    {
-      "id": "yahoo:kaitekinetshop_2273-022796",
-      "history_7d": {
-        "window_days": 7,
-        "covered_hours": 0.0,
-        "coverage_percent": 0.0,
-        "complete": false,
-        "observed_low_jpy": 33926,
-        "low_jpy": null,
-        "estimated_average_jpy": null,
-        "average_jpy": null
-      },
-      "history_30d": {
-        "window_days": 30,
-        "covered_hours": 0.0,
-        "coverage_percent": 0.0,
-        "complete": false,
-        "observed_low_jpy": 33926,
-        "low_jpy": null,
-        "estimated_average_jpy": null,
-        "average_jpy": null
-      },
-      "historical_low_jpy": 33926,
-      "historical_high_jpy": 33926,
-      "price_change_points": 1,
-      "history_classification": "数据不足",
-      "recovered_price": false,
-      "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
-      "price_changed_at": "2026-11-27T21:21:43+00:00",
-      "current_price_jpy": 33926
     },
     {
       "id": "yahoo:emedama_4974305227232",
@@ -4126,9 +4062,73 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-27T08:41:04+00:00",
       "current_price_jpy": 17420
+    },
+    {
+      "id": "yahoo:yamada-denki_6613980012",
+      "history_7d": {
+        "window_days": 7,
+        "covered_hours": 0.0,
+        "coverage_percent": 0.0,
+        "complete": false,
+        "observed_low_jpy": 16800,
+        "low_jpy": null,
+        "estimated_average_jpy": null,
+        "average_jpy": null
+      },
+      "history_30d": {
+        "window_days": 30,
+        "covered_hours": 0.0,
+        "coverage_percent": 0.0,
+        "complete": false,
+        "observed_low_jpy": 16800,
+        "low_jpy": null,
+        "estimated_average_jpy": null,
+        "average_jpy": null
+      },
+      "historical_low_jpy": 16800,
+      "historical_high_jpy": 21001,
+      "price_change_points": 3,
+      "history_classification": "监测期新低",
+      "recovered_price": false,
+      "new_observed_low": true,
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
+      "price_changed_at": "2026-11-28T07:54:33+00:00",
+      "current_price_jpy": 16800
+    },
+    {
+      "id": "yahoo:kaitekinetshop_2273-022796",
+      "history_7d": {
+        "window_days": 7,
+        "covered_hours": 0.0,
+        "coverage_percent": 0.0,
+        "complete": false,
+        "observed_low_jpy": 33926,
+        "low_jpy": null,
+        "estimated_average_jpy": null,
+        "average_jpy": null
+      },
+      "history_30d": {
+        "window_days": 30,
+        "covered_hours": 0.0,
+        "coverage_percent": 0.0,
+        "complete": false,
+        "observed_low_jpy": 33926,
+        "low_jpy": null,
+        "estimated_average_jpy": null,
+        "average_jpy": null
+      },
+      "historical_low_jpy": 33926,
+      "historical_high_jpy": 33960,
+      "price_change_points": 2,
+      "history_classification": "数据不足",
+      "recovered_price": false,
+      "new_observed_low": false,
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
+      "price_changed_at": "2026-11-28T07:54:33+00:00",
+      "current_price_jpy": 33960
     },
     {
       "id": "yahoo:irisplaza_h569926",
@@ -4158,7 +4158,7 @@
       "history_classification": "监测期新低",
       "recovered_price": false,
       "new_observed_low": true,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-25T21:44:40+00:00",
       "current_price_jpy": 6780
     },
@@ -4190,7 +4190,7 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-22T11:43:50+00:00",
       "current_price_jpy": 12980
     },
@@ -4222,9 +4222,41 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-22T11:43:50+00:00",
       "current_price_jpy": 3980
+    },
+    {
+      "id": "yahoo:y-kojima_4974305232311",
+      "history_7d": {
+        "window_days": 7,
+        "covered_hours": 0.0,
+        "coverage_percent": 0.0,
+        "complete": false,
+        "observed_low_jpy": 41580,
+        "low_jpy": null,
+        "estimated_average_jpy": null,
+        "average_jpy": null
+      },
+      "history_30d": {
+        "window_days": 30,
+        "covered_hours": 0.0,
+        "coverage_percent": 0.0,
+        "complete": false,
+        "observed_low_jpy": 41580,
+        "low_jpy": null,
+        "estimated_average_jpy": null,
+        "average_jpy": null
+      },
+      "historical_low_jpy": 41580,
+      "historical_high_jpy": 42500,
+      "price_change_points": 3,
+      "history_classification": "恢复原价",
+      "recovered_price": true,
+      "new_observed_low": false,
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
+      "price_changed_at": "2026-11-28T07:54:33+00:00",
+      "current_price_jpy": 41580
     },
     {
       "id": "yahoo:emedama_4974305224224",
@@ -4254,73 +4286,41 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-27T21:21:43+00:00",
       "current_price_jpy": 27799
     },
     {
-      "id": "yahoo:murauchi_4904710443347",
+      "id": "yahoo:emedama_4974019149837",
       "history_7d": {
         "window_days": 7,
-        "covered_hours": 0.0,
-        "coverage_percent": 0.0,
+        "covered_hours": 8.44,
+        "coverage_percent": 5.02,
         "complete": false,
-        "observed_low_jpy": 43862,
+        "observed_low_jpy": 7280,
         "low_jpy": null,
-        "estimated_average_jpy": null,
+        "estimated_average_jpy": 8680.0,
         "average_jpy": null
       },
       "history_30d": {
         "window_days": 30,
-        "covered_hours": 0.0,
-        "coverage_percent": 0.0,
+        "covered_hours": 8.44,
+        "coverage_percent": 1.17,
         "complete": false,
-        "observed_low_jpy": 43862,
+        "observed_low_jpy": 7280,
         "low_jpy": null,
-        "estimated_average_jpy": null,
+        "estimated_average_jpy": 8680.0,
         "average_jpy": null
       },
-      "historical_low_jpy": 43862,
-      "historical_high_jpy": 43862,
-      "price_change_points": 1,
-      "history_classification": "数据不足",
-      "recovered_price": false,
-      "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
-      "price_changed_at": "2026-11-26T08:26:27+00:00",
-      "current_price_jpy": 43862
-    },
-    {
-      "id": "yahoo:y-kojima_4974305232311",
-      "history_7d": {
-        "window_days": 7,
-        "covered_hours": 0.0,
-        "coverage_percent": 0.0,
-        "complete": false,
-        "observed_low_jpy": 41580,
-        "low_jpy": null,
-        "estimated_average_jpy": null,
-        "average_jpy": null
-      },
-      "history_30d": {
-        "window_days": 30,
-        "covered_hours": 0.0,
-        "coverage_percent": 0.0,
-        "complete": false,
-        "observed_low_jpy": 41580,
-        "low_jpy": null,
-        "estimated_average_jpy": null,
-        "average_jpy": null
-      },
-      "historical_low_jpy": 41580,
-      "historical_high_jpy": 42500,
+      "historical_low_jpy": 7280,
+      "historical_high_jpy": 8680,
       "price_change_points": 2,
-      "history_classification": "数据不足",
+      "history_classification": "监测期新低",
       "recovered_price": false,
-      "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
-      "price_changed_at": "2026-11-27T21:21:43+00:00",
-      "current_price_jpy": 42500
+      "new_observed_low": true,
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
+      "price_changed_at": "2026-11-28T07:54:33+00:00",
+      "current_price_jpy": 7280
     },
     {
       "id": "yahoo:tvfusion_cleaner-cordless-rr11",
@@ -4350,9 +4350,41 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-22T11:43:50+00:00",
       "current_price_jpy": 11250
+    },
+    {
+      "id": "yahoo:dyson_593813-01",
+      "history_7d": {
+        "window_days": 7,
+        "covered_hours": 8.44,
+        "coverage_percent": 5.02,
+        "complete": false,
+        "observed_low_jpy": 29900,
+        "low_jpy": null,
+        "estimated_average_jpy": 29900.0,
+        "average_jpy": null
+      },
+      "history_30d": {
+        "window_days": 30,
+        "covered_hours": 8.44,
+        "coverage_percent": 1.17,
+        "complete": false,
+        "observed_low_jpy": 29900,
+        "low_jpy": null,
+        "estimated_average_jpy": 29900.0,
+        "average_jpy": null
+      },
+      "historical_low_jpy": 29900,
+      "historical_high_jpy": 29900,
+      "price_change_points": 1,
+      "history_classification": "数据不足",
+      "recovered_price": false,
+      "new_observed_low": false,
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
+      "price_changed_at": "2026-11-22T11:43:50+00:00",
+      "current_price_jpy": 29900
     },
     {
       "id": "yahoo:wingchokuei_a1pro",
@@ -4382,7 +4414,7 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-22T11:43:50+00:00",
       "current_price_jpy": 10980
     },
@@ -4414,73 +4446,9 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-22T11:43:50+00:00",
       "current_price_jpy": 17600
-    },
-    {
-      "id": "yahoo:risou-shop_rs-036",
-      "history_7d": {
-        "window_days": 7,
-        "covered_hours": 8.44,
-        "coverage_percent": 5.02,
-        "complete": false,
-        "observed_low_jpy": 9980,
-        "low_jpy": null,
-        "estimated_average_jpy": 9980.0,
-        "average_jpy": null
-      },
-      "history_30d": {
-        "window_days": 30,
-        "covered_hours": 8.44,
-        "coverage_percent": 1.17,
-        "complete": false,
-        "observed_low_jpy": 9980,
-        "low_jpy": null,
-        "estimated_average_jpy": 9980.0,
-        "average_jpy": null
-      },
-      "historical_low_jpy": 9980,
-      "historical_high_jpy": 9980,
-      "price_change_points": 1,
-      "history_classification": "数据不足",
-      "recovered_price": false,
-      "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
-      "price_changed_at": "2026-11-22T11:43:50+00:00",
-      "current_price_jpy": 9980
-    },
-    {
-      "id": "yahoo:ecovacsjapan_ddx47",
-      "history_7d": {
-        "window_days": 7,
-        "covered_hours": 8.44,
-        "coverage_percent": 5.02,
-        "complete": false,
-        "observed_low_jpy": 44800,
-        "low_jpy": null,
-        "estimated_average_jpy": 44800.0,
-        "average_jpy": null
-      },
-      "history_30d": {
-        "window_days": 30,
-        "covered_hours": 8.44,
-        "coverage_percent": 1.17,
-        "complete": false,
-        "observed_low_jpy": 44800,
-        "low_jpy": null,
-        "estimated_average_jpy": 44800.0,
-        "average_jpy": null
-      },
-      "historical_low_jpy": 44800,
-      "historical_high_jpy": 44800,
-      "price_change_points": 1,
-      "history_classification": "数据不足",
-      "recovered_price": false,
-      "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
-      "price_changed_at": "2026-11-24T14:02:38+00:00",
-      "current_price_jpy": 44800
     },
     {
       "id": "yahoo:plywood_46639013",
@@ -4510,9 +4478,73 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-22T19:44:24+00:00",
       "current_price_jpy": 7700
+    },
+    {
+      "id": "yahoo:ecovacsjapan_ddx47",
+      "history_7d": {
+        "window_days": 7,
+        "covered_hours": 8.44,
+        "coverage_percent": 5.02,
+        "complete": false,
+        "observed_low_jpy": 44800,
+        "low_jpy": null,
+        "estimated_average_jpy": 44800.0,
+        "average_jpy": null
+      },
+      "history_30d": {
+        "window_days": 30,
+        "covered_hours": 8.44,
+        "coverage_percent": 1.17,
+        "complete": false,
+        "observed_low_jpy": 44800,
+        "low_jpy": null,
+        "estimated_average_jpy": 44800.0,
+        "average_jpy": null
+      },
+      "historical_low_jpy": 44800,
+      "historical_high_jpy": 44800,
+      "price_change_points": 1,
+      "history_classification": "数据不足",
+      "recovered_price": false,
+      "new_observed_low": false,
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
+      "price_changed_at": "2026-11-24T14:02:38+00:00",
+      "current_price_jpy": 44800
+    },
+    {
+      "id": "yahoo:risou-shop_rs-036",
+      "history_7d": {
+        "window_days": 7,
+        "covered_hours": 8.44,
+        "coverage_percent": 5.02,
+        "complete": false,
+        "observed_low_jpy": 9980,
+        "low_jpy": null,
+        "estimated_average_jpy": 9980.0,
+        "average_jpy": null
+      },
+      "history_30d": {
+        "window_days": 30,
+        "covered_hours": 8.44,
+        "coverage_percent": 1.17,
+        "complete": false,
+        "observed_low_jpy": 9980,
+        "low_jpy": null,
+        "estimated_average_jpy": 9980.0,
+        "average_jpy": null
+      },
+      "historical_low_jpy": 9980,
+      "historical_high_jpy": 9980,
+      "price_change_points": 1,
+      "history_classification": "数据不足",
+      "recovered_price": false,
+      "new_observed_low": false,
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
+      "price_changed_at": "2026-11-22T11:43:50+00:00",
+      "current_price_jpy": 9980
     },
     {
       "id": "yahoo:nickangensuisosui_7397-001",
@@ -4542,41 +4574,9 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-22T11:43:50+00:00",
       "current_price_jpy": 22470
-    },
-    {
-      "id": "yahoo:kohnan-eshop_4549077752925",
-      "history_7d": {
-        "window_days": 7,
-        "covered_hours": 8.44,
-        "coverage_percent": 5.02,
-        "complete": false,
-        "observed_low_jpy": 12350,
-        "low_jpy": null,
-        "estimated_average_jpy": 12350.0,
-        "average_jpy": null
-      },
-      "history_30d": {
-        "window_days": 30,
-        "covered_hours": 8.44,
-        "coverage_percent": 1.17,
-        "complete": false,
-        "observed_low_jpy": 12350,
-        "low_jpy": null,
-        "estimated_average_jpy": 12350.0,
-        "average_jpy": null
-      },
-      "historical_low_jpy": 12350,
-      "historical_high_jpy": 12350,
-      "price_change_points": 1,
-      "history_classification": "数据不足",
-      "recovered_price": false,
-      "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
-      "price_changed_at": "2026-11-22T11:43:50+00:00",
-      "current_price_jpy": 12350
     },
     {
       "id": "yahoo:shopch_4000823236001",
@@ -4606,41 +4606,9 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-22T11:43:50+00:00",
       "current_price_jpy": 27700
-    },
-    {
-      "id": "yahoo:yamada-denki_1386461010",
-      "history_7d": {
-        "window_days": 7,
-        "covered_hours": 8.44,
-        "coverage_percent": 5.02,
-        "complete": false,
-        "observed_low_jpy": 15133,
-        "low_jpy": null,
-        "estimated_average_jpy": 15133.0,
-        "average_jpy": null
-      },
-      "history_30d": {
-        "window_days": 30,
-        "covered_hours": 8.44,
-        "coverage_percent": 1.17,
-        "complete": false,
-        "observed_low_jpy": 15133,
-        "low_jpy": null,
-        "estimated_average_jpy": 15133.0,
-        "average_jpy": null
-      },
-      "historical_low_jpy": 15133,
-      "historical_high_jpy": 15133,
-      "price_change_points": 1,
-      "history_classification": "数据不足",
-      "recovered_price": false,
-      "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
-      "price_changed_at": "2026-11-22T11:43:50+00:00",
-      "current_price_jpy": 15133
     },
     {
       "id": "yahoo:risou-shop_rs-035",
@@ -4670,9 +4638,73 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-22T11:43:50+00:00",
       "current_price_jpy": 16980
+    },
+    {
+      "id": "yahoo:yamada-denki_1386461010",
+      "history_7d": {
+        "window_days": 7,
+        "covered_hours": 8.44,
+        "coverage_percent": 5.02,
+        "complete": false,
+        "observed_low_jpy": 15133,
+        "low_jpy": null,
+        "estimated_average_jpy": 15133.0,
+        "average_jpy": null
+      },
+      "history_30d": {
+        "window_days": 30,
+        "covered_hours": 8.44,
+        "coverage_percent": 1.17,
+        "complete": false,
+        "observed_low_jpy": 15133,
+        "low_jpy": null,
+        "estimated_average_jpy": 15133.0,
+        "average_jpy": null
+      },
+      "historical_low_jpy": 15133,
+      "historical_high_jpy": 15133,
+      "price_change_points": 1,
+      "history_classification": "数据不足",
+      "recovered_price": false,
+      "new_observed_low": false,
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
+      "price_changed_at": "2026-11-22T11:43:50+00:00",
+      "current_price_jpy": 15133
+    },
+    {
+      "id": "yahoo:kohnan-eshop_4549077752925",
+      "history_7d": {
+        "window_days": 7,
+        "covered_hours": 8.44,
+        "coverage_percent": 5.02,
+        "complete": false,
+        "observed_low_jpy": 12350,
+        "low_jpy": null,
+        "estimated_average_jpy": 12350.0,
+        "average_jpy": null
+      },
+      "history_30d": {
+        "window_days": 30,
+        "covered_hours": 8.44,
+        "coverage_percent": 1.17,
+        "complete": false,
+        "observed_low_jpy": 12350,
+        "low_jpy": null,
+        "estimated_average_jpy": 12350.0,
+        "average_jpy": null
+      },
+      "historical_low_jpy": 12350,
+      "historical_high_jpy": 12350,
+      "price_change_points": 1,
+      "history_classification": "数据不足",
+      "recovered_price": false,
+      "new_observed_low": false,
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
+      "price_changed_at": "2026-11-22T11:43:50+00:00",
+      "current_price_jpy": 12350
     },
     {
       "id": "yahoo:irisplaza_h574506f",
@@ -4702,7 +4734,7 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-22T11:43:50+00:00",
       "current_price_jpy": 9980
     },
@@ -4734,41 +4766,9 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-22T11:43:50+00:00",
       "current_price_jpy": 12980
-    },
-    {
-      "id": "yahoo:yamada-denki_1386460013",
-      "history_7d": {
-        "window_days": 7,
-        "covered_hours": 0.0,
-        "coverage_percent": 0.0,
-        "complete": false,
-        "observed_low_jpy": 27280,
-        "low_jpy": null,
-        "estimated_average_jpy": null,
-        "average_jpy": null
-      },
-      "history_30d": {
-        "window_days": 30,
-        "covered_hours": 0.0,
-        "coverage_percent": 0.0,
-        "complete": false,
-        "observed_low_jpy": 27280,
-        "low_jpy": null,
-        "estimated_average_jpy": null,
-        "average_jpy": null
-      },
-      "historical_low_jpy": 27280,
-      "historical_high_jpy": 27280,
-      "price_change_points": 1,
-      "history_classification": "数据不足",
-      "recovered_price": false,
-      "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
-      "price_changed_at": "2026-11-27T08:41:04+00:00",
-      "current_price_jpy": 27280
     },
     {
       "id": "yahoo:dyson_631031-01",
@@ -4798,7 +4798,7 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-24T14:02:38+00:00",
       "current_price_jpy": 29900
     },
@@ -4830,9 +4830,41 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-26T08:26:27+00:00",
       "current_price_jpy": 10999
+    },
+    {
+      "id": "yahoo:shark_lc103j",
+      "history_7d": {
+        "window_days": 7,
+        "covered_hours": 0.0,
+        "coverage_percent": 0.0,
+        "complete": false,
+        "observed_low_jpy": 30250,
+        "low_jpy": null,
+        "estimated_average_jpy": null,
+        "average_jpy": null
+      },
+      "history_30d": {
+        "window_days": 30,
+        "covered_hours": 0.0,
+        "coverage_percent": 0.0,
+        "complete": false,
+        "observed_low_jpy": 30250,
+        "low_jpy": null,
+        "estimated_average_jpy": null,
+        "average_jpy": null
+      },
+      "historical_low_jpy": 30250,
+      "historical_high_jpy": 30250,
+      "price_change_points": 1,
+      "history_classification": "数据不足",
+      "recovered_price": false,
+      "new_observed_low": false,
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
+      "price_changed_at": "2026-11-28T07:54:33+00:00",
+      "current_price_jpy": 30250
     },
     {
       "id": "yahoo:irisplaza_213781",
@@ -4862,7 +4894,7 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-25T08:40:45+00:00",
       "current_price_jpy": 13980
     },
@@ -4894,7 +4926,7 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-22T11:43:50+00:00",
       "current_price_jpy": 19780
     },
@@ -4926,41 +4958,9 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-22T11:43:50+00:00",
       "current_price_jpy": 29990
-    },
-    {
-      "id": "yahoo:shark_cs651j-xkit07cs200j",
-      "history_7d": {
-        "window_days": 7,
-        "covered_hours": 0.0,
-        "coverage_percent": 0.0,
-        "complete": false,
-        "observed_low_jpy": 35200,
-        "low_jpy": null,
-        "estimated_average_jpy": null,
-        "average_jpy": null
-      },
-      "history_30d": {
-        "window_days": 30,
-        "covered_hours": 0.0,
-        "coverage_percent": 0.0,
-        "complete": false,
-        "observed_low_jpy": 35200,
-        "low_jpy": null,
-        "estimated_average_jpy": null,
-        "average_jpy": null
-      },
-      "historical_low_jpy": 35200,
-      "historical_high_jpy": 35200,
-      "price_change_points": 1,
-      "history_classification": "数据不足",
-      "recovered_price": false,
-      "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
-      "price_changed_at": "2026-11-26T21:37:28+00:00",
-      "current_price_jpy": 35200
     },
     {
       "id": "yahoo:mikirona_s-cf-03",
@@ -4990,7 +4990,7 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-22T11:43:50+00:00",
       "current_price_jpy": 5584
     },
@@ -5022,7 +5022,7 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-22T11:43:50+00:00",
       "current_price_jpy": 4734
     },
@@ -5054,7 +5054,7 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-22T11:43:50+00:00",
       "current_price_jpy": 5478
     },
@@ -5086,41 +5086,9 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-22T11:43:50+00:00",
       "current_price_jpy": 14850
-    },
-    {
-      "id": "yahoo:tescom-shop_td43",
-      "history_7d": {
-        "window_days": 7,
-        "covered_hours": 8.44,
-        "coverage_percent": 5.02,
-        "complete": false,
-        "observed_low_jpy": 4480,
-        "low_jpy": null,
-        "estimated_average_jpy": 4480.0,
-        "average_jpy": null
-      },
-      "history_30d": {
-        "window_days": 30,
-        "covered_hours": 8.44,
-        "coverage_percent": 1.17,
-        "complete": false,
-        "observed_low_jpy": 4480,
-        "low_jpy": null,
-        "estimated_average_jpy": 4480.0,
-        "average_jpy": null
-      },
-      "historical_low_jpy": 4480,
-      "historical_high_jpy": 4480,
-      "price_change_points": 1,
-      "history_classification": "数据不足",
-      "recovered_price": false,
-      "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
-      "price_changed_at": "2026-11-22T11:43:50+00:00",
-      "current_price_jpy": 4480
     },
     {
       "id": "yahoo:queensshop_sal020",
@@ -5150,9 +5118,41 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-22T11:43:50+00:00",
       "current_price_jpy": 6526
+    },
+    {
+      "id": "yahoo:tescom-shop_td43",
+      "history_7d": {
+        "window_days": 7,
+        "covered_hours": 8.44,
+        "coverage_percent": 5.02,
+        "complete": false,
+        "observed_low_jpy": 4480,
+        "low_jpy": null,
+        "estimated_average_jpy": 4480.0,
+        "average_jpy": null
+      },
+      "history_30d": {
+        "window_days": 30,
+        "covered_hours": 8.44,
+        "coverage_percent": 1.17,
+        "complete": false,
+        "observed_low_jpy": 4480,
+        "low_jpy": null,
+        "estimated_average_jpy": 4480.0,
+        "average_jpy": null
+      },
+      "historical_low_jpy": 4480,
+      "historical_high_jpy": 4480,
+      "price_change_points": 1,
+      "history_classification": "数据不足",
+      "recovered_price": false,
+      "new_observed_low": false,
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
+      "price_changed_at": "2026-11-22T11:43:50+00:00",
+      "current_price_jpy": 4480
     },
     {
       "id": "yahoo:ebest_4549980973974",
@@ -5182,7 +5182,7 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-22T11:43:50+00:00",
       "current_price_jpy": 16754
     },
@@ -5214,7 +5214,7 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-22T11:43:50+00:00",
       "current_price_jpy": 39600
     },
@@ -5246,7 +5246,7 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-27T08:41:04+00:00",
       "current_price_jpy": 36330
     },
@@ -5278,73 +5278,9 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-24T15:06:17+00:00",
       "current_price_jpy": 9900
-    },
-    {
-      "id": "yahoo:yamada-denki_6791076019",
-      "history_7d": {
-        "window_days": 7,
-        "covered_hours": 8.44,
-        "coverage_percent": 5.02,
-        "complete": false,
-        "observed_low_jpy": 3850,
-        "low_jpy": null,
-        "estimated_average_jpy": 3850.0,
-        "average_jpy": null
-      },
-      "history_30d": {
-        "window_days": 30,
-        "covered_hours": 8.44,
-        "coverage_percent": 1.17,
-        "complete": false,
-        "observed_low_jpy": 3850,
-        "low_jpy": null,
-        "estimated_average_jpy": 3850.0,
-        "average_jpy": null
-      },
-      "historical_low_jpy": 3850,
-      "historical_high_jpy": 3850,
-      "price_change_points": 1,
-      "history_classification": "数据不足",
-      "recovered_price": false,
-      "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
-      "price_changed_at": "2026-11-22T11:43:50+00:00",
-      "current_price_jpy": 3850
-    },
-    {
-      "id": "yahoo:mtgec_2009320109",
-      "history_7d": {
-        "window_days": 7,
-        "covered_hours": 8.44,
-        "coverage_percent": 5.02,
-        "complete": false,
-        "observed_low_jpy": 33000,
-        "low_jpy": null,
-        "estimated_average_jpy": 33000.0,
-        "average_jpy": null
-      },
-      "history_30d": {
-        "window_days": 30,
-        "covered_hours": 8.44,
-        "coverage_percent": 1.17,
-        "complete": false,
-        "observed_low_jpy": 33000,
-        "low_jpy": null,
-        "estimated_average_jpy": 33000.0,
-        "average_jpy": null
-      },
-      "historical_low_jpy": 33000,
-      "historical_high_jpy": 33000,
-      "price_change_points": 1,
-      "history_classification": "数据不足",
-      "recovered_price": false,
-      "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
-      "price_changed_at": "2026-11-22T11:43:50+00:00",
-      "current_price_jpy": 33000
     },
     {
       "id": "yahoo:tescom-shop_nbt-nib400-h",
@@ -5374,9 +5310,41 @@
       "history_classification": "恢复原价",
       "recovered_price": true,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-27T21:21:43+00:00",
       "current_price_jpy": 7980
+    },
+    {
+      "id": "yahoo:yamada-denki_6791076019",
+      "history_7d": {
+        "window_days": 7,
+        "covered_hours": 8.44,
+        "coverage_percent": 5.02,
+        "complete": false,
+        "observed_low_jpy": 3850,
+        "low_jpy": null,
+        "estimated_average_jpy": 3850.0,
+        "average_jpy": null
+      },
+      "history_30d": {
+        "window_days": 30,
+        "covered_hours": 8.44,
+        "coverage_percent": 1.17,
+        "complete": false,
+        "observed_low_jpy": 3850,
+        "low_jpy": null,
+        "estimated_average_jpy": 3850.0,
+        "average_jpy": null
+      },
+      "historical_low_jpy": 3850,
+      "historical_high_jpy": 3850,
+      "price_change_points": 1,
+      "history_classification": "数据不足",
+      "recovered_price": false,
+      "new_observed_low": false,
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
+      "price_changed_at": "2026-11-22T11:43:50+00:00",
+      "current_price_jpy": 3850
     },
     {
       "id": "yahoo:costumehouse_fsyhctj02",
@@ -5406,9 +5374,41 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-25T08:40:45+00:00",
       "current_price_jpy": 5980
+    },
+    {
+      "id": "yahoo:mtgec_2009320109",
+      "history_7d": {
+        "window_days": 7,
+        "covered_hours": 8.44,
+        "coverage_percent": 5.02,
+        "complete": false,
+        "observed_low_jpy": 33000,
+        "low_jpy": null,
+        "estimated_average_jpy": 33000.0,
+        "average_jpy": null
+      },
+      "history_30d": {
+        "window_days": 30,
+        "covered_hours": 8.44,
+        "coverage_percent": 1.17,
+        "complete": false,
+        "observed_low_jpy": 33000,
+        "low_jpy": null,
+        "estimated_average_jpy": 33000.0,
+        "average_jpy": null
+      },
+      "historical_low_jpy": 33000,
+      "historical_high_jpy": 33000,
+      "price_change_points": 1,
+      "history_classification": "数据不足",
+      "recovered_price": false,
+      "new_observed_low": false,
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
+      "price_changed_at": "2026-11-22T11:43:50+00:00",
+      "current_price_jpy": 33000
     },
     {
       "id": "yahoo:queensshop_sal019",
@@ -5438,41 +5438,9 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-22T11:43:50+00:00",
       "current_price_jpy": 29700
-    },
-    {
-      "id": "yahoo:nissoplus_np-hd25bk",
-      "history_7d": {
-        "window_days": 7,
-        "covered_hours": 0.0,
-        "coverage_percent": 0.0,
-        "complete": false,
-        "observed_low_jpy": 12320,
-        "low_jpy": null,
-        "estimated_average_jpy": null,
-        "average_jpy": null
-      },
-      "history_30d": {
-        "window_days": 30,
-        "covered_hours": 0.0,
-        "coverage_percent": 0.0,
-        "complete": false,
-        "observed_low_jpy": 12320,
-        "low_jpy": null,
-        "estimated_average_jpy": null,
-        "average_jpy": null
-      },
-      "historical_low_jpy": 12320,
-      "historical_high_jpy": 12320,
-      "price_change_points": 1,
-      "history_classification": "数据不足",
-      "recovered_price": false,
-      "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
-      "price_changed_at": "2026-11-24T22:29:57+00:00",
-      "current_price_jpy": 12320
     },
     {
       "id": "yahoo:yamada-denki_6791999011",
@@ -5502,7 +5470,7 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-22T11:43:50+00:00",
       "current_price_jpy": 9790
     },
@@ -5534,7 +5502,7 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-22T11:43:50+00:00",
       "current_price_jpy": 990
     },
@@ -5566,18 +5534,18 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-23T23:56:57+00:00",
       "current_price_jpy": 2980
     },
     {
-      "id": "yahoo:zozo_84228698",
+      "id": "yahoo:nissoplus_np-hd25bk",
       "history_7d": {
         "window_days": 7,
         "covered_hours": 0.0,
         "coverage_percent": 0.0,
         "complete": false,
-        "observed_low_jpy": 10560,
+        "observed_low_jpy": 12320,
         "low_jpy": null,
         "estimated_average_jpy": null,
         "average_jpy": null
@@ -5587,20 +5555,52 @@
         "covered_hours": 0.0,
         "coverage_percent": 0.0,
         "complete": false,
-        "observed_low_jpy": 10560,
+        "observed_low_jpy": 12320,
         "low_jpy": null,
         "estimated_average_jpy": null,
         "average_jpy": null
       },
-      "historical_low_jpy": 10560,
-      "historical_high_jpy": 13200,
-      "price_change_points": 2,
-      "history_classification": "监测期新低",
+      "historical_low_jpy": 12320,
+      "historical_high_jpy": 12320,
+      "price_change_points": 1,
+      "history_classification": "数据不足",
       "recovered_price": false,
-      "new_observed_low": true,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "new_observed_low": false,
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
+      "price_changed_at": "2026-11-24T22:29:57+00:00",
+      "current_price_jpy": 12320
+    },
+    {
+      "id": "yahoo:yamada-denki_6791998014",
+      "history_7d": {
+        "window_days": 7,
+        "covered_hours": 0.0,
+        "coverage_percent": 0.0,
+        "complete": false,
+        "observed_low_jpy": 8701,
+        "low_jpy": null,
+        "estimated_average_jpy": null,
+        "average_jpy": null
+      },
+      "history_30d": {
+        "window_days": 30,
+        "covered_hours": 0.0,
+        "coverage_percent": 0.0,
+        "complete": false,
+        "observed_low_jpy": 8701,
+        "low_jpy": null,
+        "estimated_average_jpy": null,
+        "average_jpy": null
+      },
+      "historical_low_jpy": 8701,
+      "historical_high_jpy": 8701,
+      "price_change_points": 1,
+      "history_classification": "数据不足",
+      "recovered_price": false,
+      "new_observed_low": false,
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-26T08:26:27+00:00",
-      "current_price_jpy": 10560
+      "current_price_jpy": 8701
     },
     {
       "id": "yahoo:oralb-braun_pro1wt-p",
@@ -5630,7 +5630,7 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-22T11:43:50+00:00",
       "current_price_jpy": 4732
     },
@@ -5662,7 +5662,7 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-22T11:43:50+00:00",
       "current_price_jpy": 4790
     },
@@ -5694,7 +5694,7 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-22T11:43:50+00:00",
       "current_price_jpy": 8980
     },
@@ -5726,7 +5726,7 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-22T11:43:50+00:00",
       "current_price_jpy": 6380
     },
@@ -5758,41 +5758,9 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-22T11:43:50+00:00",
       "current_price_jpy": 18700
-    },
-    {
-      "id": "yahoo:hyt-store_yhddys01",
-      "history_7d": {
-        "window_days": 7,
-        "covered_hours": 8.44,
-        "coverage_percent": 5.02,
-        "complete": false,
-        "observed_low_jpy": 3980,
-        "low_jpy": null,
-        "estimated_average_jpy": 3980.0,
-        "average_jpy": null
-      },
-      "history_30d": {
-        "window_days": 30,
-        "covered_hours": 8.44,
-        "coverage_percent": 1.17,
-        "complete": false,
-        "observed_low_jpy": 3980,
-        "low_jpy": null,
-        "estimated_average_jpy": 3980.0,
-        "average_jpy": null
-      },
-      "historical_low_jpy": 3980,
-      "historical_high_jpy": 3980,
-      "price_change_points": 1,
-      "history_classification": "数据不足",
-      "recovered_price": false,
-      "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
-      "price_changed_at": "2026-11-22T11:43:50+00:00",
-      "current_price_jpy": 3980
     },
     {
       "id": "yahoo:joshin_4987176417268-23-5907",
@@ -5822,7 +5790,7 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-27T21:21:43+00:00",
       "current_price_jpy": 9980
     },
@@ -5854,9 +5822,41 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-22T11:43:50+00:00",
       "current_price_jpy": 5980
+    },
+    {
+      "id": "yahoo:hyt-store_yhddys01",
+      "history_7d": {
+        "window_days": 7,
+        "covered_hours": 8.44,
+        "coverage_percent": 5.02,
+        "complete": false,
+        "observed_low_jpy": 3980,
+        "low_jpy": null,
+        "estimated_average_jpy": 3980.0,
+        "average_jpy": null
+      },
+      "history_30d": {
+        "window_days": 30,
+        "covered_hours": 8.44,
+        "coverage_percent": 1.17,
+        "complete": false,
+        "observed_low_jpy": 3980,
+        "low_jpy": null,
+        "estimated_average_jpy": 3980.0,
+        "average_jpy": null
+      },
+      "historical_low_jpy": 3980,
+      "historical_high_jpy": 3980,
+      "price_change_points": 1,
+      "history_classification": "数据不足",
+      "recovered_price": false,
+      "new_observed_low": false,
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
+      "price_changed_at": "2026-11-22T11:43:50+00:00",
+      "current_price_jpy": 3980
     },
     {
       "id": "yahoo:y-kojima_8720689050920",
@@ -5886,7 +5886,7 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-22T11:43:50+00:00",
       "current_price_jpy": 6444
     },
@@ -5918,7 +5918,7 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-22T11:43:50+00:00",
       "current_price_jpy": 1690
     },
@@ -5950,41 +5950,9 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-22T11:43:50+00:00",
       "current_price_jpy": 3980
-    },
-    {
-      "id": "yahoo:rusion-jp_rus-8720689052597",
-      "history_7d": {
-        "window_days": 7,
-        "covered_hours": 0.0,
-        "coverage_percent": 0.0,
-        "complete": false,
-        "observed_low_jpy": 8800,
-        "low_jpy": null,
-        "estimated_average_jpy": null,
-        "average_jpy": null
-      },
-      "history_30d": {
-        "window_days": 30,
-        "covered_hours": 0.0,
-        "coverage_percent": 0.0,
-        "complete": false,
-        "observed_low_jpy": 8800,
-        "low_jpy": null,
-        "estimated_average_jpy": null,
-        "average_jpy": null
-      },
-      "historical_low_jpy": 8800,
-      "historical_high_jpy": 8800,
-      "price_change_points": 1,
-      "history_classification": "数据不足",
-      "recovered_price": false,
-      "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
-      "price_changed_at": "2026-11-26T08:26:27+00:00",
-      "current_price_jpy": 8800
     },
     {
       "id": "yahoo:y-kojima_8720689027915",
@@ -6014,9 +5982,41 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-24T22:29:57+00:00",
       "current_price_jpy": 26954
+    },
+    {
+      "id": "yahoo:rusion-jp_rus-8720689052597",
+      "history_7d": {
+        "window_days": 7,
+        "covered_hours": 0.0,
+        "coverage_percent": 0.0,
+        "complete": false,
+        "observed_low_jpy": 8800,
+        "low_jpy": null,
+        "estimated_average_jpy": null,
+        "average_jpy": null
+      },
+      "history_30d": {
+        "window_days": 30,
+        "covered_hours": 0.0,
+        "coverage_percent": 0.0,
+        "complete": false,
+        "observed_low_jpy": 8800,
+        "low_jpy": null,
+        "estimated_average_jpy": null,
+        "average_jpy": null
+      },
+      "historical_low_jpy": 8800,
+      "historical_high_jpy": 8800,
+      "price_change_points": 1,
+      "history_classification": "数据不足",
+      "recovered_price": false,
+      "new_observed_low": false,
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
+      "price_changed_at": "2026-11-26T08:26:27+00:00",
+      "current_price_jpy": 8800
     },
     {
       "id": "yahoo:oralb-braun_eb-gn-s-p",
@@ -6046,41 +6046,9 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-22T11:43:50+00:00",
       "current_price_jpy": 30800
-    },
-    {
-      "id": "yahoo:two-tree_brown-sumizumi",
-      "history_7d": {
-        "window_days": 7,
-        "covered_hours": 0.96,
-        "coverage_percent": 0.57,
-        "complete": false,
-        "observed_low_jpy": 3080,
-        "low_jpy": null,
-        "estimated_average_jpy": 3080.0,
-        "average_jpy": null
-      },
-      "history_30d": {
-        "window_days": 30,
-        "covered_hours": 0.96,
-        "coverage_percent": 0.13,
-        "complete": false,
-        "observed_low_jpy": 3080,
-        "low_jpy": null,
-        "estimated_average_jpy": 3080.0,
-        "average_jpy": null
-      },
-      "historical_low_jpy": 3080,
-      "historical_high_jpy": 3240,
-      "price_change_points": 2,
-      "history_classification": "数据不足",
-      "recovered_price": false,
-      "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
-      "price_changed_at": "2026-11-25T08:40:45+00:00",
-      "current_price_jpy": 3240
     },
     {
       "id": "yahoo:yamada-denki_3467233011",
@@ -6110,9 +6078,41 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-24T15:06:17+00:00",
       "current_price_jpy": 16045
+    },
+    {
+      "id": "yahoo:two-tree_brown-sumizumi",
+      "history_7d": {
+        "window_days": 7,
+        "covered_hours": 0.96,
+        "coverage_percent": 0.57,
+        "complete": false,
+        "observed_low_jpy": 3080,
+        "low_jpy": null,
+        "estimated_average_jpy": 3080.0,
+        "average_jpy": null
+      },
+      "history_30d": {
+        "window_days": 30,
+        "covered_hours": 0.96,
+        "coverage_percent": 0.13,
+        "complete": false,
+        "observed_low_jpy": 3080,
+        "low_jpy": null,
+        "estimated_average_jpy": 3080.0,
+        "average_jpy": null
+      },
+      "historical_low_jpy": 3080,
+      "historical_high_jpy": 3240,
+      "price_change_points": 2,
+      "history_classification": "数据不足",
+      "recovered_price": false,
+      "new_observed_low": false,
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
+      "price_changed_at": "2026-11-25T08:40:45+00:00",
+      "current_price_jpy": 3240
     },
     {
       "id": "yahoo:life-rhythm_ht-b318-w",
@@ -6142,7 +6142,7 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-22T11:43:50+00:00",
       "current_price_jpy": 4280
     },
@@ -6174,41 +6174,9 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-24T09:58:26+00:00",
       "current_price_jpy": 13190
-    },
-    {
-      "id": "yahoo:joshin_4987176267665-23-5907",
-      "history_7d": {
-        "window_days": 7,
-        "covered_hours": 0.0,
-        "coverage_percent": 0.0,
-        "complete": false,
-        "observed_low_jpy": 11080,
-        "low_jpy": null,
-        "estimated_average_jpy": null,
-        "average_jpy": null
-      },
-      "history_30d": {
-        "window_days": 30,
-        "covered_hours": 0.0,
-        "coverage_percent": 0.0,
-        "complete": false,
-        "observed_low_jpy": 11080,
-        "low_jpy": null,
-        "estimated_average_jpy": null,
-        "average_jpy": null
-      },
-      "historical_low_jpy": 11080,
-      "historical_high_jpy": 11978,
-      "price_change_points": 2,
-      "history_classification": "数据不足",
-      "recovered_price": false,
-      "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
-      "price_changed_at": "2026-11-26T08:26:27+00:00",
-      "current_price_jpy": 11978
     },
     {
       "id": "yahoo:townmallneo_y-ht-b304-w",
@@ -6238,9 +6206,41 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-22T11:43:50+00:00",
       "current_price_jpy": 3498
+    },
+    {
+      "id": "yahoo:khshop_4970458821303",
+      "history_7d": {
+        "window_days": 7,
+        "covered_hours": 8.44,
+        "coverage_percent": 5.02,
+        "complete": false,
+        "observed_low_jpy": 780,
+        "low_jpy": null,
+        "estimated_average_jpy": 780.0,
+        "average_jpy": null
+      },
+      "history_30d": {
+        "window_days": 30,
+        "covered_hours": 8.44,
+        "coverage_percent": 1.17,
+        "complete": false,
+        "observed_low_jpy": 780,
+        "low_jpy": null,
+        "estimated_average_jpy": 780.0,
+        "average_jpy": null
+      },
+      "historical_low_jpy": 780,
+      "historical_high_jpy": 780,
+      "price_change_points": 1,
+      "history_classification": "数据不足",
+      "recovered_price": false,
+      "new_observed_low": false,
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
+      "price_changed_at": "2026-11-22T11:43:50+00:00",
+      "current_price_jpy": 780
     },
     {
       "id": "yahoo:pai-kea_k002",
@@ -6270,41 +6270,9 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-22T11:43:50+00:00",
       "current_price_jpy": 7980
-    },
-    {
-      "id": "yahoo:irisplaza_298878",
-      "history_7d": {
-        "window_days": 7,
-        "covered_hours": 8.44,
-        "coverage_percent": 5.02,
-        "complete": false,
-        "observed_low_jpy": 13980,
-        "low_jpy": null,
-        "estimated_average_jpy": 13980.0,
-        "average_jpy": null
-      },
-      "history_30d": {
-        "window_days": 30,
-        "covered_hours": 8.44,
-        "coverage_percent": 1.17,
-        "complete": false,
-        "observed_low_jpy": 13980,
-        "low_jpy": null,
-        "estimated_average_jpy": 13980.0,
-        "average_jpy": null
-      },
-      "historical_low_jpy": 13980,
-      "historical_high_jpy": 13980,
-      "price_change_points": 1,
-      "history_classification": "数据不足",
-      "recovered_price": false,
-      "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
-      "price_changed_at": "2026-11-22T11:43:50+00:00",
-      "current_price_jpy": 13980
     },
     {
       "id": "yahoo:hanwha_hg-asl010",
@@ -6334,9 +6302,41 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-22T11:43:50+00:00",
       "current_price_jpy": 3580
+    },
+    {
+      "id": "yahoo:irisplaza_298878",
+      "history_7d": {
+        "window_days": 7,
+        "covered_hours": 8.44,
+        "coverage_percent": 5.02,
+        "complete": false,
+        "observed_low_jpy": 13980,
+        "low_jpy": null,
+        "estimated_average_jpy": 13980.0,
+        "average_jpy": null
+      },
+      "history_30d": {
+        "window_days": 30,
+        "covered_hours": 8.44,
+        "coverage_percent": 1.17,
+        "complete": false,
+        "observed_low_jpy": 13980,
+        "low_jpy": null,
+        "estimated_average_jpy": 13980.0,
+        "average_jpy": null
+      },
+      "historical_low_jpy": 13980,
+      "historical_high_jpy": 13980,
+      "price_change_points": 1,
+      "history_classification": "数据不足",
+      "recovered_price": false,
+      "new_observed_low": false,
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
+      "price_changed_at": "2026-11-22T11:43:50+00:00",
+      "current_price_jpy": 13980
     },
     {
       "id": "yahoo:bruno-official_7761127",
@@ -6366,41 +6366,9 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-22T11:43:50+00:00",
       "current_price_jpy": 5890
-    },
-    {
-      "id": "yahoo:joshin_4974305232502-22-4621",
-      "history_7d": {
-        "window_days": 7,
-        "covered_hours": 0.0,
-        "coverage_percent": 0.0,
-        "complete": false,
-        "observed_low_jpy": 29480,
-        "low_jpy": null,
-        "estimated_average_jpy": null,
-        "average_jpy": null
-      },
-      "history_30d": {
-        "window_days": 30,
-        "covered_hours": 0.0,
-        "coverage_percent": 0.0,
-        "complete": false,
-        "observed_low_jpy": 29480,
-        "low_jpy": null,
-        "estimated_average_jpy": null,
-        "average_jpy": null
-      },
-      "historical_low_jpy": 29480,
-      "historical_high_jpy": 29480,
-      "price_change_points": 1,
-      "history_classification": "数据不足",
-      "recovered_price": false,
-      "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
-      "price_changed_at": "2026-11-26T21:37:28+00:00",
-      "current_price_jpy": 29480
     },
     {
       "id": "yahoo:tradevoxj_yf2508",
@@ -6430,9 +6398,41 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-22T11:43:50+00:00",
       "current_price_jpy": 6980
+    },
+    {
+      "id": "yahoo:joshin_4974305232502-22-4621",
+      "history_7d": {
+        "window_days": 7,
+        "covered_hours": 0.0,
+        "coverage_percent": 0.0,
+        "complete": false,
+        "observed_low_jpy": 29480,
+        "low_jpy": null,
+        "estimated_average_jpy": null,
+        "average_jpy": null
+      },
+      "history_30d": {
+        "window_days": 30,
+        "covered_hours": 0.0,
+        "coverage_percent": 0.0,
+        "complete": false,
+        "observed_low_jpy": 29480,
+        "low_jpy": null,
+        "estimated_average_jpy": null,
+        "average_jpy": null
+      },
+      "historical_low_jpy": 29480,
+      "historical_high_jpy": 29480,
+      "price_change_points": 1,
+      "history_classification": "数据不足",
+      "recovered_price": false,
+      "new_observed_low": false,
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
+      "price_changed_at": "2026-11-26T21:37:28+00:00",
+      "current_price_jpy": 29480
     },
     {
       "id": "yahoo:tutuyo_jsqaqum1ba",
@@ -6462,7 +6462,7 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-22T11:43:50+00:00",
       "current_price_jpy": 5980
     },
@@ -6494,7 +6494,7 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-22T11:43:50+00:00",
       "current_price_jpy": 3980
     },
@@ -6526,7 +6526,7 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-24T09:58:26+00:00",
       "current_price_jpy": 5980
     },
@@ -6558,7 +6558,7 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-22T11:43:50+00:00",
       "current_price_jpy": 2580
     },
@@ -6590,7 +6590,7 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-22T11:43:50+00:00",
       "current_price_jpy": 5980
     },
@@ -6622,7 +6622,7 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-22T11:43:50+00:00",
       "current_price_jpy": 9980
     },
@@ -6654,7 +6654,7 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-25T21:44:40+00:00",
       "current_price_jpy": 2980
     },
@@ -6686,41 +6686,9 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-22T11:43:50+00:00",
       "current_price_jpy": 6180
-    },
-    {
-      "id": "yahoo:e-kurashi_67382",
-      "history_7d": {
-        "window_days": 7,
-        "covered_hours": 8.44,
-        "coverage_percent": 5.02,
-        "complete": false,
-        "observed_low_jpy": 8784,
-        "low_jpy": null,
-        "estimated_average_jpy": 8784.0,
-        "average_jpy": null
-      },
-      "history_30d": {
-        "window_days": 30,
-        "covered_hours": 8.44,
-        "coverage_percent": 1.17,
-        "complete": false,
-        "observed_low_jpy": 8784,
-        "low_jpy": null,
-        "estimated_average_jpy": 8784.0,
-        "average_jpy": null
-      },
-      "historical_low_jpy": 8784,
-      "historical_high_jpy": 8784,
-      "price_change_points": 1,
-      "history_classification": "数据不足",
-      "recovered_price": false,
-      "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
-      "price_changed_at": "2026-11-24T09:58:26+00:00",
-      "current_price_jpy": 8784
     },
     {
       "id": "yahoo:livelylife_a301523",
@@ -6750,9 +6718,41 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-26T08:26:27+00:00",
       "current_price_jpy": 1980
+    },
+    {
+      "id": "yahoo:e-kurashi_67382",
+      "history_7d": {
+        "window_days": 7,
+        "covered_hours": 8.44,
+        "coverage_percent": 5.02,
+        "complete": false,
+        "observed_low_jpy": 8784,
+        "low_jpy": null,
+        "estimated_average_jpy": 8784.0,
+        "average_jpy": null
+      },
+      "history_30d": {
+        "window_days": 30,
+        "covered_hours": 8.44,
+        "coverage_percent": 1.17,
+        "complete": false,
+        "observed_low_jpy": 8784,
+        "low_jpy": null,
+        "estimated_average_jpy": 8784.0,
+        "average_jpy": null
+      },
+      "historical_low_jpy": 8784,
+      "historical_high_jpy": 8784,
+      "price_change_points": 1,
+      "history_classification": "数据不足",
+      "recovered_price": false,
+      "new_observed_low": false,
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
+      "price_changed_at": "2026-11-24T09:58:26+00:00",
+      "current_price_jpy": 8784
     },
     {
       "id": "yahoo:mecu_qs549",
@@ -6782,7 +6782,7 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-25T21:44:40+00:00",
       "current_price_jpy": 19800
     },
@@ -6814,7 +6814,7 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-24T14:02:38+00:00",
       "current_price_jpy": 16800
     },
@@ -6846,41 +6846,41 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-22T11:43:50+00:00",
       "current_price_jpy": 15980
     },
     {
-      "id": "yahoo:bruno-official_7760836",
+      "id": "yahoo:sake-premoa_2980000205811",
       "history_7d": {
         "window_days": 7,
-        "covered_hours": 0.0,
-        "coverage_percent": 0.0,
+        "covered_hours": 1.09,
+        "coverage_percent": 0.65,
         "complete": false,
-        "observed_low_jpy": 7480,
+        "observed_low_jpy": 21100,
         "low_jpy": null,
-        "estimated_average_jpy": null,
+        "estimated_average_jpy": 21100.0,
         "average_jpy": null
       },
       "history_30d": {
         "window_days": 30,
-        "covered_hours": 0.0,
-        "coverage_percent": 0.0,
+        "covered_hours": 1.09,
+        "coverage_percent": 0.15,
         "complete": false,
-        "observed_low_jpy": 7480,
+        "observed_low_jpy": 21100,
         "low_jpy": null,
-        "estimated_average_jpy": null,
+        "estimated_average_jpy": 21100.0,
         "average_jpy": null
       },
-      "historical_low_jpy": 7480,
-      "historical_high_jpy": 7480,
+      "historical_low_jpy": 21100,
+      "historical_high_jpy": 21100,
       "price_change_points": 1,
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
-      "price_changed_at": "2026-11-26T08:26:27+00:00",
-      "current_price_jpy": 7480
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
+      "price_changed_at": "2026-11-24T14:02:38+00:00",
+      "current_price_jpy": 21100
     },
     {
       "id": "yahoo:tiger-online_adc-n060k",
@@ -6910,7 +6910,7 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-22T11:43:50+00:00",
       "current_price_jpy": 6280
     },
@@ -6942,7 +6942,7 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-22T11:43:50+00:00",
       "current_price_jpy": 23036
     },
@@ -6974,7 +6974,7 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-22T11:43:50+00:00",
       "current_price_jpy": 6971
     },
@@ -7006,7 +7006,7 @@
       "history_classification": "监测期新低",
       "recovered_price": false,
       "new_observed_low": true,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-26T21:37:28+00:00",
       "current_price_jpy": 66460
     },
@@ -7038,41 +7038,9 @@
       "history_classification": "监测期新低",
       "recovered_price": false,
       "new_observed_low": true,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-26T21:37:28+00:00",
       "current_price_jpy": 66460
-    },
-    {
-      "id": "yahoo:e-kurashi_op-s7a46",
-      "history_7d": {
-        "window_days": 7,
-        "covered_hours": 0.0,
-        "coverage_percent": 0.0,
-        "complete": false,
-        "observed_low_jpy": 14800,
-        "low_jpy": null,
-        "estimated_average_jpy": null,
-        "average_jpy": null
-      },
-      "history_30d": {
-        "window_days": 30,
-        "covered_hours": 0.0,
-        "coverage_percent": 0.0,
-        "complete": false,
-        "observed_low_jpy": 14800,
-        "low_jpy": null,
-        "estimated_average_jpy": null,
-        "average_jpy": null
-      },
-      "historical_low_jpy": 14800,
-      "historical_high_jpy": 14800,
-      "price_change_points": 1,
-      "history_classification": "数据不足",
-      "recovered_price": false,
-      "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
-      "price_changed_at": "2026-11-26T08:26:27+00:00",
-      "current_price_jpy": 14800
     },
     {
       "id": "yahoo:delonghi_0132213190",
@@ -7102,9 +7070,41 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-24T09:58:26+00:00",
       "current_price_jpy": 77800
+    },
+    {
+      "id": "yahoo:e-kurashi_op-s7a46",
+      "history_7d": {
+        "window_days": 7,
+        "covered_hours": 0.0,
+        "coverage_percent": 0.0,
+        "complete": false,
+        "observed_low_jpy": 14800,
+        "low_jpy": null,
+        "estimated_average_jpy": null,
+        "average_jpy": null
+      },
+      "history_30d": {
+        "window_days": 30,
+        "covered_hours": 0.0,
+        "coverage_percent": 0.0,
+        "complete": false,
+        "observed_low_jpy": 14800,
+        "low_jpy": null,
+        "estimated_average_jpy": null,
+        "average_jpy": null
+      },
+      "historical_low_jpy": 14800,
+      "historical_high_jpy": 14800,
+      "price_change_points": 1,
+      "history_classification": "数据不足",
+      "recovered_price": false,
+      "new_observed_low": false,
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
+      "price_changed_at": "2026-11-26T08:26:27+00:00",
+      "current_price_jpy": 14800
     },
     {
       "id": "yahoo:joshin_4549980869505-24-46091",
@@ -7134,9 +7134,41 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-24T15:06:17+00:00",
       "current_price_jpy": 22817
+    },
+    {
+      "id": "yahoo:delonghi_0132301091",
+      "history_7d": {
+        "window_days": 7,
+        "covered_hours": 8.44,
+        "coverage_percent": 5.02,
+        "complete": false,
+        "observed_low_jpy": 6980,
+        "low_jpy": null,
+        "estimated_average_jpy": 6980.0,
+        "average_jpy": null
+      },
+      "history_30d": {
+        "window_days": 30,
+        "covered_hours": 8.44,
+        "coverage_percent": 1.17,
+        "complete": false,
+        "observed_low_jpy": 6980,
+        "low_jpy": null,
+        "estimated_average_jpy": 6980.0,
+        "average_jpy": null
+      },
+      "historical_low_jpy": 6980,
+      "historical_high_jpy": 6980,
+      "price_change_points": 1,
+      "history_classification": "数据不足",
+      "recovered_price": false,
+      "new_observed_low": false,
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
+      "price_changed_at": "2026-11-22T11:43:50+00:00",
+      "current_price_jpy": 6980
     },
     {
       "id": "yahoo:tiger-online_ace-n080kg",
@@ -7166,7 +7198,7 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-25T21:44:40+00:00",
       "current_price_jpy": 12800
     },
@@ -7198,20 +7230,52 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-22T11:43:50+00:00",
       "current_price_jpy": 4400
     },
     {
-      "id": "yahoo:delonghi_0132301091",
+      "id": "yahoo:nespresso-coffee_f121",
+      "history_7d": {
+        "window_days": 7,
+        "covered_hours": 0.0,
+        "coverage_percent": 0.0,
+        "complete": false,
+        "observed_low_jpy": 31790,
+        "low_jpy": null,
+        "estimated_average_jpy": null,
+        "average_jpy": null
+      },
+      "history_30d": {
+        "window_days": 30,
+        "covered_hours": 0.0,
+        "coverage_percent": 0.0,
+        "complete": false,
+        "observed_low_jpy": 31790,
+        "low_jpy": null,
+        "estimated_average_jpy": null,
+        "average_jpy": null
+      },
+      "historical_low_jpy": 31790,
+      "historical_high_jpy": 31790,
+      "price_change_points": 1,
+      "history_classification": "数据不足",
+      "recovered_price": false,
+      "new_observed_low": false,
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
+      "price_changed_at": "2026-11-25T08:40:45+00:00",
+      "current_price_jpy": 31790
+    },
+    {
+      "id": "yahoo:somurie_t-fal-119",
       "history_7d": {
         "window_days": 7,
         "covered_hours": 8.44,
         "coverage_percent": 5.02,
         "complete": false,
-        "observed_low_jpy": 6980,
+        "observed_low_jpy": 5279,
         "low_jpy": null,
-        "estimated_average_jpy": 6980.0,
+        "estimated_average_jpy": 5279.0,
         "average_jpy": null
       },
       "history_30d": {
@@ -7219,20 +7283,20 @@
         "covered_hours": 8.44,
         "coverage_percent": 1.17,
         "complete": false,
-        "observed_low_jpy": 6980,
+        "observed_low_jpy": 5279,
         "low_jpy": null,
-        "estimated_average_jpy": 6980.0,
+        "estimated_average_jpy": 5279.0,
         "average_jpy": null
       },
-      "historical_low_jpy": 6980,
-      "historical_high_jpy": 6980,
+      "historical_low_jpy": 5279,
+      "historical_high_jpy": 5279,
       "price_change_points": 1,
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-22T11:43:50+00:00",
-      "current_price_jpy": 6980
+      "current_price_jpy": 5279
     },
     {
       "id": "yahoo:delonghi_0132105036",
@@ -7262,7 +7326,7 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-24T09:58:26+00:00",
       "current_price_jpy": 33110
     },
@@ -7294,7 +7358,7 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-26T08:26:27+00:00",
       "current_price_jpy": 8663
     },
@@ -7326,41 +7390,9 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-24T14:02:38+00:00",
       "current_price_jpy": 128000
-    },
-    {
-      "id": "yahoo:somurie_t-fal-119",
-      "history_7d": {
-        "window_days": 7,
-        "covered_hours": 8.44,
-        "coverage_percent": 5.02,
-        "complete": false,
-        "observed_low_jpy": 5279,
-        "low_jpy": null,
-        "estimated_average_jpy": 5279.0,
-        "average_jpy": null
-      },
-      "history_30d": {
-        "window_days": 30,
-        "covered_hours": 8.44,
-        "coverage_percent": 1.17,
-        "complete": false,
-        "observed_low_jpy": 5279,
-        "low_jpy": null,
-        "estimated_average_jpy": 5279.0,
-        "average_jpy": null
-      },
-      "historical_low_jpy": 5279,
-      "historical_high_jpy": 5279,
-      "price_change_points": 1,
-      "history_classification": "数据不足",
-      "recovered_price": false,
-      "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
-      "price_changed_at": "2026-11-22T11:43:50+00:00",
-      "current_price_jpy": 5279
     },
     {
       "id": "yahoo:galleria-onlineshop_rhb00044",
@@ -7390,41 +7422,9 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-22T11:43:50+00:00",
       "current_price_jpy": 29700
-    },
-    {
-      "id": "yahoo:melittajapan_scg58",
-      "history_7d": {
-        "window_days": 7,
-        "covered_hours": 0.0,
-        "coverage_percent": 0.0,
-        "complete": false,
-        "observed_low_jpy": 4800,
-        "low_jpy": null,
-        "estimated_average_jpy": null,
-        "average_jpy": null
-      },
-      "history_30d": {
-        "window_days": 30,
-        "covered_hours": 0.0,
-        "coverage_percent": 0.0,
-        "complete": false,
-        "observed_low_jpy": 4800,
-        "low_jpy": null,
-        "estimated_average_jpy": null,
-        "average_jpy": null
-      },
-      "historical_low_jpy": 4800,
-      "historical_high_jpy": 4800,
-      "price_change_points": 1,
-      "history_classification": "数据不足",
-      "recovered_price": false,
-      "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
-      "price_changed_at": "2026-11-27T08:41:04+00:00",
-      "current_price_jpy": 4800
     },
     {
       "id": "yahoo:e-kurashi_xm039",
@@ -7454,9 +7454,41 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-24T09:58:26+00:00",
       "current_price_jpy": 3654
+    },
+    {
+      "id": "yahoo:melittajapan_scg58",
+      "history_7d": {
+        "window_days": 7,
+        "covered_hours": 0.0,
+        "coverage_percent": 0.0,
+        "complete": false,
+        "observed_low_jpy": 4800,
+        "low_jpy": null,
+        "estimated_average_jpy": null,
+        "average_jpy": null
+      },
+      "history_30d": {
+        "window_days": 30,
+        "covered_hours": 0.0,
+        "coverage_percent": 0.0,
+        "complete": false,
+        "observed_low_jpy": 4800,
+        "low_jpy": null,
+        "estimated_average_jpy": null,
+        "average_jpy": null
+      },
+      "historical_low_jpy": 4800,
+      "historical_high_jpy": 4800,
+      "price_change_points": 1,
+      "history_classification": "数据不足",
+      "recovered_price": false,
+      "new_observed_low": false,
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
+      "price_changed_at": "2026-11-27T08:41:04+00:00",
+      "current_price_jpy": 4800
     },
     {
       "id": "yahoo:yamada-denki_6612321014",
@@ -7486,41 +7518,9 @@
       "history_classification": "数据不足",
       "recovered_price": false,
       "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
+      "last_seen_at": "2026-11-28T07:54:33+00:00",
       "price_changed_at": "2026-11-26T08:26:27+00:00",
       "current_price_jpy": 7700
-    },
-    {
-      "id": "yahoo:y-kojima_4904710450161",
-      "history_7d": {
-        "window_days": 7,
-        "covered_hours": 8.44,
-        "coverage_percent": 5.02,
-        "complete": false,
-        "observed_low_jpy": 7050,
-        "low_jpy": null,
-        "estimated_average_jpy": 7330.0,
-        "average_jpy": null
-      },
-      "history_30d": {
-        "window_days": 30,
-        "covered_hours": 8.44,
-        "coverage_percent": 1.17,
-        "complete": false,
-        "observed_low_jpy": 7050,
-        "low_jpy": null,
-        "estimated_average_jpy": 7330.0,
-        "average_jpy": null
-      },
-      "historical_low_jpy": 7050,
-      "historical_high_jpy": 7330,
-      "price_change_points": 3,
-      "history_classification": "恢复原价",
-      "recovered_price": true,
-      "new_observed_low": false,
-      "last_seen_at": "2026-11-27T21:21:43+00:00",
-      "price_changed_at": "2026-11-25T08:40:45+00:00",
-      "current_price_jpy": 7050
     }
   ]
 }
